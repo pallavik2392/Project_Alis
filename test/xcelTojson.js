@@ -42,15 +42,28 @@ console.log('mobNumber',result.Addleadparameters[0].G)
 
 console.log('genderName',result.Addleadparameters[0].H)
 
-console.log('occupation',result.Addleadparameters[0].I)
+console.log('lyear',result.Addleadparameters[0].I)
+console.log('lmonth',result.Addleadparameters[0].J)
+console.log('lday',result.Addleadparameters[0].K)
+console.log('occupation',result.Addleadparameters[0].L)
 
-console.log('pincode',result.Addleadparameters[0].J)
+console.log('communicationlangauge',result.Addleadparameters[0].M)
+console.log('conselor',result.Addleadparameters[0].N)
 
-console.log('addresstext1',result.Addleadparameters[0].K)
+console.log('course',result.Addleadparameters[0].O)
+console.log('academylocation',result.Addleadparameters[0].P)
 
-console.log('addresstext2',result.Addleadparameters[0].L)
+console.log('courselangauge',result.Addleadparameters[0].Q)
 
-console.log('Land',result.Addleadparameters[0].M)
+
+
+console.log('pincode',result.Addleadparameters[0].R)
+
+console.log('addresstext1',result.Addleadparameters[0].S)
+
+console.log('addresstext2',result.Addleadparameters[0].T)
+
+console.log('Land',result.Addleadparameters[0].U)
 
 
 
@@ -73,11 +86,19 @@ var dataRequired = function(){
         phnumber2:result.Addleadparameters[0].F,
         mobNumber:result.Addleadparameters[0].G,
         genderName:result.Addleadparameters[0].H,
-        occupation:result.Addleadparameters[0].I,
-        pincode:result.Addleadparameters[0].J,
-        addresstext1:result.Addleadparameters[0].K,
-        addresstext2:result.Addleadparameters[0].L,
-        Land:result.Addleadparameters[0].M,
+        lyear:result.Addleadparameters[0].I,
+        lmonth:result.Addleadparameters[0].J,
+        lday:result.Addleadparameters[0].K,
+        occupation:result.Addleadparameters[0].L,
+        communicationlangauge:result.Addleadparameters[0].M,
+        conselor:result.Addleadparameters[0].N,       
+        course:result.Addleadparameters[0].O,
+        academylocation:result.Addleadparameters[0].P,
+        courselangauge:result.Addleadparameters[0].Q,
+        pincode:result.Addleadparameters[0].R,
+        addresstext1:result.Addleadparameters[0].S,
+        addresstext2:result.Addleadparameters[0].T,
+        Land:result.Addleadparameters[0].U,
 
 
 

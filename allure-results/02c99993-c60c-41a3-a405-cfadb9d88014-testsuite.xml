@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652962907198' stop='1652963009854'>
+    <name>Addlead</name>
+    <title>Addlead</title>
+    <test-cases>
+        <test-case start='1652962907199' status='broken' stop='1652963009850'>
+            <name>lead</name>
+            <title>lead</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "/html/body/div[2]/div[3]/div/div[1]/div/div[2]/div/div[1]/div[1]/div[2]/div" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "/html/body/div[2]/div[3]/div/div[1]/div/div[2]/div/div[1]/div[1]/div[2]/div" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

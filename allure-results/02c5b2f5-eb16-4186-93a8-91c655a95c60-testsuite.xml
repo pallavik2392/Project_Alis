@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652971572496' stop='1652971632949'>
+    <name>automate date</name>
+    <title>automate date</title>
+    <test-cases>
+        <test-case start='1652971572496' status='broken' stop='1652971632945'>
+            <name>datepicker</name>
+            <title>datepicker</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call elementClick on element with selector "//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/button[1]/*[1]" because element wasn't found</message>
+                <stack-trace>Error: Can't call elementClick on element with selector "//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/button[1]/*[1]" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652950372326' stop='1652950396571'>
+    <name>automate date</name>
+    <title>automate date</title>
+    <test-cases>
+        <test-case start='1652950372327' status='broken' stop='1652950396568'>
+            <name>datepicker</name>
+            <title>datepicker</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>text.isEqual is not a function</message>
+                <stack-trace>TypeError: text.isEqual is not a function
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/datepicker.js:32:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

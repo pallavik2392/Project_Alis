@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652939019336' stop='1652939054030'>
+    <name>overlimit</name>
+    <title>overlimit</title>
+    <test-cases>
+        <test-case start='1652939019336' status='passed' stop='1652939054029'>
+            <name>limit</name>
+            <title>limit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9f367683-5cf2-4e54-a1ae-71485be8f77e-attachment.png' type='image/png' size='104766'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

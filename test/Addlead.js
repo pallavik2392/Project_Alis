@@ -1,3 +1,4 @@
+//const { browser } = require("protractor");
 const signinData = require("../Data/signindata");
 const Leadpage1 = require("../pages/Leadpage1");
 const signinpage = require("../pages/signinpage");
@@ -28,9 +29,26 @@ describe("Addlead",function(){
         await browser.pause(3000);
         await Leadpage1.enterPhonenumber(signinData.phnumber1);
         await browser.pause(3000);
+        await Leadpage1.enterAlternatePhonenumber(signinData.phnumber2)
+        await browser.pause(3000);
+        await Leadpage1.enterMobilenumber(signinData.mobNumber)
+        await browser.pause(3000);
         await Leadpage1.enterGender(signinData.genderName);
         await browser.pause(3000);
+        await Leadpage1.enterDOB(signinData.lyear,signinData.lmonth,signinData.lday);
+        await browser.pause(8000);
+
         await Leadpage1.enterOccupation(signinData.occupation);
+        await browser.pause(3000);
+        await Leadpage1.entercommunicationLangauge(signinData.communicationlangauge);
+        await browser.pause(3000);
+        await Leadpage1.enterconselor(signinData.conselor);
+        await browser.pause(3000);
+        await Leadpage1.enterCourse(signinData.course)
+        await browser.pause(3000);
+        await Leadpage1.enterAcademylocation(signinData.academylocation)
+        await browser.pause(3000);
+        await Leadpage1.enterCourselangauge(signinData.courselangauge)
         await browser.pause(3000);
         await Leadpage1.enterPostalcode(signinData.pincode);
         await browser.pause(3000);
@@ -40,8 +58,8 @@ describe("Addlead",function(){
         await browser.pause(3000);
         await Leadpage1.enterLandmark(signinData.Land);
         await browser.pause(3000);
-
-
+        await Leadpage1.clickOnSave();
+        await browser.pause(3000);
 
     })
 })

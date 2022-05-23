@@ -1,0 +1,62 @@
+{
+  "uid" : "a02e9cd427376507",
+  "name" : "staff",
+  "fullName" : "Addstaff.staff",
+  "historyId" : "435177e464a08f5d04064df0cd255260",
+  "time" : {
+    "start" : 1653291712761,
+    "stop" : 1653291775979,
+    "duration" : 63218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Addstaff"
+  }, {
+    "name" : "testClass",
+    "value" : "Addstaff"
+  }, {
+    "name" : "testMethod",
+    "value" : "staff"
+  }, {
+    "name" : "package",
+    "value" : "Addstaff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a02e9cd427376507.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

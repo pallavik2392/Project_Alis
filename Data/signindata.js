@@ -30,7 +30,19 @@ courselangauge : xcelTojson.testConfig.courselangauge,
 pincode : xcelTojson.testConfig.pincode,
 addresstext1 : xcelTojson.testConfig.addresstext1,
 addresstext2 : xcelTojson.testConfig.addresstext2,
-Land : xcelTojson.testConfig.Land
-
-
+Land : xcelTojson.testConfig.Land,
+exceedfirstname : xcelTojson.testConfig.exceedfirstname,
+exceedmidlename : xcelTojson.testConfig.exceedmidlename,
+exceedlastname : xcelTojson.testConfig.exceedlastname,
+Firstnamestaff : xcelTojson.testConfig.Firstnamestaff,
+Middlenamestaff : xcelTojson.testConfig.Middlenamestaff,
+Lastnamestaff : xcelTojson.testConfig.Lastnamestaff,
+Personelphone : xcelTojson.testConfig.Personelphone,
+Workphone : xcelTojson.testConfig.Workphone,
+Email : xcelTojson.testConfig.Email,
+Role : xcelTojson.testConfig.Role,
+Designation : xcelTojson.testConfig.Designation,
+Department : xcelTojson.testConfig.Department,
+TeachingStaff : xcelTojson.testConfig.TeachingStaff,
+OfficeLocation :  xcelTojson.testConfig.OfficeLocation
 }

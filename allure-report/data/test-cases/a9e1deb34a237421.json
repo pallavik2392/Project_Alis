@@ -1,0 +1,62 @@
+{
+  "uid" : "a9e1deb34a237421",
+  "name" : "datepicker",
+  "fullName" : "automate date.datepicker",
+  "historyId" : "88aa4027b62095fe5ea8183306b41e23",
+  "time" : {
+    "start" : 1653039705037,
+    "stop" : 1653039778849,
+    "duration" : 73812
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)",
+  "statusTrace" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/datepicker.js:13:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "automate date"
+  }, {
+    "name" : "testClass",
+    "value" : "automate date"
+  }, {
+    "name" : "testMethod",
+    "value" : "datepicker"
+  }, {
+    "name" : "package",
+    "value" : "automate date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9e1deb34a237421.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

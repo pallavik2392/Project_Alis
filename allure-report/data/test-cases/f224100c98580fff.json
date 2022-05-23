@@ -1,0 +1,87 @@
+{
+  "uid" : "f224100c98580fff",
+  "name" : "limit",
+  "fullName" : "overlimit.limit",
+  "historyId" : "4dbd1a5dd90f910d51df8fabb28c61b8",
+  "time" : {
+    "start" : 1652943468569,
+    "stop" : 1652943489974,
+    "duration" : 21405
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "overlimit"
+  }, {
+    "name" : "testClass",
+    "value" : "overlimit"
+  }, {
+    "name" : "testMethod",
+    "value" : "limit"
+  }, {
+    "name" : "package",
+    "value" : "overlimit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ebc48b3910adaff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652939019336,
+        "stop" : 1652939054029,
+        "duration" : 34693
+      }
+    }, {
+      "uid" : "fc895fa902893a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652937537341,
+        "stop" : 1652937634919,
+        "duration" : 97578
+      }
+    }, {
+      "uid" : "7eaff880a3b5ded2",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1652937450778,
+        "stop" : 1652937499167,
+        "duration" : 48389
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f224100c98580fff.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

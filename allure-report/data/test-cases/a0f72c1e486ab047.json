@@ -1,0 +1,62 @@
+{
+  "uid" : "a0f72c1e486ab047",
+  "name" : "datepicker",
+  "fullName" : "automate date.datepicker",
+  "historyId" : "88aa4027b62095fe5ea8183306b41e23",
+  "time" : {
+    "start" : 1653039614087,
+    "stop" : 1653039658460,
+    "duration" : 44373
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"/html/body/div[2]/div[3]/div/div[1]/div/div[2]/div/div[1]/div[1]/div[2]/div\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"/html/body/div[2]/div[3]/div/div[1]/div/div[2]/div/div[1]/div[1]/div[2]/div\" because element wasn't found",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "automate date"
+  }, {
+    "name" : "testClass",
+    "value" : "automate date"
+  }, {
+    "name" : "testMethod",
+    "value" : "datepicker"
+  }, {
+    "name" : "package",
+    "value" : "automate date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0f72c1e486ab047.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

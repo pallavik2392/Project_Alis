@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/Addlead.js'
+        './test/Addstaff.js'
     ],
     // Patterns to exclude.
     exclude: [

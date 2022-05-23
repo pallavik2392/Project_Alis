@@ -53,17 +53,41 @@ console.log('conselor',result.Addleadparameters[0].N)
 console.log('course',result.Addleadparameters[0].O)
 console.log('academylocation',result.Addleadparameters[0].P)
 
-console.log('courselangauge',result.Addleadparameters[0].Q)
-
-
-
-console.log('pincode',result.Addleadparameters[0].R)
+console.log('courselangauge',result.Addleadparameters[0].Q) ,console.log('pincode',result.Addleadparameters[0].R)
 
 console.log('addresstext1',result.Addleadparameters[0].S)
 
 console.log('addresstext2',result.Addleadparameters[0].T)
 
 console.log('Land',result.Addleadparameters[0].U)
+console.log('exceedfirstname',result.Addleadparameters[1].A)
+console.log('exceedmidlename',result.Addleadparameters[1].B)
+console.log('exceedlastname',result.Addleadparameters[1].C)
+console.log('Firstnamestaff',result.AddStaff[0].A)
+console.log('Middlenamestaff',result.AddStaff[0].B)
+console.log('Lastnamestaff',result.AddStaff[0].C)
+console.log('Personelphone',result.AddStaff[0].D)
+console.log('Workphone',result.AddStaff[0].E)
+console.log('Email',result.AddStaff[0].F)
+console.log('Role',result.AddStaff[0].G)
+console.log('Designation',result.AddStaff[0].H)
+console.log('Department',result.AddStaff[0].I)
+console.log('TeachingStaff',result.AddStaff[0].J)
+console.log('OfficeLocation',result.AddStaff[0].K)
+console.log('Coursename',result.AddCourse[0].A)
+console.log('Shortcode',result.AddCourse[0].B)
+console.log('Courselocation',result.AddCourse[0].C)
+console.log('LangaugeofInstruction',result.AddCourse[0].D)
+console.log('PracticalRequirement',result.AddCourse[0].E)
+console.log('MedicalHistoryRequirement',result.AddCourse[0].F)
+console.log('ModesofInstruction',result.AddCourse[0].G)
+console.log('Topic',result.AddCourse[0].H)
+console.log('TheoryORpractical',result.AddCourse[0].I)
+console.log('FeeType',result.AddCourse[0].J)
+console.log('Feeamount',result.AddCourse[0].K)
+//
+
+
 
 
 
@@ -99,8 +123,31 @@ var dataRequired = function(){
         addresstext1:result.Addleadparameters[0].S,
         addresstext2:result.Addleadparameters[0].T,
         Land:result.Addleadparameters[0].U,
-
-
+        exceedfirstname:result.Addleadparameters[1].A,
+        exceedmidlename:result.Addleadparameters[1].B,
+        exceedlastname:result.Addleadparameters[1].C,
+        Firstnamestaff:result.AddStaff[0].A,
+        Middlenamestaff:result.AddStaff[0].B,
+        Lastnamestaff:result.AddStaff[0].C,
+        Personelphone:result.AddStaff[0].D,
+        Workphone:result.AddStaff[0].E,
+        Email:result.AddStaff[0].F,
+        Role:result.AddStaff[0].G,
+        Designation:result.AddStaff[0].H,
+        Department:result.AddStaff[0].I,
+        TeachingStaff:result.AddStaff[0].J,
+        OfficeLocation:result.AddStaff[0].K,
+        Coursename:result.AddCourse[0].A,
+        Shortcode:result.AddCourse[0].B,
+        Courselocation:result.AddCourse[0].C,
+        LangaugeofInstruction:result.AddCourse[0].D,
+        PracticalRequirement:result.AddCourse[0].E,
+        MedicalHistoryRequirement:result.AddCourse[0].F,
+        ModesofInstruction:result.AddCourse[0].G,
+        Topic:result.AddCourse[0].H,
+        TheoryORpractical:result.AddCourse[0].I,
+        FeeType:result.AddCourse[0].J,
+        Feeamount:result.AddCourse[0].K        
 
     };
 }

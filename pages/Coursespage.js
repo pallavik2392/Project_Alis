@@ -2,7 +2,7 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 const Page = require("../test/pageobjects/page");
 
-class Coursepage extends Page{
+class Coursespage extends Page{
     get courses() {return $("//body/div[@id='root']/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/a[4]")}
     get newcourse() {return $("//button[normalize-space()='New Course']")}
     get coursename(){return $("//input[@id='name']")}
@@ -37,7 +37,7 @@ class Coursepage extends Page{
     get upfrontflatdiscountamount(){return $("//input[@id='value']")}
     get upfrontpercentagediscountamount(){return $("//input[@id='value']")}
     get enablepayablewhenable(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/div[1]/div[4]/span[1]/input[1]")}
-    get payablediscounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]/parent::div")}
+    get payablediscounttype(){return $("body > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)")}
     get payableflat(){return $("//li[@id='isAllowedToCombineWithScholarship-option-0']")}
     get payablepercentage(){return $("//li[@id='isAllowedToCombineWithScholarship-option-1']")}
     get payablediscountamount(){return $("//div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 jss79 css-isbt42']//div[2]//div[2]//div[1]//div[2]//div[1]//div[1]//input[1]")}
@@ -109,10 +109,10 @@ class Coursepage extends Page{
         this.newcourse.click();
     }
     async enterCoursename(Text){
-        this.coursename.setrValue(Text);
+        this.coursename.setValue(Text);
     }
     async enterShortCode(Text){
-        this.shortcode.setrValue(Text);
+        this.shortcode.setValue(Text);
     }
     async clickOnoverviewsave(){
         this.overviewsave.click();
@@ -157,6 +157,9 @@ class Coursepage extends Page{
                await physical.click();
              }
     }
+    async clickOnBasicsave(){
+        this.savebasics.click();
+    }
     async addTopic(Text1,Text2){
         this.addtopic.click();
         this.nameoftopic.setValue(Text1);
@@ -167,14 +170,111 @@ class Coursepage extends Page{
              }
          this.savetopic.click();
     }
-    async addFee(Text,Number){
-        this.addFee.click();
-        this.feetype.setValue(Text);
-        this.feeamount.setValue(Number);
-        this.savefee.click();
+    async addFee(Text1,Text2){
+        this.addfee.click();
+        this.feetype.setValue(Text1);
+        this.feeamount.setValue(Text2);
     }
+    async clickOnsaveFee(){
+        this.savefee.click();
+
+    }
+    async addScholorship(Text){
+        this.maxcreditredeemable.setValue(Text);
+    }
+    async selectUpfrontmode(Text1,Text2){
+        this.upfrontdiscounttype.click();
+        if(  Text1==='FLAT'){
+            this.upfrontflat.click();
+            this.upfrontflatdiscountamount.setValue(Text2)
+        }
+            else{
+               this.upfrontpercentage.click();
+               this.upfrontpercentagediscountamount.setValue(Text2)
+            }
+    }
+    async selectPayablewhenablemode(Text1,Text2){
+        this.payablediscounttype.click();
+        if(  Text1==='FLAT'){
+            this.payableflat.click();
+            this.payablediscountamount.setValue(Text2)
+        }
+            else{
+               this.payablepercentage.click();
+               this.payablepercentageamount.setValue(Text2)
+            }
+    }
+    async selectBajajfinancemode(Text1,Text2,Text3,Text4,Text5){
+        this.financediscounttype.click();
+        if(  Text1==='FLAT'){
+            this.bajajflatdiscount.click();
+            this.bajajflatamount.setValue(Text2)
+        }
+            else{
+               this.bajajpercentage.click();
+               this.bajajpercentageamount.setValue(Text2)
+            }
+            this.bajajdownpayment.setValue(Text3);
+            this.bajajmaxinstallment.setValue(Text4);
+            this.bajajdocuments.click();
+            if(Text5==='Pan Card'){
+                this.bajajpancard.click();
+            }else if(Text5==='Aadhaar Card'){
+                this.bajajadharcard.click();
+            }else{
+                this.bajajbankstatement.click();
+            }
+    }
+    async selectHdfcfinancemode(Text1,Text2,Text3,Text4,Text5){
+        this.hdfcdiscounttype.click();
+        if(  Text1==='FLAT'){
+            this.hdfcflatdiscount.click();
+            this.hdfcflatamount.setValue(Text2)
+        }
+            else{
+               this.hdfcpercentagediscount.click();
+               this.hdfcpercentageamount.setValue(Text2)
+            }
+            this.hdfcdownpayment.setValue(Text3);
+            this.hdfcmaxinstallment.setValue(Text4);
+            this.hdfcdocument.click();
+            if(Text5==='Pan Card'){
+                this.hdfcpancard.click();
+            }else if(Text5==='Aadhaar Card'){
+                this.hdfcadharcard.click();
+            }else{
+                this.hdfcbankstatement.click();
+            }
+    }
+    async selectK11mode(Text1,Text2,Text3,Text4,Text5){
+        this.K11discounttype.click();
+        if(  Text1==='FLAT'){
+            this.K11flatdiscount.click();
+            this.K11flatamount.setValue(Text2)
+        }
+            else{
+               this.K11percentagediscount.click();
+               this.K11percentageamount.setValue(Text2)
+            }
+            this.K11installmentstype.click();
+            this.K11cheque.click();
+            this.K11downpayment.setValue(Text3);
+            this.K11maxinstallments.setValue(Text4);
+            this.K11documents.click();
+            if(Text5==='Pan Card'){
+                this.K11pancard.click();
+            }else if(Text5==='Aadhaar Card'){
+                this.K11adharcard.click();
+            }else{
+                this.K11bankstatement.click();
+            }
+    }
+    async clickOnsavepayment(){
+        this.savepayment.click();
+    }
+    
 
     
 
 }
-module.exports = new Coursepage();
+module.exports = new Coursespage();

@@ -85,7 +85,27 @@ console.log('Topic',result.AddCourse[0].H)
 console.log('TheoryORpractical',result.AddCourse[0].I)
 console.log('FeeType',result.AddCourse[0].J)
 console.log('Feeamount',result.AddCourse[0].K)
-//
+console.log('Scalarshipreedemable',result.AddCourse[0].L)
+console.log('UpfrontdiscountType',result.AddCourse[0].M)
+console.log('UpfrontdiscountAmount',result.AddCourse[0].N)
+console.log('PayablediscountType',result.AddCourse[0].O)
+console.log('PayablediscountAmount',result.AddCourse[0].P)
+console.log('BajajdiscountType',result.AddCourse[0].Q)
+console.log('BajajDiscountamount',result.AddCourse[0].R)
+console.log('BajajDownpayment',result.AddCourse[0].S)
+console.log('BajajmaxInstallment',result.AddCourse[0].T)
+console.log('BajajDocuments',result.AddCourse[0].U)
+console.log('HDFCdiscountType',result.AddCourse[0].V)
+console.log('HDFCDiscountamount',result.AddCourse[0].W)
+console.log('HDFCDownpayment',result.AddCourse[0].X)
+console.log('HDFCmaxInstallment',result.AddCourse[0].Y)
+console.log('HDFCDocuments',result.AddCourse[0].Z)
+console.log('K11discountType',result.AddCourse[0].AA)
+console.log('K11Discountamount',result.AddCourse[0].AB)
+console.log('K11Installments',result.AddCourse[0].AC)
+console.log('K11Downpayment',result.AddCourse[0].AD)
+console.log('K11maxInstallment',result.AddCourse[0].AE)
+console.log('K11Documents',result.AddCourse[0].AF)
 
 
 
@@ -147,7 +167,28 @@ var dataRequired = function(){
         Topic:result.AddCourse[0].H,
         TheoryORpractical:result.AddCourse[0].I,
         FeeType:result.AddCourse[0].J,
-        Feeamount:result.AddCourse[0].K        
+        Feeamount:result.AddCourse[0].K,        
+        Scalarshipreedemable:result.AddCourse[0].L,
+        UpfrontdiscountType:result.AddCourse[0].M,
+        UpfrontdiscountAmount:result.AddCourse[0].N,
+        PayablediscountType:result.AddCourse[0].O,
+        PayablediscountAmount:result.AddCourse[0].P,
+        BajajdiscountType:result.AddCourse[0].Q,
+        BajajDiscountamount:result.AddCourse[0].R,
+        BajajDownpayment:result.AddCourse[0].S,
+        BajajmaxInstallment:result.AddCourse[0].T,
+        BajajDocuments:result.AddCourse[0].U,
+        HDFCdiscountType:result.AddCourse[0].V,
+        HDFCDiscountamount:result.AddCourse[0].W,
+        HDFCDownpayment:result.AddCourse[0].X,
+        HDFCmaxInstallment:result.AddCourse[0].Y,
+        HDFCDocuments:result.AddCourse[0].Z,
+        K11discountType:result.AddCourse[0].AA,
+        K11Discountamount:result.AddCourse[0].AB,
+        K11Installments:result.AddCourse[0].AC,
+        K11Downpayment:result.AddCourse[0].AD,
+        K11maxInstallment:result.AddCourse[0].AE,
+        K11Documents:result.AddCourse[0].AF
 
     };
 }

@@ -1,5 +1,9 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 const Page = require("../test/pageobjects/page");
 
 class Coursespage extends Page{
@@ -85,8 +89,8 @@ class Coursespage extends Page{
     get batchlocation(){return $("//input[@id='location']/parent::div")}
     get practicallocation(){return $("//input[@id='practicalLocation']/parent::div")}
     get batchlangauge(){return $("//input[@id='language']/parent::div")}
-    get virtualcapacity(){return $("//input[@id='virtualCapacity']/parent::div")}
-    get physicalcapacity(){return $("//input[@id='physicalCapacity']/parent::div")}
+    get virtualcapacity(){return $("//input[@id='virtualCapacity']")}
+    get physicalcapacity(){return $("//input[@id='physicalCapacity']")}
     get batchstartdate(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[7]/div[2]/div[1]/div[1]/input[1]")}
     get batchenddate(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[8]/div[2]/div[1]/div[1]/input[1]")}
     get batchstarttime(){return $("//input[@placeholder='Batch start time?']")}
@@ -97,12 +101,25 @@ class Coursespage extends Page{
     get monday(){return $("//button[normalize-space()='M']")}
     get tuesday(){return $("//button[normalize-space()='T']")}
     get wednesday(){return $("//button[normalize-space()='W']")}
-    get thurday(){return $("//div[@class='jss34']//button[1]")}
+    get thursday(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[11]/div[1]/div[1]/button[5]")}
     get friday(){return $("//button[normalize-space()='F']")}
     get saturday(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[11]/div[1]/div[1]/button[7]")}
+    get saveBatch(){return $("//button[@type='submit']")}
 
     async clickOncourses(){
         this.courses.click();
+    }
+    async disablePayablewhenable(){
+        this.enablepayablewhenable.click();
+    }
+    async disableBajajfinance(){
+        this.enablebajajfinance.click();
+    }
+    async disableHDFC(){
+        this.enablehdfc.click();
+    }
+    async disableK11EMI(){
+        this.enableK11.click();
     }
 
     async clickOnNewcourse(){
@@ -272,9 +289,105 @@ class Coursespage extends Page{
     async clickOnsavepayment(){
         this.savepayment.click();
     }
+    async clickOnAddBatch(){
+        this.addbatch.click();
+    }
+    async selectBatchlocation(Text){
+        this.batchlocation.click();
+        const Nashik=await $("//div[@id='location-option-0']");
+        await Nashik.click();
+    }
+    async selectPracticalLocation(Text){
+        this.practicallocation.click();
+        const Nashik=await $("//div[@id='practicalLocation-option-0']");
+        await Nashik.click();
+    }
+    async selectBatchlangauge(Text){
+        this.batchlangauge.click();
+        const english=await $("//div[@id='language-option-0']");
+        await english.click();
+    }
+    async addVertualcapacity(Text){
+        this.virtualcapacity.setValue(Text);
+    }
+    async addPhysicalcapacity(Text){
+        this.physicalcapacity.setValue(Text);
+    }
+    async enterBatchstartdate(Text){
+        
+        this.batchstartdate.click();
+        const edit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await edit.click();
+        const date=await $("//input[@placeholder='dd/mm/yyyy']");
+        await date.setValue(Text);
+        const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await ok.click();
+    }
+    async enterBatchenddate(Text){
+        this.batchenddate.click();
+        const edit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await edit.click();
+        const date=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await date.setValue(Text)
+        const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await ok.click();
+    }
+    async enterBatchstarttime(Text){
+        this.batchstarttime.click();
+        const edit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await edit.click();
+        const time=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await time.addValue(Text);
+        const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await ok.click();
+    }
+    async enterBatchendtime(Text){
+        this.batchendtime.click();
+        const edit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await edit.click();
+        const time=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await time.setValue(Text);
+        const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await ok.click();
+    }
+    async setFrequency(Text){
+        this.frequency.click();
+        if(Text==='Every Month'){
+            const month=await $("//li[@id='frequency-option-0']");
+            await month.click();
+        }else{
+            const week=await $("//li[@id='frequency-option-1']");
+            await week.click();
+        }
+    }
+    async selectSunday(){
+        this.sunday.click();
+    }
+    async selectMonday(){
+        this.monday.click();
+    }
+    async selectTuesday(){
+        this.tuesday.click();
+    }
+    async selectWednesday(){
+        this.wednesday.click();
+    }
+    async selectThursday(){
+        this.thursday.click();
+    }
+    async selectFriday(){
+        this.friday.click();
+    }
+    async selectSaturday(){
+        this.saturday.click();
+    }
+    async clickOnsavebatch(){
+        this.saveBatch.click();
+    }
+    
     
 
-    
+
 
 }
 module.exports = new Coursespage();

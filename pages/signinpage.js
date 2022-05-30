@@ -14,6 +14,13 @@ class SigninPage extends Page{
          this.password.setValue(text);
      }
 
+     async clearUsername(){
+         this.username.click();
+         //this.username.waitForDisplayed();
+         this.username.clearElement('sa@mailinator.com');
+     }
+     
+
      async clickOnSubmit(){
         this.signinBtn.click();
      }

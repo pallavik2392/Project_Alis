@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653910854299' stop='1653910914280'>
+    <name>Upadate Staff</name>
+    <title>Upadate Staff</title>
+    <test-cases>
+        <test-case start='1653910854299' status='broken' stop='1653910914278'>
+            <name>Staff</name>
+            <title>Staff</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Text.length is not a function</message>
+                <stack-trace>TypeError: Text.length is not a function
+                    at Staffpage.updateEmail (/home/vaibhav/Desktop/demoproject/Alis/pages/Staffpage.js:159:25)
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/updatestaff.js:53:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

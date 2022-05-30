@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653566198011' stop='1653566233782'>
+    <name>addcourse</name>
+    <title>addcourse</title>
+    <test-cases>
+        <test-case start='1653566198011' status='broken' stop='1653566233778'>
+            <name>course</name>
+            <title>course</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=101.0.4951.54)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=101.0.4951.54)
+                    at runMicrotasks (&lt;anonymous>)
+                    at async Coursespage.enterCourseLocation (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:137:22)
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Addcourse.js:32:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

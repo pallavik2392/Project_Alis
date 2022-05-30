@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653629263037' stop='1653629279218'>
+    <name>Addticket</name>
+    <title>Addticket</title>
+    <test-cases>
+        <test-case start='1653629263038' status='broken' stop='1653629279215'>
+            <name>ticket</name>
+            <title>ticket</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.support.click is not a function</message>
+                <stack-trace>TypeError: this.support.click is not a function
+                    at Supportpage.clickOnsupport (/home/vaibhav/Desktop/demoproject/Alis/pages/Supportpage.js:10:22)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Addticket.js:18:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

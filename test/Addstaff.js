@@ -41,6 +41,9 @@ describe("Addstaff",function(){
         await browser.pause(3000);
         await Staffpage.enterOfficeLocation(signinData.OfficeLocation);
         await browser.pause(3000);
+        await Staffpage.clickOnSaveStaff();
+        await browser.pause(3000);
+
 
 
 

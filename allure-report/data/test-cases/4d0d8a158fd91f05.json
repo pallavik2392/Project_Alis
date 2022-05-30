@@ -1,0 +1,62 @@
+{
+  "uid" : "4d0d8a158fd91f05",
+  "name" : "screenshot for chrome",
+  "fullName" : "screenshot in wdio.screenshot for chrome",
+  "historyId" : "627cada38500a8d850c833158fa51c8b",
+  "time" : {
+    "start" : 1653545660251,
+    "stop" : 1653545698992,
+    "duration" : 38741
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)",
+  "statusTrace" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Screenshotdemo.js:7:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "screenshot in wdio"
+  }, {
+    "name" : "testClass",
+    "value" : "screenshot in wdio"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenshot for chrome"
+  }, {
+    "name" : "package",
+    "value" : "screenshot in wdio"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d0d8a158fd91f05.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

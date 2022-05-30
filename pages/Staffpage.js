@@ -1,5 +1,15 @@
 //const { default: $ } = require('webdriverio/build/commands/browser/$');
 //const { default: $ } = require('webdriverio/build/commands/browser/$');
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { $ } = require("protractor");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { $ } = require("protractor");
+//const { $ } = require("protractor");
+//const { $ } = require("protractor");
 const Page = require("../test/pageobjects/page");
 
 class Staffpage extends Page{
@@ -12,12 +22,14 @@ class Staffpage extends Page{
     get persphonenumber(){return $("//input[@id='mobile']")}
     get workphonenumber(){return $("//input[@id='workPhone']")}
     get staffemailid(){return $("//input[@id='email']")}
-    get staffroles(){return $("//input[@id='roles']/parent::div")}
-    get staffdesignation(){return $("//input[@id='designation']/parent::div")}
-    get staffdepartment(){return $("//input[@id='department']/parent::div")}
-    get teachingstaff(){return $("//input[@id='isTeachingStaff']/parent::div")}
-    get staffofficelocation(){return $("//input[@id='officeLocation']/parent::div")}
+    get staffroles(){return $("//input[@id='roles']")}
+    get staffdesignation(){return $("//input[@id='designation']")}
+    get staffdepartment(){return $("//input[@id='department']")}
+    get teachingstaff(){return $("//input[@id='isTeachingStaff']")}
+    get staffofficelocation(){return $("//input[@id='officeLocation']")}
     get staffsave(){return $("//button[@type='submit']")}
+    get search(){return $("//input[@placeholder='Search']")}
+    get particularstaff(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")}
 
     async  enterFirstname(text){
         this.stafffirstname.setValue(text);
@@ -38,65 +50,33 @@ class Staffpage extends Page{
         this.staffemailid.setValue(text);
     }
     async enterStaffRole(Text){
-        this.staffroles.click();
-        
-        if(  Text==='Executive'){
-         const executive= await $("//div[@id='roles-option-0']");
-          await executive.click();}
-          else if (Text==='Junior'){
-            const junior= await $("//div[@id='roles-option-1']");
-             await junior.click();
-          }
-          else{
-            const adminisrator= await $("//div[@id='roles-option-2']");
-            await adminisrator.click();
-          }
+        this.staffroles.setValue(Text);
+        const role=await $("//div[@id='roles-option-0']");
+        await role.click();
     }
+
     async enterDesignation(Text){
-        this.staffdesignation.click();
-        
-        if(  Text==='Senior Master Trainer'){
-         const mastertrainer= await $("//div[@id='designation-option-0']");
-          await mastertrainer.click();}
-          else if (Text==='Faculty'){
-            const faculty= await $("//div[@id='designation-option-9']");
-             await faculty.click();
-          }
-          else{
-            const trainie= await $("//div[@id='designation-option-2']");
-            await trainie.click();
-          }
+        this.staffdesignation.setValue(Text);
+        const designation=await $("//div[@id='designation-option-0']");
+        await designation.click();
     }
+
     async enterDepartment(Text){
-        this.staffdepartment.click();
-        
-        if(  Text==='Accounts'){
-         const accounts= await $("//div[@id='department-option-0']");
-          await accounts.click();}
-          else if (Text==='Administration'){
-            const administration= await $("//div[@id='department-option-1']");
-             await administration.click();
-          }
-          else{
-            const audit= await $("//div[@id='department-option-4']");
-            await audit.click();
-          }
+        this.staffdepartment.setValue(Text);
+        const department=await $("//div[@id='department-option-0']");
+        await department.click();
     }
+
     async enterTeachingStaff(Text){
-        this.teachingstaff.click();
-        
-        if(  Text==='Yes'){
-         const yes= await $("//li[@id='isTeachingStaff-option-0']");
-          await yes.click();}
-          else{
-            const no= await $("//li[@id='isTeachingStaff-option-1']");
-            await no.click();
-          }
+        this.teachingstaff.setValue(Text);
+        const staff=await $("//li[@id='isTeachingStaff-option-0']");
+        await staff.click();
     }
+
     async enterOfficeLocation(Text){
-        this.staffofficelocation.click();
-        const K11Nashik=await $("//div[@id='officeLocation-option-0']")
-        await K11Nashik.click();
+        this.staffofficelocation.setValue(Text);
+        const location=await $("//div[@id='officeLocation-option-0']")
+        await location.click();
     }
     async clickOnstaff(){
         this.staff.click();
@@ -107,6 +87,52 @@ class Staffpage extends Page{
     async clickOnSaveStaff(){
         this.staffsave.click();
     }
+    async searchbyname(Text){
+        this.search.setValue(Text);
+    }
+    async clickOnParticularstaff(){
+        this.particularstaff.click();
+    }
+    async updateFirstname(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+
+    }
+    async updatelastname(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+
+    }
+    async updatemiddlename(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+
+    }
+    async updatePersonelphone(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+
+    }
+    async updateWorkphone(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+
+    }
+    async updateEmail(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        const len= Text.length;
+        for(let i=len;i>=0;i--){
+        await browser.keys('Backspace');
+        }
+
+    }
+    
 
 }
 module.exports = new Staffpage();

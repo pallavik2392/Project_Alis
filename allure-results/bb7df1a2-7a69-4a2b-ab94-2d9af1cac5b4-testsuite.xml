@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653545707193' stop='1653545711717'>
+    <name>screenshot in wdio</name>
+    <title>screenshot in wdio</title>
+    <test-cases>
+        <test-case start='1653545707194' status='passed' stop='1653545711715'>
+            <name>screenshot for chrome</name>
+            <title>screenshot for chrome</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='18a918b8-cf8d-4aca-9aa8-3a27f3d4e275-attachment.png' type='image/png' size='229871'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

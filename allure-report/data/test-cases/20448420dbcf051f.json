@@ -1,0 +1,68 @@
+{
+  "uid" : "20448420dbcf051f",
+  "name" : "firstnamelimit",
+  "fullName" : "overlimit.firstnamelimit",
+  "historyId" : "ff3c5c4b864cbb711c67f181bc435c3f",
+  "time" : {
+    "start" : 1653546139456,
+    "stop" : 1653546170386,
+    "duration" : 30930
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//p[@id='firstName-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than  characters\"\n                Received: \"Cannot be more than 30 characters\"",
+  "statusTrace" : "Error: Expect $(`//p[@id='firstName-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than  characters\"\n                Received: \"Cannot be more than 30 characters\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/exceednamelimit.js:30:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "overlimit"
+  }, {
+    "name" : "testClass",
+    "value" : "overlimit"
+  }, {
+    "name" : "testMethod",
+    "value" : "firstnamelimit"
+  }, {
+    "name" : "package",
+    "value" : "overlimit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "20448420dbcf051f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

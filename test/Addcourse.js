@@ -60,8 +60,60 @@ describe("addcourse",function(){
         //await browser.pause(7000);
         //await Coursepage.selectK11mode(signinData.K11discountType,signinData.K11Discountamount,signinData.K11Downpayment,signinData.K11maxInstallment,signinData.K11Documents);
         //await browser.pause(5000);
+        await Coursepage.disablePayablewhenable();
+        await browser.pause(3000);
+        await Coursepage.disableBajajfinance();
+        await browser.pause(3000);
+        await Coursepage.disableHDFC();
+        await browser.pause(3000);
+        await Coursepage.disableK11EMI();
+        await browser.pause(3000);
         await Coursepage.clickOnsavepayment();
         await browser.pause(3000);
+        await Coursepage.clickOnAddBatch();
+        await browser.pause(3000);
+        await Coursepage.selectBatchlocation(signinData.BatchLocation);
+        await browser.pause(3000);
+        await Coursepage.selectPracticalLocation(signinData.PracticalLocation);
+        await browser.pause(3000);
+        await Coursepage.selectBatchlangauge(signinData.BatchLangauge);
+        await browser.pause(3000);
+        await Coursepage.addVertualcapacity(signinData.Vertualcapacity);
+        await browser.pause(3000);
+        await Coursepage.addPhysicalcapacity(signinData.Physicalcapacity);
+        await browser.pause(3000);
+        await Coursepage.enterBatchstartdate(signinData.Startdate);
+        await browser.pause(3000);
+        await Coursepage.enterBatchenddate(signinData.Enddate);
+        await browser.pause(3000);
+        await Coursepage.enterBatchstarttime(signinData.Starttime);
+        await browser.pause(3000);
+        await Coursepage.enterBatchendtime(signinData.Endtime);
+        await browser.pause(3000);
+        await Coursepage.setFrequency(signinData.Frequency);
+        await browser.pause(3000);
+        await Coursepage.selectSunday();
+        await browser.pause(3000);
+        await Coursepage.selectMonday();
+        await browser.pause(3000);
+        await Coursepage.selectTuesday();
+        await browser.pause(3000);
+        await Coursepage.selectWednesday();
+        await browser.pause(3000);
+        await Coursepage.selectThursday();
+        await browser.pause(3000);
+        await Coursepage.selectFriday();
+        await browser.pause(3000);
+        await Coursepage.selectSaturday();
+        await browser.pause(3000);
+        await Coursepage.clickOnsavebatch();
+
+
+
+
+
+
+
 
 
 

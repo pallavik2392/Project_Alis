@@ -106,6 +106,43 @@ console.log('K11Installments',result.AddCourse[0].AC)
 console.log('K11Downpayment',result.AddCourse[0].AD)
 console.log('K11maxInstallment',result.AddCourse[0].AE)
 console.log('K11Documents',result.AddCourse[0].AF)
+console.log('BatchLocation',result.AddCourse[0].AG)
+console.log('PracticalLocation',result.AddCourse[0].AH)
+console.log('BatchLangauge',result.AddCourse[0].AI)
+console.log('Vertualcapacity',result.AddCourse[0].AJ)
+console.log('Physicalcapacity',result.AddCourse[0].AK)
+console.log('Startdate',result.AddCourse[0].AL)
+console.log('Enddate',result.AddCourse[0].AM)
+console.log('Starttime',result.AddCourse[0].AN)
+console.log('Endtime',result.AddCourse[0].AO)
+console.log('Frequency',result.AddCourse[0].AP)
+console.log('Student',result.NewTicket[0].A)
+console.log('Course',result.NewTicket[0].B)
+console.log('Subject',result.NewTicket[0].C)
+console.log('Department',result.NewTicket[0].D)
+console.log('Category',result.NewTicket[0].E)
+console.log('Subcategory',result.NewTicket[0].F)
+console.log('Tags',result.NewTicket[0].G)
+console.log('Nextdate',result.NewTicket[0].H)
+console.log('Starttime',result.NewTicket[0].I)
+console.log('Endtime',result.NewTicket[0].J)
+console.log('Status',result.NewTicket[0].K)
+console.log('Priority',result.NewTicket[0].L)
+console.log('Changenote',result.NewTicket[0].M)
+console.log('upadatestaffname',result.AddStaff[2].A)
+console.log('updatestafflastname',result.AddStaff[2].B)
+console.log('updatestaffworkphone',result.AddStaff[2].C)
+console.log('nametoreplace',result.AddStaff[2].D)
+console.log('updatefirstname',result.AddStaff[2].E)
+console.log('nametoreplacefirstname',result.AddStaff[2].F)
+console.log('updatemiddlename',result.AddStaff[2].G)
+console.log('nametoreplacemidlename',result.AddStaff[2].H)
+console.log('updatepersonalphone',result.AddStaff[2].I)
+console.log('numbertoreplacepersonel',result.AddStaff[2].J)
+console.log('updateworkphone',result.AddStaff[2].K)
+console.log('numbertoreplaceworkphone',result.AddStaff[2].L)
+console.log('updateemail',result.AddStaff[2].M)
+console.log('emailtoreplace',result.AddStaff[2].N)
 
 
 
@@ -188,8 +225,46 @@ var dataRequired = function(){
         K11Installments:result.AddCourse[0].AC,
         K11Downpayment:result.AddCourse[0].AD,
         K11maxInstallment:result.AddCourse[0].AE,
-        K11Documents:result.AddCourse[0].AF
+        K11Documents:result.AddCourse[0].AF,
+        BatchLocation:result.AddCourse[0].AG,
+        PracticalLocation:result.AddCourse[0].AH,
+        BatchLangauge:result.AddCourse[0].AI,
+        Vertualcapacity:result.AddCourse[0].AJ,
+        Physicalcapacity:result.AddCourse[0].AK,
+        Startdate:result.AddCourse[0].AL,
+        Enddate:result.AddCourse[0].AM,
+        Starttime:result.AddCourse[0].AN,
+        Endtime:result.AddCourse[0].AO,
+        Frequency:result.AddCourse[0].AP,
+        Student:result.NewTicket[0].A,
+        Course:result.NewTicket[0].B,
+        Subject:result.NewTicket[0].C,
+        Department:result.NewTicket[0].D,
+        Category:result.NewTicket[0].E,
+        Subcategory:result.NewTicket[0].F,
+        Tags:result.NewTicket[0].G,
+        Nextdate:result.NewTicket[0].H,
+        Starttime:result.NewTicket[0].I,
+        Endtime:result.NewTicket[0].J,
+        Status:result.NewTicket[0].K,
+        Priority:result.NewTicket[0].L,
+        Changenote:result.NewTicket[0].M,
+        upadatestaffname:result.AddStaff[2].A,
+        updatestafflastname:result.AddStaff[2].B,
+        updatestaffworkphone:result.AddStaff[2].C,
+        nametoreplace:result.AddStaff[2].D,
+        updatefirstname:result.AddStaff[2].E,
+        nametoreplacefirstname:result.AddStaff[2].F,
+        updatemiddlename:result.AddStaff[2].G,
+        nametoreplacemidlename:result.AddStaff[2].H,
+        updatepersonalphone:result.AddStaff[2].I,
+        numbertoreplacepersonel:result.AddStaff[2].J,
+        updateworkphone:result.AddStaff[2].K,
+        numbertoreplaceworkphone:result.AddStaff[2].L,
+        updateemail:result.AddStaff[2].M,
+        emailtoreplace:result.AddStaff[2].N,
 
+       
     };
 }
 

@@ -1,0 +1,76 @@
+{
+  "uid" : "8494c302a32fb24f",
+  "name" : "screenshot for chrome",
+  "fullName" : "screenshot in wdio.screenshot for chrome",
+  "historyId" : "627cada38500a8d850c833158fa51c8b",
+  "time" : {
+    "start" : 1653545389848,
+    "stop" : 1653545392534,
+    "duration" : 2686
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "205856c4a58a4e05",
+      "name" : "Screenshot",
+      "source" : "205856c4a58a4e05.png",
+      "type" : "image/png",
+      "size" : 229897
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "screenshot in wdio"
+  }, {
+    "name" : "testClass",
+    "value" : "screenshot in wdio"
+  }, {
+    "name" : "testMethod",
+    "value" : "screenshot for chrome"
+  }, {
+    "name" : "package",
+    "value" : "screenshot in wdio"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8494c302a32fb24f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

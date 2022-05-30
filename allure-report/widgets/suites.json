@@ -7,9 +7,9 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
     }
   }, {
     "uid" : "af1cd1bd3b4d0ee0110404e688534824",
@@ -23,8 +23,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "ca3c03b6c5cbde7ff544d5c9a4fd2caa",
-    "name" : "automate date",
+    "uid" : "50d833b92a42c4cbf98fce5c4e94d8e3",
+    "name" : "Addstaff",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "50d833b92a42c4cbf98fce5c4e94d8e3",
-    "name" : "Addstaff",
+    "uid" : "b276233b410178354e72be969a09941a",
+    "name" : "screenshot in wdio",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

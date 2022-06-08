@@ -2,14 +2,31 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "lead",
-    "uid" : "5bb09d88d4c6a16a",
+    "name" : "staff with mandatory fields",
+    "uid" : "54ac762e4a4b1d25",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1653545410333,
-      "stop" : 1653545503924,
-      "duration" : 93591
+      "start" : 1654603499887,
+      "stop" : 1654603554346,
+      "duration" : 54459
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "Staff first name field with numbers",
+    "uid" : "2d1f3b81d1e846cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654604866443,
+      "stop" : 1654604893305,
+      "duration" : 26862
     },
     "flaky" : false,
     "newFailed" : false,
@@ -19,14 +36,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-101.0.4951.54" ]
   }, {
-    "name" : "staff",
-    "uid" : "5c0067c4bf19872d",
+    "name" : "Staff first name field with symbols",
+    "uid" : "8ccfddd8125680a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1653545526653,
-      "stop" : 1653545585845,
-      "duration" : 59192
+      "start" : 1654606881741,
+      "stop" : 1654606911532,
+      "duration" : 29791
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,14 +53,48 @@
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-101.0.4951.54" ]
   }, {
-    "name" : "screenshot for chrome",
-    "uid" : "7b140571c6475671",
+    "name" : "Staff first name field with >30 characters",
+    "uid" : "b7fbadf832b39624",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1653545707194,
-      "stop" : 1653545711715,
-      "duration" : 4521
+      "start" : 1654609158045,
+      "stop" : 1654609185979,
+      "duration" : 27934
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "alternate phne number  field by passing invalidnumber",
+    "uid" : "ba3cd6cb7914a2c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613587658,
+      "stop" : 1654613615962,
+      "duration" : 28304
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "alternate phne number  field by passing letters",
+    "uid" : "13a98c883fc34d19",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613588280,
+      "stop" : 1654613618287,
+      "duration" : 30007
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,14 +104,711 @@
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-101.0.4951.54" ]
   }, {
-    "name" : "firstnamelimit",
-    "uid" : "20448420dbcf051f",
+    "name" : "alternate phne number  field by passing <10 digit",
+    "uid" : "be14ef21f6e524d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613588431,
+      "stop" : 1654613624584,
+      "duration" : 36153
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "alternate phne number  field by passing >10 digit",
+    "uid" : "7eeffa9c3ba09516",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613588582,
+      "stop" : 1654613627309,
+      "duration" : 38727
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "mandetory field",
+    "uid" : "4504c002444bfb0e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1653546139456,
-      "stop" : 1653546170386,
-      "duration" : 30930
+      "start" : 1654613588651,
+      "stop" : 1654613678234,
+      "duration" : 89583
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "alternate phne number  field by passing symbols",
+    "uid" : "38bd4452c778adc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1654613620996,
+      "stop" : 1654613653446,
+      "duration" : 32450
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "alternate phne number  field by passing validnumber",
+    "uid" : "b2624d6e5aba5821",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613626401,
+      "stop" : 1654613648352,
+      "duration" : 21951
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "street,area,colony field with >100 characters",
+    "uid" : "6b620a5f2ceb8d15",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613629822,
+      "stop" : 1654613661904,
+      "duration" : 32082
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "cancelk is clickable or not",
+    "uid" : "3194534fd910f49c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613632283,
+      "stop" : 1654613664844,
+      "duration" : 32561
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "Email field",
+    "uid" : "724dd47c643e1e53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613650817,
+      "stop" : 1654613681881,
+      "duration" : 31064
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "email field",
+    "uid" : "f6da5bc611b23e66",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613657607,
+      "stop" : 1654613687436,
+      "duration" : 29829
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "flat/house number field with >100 characters",
+    "uid" : "17f7a2764bc3f34a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613664843,
+      "stop" : 1654613715031,
+      "duration" : 50188
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "landmark  field by passing >100",
+    "uid" : "6d150b0ef82b3d8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613668822,
+      "stop" : 1654613715630,
+      "duration" : 46808
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "last name field by passing >30 characters",
+    "uid" : "15a4d0ef67a1763d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613681463,
+      "stop" : 1654613713789,
+      "duration" : 32326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "last name field by passing numbers",
+    "uid" : "d173b2a53736bea8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613686280,
+      "stop" : 1654613716147,
+      "duration" : 29867
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "last name field by passing symbols",
+    "uid" : "3535cdb1c69369eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613691148,
+      "stop" : 1654613720563,
+      "duration" : 29415
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "last name field by passing valid name",
+    "uid" : "faeffec7d085ee96",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613719062,
+      "stop" : 1654613742896,
+      "duration" : 23834
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "middle name field with >30 characters",
+    "uid" : "8540389a568341ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613720279,
+      "stop" : 1654613751766,
+      "duration" : 31487
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "middle name field with numbers",
+    "uid" : "f95ee0db7fef1feb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613720862,
+      "stop" : 1654613752712,
+      "duration" : 31850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "middle name field with symbols",
+    "uid" : "1ff79a5528fdfb5f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613721060,
+      "stop" : 1654613751574,
+      "duration" : 30514
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "middle name field with valid name",
+    "uid" : "7dab47be2024c391",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613723702,
+      "stop" : 1654613755895,
+      "duration" : 32193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "whatsapp number  field by passing >100",
+    "uid" : "d0c9c61912d06f6f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613749002,
+      "stop" : 1654613777417,
+      "duration" : 28415
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "phonenumber field with >10digits",
+    "uid" : "6e11b5e0b8f76415",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613756060,
+      "stop" : 1654613785672,
+      "duration" : 29612
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "phonenumber field with letters",
+    "uid" : "8c537f4bee5b81ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613756537,
+      "stop" : 1654613786313,
+      "duration" : 29776
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "phonenumber field with validnumber",
+    "uid" : "97092f3a1b193778",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613757444,
+      "stop" : 1654613786536,
+      "duration" : 29092
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "phonenumber field with invalidnumber",
+    "uid" : "56740dfd7db81c63",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613759204,
+      "stop" : 1654613789042,
+      "duration" : 29838
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "phonenumber field with symbols",
+    "uid" : "119abf1a0067afba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613784728,
+      "stop" : 1654613809306,
+      "duration" : 24578
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "postalcode field with <6 digits>",
+    "uid" : "9bf373fc3bdd2d79",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613791139,
+      "stop" : 1654613821232,
+      "duration" : 30093
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "postalcode field with letters",
+    "uid" : "9aeb4e23b4901512",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613791415,
+      "stop" : 1654613822035,
+      "duration" : 30620
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "postalcode field with >6 digits>",
+    "uid" : "faa23e06a65d3507",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613791608,
+      "stop" : 1654613824675,
+      "duration" : 33067
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "postalcode field with symbol",
+    "uid" : "143883e6d4922e59",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613793007,
+      "stop" : 1654613824917,
+      "duration" : 31910
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "postalcode field with validpincode",
+    "uid" : "1dde44a88b1d8718",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613814700,
+      "stop" : 1654613840900,
+      "duration" : 26200
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "prefferedstart and end time field for deletion",
+    "uid" : "7764755fe84fac37",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1654613825687,
+      "stop" : 1654613860262,
+      "duration" : 34575
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 16,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "prefferedstart and end time field with valid time",
+    "uid" : "871f2691e398c5d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1654613828937,
+      "stop" : 1654613865631,
+      "duration" : 36694
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "clickable or not",
+    "uid" : "b9bbaae26ad95126",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613829130,
+      "stop" : 1654613858844,
+      "duration" : 29714
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "whatsapp number  field by passing <10 numbers",
+    "uid" : "ec76f0bdc625fad3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1654613845399,
+      "stop" : 1654613875111,
+      "duration" : 29712
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "whatsapp number  field by passing >10 numbers",
+    "uid" : "fde1b24d7a203b0b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613862050,
+      "stop" : 1654613888185,
+      "duration" : 26135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "whatsapp number  field by passing invalid number",
+    "uid" : "9a16b997582101ab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613862630,
+      "stop" : 1654613889541,
+      "duration" : 26911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "whatsapp number  field by passing letters",
+    "uid" : "cb8d821106065daf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613864287,
+      "stop" : 1654613891688,
+      "duration" : 27401
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "whatsapp number  field by passing symbols",
+    "uid" : "2e4a7f253134d9c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613869009,
+      "stop" : 1654613895118,
+      "duration" : 26109
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "whatsapp number  field by passing valid number",
+    "uid" : "4dac919c78444381",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613879163,
+      "stop" : 1654613905824,
+      "duration" : 26661
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "firstname field",
+    "uid" : "2ee1e47769fd6347",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613892728,
+      "stop" : 1654613939027,
+      "duration" : 46299
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "firstname field with symbols",
+    "uid" : "b2f86a895bf68033",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613893805,
+      "stop" : 1654613942660,
+      "duration" : 48855
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-101.0.4951.54" ]
+  }, {
+    "name" : "phonenumber field with <10digits",
+    "uid" : "ac5026d0dec49245",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654613895524,
+      "stop" : 1654613948831,
+      "duration" : 53307
     },
     "flaky" : false,
     "newFailed" : false,

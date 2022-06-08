@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654613814700' stop='1654613840906'>
+    <name>verify postalcode field by passing valid pincode</name>
+    <title>verify postalcode field by passing valid pincode</title>
+    <test-cases>
+        <test-case start='1654613814700' status='passed' stop='1654613840900'>
+            <name>postalcode field with validpincode</name>
+            <title>postalcode field with validpincode</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-31'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

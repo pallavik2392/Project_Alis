@@ -1,0 +1,70 @@
+{
+  "uid" : "6e11b5e0b8f76415",
+  "name" : "phonenumber field with >10digits",
+  "fullName" : "verify phonenumber field by passing >10digits.phonenumber field with >10digits",
+  "historyId" : "c18e2a5ff93665e1aec5d3785ef221e9",
+  "time" : {
+    "start" : 1654613756060,
+    "stop" : 1654613785672,
+    "duration" : 29612
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-22"
+  }, {
+    "name" : "suite",
+    "value" : "verify phonenumber field by passing >10digits"
+  }, {
+    "name" : "testClass",
+    "value" : "verify phonenumber field by passing >10digits"
+  }, {
+    "name" : "testMethod",
+    "value" : "phonenumber field with >10digits"
+  }, {
+    "name" : "package",
+    "value" : "verify phonenumber field by passing >10digits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "48b9b9d00116f190",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654574312414,
+        "stop" : 1654574334536,
+        "duration" : 22122
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e11b5e0b8f76415.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

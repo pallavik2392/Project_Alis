@@ -21,8 +21,31 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/Addstaff.js'
+        './test/updatestaff.js'
     ],
+  /*  suites:{
+     elements:[
+         './test/elements/*.js'
+     ]
+    },
+*/
+/*suites:{
+    Staffverification:[
+        './test/Staffverification/Verifystaffcancelbutton.js'
+    ]
+   },
+   */
+    /*suites:{
+        CreationUpdation:[
+            './test/CreationUpdation/*.js'
+        ]
+       },
+    */
+       suites:{
+        CourseVerification:[
+            './test/CourseVerification/Verifycourseoverviewwithonlyshortcode.js'
+        ]
+       },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

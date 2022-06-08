@@ -1,7 +1,10 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 const Page = require("../test/pageobjects/page");
+const path = require('path');
 
 class Supportpage extends Page{
     get support() {return $("//body/div[@id='root']/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/a[5]/div[1]/i[1]/parent::div")}
@@ -104,6 +107,18 @@ class Supportpage extends Page{
     }
     async clickpOnsaveticket(){
         this.saveticket.click();
+    }
+    async searchparticularTicket(Text){
+        const ticket=await $("")
+    }
+    async uploadfile(){
+        const uploadfile=await $("//p[contains(text(),'Drag and drop files here, or click to select files')]");
+        //await uploadfile.click();
+       // const filepath = path.join(__dirname,'../Alis/ScreenshotsforAlis/wdio.png');
+        const filepath='/path/desktop/demoproject/Alis/ScreenshotsforAlis/wdio.png';
+       const remoteFilePath = browser.uploadFile(filepath);
+       await uploadfile.addValue(remoteFilePath);
+       
     }
 
 

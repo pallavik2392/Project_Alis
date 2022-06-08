@@ -6,7 +6,7 @@ const signinpage = require("../pages/signinpage");
 describe("Addlead",function(){
 
     it("lead", async () => {
-        await browser.url("https://staging-alis.wemotive.in/");
+        await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
         await browser.maximizeWindow();
         await browser.pause(3000);

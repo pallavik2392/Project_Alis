@@ -1,0 +1,62 @@
+{
+  "uid" : "2d1f3b81d1e846cb",
+  "name" : "Staff first name field with numbers",
+  "fullName" : "verify Staff first name field by passing numbers.Staff first name field with numbers",
+  "historyId" : "8c77832a643ce1e19bdd73a64ec85258",
+  "time" : {
+    "start" : 1654604866443,
+    "stop" : 1654604893305,
+    "duration" : 26862
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff first name field by passing numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff first name field by passing numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff first name field with numbers"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff first name field by passing numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d1f3b81d1e846cb.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

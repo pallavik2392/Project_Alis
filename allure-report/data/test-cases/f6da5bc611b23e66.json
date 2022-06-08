@@ -1,0 +1,62 @@
+{
+  "uid" : "f6da5bc611b23e66",
+  "name" : "email field",
+  "fullName" : "verify email field by passing symbols.email field",
+  "historyId" : "7fd675c33bd6218b8d96a83d1114e95b",
+  "time" : {
+    "start" : 1654613657607,
+    "stop" : 1654613687436,
+    "duration" : 29829
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "verify email field by passing symbols"
+  }, {
+    "name" : "testClass",
+    "value" : "verify email field by passing symbols"
+  }, {
+    "name" : "testMethod",
+    "value" : "email field"
+  }, {
+    "name" : "package",
+    "value" : "verify email field by passing symbols"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6da5bc611b23e66.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,70 @@
+{
+  "uid" : "d0c9c61912d06f6f",
+  "name" : "whatsapp number  field by passing >100",
+  "fullName" : "verify whatsapp phonenumber field by passing >100 letters.whatsapp number  field by passing >100",
+  "historyId" : "488f00aab8e76eed0f697250a947ae0e",
+  "time" : {
+    "start" : 1654613749002,
+    "stop" : 1654613777417,
+    "duration" : 28415
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-21"
+  }, {
+    "name" : "suite",
+    "value" : "verify whatsapp phonenumber field by passing >100 letters"
+  }, {
+    "name" : "testClass",
+    "value" : "verify whatsapp phonenumber field by passing >100 letters"
+  }, {
+    "name" : "testMethod",
+    "value" : "whatsapp number  field by passing >100"
+  }, {
+    "name" : "package",
+    "value" : "verify whatsapp phonenumber field by passing >100 letters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2efadb89b5ca3f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654593094158,
+        "stop" : 1654593117624,
+        "duration" : 23466
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0c9c61912d06f6f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

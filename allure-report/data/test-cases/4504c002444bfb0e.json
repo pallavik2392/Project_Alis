@@ -1,0 +1,68 @@
+{
+  "uid" : "4504c002444bfb0e",
+  "name" : "mandetory field",
+  "fullName" : "creation of lead with mandetoryfield.mandetory field",
+  "historyId" : "6d20577d4ffe7aca0285c4f39d9ca575",
+  "time" : {
+    "start" : 1654613588651,
+    "stop" : 1654613678234,
+    "duration" : 89583
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Lead added\"\n                Received: \"Lead for this user for given course is already exists\"",
+  "statusTrace" : "Error: Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Lead added\"\n                Received: \"Lead for this user for given course is already exists\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/elements/Leadcreationmandatoryfield.js:47:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "creation of lead with mandetoryfield"
+  }, {
+    "name" : "testClass",
+    "value" : "creation of lead with mandetoryfield"
+  }, {
+    "name" : "testMethod",
+    "value" : "mandetory field"
+  }, {
+    "name" : "package",
+    "value" : "creation of lead with mandetoryfield"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4504c002444bfb0e.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654599458533' stop='1654599483971'>
+    <name>verify prefferedstart and end time field for deletion</name>
+    <title>verify prefferedstart and end time field for deletion</title>
+    <test-cases>
+        <test-case start='1654599458534' status='passed' stop='1654599483970'>
+            <name>prefferedstart and end time field for deletion</name>
+            <title>prefferedstart and end time field for deletion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Expect $(`//p[@id='firstName-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than  characters\"\n                Received: \"Cannot be more than 30 characters\"",
+      "name" : "Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Lead added\"\n                Received: \"Lead for this user for given course is already exists\"",
       "children" : [ {
-        "name" : "firstnamelimit",
-        "uid" : "20448420dbcf051f",
-        "parentUid" : "4e0b5ead369326f58e22c9e9579b67f2",
+        "name" : "mandetory field",
+        "uid" : "4504c002444bfb0e",
+        "parentUid" : "9674cc2e9a79909c1ed2ba8a952f11f7",
         "status" : "failed",
         "time" : {
-          "start" : 1653546139456,
-          "stop" : 1653546170386,
-          "duration" : 30930
+          "start" : 1654613588651,
+          "stop" : 1654613678234,
+          "duration" : 89583
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,8 +23,92 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "4e0b5ead369326f58e22c9e9579b67f2"
+      "uid" : "9674cc2e9a79909c1ed2ba8a952f11f7"
+    }, {
+      "name" : "Expect $(`//p[@id='alternateMobileNumber-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined",
+      "children" : [ {
+        "name" : "alternate phne number  field by passing symbols",
+        "uid" : "38bd4452c778adc",
+        "parentUid" : "18f1b144a8a0fe7c4135369ab867bdfb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654613620996,
+          "stop" : 1654613653446,
+          "duration" : 32450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "18f1b144a8a0fe7c4135369ab867bdfb"
+    }, {
+      "name" : "Expect $(`//p[@id='whatsappNumber-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined",
+      "children" : [ {
+        "name" : "whatsapp number  field by passing <10 numbers",
+        "uid" : "ec76f0bdc625fad3",
+        "parentUid" : "19a21b6dde1085ecf4fea9a9ba199e4a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654613845399,
+          "stop" : 1654613875111,
+          "duration" : 29712
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "19a21b6dde1085ecf4fea9a9ba199e4a"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Can't call click on element with selector \"//body/div[@id='root']/div[1]/div[2]/div[1]/form[1]/div[2]/div[15]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]\" because element wasn't found",
+      "children" : [ {
+        "name" : "prefferedstart and end time field for deletion",
+        "uid" : "7764755fe84fac37",
+        "parentUid" : "14a289e95b5be3e8192918a333750d59",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654613825687,
+          "stop" : 1654613860262,
+          "duration" : 34575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 16,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      }, {
+        "name" : "prefferedstart and end time field with valid time",
+        "uid" : "871f2691e398c5d9",
+        "parentUid" : "14a289e95b5be3e8192918a333750d59",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654613828937,
+          "stop" : 1654613865631,
+          "duration" : 36694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "14a289e95b5be3e8192918a333750d59"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

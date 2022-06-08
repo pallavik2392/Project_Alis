@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654681514023' stop='1654681516565'>
+    <name>verify Staff work phonenumber field by passing validnumber</name>
+    <title>verify Staff work phonenumber field by passing validnumber</title>
+    <test-cases>
+        <test-case start='1654681514024' status='broken' stop='1654681516550'>
+            <name>Staff work phonenumber field with validnumber</name>
+            <title>Staff work phonenumber field with validnumber</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=101.0.4951.54)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=101.0.4951.54)
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Staffverification/Verifystaffworkphonewithvalidnumber.js:9:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

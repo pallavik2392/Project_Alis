@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654693961475' stop='1654694038418'>
+    <name>Verify course short code field by passing >100 characters</name>
+    <title>Verify course short code field by passing >100 characters</title>
+    <test-cases>
+        <test-case start='1654693961476' status='failed' stop='1654694038415'>
+            <name>course short code field with >100 characters</name>
+            <title>course short code field with >100 characters</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//p[@id='shortName-helper-text']`) to have text containing
+                
+                Expected: "Cannot be more than 100 characters"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//p[@id='shortName-helper-text']`) to have text containing
+                
+                Expected: "Cannot be more than 100 characters"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycourseshortcodewith>100characters.js:28:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

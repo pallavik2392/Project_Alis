@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654613626400' stop='1654613648353'>
+    <name>verify alternate phonenumber field by passing valid number</name>
+    <title>verify alternate phonenumber field by passing valid number</title>
+    <test-cases>
+        <test-case start='1654613626401' status='passed' stop='1654613648352'>
+            <name>alternate phne number  field by passing validnumber</name>
+            <title>alternate phne number  field by passing validnumber</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

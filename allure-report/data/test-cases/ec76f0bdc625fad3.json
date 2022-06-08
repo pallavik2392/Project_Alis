@@ -1,0 +1,76 @@
+{
+  "uid" : "ec76f0bdc625fad3",
+  "name" : "whatsapp number  field by passing <10 numbers",
+  "fullName" : "verify whatsapp phonenumber field by passing <10 numbers.whatsapp number  field by passing <10 numbers",
+  "historyId" : "6fcf01de9bc176a621163cf0af4886a6",
+  "time" : {
+    "start" : 1654613845399,
+    "stop" : 1654613875111,
+    "duration" : 29712
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//p[@id='whatsappNumber-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//p[@id='whatsappNumber-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/elements/Verifyleadwhatsappphonewith<10.js:24:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-36"
+  }, {
+    "name" : "suite",
+    "value" : "verify whatsapp phonenumber field by passing <10 numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "verify whatsapp phonenumber field by passing <10 numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "whatsapp number  field by passing <10 numbers"
+  }, {
+    "name" : "package",
+    "value" : "verify whatsapp phonenumber field by passing <10 numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d32f7adc5eeaf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654591104458,
+        "stop" : 1654591126330,
+        "duration" : 21872
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ec76f0bdc625fad3.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

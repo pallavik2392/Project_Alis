@@ -4,7 +4,11 @@
   "description": "this is webdriver io scripts",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/wdio ./wdio.conf.js"
+    "test": "node_modules/.bin/wdio ./wdio.conf.js",
+    "elements":"node_modules/.bin/wdio ./wdio.conf.js --suite elements",
+    "CreationUpdation":"node_modules/.bin/wdio ./wdio.conf.js --suite CreationUpdation",
+    "Staffverification":"node_modules/.bin/wdio ./wdio.conf.js --suite Staffverification",
+    "CourseVerification":"node_modules/.bin/wdio ./wdio.conf.js --suite CourseVerification"
   },
   "author": "pallavi",
   "license": "MIT",
@@ -22,6 +26,7 @@
   "dependencies": {
     "@wdio/cli": "^7.19.7",
     "allure-commandline": "^2.17.2",
+    "chai-webdriverio": "^1.0.0",
     "console": "^0.7.2",
     "convert-excel-to-json": "^1.7.0",
     "expect-webdriverio": "^3.4.0",

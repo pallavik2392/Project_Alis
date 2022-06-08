@@ -143,11 +143,206 @@ console.log('updateworkphone',result.AddStaff[2].K)
 console.log('numbertoreplaceworkphone',result.AddStaff[2].L)
 console.log('updateemail',result.AddStaff[2].M)
 console.log('emailtoreplace',result.AddStaff[2].N)
-
-
-
-
-
+console.log('updaterole',result.AddStaff[2].O)
+console.log('roletobereplace',result.AddStaff[2].P)
+console.log('updatedesignation',result.AddStaff[2].Q)
+console.log('designationtoreplace',result.AddStaff[2].R)
+console.log('updatedepartment',result.AddStaff[2].S)
+console.log('departmenttoreplace',result.AddStaff[2].T)
+console.log('updateteachingStaff',result.AddStaff[2].U)
+console.log('teachingstafftoreplace',result.AddStaff[2].V)
+console.log('updateofficelocation',result.AddStaff[2].W)
+console.log('officelocationtoreplace',result.AddStaff[2].X)
+console.log('leadtoupdate',result.Addleadparameters[3].A)
+console.log('updatefirstnamelead',result.Addleadparameters[3].B)
+console.log('replacefirstnamelead',result.Addleadparameters[3].C)
+console.log('updatemidlenamelead',result.Addleadparameters[3].D)
+console.log('replacemidlenamelead',result.Addleadparameters[3].E)
+console.log('updatelastnamelead',result.Addleadparameters[3].F)
+console.log('replacelasnamelead',result.Addleadparameters[3].G)
+console.log('updateemaillead',result.Addleadparameters[3].H)
+console.log('replaceemaillead',result.Addleadparameters[3].I)
+console.log('updatephone',result.Addleadparameters[3].J)
+console.log('replacephone',result.Addleadparameters[3].K)
+console.log('updatealternatephone',result.Addleadparameters[3].L)
+console.log('replacealternatephone',result.Addleadparameters[3].M)
+console.log('updatewhatsapp',result.Addleadparameters[3].N)
+console.log('replacewhatsapp',result.Addleadparameters[3].O)
+console.log('updategender',result.Addleadparameters[3].P)
+console.log('replacegender',result.Addleadparameters[3].Q)
+console.log('updateDOB',result.Addleadparameters[3].R)
+console.log('replaceDOB',result.Addleadparameters[3].S)
+console.log('updateoccupation',result.Addleadparameters[3].T)
+console.log('replaceoccupation',result.Addleadparameters[3].U)
+console.log('updatecommlangauge',result.Addleadparameters[3].V)
+console.log('replacecommlangauge',result.Addleadparameters[3].W)
+console.log('updateconselor',result.Addleadparameters[3].X)
+console.log('replaceconselor',result.Addleadparameters[3].Y)
+console.log('updatecourse',result.Addleadparameters[3].Z)
+console.log('replacecourse',result.Addleadparameters[3].AA)
+console.log('updateacademy',result.Addleadparameters[3].AB)
+console.log('replaceacademy',result.Addleadparameters[3].AC)
+console.log('updatecourselangauge',result.Addleadparameters[3].AD)
+console.log('replacecourselang',result.Addleadparameters[3].AE)
+console.log('updatepostalcode',result.Addleadparameters[3].AF)
+console.log('replacepostalcode',result.Addleadparameters[3].AG)
+console.log('updateaddress1',result.Addleadparameters[3].AH)
+console.log('replaceaddress1',result.Addleadparameters[3].AI)
+console.log('updateaddress2',result.Addleadparameters[3].AJ)
+console.log('replaceaddress2',result.Addleadparameters[3].AK)
+console.log('updatelandmark',result.Addleadparameters[3].AL)
+console.log('replacelandmark',result.Addleadparameters[3].AM)
+console.log('searchstudenttoupdateticket',result.NewTicket[2].A)
+console.log('searchcoursename',result.AddCourse[2].A)
+console.log('updatecourselocation',result.AddCourse[2].B)
+console.log('replacecourselocation',result.AddCourse[2].C)
+console.log('updatelangaugeinstruction',result.AddCourse[2].D)
+console.log('replacelangaugeinstruction',result.AddCourse[2].E)
+console.log('updatepracticalrequirement',result.AddCourse[2].F)
+console.log('replacepracticalrequirement',result.AddCourse[2].G)
+console.log('updatemedicalrequirement',result.AddCourse[2].H)
+console.log('replacemedicalrequirement',result.AddCourse[2].I)
+console.log('updatemodeofinstruction',result.AddCourse[2].J)
+console.log('replacemodeofinstruction',result.AddCourse[2].K)
+console.log('updatetopic',result.AddCourse[2].L)
+console.log('replacetopic',result.AddCourse[2].M)
+console.log('Updateradiobutton',result.AddCourse[2].N)
+console.log('replaceradiobutton',result.AddCourse[2].O)
+console.log('updatefeetype',result.AddCourse[2].P)
+console.log('replacefeetype',result.AddCourse[2].Q)
+console.log('updatefeeamount',result.AddCourse[2].R)
+console.log('replacefeeamount',result.AddCourse[2].S)
+console.log('updatecreditredeemable',result.AddCourse[2].T)
+console.log('replacecreditredeemable',result.AddCourse[2].U)
+console.log('updatebatchlocation',result.AddCourse[2].V)
+console.log('replacebatchlocation',result.AddCourse[2].W)
+console.log('updatepracticallocation',result.AddCourse[2].X)
+console.log('replacepracticallocation',result.AddCourse[2].Y)
+console.log('updatebatchlaungauge',result.AddCourse[2].Z)
+console.log('replacebatchlaungauge',result.AddCourse[2].AA)
+console.log('updatevirtualcapacity',result.AddCourse[2].AB)
+console.log('replacevirtualcapacity',result.AddCourse[2].AC)
+console.log('updatephysicalcapacity',result.AddCourse[2].AD)
+console.log('replacephysicalcapacity',result.AddCourse[2].AE)
+console.log('updatebatchstartdate',result.AddCourse[2].AF)
+console.log('replacedate',result.AddCourse[2].AG)
+console.log('updatebatchenddate',result.AddCourse[2].AH)
+console.log('replacebatchenddate',result.AddCourse[2].AI)
+console.log('updatebatchtime',result.AddCourse[2].AJ)
+console.log('updatestarttime',result.AddCourse[2].AK)
+console.log('replacestarttime',result.AddCourse[2].AL)
+console.log('updateendtime',result.AddCourse[2].AM)
+console.log('replaceendtime',result.AddCourse[2].AN)
+console.log('updatefrequency',result.AddCourse[2].AO)
+console.log('replacefrequency',result.AddCourse[2].AP)
+console.log('updateweek',result.AddCourse[2].AQ)
+console.log('Week',result.AddCourse[0].AQ)
+console.log('updateadminfirstname',result.AdminProfile[0].A)
+console.log('replacefirstname',result.AdminProfile[0].B)
+console.log('updateadminmiddlename',result.AdminProfile[0].C)
+console.log('replaceadminmiddlename',result.AdminProfile[0].D)
+console.log('updateadminlastname',result.AdminProfile[0].E)
+console.log('replaceadminlastname',result.AdminProfile[0].F)
+console.log('admingender',result.AdminProfile[0].G)
+console.log('adminDOB',result.AdminProfile[0].H)
+console.log('updateadminphone',result.AdminProfile[0].I)
+console.log('replaceadminphone',result.AdminProfile[0].J)
+console.log('Mandatoryleadfirstname',result.Addleadparameters[5].A)
+console.log('Mandatoryleademail',result.Addleadparameters[5].B)
+console.log('Mandatoryleadphone',result.Addleadparameters[5].C)
+console.log('Mandatoryleadgender',result.Addleadparameters[5].D)
+console.log('MandatoryleadDOByear',result.Addleadparameters[5].E)
+console.log('MandatoryleadDOBmonth',result.Addleadparameters[5].F)
+console.log('MandatoryleadDOByearday',result.Addleadparameters[5].G)
+console.log('Mandatoryleadconselor',result.Addleadparameters[5].H)
+console.log('MandatoryleadCourse',result.Addleadparameters[5].I)
+console.log('MandatoryleadAcademy',result.Addleadparameters[5].J)
+console.log('MandatoryleadPincode',result.Addleadparameters[5].K)
+console.log('Meandatoryleadflatnumber',result.Addleadparameters[5].L)
+console.log('Mendatoryleadstreetarea',result.Addleadparameters[5].M)
+console.log('firstnameLeadnumbers',result.Addleadparameters[7].A)
+console.log('firstnameLeadsymbols',result.Addleadparameters[7].B)
+console.log('leademailfieldwithnumbers',result.Addleadparameters[7].C)
+console.log('leademailfieldwithsymbols',result.Addleadparameters[7].D)
+console.log('leadphonefieldwithletters',result.Addleadparameters[7].E)
+console.log('leadphonefieldwithinvalidnum',result.Addleadparameters[7].F)
+console.log('leadphonefieldwithvalidnum',result.Addleadparameters[7].G)
+console.log('leadphonefieldwithmorethan10digits',result.Addleadparameters[7].H)
+console.log('leadphonefieldwithlessthan10digits',result.Addleadparameters[7].I)
+console.log('leadphonefieldwithsymbols',result.Addleadparameters[7].J)
+console.log('leadpostalcodefieldwithletters',result.Addleadparameters[7].K)
+console.log('leadpostalcodefieldwithsymbol',result.Addleadparameters[7].L)
+console.log('leadpostalcodefieldlessthan6digit',result.Addleadparameters[7].M)
+console.log('leadpostalcodefieldgreaterthan6digit',result.Addleadparameters[7].N)
+console.log('leadpostalcodefieldwithvalidpin',result.Addleadparameters[7].O)
+console.log('leadflatnumberfieldwithmorethan100letters',result.Addleadparameters[7].P)
+console.log('leadareafieldwithgreater100letters',result.Addleadparameters[7].Q)
+console.log('leadmiddlenamewithnumbers',result.Addleadparameters[7].R)
+console.log('leadmiddlenamewithsymbols',result.Addleadparameters[7].S)
+console.log('leadmiddlenamewithvalidname',result.Addleadparameters[7].T)
+console.log('leadmiddlenamewithmorethan30characters',result.Addleadparameters[7].U)
+console.log('leadlastnamewithnumbers',result.Addleadparameters[7].V)
+console.log('leadlastnamewithsymbols',result.Addleadparameters[7].W)
+console.log('leadlastnamewithvalidname',result.Addleadparameters[7].X)
+console.log('leadlastnamewithgreaterthan30characters',result.Addleadparameters[7].Y)
+console.log('leadalternatephonewithletters',result.Addleadparameters[7].Z)
+console.log('leadalternatephonewithinvalidnumber',result.Addleadparameters[7].AA)
+console.log('leadalternatephonewithvalidnumber',result.Addleadparameters[7].AB)
+console.log('leadalternatephonewithgreaterthan10digits',result.Addleadparameters[7].AC)
+console.log('leadalternatephonewithlessthan10',result.Addleadparameters[7].AD)
+console.log('leadalternatephonewithsymbols',result.Addleadparameters[7].AE)
+console.log('leadwhatsappwithletters',result.Addleadparameters[7].AF)
+console.log('leadwhatsappwithinvalidnumber',result.Addleadparameters[7].AG)
+console.log('leadwhatsappwithvalidnumber',result.Addleadparameters[7].AH)
+console.log('leadwhatsappwithgreaterthan10numbers',result.Addleadparameters[7].AI)
+console.log('leadwhatsappwithlessthan10',result.Addleadparameters[7].AJ)
+console.log('leadwhatsappwithsymbols',result.Addleadparameters[7].AK)
+console.log('leadoccupationwithmaxvalidation',result.Addleadparameters[7].AL)
+console.log('leadlandmarkfieldwithmaxvalidation',result.Addleadparameters[7].AM)
+console.log('prefferedstarttime',result.Addleadparameters[0].V)
+console.log('prefferedendtime',result.Addleadparameters[0].W)
+console.log('leadprefferedstarttimewithwrongtime',result.Addleadparameters[7].AN)
+console.log('leadprefferedcallingendtimewithwrongtime',result.Addleadparameters[7].AO)
+console.log('Mandatorystafffirstname',result.AddStaff[4].A)
+console.log('Mandatorystaffpersonalphone',result.AddStaff[4].B)
+console.log('Mandatorystaffemail',result.AddStaff[4].C)
+console.log('Mandatorystaffrole',result.AddStaff[4].D)
+console.log('Mandatorystaffdesignation',result.AddStaff[4].E)
+console.log('Mandatorystaffdepartment',result.AddStaff[4].F)
+console.log('Mandatorystaffteaching',result.AddStaff[4].G)
+console.log('Mandatorystaffofficelocation',result.AddStaff[4].H)
+console.log('stafffirstnamewithnumbers',result.AddStaff[4].I)
+console.log('stafffirstnamewithsymbols',result.AddStaff[4].J)
+console.log('stafffirstnamewithmaxvalidation',result.AddStaff[4].K)
+console.log('staffmiddlenamewithnumbers',result.AddStaff[4].L)
+console.log('staffmiddlenamewithsymbols',result.AddStaff[4].M)
+console.log('staffmiddlenamewithvalidname',result.AddStaff[4].N)
+console.log('Staffmiddlenamewithmaxvalidation',result.AddStaff[4].O)
+console.log('stafflastnamewithnumbers',result.AddStaff[4].P)
+console.log('stafflastnamewithsymbols',result.AddStaff[4].Q)
+console.log('stafflastnamewithvalidname',result.AddStaff[4].R)
+console.log('stafflastnamewithmaxvalidation',result.AddStaff[4].S)
+console.log('staffphonewithletters',result.AddStaff[4].T)
+console.log('staffphonewithinvalidnumber',result.AddStaff[4].U)
+console.log('staffphonewithvalidnumber',result.AddStaff[4].V)
+console.log('staffphonewithgreaterthan10',result.AddStaff[4].W)
+console.log('staffphonewithlessthan10',result.AddStaff[4].X)
+console.log('staffphonewithsymbols',result.AddStaff[4].Y)
+console.log('staffworkphonewithletters',result.AddStaff[4].Z)
+console.log('staffworkphonewithinvalidnumber',result.AddStaff[4].AA)
+console.log('staffworkphonewithvalidnumber',result.AddStaff[4].AB)
+console.log('staffworkwithgreaterthan10',result.AddStaff[4].AC)
+console.log('staffworkphonewithlessthan10',result.AddStaff[4].AD)
+console.log('staffworkphonewithsymbols',result.AddStaff[4].AE)
+console.log('staffemailwithnumbers',result.AddStaff[4].AF)
+console.log('staffemailwithsymbols',result.AddStaff[4].AG)
+console.log('staffemailwithvalidemail',result.AddStaff[4].AH)
+console.log('courseoverviewwithmandatorycoursename',result.AddCourse[4].A)
+console.log('courseoverviewwithmandatorycourseshrtcode',result.AddCourse[4].B)
+console.log('coursenamefieldwithgreaterthan100characters',result.AddCourse[4].C)
+console.log('courseshortcodewithgreaterthan100characters',result.AddCourse[4].D)
+console.log('coursenamewithvaliddata',result.AddCourse[4].E)
+console.log('courseshortcodewithvaliddata',result.AddCourse[4].F)
 
 var dataRequired = function(){
     //browser.ignoreSynchronization=true;
@@ -263,8 +458,207 @@ var dataRequired = function(){
         numbertoreplaceworkphone:result.AddStaff[2].L,
         updateemail:result.AddStaff[2].M,
         emailtoreplace:result.AddStaff[2].N,
+        updaterole:result.AddStaff[2].O,
+        roletobereplace:result.AddStaff[2].P,
+        updatedesignation:result.AddStaff[2].Q,
+        designationtoreplace:result.AddStaff[2].R,
+        updatedepartment:result.AddStaff[2].S,
+        departmenttoreplace:result.AddStaff[2].T,
+        updateteachingStaff:result.AddStaff[2].U,
+        teachingstafftoreplace:result.AddStaff[2].V,
+        updateofficelocation:result.AddStaff[2].W,
+        officelocationtoreplace:result.AddStaff[2].X,
+        leadtoupdate:result.Addleadparameters[3].A,
+        updatefirstnamelead:result.Addleadparameters[3].B,
+        replacefirstnamelead:result.Addleadparameters[3].C,
+        updatemidlenamelead:result.Addleadparameters[3].D,
+        replacemidlenamelead:result.Addleadparameters[3].E,
+        updatelastnamelead:result.Addleadparameters[3].F,
+        replacelasnamelead:result.Addleadparameters[3].G,
+        updateemaillead:result.Addleadparameters[3].H,
+        replaceemaillead:result.Addleadparameters[3].I,
+        updatephone:result.Addleadparameters[3].J,
+        replacephone:result.Addleadparameters[3].K,
+        updatealternatephone:result.Addleadparameters[3].L,
+        replacealternatephone:result.Addleadparameters[3].M,
+        updatewhatsapp:result.Addleadparameters[3].N,
+        replacewhatsapp:result.Addleadparameters[3].O,
+        updategender:result.Addleadparameters[3].P,
+        replacegender:result.Addleadparameters[3].Q,
+        updateDOB:result.Addleadparameters[3].R,
+        replaceDOB:result.Addleadparameters[3].S,
+        updateoccupation:result.Addleadparameters[3].T,
+        replaceoccupation:result.Addleadparameters[3].U,
+        updatecommlangauge:result.Addleadparameters[3].V,
+        replacecommlangauge:result.Addleadparameters[3].W,
+        updateconselor:result.Addleadparameters[3].X,
+        replaceconselor:result.Addleadparameters[3].Y,
+        updatecourse:result.Addleadparameters[3].Z,
+        replacecourse:result.Addleadparameters[3].AA,
+        updateacademy:result.Addleadparameters[3].AB,
+        replaceacademy:result.Addleadparameters[3].AC,
+        updatecourselangauge:result.Addleadparameters[3].AD,
+        replacecourselang:result.Addleadparameters[3].AE,
+        updatepostalcode:result.Addleadparameters[3].AF,
+        replacepostalcode:result.Addleadparameters[3].AG,
+        updateaddress1:result.Addleadparameters[3].AH,
+        replaceaddress1:result.Addleadparameters[3].AI,
+        updateaddress2:result.Addleadparameters[3].AJ,
+        replaceaddress2:result.Addleadparameters[3].AK,
+        updatelandmark:result.Addleadparameters[3].AL,
+        replacelandmark:result.Addleadparameters[3].AM,
+        searchstudenttoupdateticket:result.NewTicket[2].A,
+        searchcoursename:result.AddCourse[2].A,
+        updatecourselocation:result.AddCourse[2].B,
+        replacecourselocation:result.AddCourse[2].C,
+        updatelangaugeinstruction:result.AddCourse[2].D,
+        replacelangaugeinstruction:result.AddCourse[2].E,
+        updatepracticalrequirement:result.AddCourse[2].F,
+        replacepracticalrequirement:result.AddCourse[2].G,
+        updatemedicalrequirement:result.AddCourse[2].H,
+        replacemedicalrequirement:result.AddCourse[2].I,
+        updatemodeofinstruction:result.AddCourse[2].J,
+        replacemodeofinstruction:result.AddCourse[2].K,
+        updatetopic:result.AddCourse[2].L,
+        replacetopic:result.AddCourse[2].M,
+        Updateradiobutton:result.AddCourse[2].N,
+        replaceradiobutton:result.AddCourse[2].O,
+        updatefeetype:result.AddCourse[2].P,
+        replacefeetype:result.AddCourse[2].Q,
+        updatefeeamount:result.AddCourse[2].R,
+        replacefeeamount:result.AddCourse[2].S,
+        updatecreditredeemable:result.AddCourse[2].T,
+        replacecreditredeemable:result.AddCourse[2].U,
+        updatebatchlocation:result.AddCourse[2].V,
+        replacebatchlocation:result.AddCourse[2].W,
+        updatepracticallocation:result.AddCourse[2].X,
+        replacepracticallocation:result.AddCourse[2].Y,
+        updatebatchlaungauge:result.AddCourse[2].Z,
+        replacebatchlaungauge:result.AddCourse[2].AA,
+        updatevirtualcapacity:result.AddCourse[2].AB,
+        replacevirtualcapacity:result.AddCourse[2].AC,
+        updatephysicalcapacity:result.AddCourse[2].AD,
+        replacephysicalcapacity:result.AddCourse[2].AE,
+        updatebatchstartdate:result.AddCourse[2].AF,
+        replacedate:result.AddCourse[2].AG,
+        updatebatchenddate:result.AddCourse[2].AH,
+        replacebatchenddate:result.AddCourse[2].AI,
+        updatebatchtime:result.AddCourse[2].AJ,
+        updatestarttime:result.AddCourse[2].AK,
+        replacestarttime:result.AddCourse[2].AL,
+        updateendtime:result.AddCourse[2].AM,
+        replaceendtime:result.AddCourse[2].AN,
+        updatefrequency:result.AddCourse[2].AO,
+        replacefrequency:result.AddCourse[2].AP,
+        updateweek:result.AddCourse[2].AQ,
+        Week :result.AddCourse[0].AQ,
+        updateadminfirstname:result.AdminProfile[0].A,
+        replacefirstname:result.AdminProfile[0].B,
+        updateadminmiddlename:result.AdminProfile[0].C,
+        replaceadminmiddlename:result.AdminProfile[0].D,
+        updateadminlastname:result.AdminProfile[0].E,
+        replaceadminlastname:result.AdminProfile[0].F,
+        admingender:result.AdminProfile[0].G,
+        adminDOB:result.AdminProfile[0].H,
+        updateadminphone:result.AdminProfile[0].I,
+        replaceadminphone:result.AdminProfile[0].J,
+        Mandatoryleadfirstname:result.Addleadparameters[5].A,
+        Mandatoryleademail:result.Addleadparameters[5].B,
+        Mandatoryleadphone:result.Addleadparameters[5].C,
+        Mandatoryleadgender:result.Addleadparameters[5].D,
+        MandatoryleadDOByear:result.Addleadparameters[5].E,
+        MandatoryleadDOBmonth:result.Addleadparameters[5].F,
+        MandatoryleadDOByearday:result.Addleadparameters[5].G,
+        Mandatoryleadconselor:result.Addleadparameters[5].H,
+        MandatoryleadCourse:result.Addleadparameters[5].I,
+        MandatoryleadAcademy:result.Addleadparameters[5].J,
+        MandatoryleadPincode:result.Addleadparameters[5].K,
+        Meandatoryleadflatnumber:result.Addleadparameters[5].L,
+        Mendatoryleadstreetarea:result.Addleadparameters[5].M,
+        firstnameLeadnumbers:result.Addleadparameters[7].A,
+        firstnameLeadsymbols:result.Addleadparameters[7].B,
+        leademailfieldwithnumbers:result.Addleadparameters[7].C,
+        leademailfieldwithsymbols:result.Addleadparameters[7].D,
+        leadphonefieldwithletters:result.Addleadparameters[7].E,
+        leadphonefieldwithinvalidnum:result.Addleadparameters[7].F,
+        leadphonefieldwithvalidnum:result.Addleadparameters[7].G,
+        leadphonefieldwithmorethan10digits:result.Addleadparameters[7].H,
+        leadphonefieldwithlessthan10digits:result.Addleadparameters[7].I,
+        leadphonefieldwithsymbols:result.Addleadparameters[7].J,
+        leadpostalcodefieldwithletters:result.Addleadparameters[7].K,
+        leadpostalcodefieldwithsymbol:result.Addleadparameters[7].L,
+        leadpostalcodefieldlessthan6digit:result.Addleadparameters[7].M,
+        leadpostalcodefieldgreaterthan6digit:result.Addleadparameters[7].N,
+        leadpostalcodefieldwithvalidpin:result.Addleadparameters[7].O,
+        leadflatnumberfieldwithmorethan100letters:result.Addleadparameters[7].P,
+        leadareafieldwithgreater100letters:result.Addleadparameters[7].Q,
+        leadmiddlenamewithnumbers:result.Addleadparameters[7].R,
+        leadmiddlenamewithsymbols:result.Addleadparameters[7].S,
+        leadmiddlenamewithvalidname:result.Addleadparameters[7].T,
+        leadmiddlenamewithmorethan30characters:result.Addleadparameters[7].U,
+        leadlastnamewithnumbers:result.Addleadparameters[7].V,
+        leadlastnamewithsymbols:result.Addleadparameters[7].W,
+        leadlastnamewithvalidname:result.Addleadparameters[7].X,
+        leadlastnamewithgreaterthan30characters:result.Addleadparameters[7].Y,
+        leadalternatephonewithletters:result.Addleadparameters[7].Z,
+        leadalternatephonewithinvalidnumber:result.Addleadparameters[7].AA,
+        leadalternatephonewithvalidnumber:result.Addleadparameters[7].AB,
+        leadalternatephonewithgreaterthan10digits:result.Addleadparameters[7].AC,
+        leadalternatephonewithlessthan10:result.Addleadparameters[7].AD,
+        leadalternatephonewithsymbols:result.Addleadparameters[7].AE,
+        leadwhatsappwithletters:result.Addleadparameters[7].AF,
+        leadwhatsappwithinvalidnumber:result.Addleadparameters[7].AG,
+        leadwhatsappwithvalidnumber:result.Addleadparameters[7].AH,
+        leadwhatsappwithgreaterthan10numbers:result.Addleadparameters[7].AI,
+        leadwhatsappwithlessthan10:result.Addleadparameters[7].AJ,
+        leadwhatsappwithsymbols:result.Addleadparameters[7].AK,
+        leadoccupationwithmaxvalidation:result.Addleadparameters[7].AL,
+        leadlandmarkfieldwithmaxvalidation:result.Addleadparameters[7].AM,
+        prefferedstarttime:result.Addleadparameters[0].V,
+        prefferedendtime:result.Addleadparameters[0].W,
+        leadprefferedstarttimewithwrongtime:result.Addleadparameters[7].AN,
+        leadprefferedcallingendtimewithwrongtime:result.Addleadparameters[7].AO,
+        Mandatorystafffirstname:result.AddStaff[4].A,
+        Mandatorystaffpersonalphone:result.AddStaff[4].B,
+        Mandatorystaffemail:result.AddStaff[4].C,
+        Mandatorystaffrole:result.AddStaff[4].D,
+        Mandatorystaffdesignation:result.AddStaff[4].E,
+        Mandatorystaffdepartment:result.AddStaff[4].F,
+        Mandatorystaffteaching:result.AddStaff[4].G,
+        Mandatorystaffofficelocation:result.AddStaff[4].H,
+        stafffirstnamewithnumbers:result.AddStaff[4].I,
+        stafffirstnamewithsymbols:result.AddStaff[4].J,
+        stafffirstnamewithmaxvalidation:result.AddStaff[4].K,
+        staffmiddlenamewithnumbers:result.AddStaff[4].L,
+        staffmiddlenamewithsymbols:result.AddStaff[4].M,
+        staffmiddlenamewithvalidname:result.AddStaff[4].N,
+        Staffmiddlenamewithmaxvalidation:result.AddStaff[4].O,
+        stafflastnamewithnumbers:result.AddStaff[4].P,
+        stafflastnamewithsymbols:result.AddStaff[4].Q,
+        stafflastnamewithvalidname:result.AddStaff[4].R,
+        stafflastnamewithmaxvalidation:result.AddStaff[4].S,
+        staffphonewithletters:result.AddStaff[4].T,
+        staffphonewithinvalidnumber:result.AddStaff[4].U,
+        staffphonewithvalidnumber:result.AddStaff[4].V,
+        staffphonewithgreaterthan10:result.AddStaff[4].W,
+        staffphonewithlessthan10:result.AddStaff[4].X,
+        staffphonewithsymbols:result.AddStaff[4].Y,
+        staffworkphonewithletters:result.AddStaff[4].Z,
+        staffworkphonewithinvalidnumber:result.AddStaff[4].AA,
+        staffworkphonewithvalidnumber:result.AddStaff[4].AB,
+        staffworkwithgreaterthan10:result.AddStaff[4].AC,
+        staffworkphonewithlessthan10:result.AddStaff[4].AD,
+        staffworkphonewithsymbols:result.AddStaff[4].AE,
+        staffemailwithnumbers:result.AddStaff[4].AF,
+        staffemailwithsymbols:result.AddStaff[4].AG,
+        staffemailwithvalidemail:result.AddStaff[4].AH,
+        courseoverviewwithmandatorycoursename:result.AddCourse[4].A,
+        courseoverviewwithmandatorycourseshrtcode:result.AddCourse[4].B,
+        coursenamefieldwithgreaterthan100characters:result.AddCourse[4].C,
+        courseshortcodewithgreaterthan100characters:result.AddCourse[4].D,
+        coursenamewithvaliddata:result.AddCourse[4].E,
+        courseshortcodewithvaliddata:result.AddCourse[4].F,
 
-       
     };
 }
 

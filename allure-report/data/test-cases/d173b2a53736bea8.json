@@ -1,0 +1,70 @@
+{
+  "uid" : "d173b2a53736bea8",
+  "name" : "last name field by passing numbers",
+  "fullName" : "verify last name field by passing numbers.last name field by passing numbers",
+  "historyId" : "544e48d1bd49a62c9eeb80ba35a65e01",
+  "time" : {
+    "start" : 1654613686280,
+    "stop" : 1654613716147,
+    "duration" : 29867
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "verify last name field by passing numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "verify last name field by passing numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "last name field by passing numbers"
+  }, {
+    "name" : "package",
+    "value" : "verify last name field by passing numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2eed0e6e66a7f433",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654580382354,
+        "stop" : 1654580402865,
+        "duration" : 20511
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d173b2a53736bea8.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

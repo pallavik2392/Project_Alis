@@ -1,0 +1,62 @@
+{
+  "uid" : "d25b995174ac5584",
+  "name" : "whatsapp number  field by passing letters",
+  "fullName" : "verify whatsapp phonenumber field by passing letters.whatsapp number  field by passing letters",
+  "historyId" : "10d818b22653783c829af7ef59ca64c2",
+  "time" : {
+    "start" : 1654589885608,
+    "stop" : 1654589920982,
+    "duration" : 35374
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//p[@id='whatsappNumber-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//p[@id='whatsappNumber-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/elements/Verifyleadwhatsappphonewithletters.js:24:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify whatsapp phonenumber field by passing letters"
+  }, {
+    "name" : "testClass",
+    "value" : "verify whatsapp phonenumber field by passing letters"
+  }, {
+    "name" : "testMethod",
+    "value" : "whatsapp number  field by passing letters"
+  }, {
+    "name" : "package",
+    "value" : "verify whatsapp phonenumber field by passing letters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d25b995174ac5584.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654695461118' stop='1654695506246'>
+    <name>Verification of course overview by passing only course name</name>
+    <title>Verification of course overview by passing only course name</title>
+    <test-cases>
+        <test-case start='1654695461119' status='failed' stop='1654695506240'>
+            <name>courseoverview by passing only coursename</name>
+            <title>courseoverview by passing only coursename</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//div[@role='alert']`) to have text containing
+                
+                Expected: "New course added"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//div[@role='alert']`) to have text containing
+                
+                Expected: "New course added"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycourseoverviewwithonlycoursename.js:30:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

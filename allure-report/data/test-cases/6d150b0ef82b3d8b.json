@@ -1,0 +1,70 @@
+{
+  "uid" : "6d150b0ef82b3d8b",
+  "name" : "landmark  field by passing >100",
+  "fullName" : "verify landmark field by passing >100 letters.landmark  field by passing >100",
+  "historyId" : "494c95a1e49ec17a666049094dfe318b",
+  "time" : {
+    "start" : 1654613668822,
+    "stop" : 1654613715630,
+    "duration" : 46808
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "verify landmark field by passing >100 letters"
+  }, {
+    "name" : "testClass",
+    "value" : "verify landmark field by passing >100 letters"
+  }, {
+    "name" : "testMethod",
+    "value" : "landmark  field by passing >100"
+  }, {
+    "name" : "package",
+    "value" : "verify landmark field by passing >100 letters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "751f48c47473a9c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654593955177,
+        "stop" : 1654593976118,
+        "duration" : 20941
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d150b0ef82b3d8b.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

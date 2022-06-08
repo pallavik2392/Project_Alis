@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654613845398' stop='1654613875113'>
+    <name>verify whatsapp phonenumber field by passing &lt;10 numbers</name>
+    <title>verify whatsapp phonenumber field by passing &lt;10 numbers</title>
+    <test-cases>
+        <test-case start='1654613845399' status='failed' stop='1654613875111'>
+            <name>whatsapp number  field by passing &lt;10 numbers</name>
+            <title>whatsapp number  field by passing &lt;10 numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-36'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//p[@id='whatsappNumber-helper-text']`) to have text containing
+                
+                Expected: "Please enter valid 10 digit phone number"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//p[@id='whatsappNumber-helper-text']`) to have text containing
+                
+                Expected: "Please enter valid 10 digit phone number"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/elements/Verifyleadwhatsappphonewith&lt;10.js:24:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

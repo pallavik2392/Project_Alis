@@ -1,0 +1,79 @@
+{
+  "uid" : "cb8d821106065daf",
+  "name" : "whatsapp number  field by passing letters",
+  "fullName" : "verify whatsapp phonenumber field by passing letters.whatsapp number  field by passing letters",
+  "historyId" : "10d818b22653783c829af7ef59ca64c2",
+  "time" : {
+    "start" : 1654613864287,
+    "stop" : 1654613891688,
+    "duration" : 27401
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-39"
+  }, {
+    "name" : "suite",
+    "value" : "verify whatsapp phonenumber field by passing letters"
+  }, {
+    "name" : "testClass",
+    "value" : "verify whatsapp phonenumber field by passing letters"
+  }, {
+    "name" : "testMethod",
+    "value" : "whatsapp number  field by passing letters"
+  }, {
+    "name" : "package",
+    "value" : "verify whatsapp phonenumber field by passing letters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "21b9c5399d56df5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654589967708,
+        "stop" : 1654589991965,
+        "duration" : 24257
+      }
+    }, {
+      "uid" : "d25b995174ac5584",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//p[@id='whatsappNumber-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654589885608,
+        "stop" : 1654589920982,
+        "duration" : 35374
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb8d821106065daf.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

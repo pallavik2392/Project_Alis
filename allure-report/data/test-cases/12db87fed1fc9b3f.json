@@ -1,0 +1,60 @@
+{
+  "uid" : "12db87fed1fc9b3f",
+  "name" : "prefferedstart and end time field with valid time",
+  "fullName" : "verify prefferedstart and end time field by passing valid time.prefferedstart and end time field with valid time",
+  "historyId" : "e484c0d888ece781259012611e859f03",
+  "time" : {
+    "start" : 1654597188510,
+    "stop" : 1654597212769,
+    "duration" : 24259
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify prefferedstart and end time field by passing valid time"
+  }, {
+    "name" : "testClass",
+    "value" : "verify prefferedstart and end time field by passing valid time"
+  }, {
+    "name" : "testMethod",
+    "value" : "prefferedstart and end time field with valid time"
+  }, {
+    "name" : "package",
+    "value" : "verify prefferedstart and end time field by passing valid time"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12db87fed1fc9b3f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

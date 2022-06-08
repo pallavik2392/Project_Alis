@@ -3,6 +3,13 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { $ } = require("protractor");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 const Page = require("../test/pageobjects/page");
 
 class LeadPage1 extends  Page{
@@ -20,14 +27,14 @@ class LeadPage1 extends  Page{
     get leadphone(){return  $("//input[@id='mobile']")}
     get leadalterphone(){return  $("//input[@id='alternateMobileNumber']")}
     get leadwhatsappnumber(){return  $("//input[@id='whatsappNumber']")}
-    get leaddrpgender(){return  $("//input[@id='gender']/parent::div")}
+    get leaddrpgender(){return  $("//input[@id='gender']")}
     get leaddob(){return  $("//body/div[@id='root']/div[1]/div[2]/div[1]/form[1]/div[2]/div[10]/div[2]/div[1]/div[1]")}
     get leadoccup(){return  $("//input[@id='occupation']")}
-    get leadcommlangauge(){return  $("//input[@id='communicationLanguage']/parent::div")}
-    get leadconselor(){return  $("//input[@id='counselor']/parent::div")}
-    get leadcourse(){return  $("//input[@id='course']/parent::div")}
-    get leadlocation(){return  $("//input[@id='schoolLocation']/parent::div")}
-    get leadlangauge(){return  $("//input[@id='courseLanguage']/parent::div")}
+    get leadcommlangauge(){return  $("//input[@id='communicationLanguage']")}
+    get leadconselor(){return  $("//input[@id='counselor']")}
+    get leadcourse(){return  $("//input[@id='course']")}
+    get leadlocation(){return  $("//input[@id='schoolLocation']")}
+    get leadlangauge(){return  $("//input[@id='courseLanguage']")}
     get leadcountry(){return  $("//input[@id='country']")}
     get leadpostal(){return  $("//input[@id='postalCode']")}
     get leadaddress1(){return  $("//input[@id='addressLine1']")}
@@ -35,6 +42,10 @@ class LeadPage1 extends  Page{
     get leadlandmark(){return  $("//input[@id='landmark']")}
     get leadsave(){return  $("//button[@type='submit']")}
     get leadDOB(){return $("//input[@placeholder='What is the date of birth?']/parent::div")}
+    get updateleadsave(){return $("//button[@type='submit']")}
+    get leadcancel(){return $("//button[normalize-space()='Cancel']")}
+    get addprefferedtime(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/form[1]/div[2]/div[15]/div[2]/div[1]/button[1]")}
+    get deletecallingslot(){return $("//div[@role='button']//*[name()='svg']/child::*")}
 
     async  enterFirstname(text){
         this.leadfname.setValue(text);
@@ -59,24 +70,21 @@ class LeadPage1 extends  Page{
     }
 
     async enterGender(Text){
-        this.leaddrpgender.click();
-        
-        if(  Text==='Male'){
-         const Male= await $("//li[@id='gender-option-0']");
-          await Male.click();}
-          else if (Text==='Female'){
-            const Female= await $("//li[@id='gender-option-1']");
-             await Female.click();
-          }
-          else{
-            const Other= await $("//li[@id='gender-option-2']");
-            await Other.click();
-          }
-             
+        this.leaddrpgender.setValue(Text);
+        const gender=await $("//li[@id='gender-option-0']");
+        await gender.click();
        
+
     }
-    async enterDOB(year,month,day){
-        await console.log("yearis: "+year);
+    async enterDOB(Text){
+        this.leadDOB.click();
+        const edit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await edit.click();
+        const date=await $("//input[@placeholder='dd/mm/yyyy']");
+        await date.setValue(Text);
+        const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await ok.click();
+       /* await console.log("yearis: "+year);
         await console.log("monthis: "+month);
         await console.log("day is : "+day);
         this.leadDOB.click();
@@ -92,10 +100,7 @@ class LeadPage1 extends  Page{
             await $("(//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div/div/button[1])[contains(text(),"+day+")]").click();
             const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
             await ok.click();
-        //const dob1=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[5]/button[1]");
-        //await dob1.click();
-       //const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
-        //await ok.click();
+        */
         
     }
 
@@ -104,49 +109,33 @@ class LeadPage1 extends  Page{
     }
     
     async entercommunicationLangauge(Text){
-        this.leadcommlangauge.click();
-        const english=await $("//div[@id='communicationLanguage-option-0']");
-        await english.click();
+        this.leadcommlangauge.setValue((Text));
+        const langauge=await $("//div[@id='communicationLanguage-option-0']");
+        await langauge.click();
     }
     async enterconselor(Text){
-        this.leadconselor.click();
-        if(  Text==='Pooja'){
-            const pooja= await $("//div[@id='counselor-option-0']");
-             await pooja.click();}
-             else if (Text==='Shubham'){
-               const shubham= await $("//div[@id='counselor-option-3']");
-                await shubham.click();
-             }
-             else{
-               const admin= await $("//div[@id='counselor-option-7']");
-               await admin.click();
-             }
+        this.leadconselor.setValue(Text);
+        const conselor=await $("//div[@id='counselor-option-0']");
+        await conselor.click();
+        
     }
 
     async enterCourse(Text){
-        this.leadcourse.click();
-        if(  Text==='Manual Testing'){
-            const ManualTesting= await $("//div[@id='course-option-3']");
-             await ManualTesting.click();}
-             else if (Text==='Automation Testing'){
-               const AutomationTesting= await $("//div[@id='course-option-1']");
-                await AutomationTesting.click();
-             }
-             else{
-               const course= await $("//div[@id='course-option-0']");
-               await course.click();
-             }
+        this.leadcourse.setValue(Text);
+        const course=await $("//div[@id='course-option-0']");
+        await course.click();
+
 
     }
     async enterAcademylocation(Text){
-        this.leadlocation.click();
-        const k11Nashik = await $("//div[@id='schoolLocation-option-0']");
-        await k11Nashik.click();
+        this.leadlocation.setValue(Text);
+        const location = await $("//div[@id='schoolLocation-option-0']");
+        await location.click();
     }
     async enterCourselangauge(Text){
-        this.leadlangauge.click();
-        const english=await $("//div[@id='courseLanguage-option-0']");
-        await english.click();
+        this.leadlangauge.setValue(Text);
+        const courselangauge=await $("//div[@id='courseLanguage-option-0']");
+        await courselangauge.click();
         
     }
 
@@ -169,7 +158,182 @@ class LeadPage1 extends  Page{
     async clickOnSave(){
         this.leadsave.click();
     }
-    
+    async clickOnSearch(Text){
+        this.leadsearch.setValue(Text);
+    }
+    async clickOnparticularlead(){
+        const edit=await $("//button[@aria-label='Edit']");
+        await edit.click();
+    }
+    async updateFirstname(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+    }
+    async updatemiddlename(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+    }
+    async updatelastname(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+    }
+    async updateEmail(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        const len= Text.length;
+        for(let i=len;i>=0;i--){
+        await browser.keys('Backspace');
+        }
+    }
+    async updatephone(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+    }
+    async updateAlternatephone(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+    }
+    async updateWhataappnumber(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+    }
+    async updateGender(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.leaddrpgender.click();
+    }
+    async updateDOB(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.leaddrpgender.click();
+    }
+    async updateOccupation(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+    }
+    async updateCommlangauge(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.leadcommlangauge.click();
+    }
+    async updateConselor(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        const len= Text.length;
+        for(let i=len;i>=0;i--){
+        await browser.keys('Backspace');
+        }
+        this.leadconselor.click();
+    }
+    async updateCourse(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        const len= Text.length;
+        for(let i=len;i>=0;i--){
+        await browser.keys('Backspace');
+        }
+        this.leadcourse.click();
+    }
+    async updateAcademylocation(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();const len= Text.length;
+        for(let i=len;i>=0;i--){
+        await browser.keys('Backspace');
+        }
+
+        this.leadlocation.click();
+    }
+    async updateCourselangauge(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.leadlangauge.click();
+    }
+    async updatePostalcode(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+    }
+    async updateAddress1(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        const len= Text.length;
+        for(let i=len;i>=0;i--){
+        await browser.keys('Backspace');
+        }
+    }
+    async updateAddress2(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        const len= Text.length;
+        for(let i=len;i>=0;i--){
+        await browser.keys('Backspace');
+        }
+    }
+    async updateLandmark(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        const len= Text.length;
+        for(let i=len;i>=0;i--){
+        await browser.keys('Backspace');
+        }
+    }
+    async clickOnupadtesave(){
+        await updateleadsave.click();
+    }
+    async leadsaveisclickable(){
+        
+        let clickable = await this.leadsave.isClickable();
+        console.log(clickable); // outputs: true or false 
+    }
+    async leadcancelisclickable(){
+        
+        let clickable = await this.leadcancel.isClickable();
+        console.log(clickable); // outputs: true or false 
+    }
+    async enterPrefferedCallingslot(Text1,Text2){
+        this.addprefferedtime.click();
+        const starttime=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/form[1]/div[2]/div[15]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await starttime.click();
+        const startedit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await startedit.click();
+        const starttext=await $("//input[@placeholder='hh:mm (a|p)m']");
+        await starttext.setValue(Text1);
+        const startok = await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await startok.click();
+
+        const endtime=await $("//input[@placeholder='End time']");
+        await endtime.click();
+        const endedit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await endedit.click();
+        const endtext=await $("//input[@placeholder='hh:mm (a|p)m']");
+        await endtext.setValue(Text2);
+        const endok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await endok.click();
+
+        const savetime=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/form[1]/div[2]/div[15]/div[2]/div[1]/div[1]/div[1]/div[4]/button[1]");
+        await savetime.click();
+    }
+    async deletecallingslot(){
+        await browser.waitUntil(
+            async () => (await this.deletecallingslot.isDisplayed(),
+            {
+                timeout: 5000,
+                timeoutMsg: 'expected text to be different after 5s'
+            }
+        ))
+         this.deletecallingslot.click();
+    }
     
     
 }

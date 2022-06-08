@@ -5,7 +5,7 @@ describe("demo",function(){
 
     it("signin",async () => {
 
-        await browser.url("https://staging-alis.wemotive.in/");
+        await browser.url("https://dev-alis.viasimplex.in/login");
         console.log(browser.getUrl());
         await browser.pause(5000);
 

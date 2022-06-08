@@ -10,6 +10,9 @@
 //const { $ } = require("protractor");
 //const { $ } = require("protractor");
 //const { $ } = require("protractor");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 const Page = require("../test/pageobjects/page");
 
 class Staffpage extends Page{
@@ -30,6 +33,8 @@ class Staffpage extends Page{
     get staffsave(){return $("//button[@type='submit']")}
     get search(){return $("//input[@placeholder='Search']")}
     get particularstaff(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")}
+    get updatesave(){return $("//button[@type='submit']")}
+    get staffcancel(){return $("//button[normalize-space()='Cancel']")}
 
     async  enterFirstname(text){
         this.stafffirstname.setValue(text);
@@ -132,7 +137,49 @@ class Staffpage extends Page{
         }
 
     }
-    
+    async updateRoles(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.staffroles.click();
+    }
+    async updateDesignation(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.staffdesignation.click();
+    }
+    async updateDepartment(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.staffdepartment.click();
+    }
+    async updateTeachingstaff(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.teachingstaff.click();
+    }
+    async updateOfficelocation(Text){
+        const name=await $("//p[normalize-space()='"+Text+"']");
+        await name.doubleClick();
+        await browser.keys('Backspace');
+        this.staffofficelocation.click();
+    }
+    async clickOnupdatesave(){
+        this.updatesave.click();
+    }
+    async staffsaveisclickable(){
+        
+        let clickable = await this.staffsave.isClickable();
+        console.log(clickable); // outputs: true or false 
+    }
+    async staffcancelisclickable(){
+        
+        let clickable = await this.staffcancel.isClickable();
+        console.log(clickable); // outputs: true or false 
+    }
 
 }
 module.exports = new Staffpage();

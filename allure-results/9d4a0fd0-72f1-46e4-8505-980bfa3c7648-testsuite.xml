@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654581626030' stop='1654581651675'>
+    <name>verify last name field by passing valid name</name>
+    <title>verify last name field by passing valid name</title>
+    <test-cases>
+        <test-case start='1654581626032' status='passed' stop='1654581651674'>
+            <name>last name field by passing valid name</name>
+            <title>last name field by passing valid name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

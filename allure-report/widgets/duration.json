@@ -1,40 +1,480 @@
 [ {
-  "uid" : "5bb09d88d4c6a16a",
-  "name" : "lead",
+  "uid" : "faeffec7d085ee96",
+  "name" : "last name field by passing valid name",
   "time" : {
-    "start" : 1653545410333,
-    "stop" : 1653545503924,
-    "duration" : 93591
+    "start" : 1654613719062,
+    "stop" : 1654613742896,
+    "duration" : 23834
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "20448420dbcf051f",
-  "name" : "firstnamelimit",
+  "uid" : "7eeffa9c3ba09516",
+  "name" : "alternate phne number  field by passing >10 digit",
   "time" : {
-    "start" : 1653546139456,
-    "stop" : 1653546170386,
-    "duration" : 30930
+    "start" : 1654613588582,
+    "stop" : 1654613627309,
+    "duration" : 38727
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d173b2a53736bea8",
+  "name" : "last name field by passing numbers",
+  "time" : {
+    "start" : 1654613686280,
+    "stop" : 1654613716147,
+    "duration" : 29867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "871f2691e398c5d9",
+  "name" : "prefferedstart and end time field with valid time",
+  "time" : {
+    "start" : 1654613828937,
+    "stop" : 1654613865631,
+    "duration" : 36694
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9bf373fc3bdd2d79",
+  "name" : "postalcode field with <6 digits>",
+  "time" : {
+    "start" : 1654613791139,
+    "stop" : 1654613821232,
+    "duration" : 30093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7764755fe84fac37",
+  "name" : "prefferedstart and end time field for deletion",
+  "time" : {
+    "start" : 1654613825687,
+    "stop" : 1654613860262,
+    "duration" : 34575
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8ccfddd8125680a",
+  "name" : "Staff first name field with symbols",
+  "time" : {
+    "start" : 1654606881741,
+    "stop" : 1654606911532,
+    "duration" : 29791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f95ee0db7fef1feb",
+  "name" : "middle name field with numbers",
+  "time" : {
+    "start" : 1654613720862,
+    "stop" : 1654613752712,
+    "duration" : 31850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ff79a5528fdfb5f",
+  "name" : "middle name field with symbols",
+  "time" : {
+    "start" : 1654613721060,
+    "stop" : 1654613751574,
+    "duration" : 30514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb8d821106065daf",
+  "name" : "whatsapp number  field by passing letters",
+  "time" : {
+    "start" : 1654613864287,
+    "stop" : 1654613891688,
+    "duration" : 27401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faa23e06a65d3507",
+  "name" : "postalcode field with >6 digits>",
+  "time" : {
+    "start" : 1654613791608,
+    "stop" : 1654613824675,
+    "duration" : 33067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9bbaae26ad95126",
+  "name" : "clickable or not",
+  "time" : {
+    "start" : 1654613829130,
+    "stop" : 1654613858844,
+    "duration" : 29714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54ac762e4a4b1d25",
+  "name" : "staff with mandatory fields",
+  "time" : {
+    "start" : 1654603499887,
+    "stop" : 1654603554346,
+    "duration" : 54459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3535cdb1c69369eb",
+  "name" : "last name field by passing symbols",
+  "time" : {
+    "start" : 1654613691148,
+    "stop" : 1654613720563,
+    "duration" : 29415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56740dfd7db81c63",
+  "name" : "phonenumber field with invalidnumber",
+  "time" : {
+    "start" : 1654613759204,
+    "stop" : 1654613789042,
+    "duration" : 29838
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8540389a568341ca",
+  "name" : "middle name field with >30 characters",
+  "time" : {
+    "start" : 1654613720279,
+    "stop" : 1654613751766,
+    "duration" : 31487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c537f4bee5b81ec",
+  "name" : "phonenumber field with letters",
+  "time" : {
+    "start" : 1654613756537,
+    "stop" : 1654613786313,
+    "duration" : 29776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38bd4452c778adc",
+  "name" : "alternate phne number  field by passing symbols",
+  "time" : {
+    "start" : 1654613620996,
+    "stop" : 1654613653446,
+    "duration" : 32450
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "7b140571c6475671",
-  "name" : "screenshot for chrome",
+  "uid" : "b7fbadf832b39624",
+  "name" : "Staff first name field with >30 characters",
   "time" : {
-    "start" : 1653545707194,
-    "stop" : 1653545711715,
-    "duration" : 4521
+    "start" : 1654609158045,
+    "stop" : 1654609185979,
+    "duration" : 27934
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5c0067c4bf19872d",
-  "name" : "staff",
+  "uid" : "f6da5bc611b23e66",
+  "name" : "email field",
   "time" : {
-    "start" : 1653545526653,
-    "stop" : 1653545585845,
-    "duration" : 59192
+    "start" : 1654613657607,
+    "stop" : 1654613687436,
+    "duration" : 29829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0c9c61912d06f6f",
+  "name" : "whatsapp number  field by passing >100",
+  "time" : {
+    "start" : 1654613749002,
+    "stop" : 1654613777417,
+    "duration" : 28415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e4a7f253134d9c",
+  "name" : "whatsapp number  field by passing symbols",
+  "time" : {
+    "start" : 1654613869009,
+    "stop" : 1654613895118,
+    "duration" : 26109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3194534fd910f49c",
+  "name" : "cancelk is clickable or not",
+  "time" : {
+    "start" : 1654613632283,
+    "stop" : 1654613664844,
+    "duration" : 32561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b620a5f2ceb8d15",
+  "name" : "street,area,colony field with >100 characters",
+  "time" : {
+    "start" : 1654613629822,
+    "stop" : 1654613661904,
+    "duration" : 32082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dab47be2024c391",
+  "name" : "middle name field with valid name",
+  "time" : {
+    "start" : 1654613723702,
+    "stop" : 1654613755895,
+    "duration" : 32193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be14ef21f6e524d4",
+  "name" : "alternate phne number  field by passing <10 digit",
+  "time" : {
+    "start" : 1654613588431,
+    "stop" : 1654613624584,
+    "duration" : 36153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d1f3b81d1e846cb",
+  "name" : "Staff first name field with numbers",
+  "time" : {
+    "start" : 1654604866443,
+    "stop" : 1654604893305,
+    "duration" : 26862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec76f0bdc625fad3",
+  "name" : "whatsapp number  field by passing <10 numbers",
+  "time" : {
+    "start" : 1654613845399,
+    "stop" : 1654613875111,
+    "duration" : 29712
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2624d6e5aba5821",
+  "name" : "alternate phne number  field by passing validnumber",
+  "time" : {
+    "start" : 1654613626401,
+    "stop" : 1654613648352,
+    "duration" : 21951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "724dd47c643e1e53",
+  "name" : "Email field",
+  "time" : {
+    "start" : 1654613650817,
+    "stop" : 1654613681881,
+    "duration" : 31064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4504c002444bfb0e",
+  "name" : "mandetory field",
+  "time" : {
+    "start" : 1654613588651,
+    "stop" : 1654613678234,
+    "duration" : 89583
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2f86a895bf68033",
+  "name" : "firstname field with symbols",
+  "time" : {
+    "start" : 1654613893805,
+    "stop" : 1654613942660,
+    "duration" : 48855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17f7a2764bc3f34a",
+  "name" : "flat/house number field with >100 characters",
+  "time" : {
+    "start" : 1654613664843,
+    "stop" : 1654613715031,
+    "duration" : 50188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aeb4e23b4901512",
+  "name" : "postalcode field with letters",
+  "time" : {
+    "start" : 1654613791415,
+    "stop" : 1654613822035,
+    "duration" : 30620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fde1b24d7a203b0b",
+  "name" : "whatsapp number  field by passing >10 numbers",
+  "time" : {
+    "start" : 1654613862050,
+    "stop" : 1654613888185,
+    "duration" : 26135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13a98c883fc34d19",
+  "name" : "alternate phne number  field by passing letters",
+  "time" : {
+    "start" : 1654613588280,
+    "stop" : 1654613618287,
+    "duration" : 30007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dde44a88b1d8718",
+  "name" : "postalcode field with validpincode",
+  "time" : {
+    "start" : 1654613814700,
+    "stop" : 1654613840900,
+    "duration" : 26200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a16b997582101ab",
+  "name" : "whatsapp number  field by passing invalid number",
+  "time" : {
+    "start" : 1654613862630,
+    "stop" : 1654613889541,
+    "duration" : 26911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac5026d0dec49245",
+  "name" : "phonenumber field with <10digits",
+  "time" : {
+    "start" : 1654613895524,
+    "stop" : 1654613948831,
+    "duration" : 53307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e11b5e0b8f76415",
+  "name" : "phonenumber field with >10digits",
+  "time" : {
+    "start" : 1654613756060,
+    "stop" : 1654613785672,
+    "duration" : 29612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15a4d0ef67a1763d",
+  "name" : "last name field by passing >30 characters",
+  "time" : {
+    "start" : 1654613681463,
+    "stop" : 1654613713789,
+    "duration" : 32326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "119abf1a0067afba",
+  "name" : "phonenumber field with symbols",
+  "time" : {
+    "start" : 1654613784728,
+    "stop" : 1654613809306,
+    "duration" : 24578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba3cd6cb7914a2c0",
+  "name" : "alternate phne number  field by passing invalidnumber",
+  "time" : {
+    "start" : 1654613587658,
+    "stop" : 1654613615962,
+    "duration" : 28304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dac919c78444381",
+  "name" : "whatsapp number  field by passing valid number",
+  "time" : {
+    "start" : 1654613879163,
+    "stop" : 1654613905824,
+    "duration" : 26661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97092f3a1b193778",
+  "name" : "phonenumber field with validnumber",
+  "time" : {
+    "start" : 1654613757444,
+    "stop" : 1654613786536,
+    "duration" : 29092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ee1e47769fd6347",
+  "name" : "firstname field",
+  "time" : {
+    "start" : 1654613892728,
+    "stop" : 1654613939027,
+    "duration" : 46299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "143883e6d4922e59",
+  "name" : "postalcode field with symbol",
+  "time" : {
+    "start" : 1654613793007,
+    "stop" : 1654613824917,
+    "duration" : 31910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d150b0ef82b3d8b",
+  "name" : "landmark  field by passing >100",
+  "time" : {
+    "start" : 1654613668822,
+    "stop" : 1654613715630,
+    "duration" : 46808
   },
   "status" : "passed",
   "severity" : "normal"

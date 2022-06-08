@@ -1,8 +1,8 @@
 {
-  "total" : 4,
+  "total" : 48,
   "items" : [ {
-    "uid" : "5ba0dd51da76ae539408888fae8efed2",
-    "name" : "overlimit",
+    "uid" : "5a1621d6ea373344816e82ceb12d98a7",
+    "name" : "creation of lead with mandetoryfield",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -12,8 +12,52 @@
       "total" : 1
     }
   }, {
-    "uid" : "af1cd1bd3b4d0ee0110404e688534824",
-    "name" : "Addlead",
+    "uid" : "270d9cd5c94af6f4d5e2a3137dbeda41",
+    "name" : "verify alternate phonenumber field by passing symbols",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a2896a9e6d83db8d2c2df7f4c6ebad02",
+    "name" : "verify whatsapp phonenumber field by passing <10 numbers",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "905054322faf4c8688f5fb070c6d21f3",
+    "name" : "verify prefferedstart and end time field for deletion",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "111016dcf6e581149cb57cb6c6241035",
+    "name" : "verify prefferedstart and end time field by passing valid time",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ad093f2a38b8c5cc094d2efec7959cdc",
+    "name" : "Addstaff with mandatory fields only",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +67,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "50d833b92a42c4cbf98fce5c4e94d8e3",
-    "name" : "Addstaff",
+    "uid" : "200b1605661ded851da477088a54d233",
+    "name" : "verify Staff first name field by passing numbers",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +78,30 @@
       "total" : 1
     }
   }, {
-    "uid" : "b276233b410178354e72be969a09941a",
-    "name" : "screenshot in wdio",
+    "uid" : "326cf7bf725d4e8e9f5aa463c5ef326f",
+    "name" : "verify Staff first name field by passing symbols",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "aca43a0676759ad8707cfcf91a1dc299",
+    "name" : "verify Staff first name field by passing >30 characters",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c02cd5a5ca15652f1b237d0a048ef298",
+    "name" : "verify alternate phonenumber field by passing invalidnumber",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

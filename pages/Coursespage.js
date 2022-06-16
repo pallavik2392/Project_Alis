@@ -18,7 +18,14 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $, default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
+const console = require("console");
 const { assert } = require("console");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { $ } = require("protractor");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { browser } = require("protractor");
 //const { browser } = require("protractor");
@@ -135,6 +142,13 @@ class Coursespage extends Page{
     get updatepaymentsave(){return $("//button[@type='submit']")}
     get scheduletab(){return $("//a[normalize-space()='Schedule']")}
     get updatebatchsave(){return $("//button[@type='submit']")}
+    get overviewcancel(){return $("//button[normalize-space()='Cancel']")}
+    get deletefee(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[2]/div[3]/button[2]")}
+    get addfeeicon(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[2]/div[3]/button[1]")}
+    get FeesSave(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[1]")}
+    get FeesCancel(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[2]")}
+    get curriculumcancel(){return $("//button[normalize-space()='Cancel']")}
+    get schedulecancel(){return $("//button[normalize-space()='Cancel']")}
 
     async clickOncourses(){
         this.courses.click();
@@ -195,6 +209,12 @@ class Coursespage extends Page{
     async clickOnBasicsave(){
         this.savebasics.click();
     }
+    async onlyclickaddtopic(){
+        this.addtopic.click();
+    }
+    async onlyclickonaddtopicsave(){
+        this.savetopic.click();
+    }
     async addTopic(Text1,Text2){
         this.addtopic.click();
         this.nameoftopic.setValue(Text1);
@@ -205,14 +225,34 @@ class Coursespage extends Page{
              }
          this.savetopic.click();
     }
+    async onlyclickOnaddTopic(){
+        this.addtopic.click();
+    }
+    async clickonsavetopic(){
+        this.savetopic.click();
+    }
     async addFee(Text1,Text2){
         this.addfee.click();
         this.feetype.setValue(Text1);
         this.feeamount.setValue(Text2);
     }
+    async onlyclickonaddfee(){
+        this.addfee.click();
+
+    }
+    async addonlyfeeamount(Text){
+        this.feeamount.setValue(Text);
+
+    }
     async clickOnsaveFee(){
         this.savefee.click();
 
+    }
+    async clickOndeleteiconoffee(){
+        this.deletefee.click();
+    }
+    async clickonaddicon(){
+        this.addfeeicon.click();
     }
     async addScholorship(Text){
         this.maxcreditredeemable.setValue(Text);
@@ -225,6 +265,7 @@ class Coursespage extends Page{
         await amount.setValue(Text2)
         
     }
+   
     async selectPayablewhenablemode(Text1,Text2){
         this.payablediscounttype.setValue(Text1);
         const discount=await $("//li[@id='isAllowedToCombineWithScholarship-option-0']");
@@ -383,9 +424,22 @@ class Coursespage extends Page{
     }
     async searchCourse(Text){
         this.searchcourse.setValue(Text);
+       /* await browser.waitUntil(
+            async () => (Text.waitForDisplayed(),
+            {
+                timeout: 5000,
+                timeoutMsg: 'expected text to be different after 5s'
+            }))*/
+        
+    }
+    async clickonsearchedcourse(Text){
+        const search=await $("//h5[@aria-label='"+Text+"']");
+        await search.waitForDisplayed();
+        await search.click();
     }
     async clickOnparticularcourse(Text){
          const course=await $("//h5[normalize-space()='"+Text+"']");
+         await course.scrollIntoView();
          await course.click();
         
     }
@@ -672,6 +726,48 @@ class Coursespage extends Page{
     }
     async clickOnupdatebatchsave(){
         this.updatebatchsave.click();
+    }
+    async courseoverviewsaveisclickable(){
+        await expect(this.overviewsave).toBeClickable();
+
+    }
+    async courseoverviewcancelisclickable(){
+        await expect(this.overviewcancel).toBeClickable();
+
+       
+    }
+    async courseFeessaveisclickable(){
+        await expect(this.FeesSave).toBeClickable()
+
+        /*let clickable = await this.FeesSave.isClickable();
+        console.log(clickable); // outputs: true or false 
+        if(clickable===true){
+            console.log("cancel button working properly");
+        }else{
+            console.log("cancel button not working properly");
+        }*/
+    }
+    async courseFeescancelisclickable(){
+        await expect(this.FeesCancel).toBeClickable();
+    }
+   /* async Verifyerror(){
+        const message=await $("//p[@id='modeOfInstruction-helper-text']");
+        await message.waitForDisplayed();
+    }*/
+    async courseCurriculumsaveisclickable(){
+        await expect(this.savetopic).toBeClickable();
+    }
+    async courseCurriculumcancelisclickable(){
+        await expect(this.curriculumcancel).toBeClickable();
+    }
+    async scheduleAddbatchbuttonclickable(){
+        await expect(this.addbatch).toBeClickable();
+    }
+    async courseSchedulesaveisclickable(){
+        await expect(this.saveBatch).toBeClickable();
+    }
+    async courseSchedulecancelisclickable(){
+        await expect(this.schedulecancel).toBeClickable();
     }
 
 

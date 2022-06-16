@@ -1,0 +1,62 @@
+{
+  "uid" : "c1d3df5d7fdaf18a",
+  "name" : "postalcode field with validpincode",
+  "fullName" : "verify postalcode field by passing valid pincode.postalcode field with validpincode",
+  "historyId" : "87fe6e460ab0ef23d6bffb1031cfeb97",
+  "time" : {
+    "start" : 1654613814700,
+    "stop" : 1654613840900,
+    "duration" : 26200
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-31"
+  }, {
+    "name" : "suite",
+    "value" : "verify postalcode field by passing valid pincode"
+  }, {
+    "name" : "testClass",
+    "value" : "verify postalcode field by passing valid pincode"
+  }, {
+    "name" : "testMethod",
+    "value" : "postalcode field with validpincode"
+  }, {
+    "name" : "package",
+    "value" : "verify postalcode field by passing valid pincode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1d3df5d7fdaf18a.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

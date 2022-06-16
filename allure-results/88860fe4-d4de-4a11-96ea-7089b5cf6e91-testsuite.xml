@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655363806879' stop='1655363882168'>
+    <name>Verify schedule tab   physical capacity field by passing symbols  </name>
+    <title>Verify schedule tab   physical capacity field by passing symbols  </title>
+    <test-cases>
+        <test-case start='1655363806880' status='passed' stop='1655363882168'>
+            <name>physical capacity by passing symbols </name>
+            <title>physical capacity by passing symbols </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

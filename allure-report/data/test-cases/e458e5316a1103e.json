@@ -1,0 +1,70 @@
+{
+  "uid" : "e458e5316a1103e",
+  "name" : "whatsapp number  field by passing invalid number",
+  "fullName" : "verify whatsapp phonenumber field by passing invalid number.whatsapp number  field by passing invalid number",
+  "historyId" : "24822ed9e55c85bca53a89e10593a90f",
+  "time" : {
+    "start" : 1654613862630,
+    "stop" : 1654613889541,
+    "duration" : 26911
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-38"
+  }, {
+    "name" : "suite",
+    "value" : "verify whatsapp phonenumber field by passing invalid number"
+  }, {
+    "name" : "testClass",
+    "value" : "verify whatsapp phonenumber field by passing invalid number"
+  }, {
+    "name" : "testMethod",
+    "value" : "whatsapp number  field by passing invalid number"
+  }, {
+    "name" : "package",
+    "value" : "verify whatsapp phonenumber field by passing invalid number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e79ba5f2a4d5d73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654590331031,
+        "stop" : 1654590355014,
+        "duration" : 23983
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e458e5316a1103e.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

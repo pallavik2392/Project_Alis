@@ -1,0 +1,71 @@
+{
+  "uid" : "a218b6765b8462b8",
+  "name" : "courseoverview by passing only coursename",
+  "fullName" : "Verification of course overview by passing only course name.courseoverview by passing only coursename",
+  "historyId" : "ce05e7b61dca32929762809268213b36",
+  "time" : {
+    "start" : 1654695601655,
+    "stop" : 1654695636282,
+    "duration" : 34627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course overview by passing only course name"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course overview by passing only course name"
+  }, {
+    "name" : "testMethod",
+    "value" : "courseoverview by passing only coursename"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course overview by passing only course name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3749000bdb0dd11",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//div[@role='alert']`) to have text containing\n                \n                Expected: \"New course added\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654695461119,
+        "stop" : 1654695506240,
+        "duration" : 45121
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a218b6765b8462b8.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

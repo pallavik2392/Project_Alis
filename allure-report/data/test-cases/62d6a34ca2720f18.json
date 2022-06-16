@@ -1,0 +1,70 @@
+{
+  "uid" : "62d6a34ca2720f18",
+  "name" : "middle name field with valid name",
+  "fullName" : "verify middle name field by passing valid name.middle name field with valid name",
+  "historyId" : "8a9ebb59167ddc99e9d27748d9d8cd6b",
+  "time" : {
+    "start" : 1654613723702,
+    "stop" : 1654613755895,
+    "duration" : 32193
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-20"
+  }, {
+    "name" : "suite",
+    "value" : "verify middle name field by passing valid name"
+  }, {
+    "name" : "testClass",
+    "value" : "verify middle name field by passing valid name"
+  }, {
+    "name" : "testMethod",
+    "value" : "middle name field with valid name"
+  }, {
+    "name" : "package",
+    "value" : "verify middle name field by passing valid name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c57c5c23b0eb578",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654575550734,
+        "stop" : 1654575572847,
+        "duration" : 22113
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62d6a34ca2720f18.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

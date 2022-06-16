@@ -1,0 +1,62 @@
+{
+  "uid" : "4350b645a84c9d32",
+  "name" : "Email field",
+  "fullName" : "verify email field by passing numbers.Email field",
+  "historyId" : "2280eae168dbb37ca144605cba82a2e2",
+  "time" : {
+    "start" : 1654613650817,
+    "stop" : 1654613681881,
+    "duration" : 31064
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "verify email field by passing numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "verify email field by passing numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "Email field"
+  }, {
+    "name" : "package",
+    "value" : "verify email field by passing numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4350b645a84c9d32.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

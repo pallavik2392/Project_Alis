@@ -1,0 +1,62 @@
+{
+  "uid" : "8e2704f32a0fd7ac",
+  "name" : "verify error message for amount field",
+  "fullName" : "verify fees amount field by passing maximum value.verify error message for amount field",
+  "historyId" : "5f11a94bc863e4514ba4dba52af7ed27",
+  "time" : {
+    "start" : 1655112711667,
+    "stop" : 1655112752035,
+    "duration" : 40368
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'isDevTools' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'isDevTools' of undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursefeeamountfiledformaxvalidation.js:32:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify fees amount field by passing maximum value"
+  }, {
+    "name" : "testClass",
+    "value" : "verify fees amount field by passing maximum value"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify error message for amount field"
+  }, {
+    "name" : "package",
+    "value" : "verify fees amount field by passing maximum value"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e2704f32a0fd7ac.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

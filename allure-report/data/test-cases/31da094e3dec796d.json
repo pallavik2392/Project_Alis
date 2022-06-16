@@ -1,0 +1,60 @@
+{
+  "uid" : "31da094e3dec796d",
+  "name" : "savestaff button",
+  "fullName" : "verify Staff save button.savestaff button",
+  "historyId" : "ef4648df3db67d030ff8c23cf8e12522",
+  "time" : {
+    "start" : 1654686134348,
+    "stop" : 1654686165175,
+    "duration" : 30827
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff save button"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff save button"
+  }, {
+    "name" : "testMethod",
+    "value" : "savestaff button"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff save button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31da094e3dec796d.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

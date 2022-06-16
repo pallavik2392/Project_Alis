@@ -1,0 +1,60 @@
+{
+  "uid" : "e064c36c377cd396",
+  "name" : "courseoverview with mandatory field",
+  "fullName" : "Verification of course overview with mandatory field.courseoverview with mandatory field",
+  "historyId" : "522c35226e4f2a95938009a376148efe",
+  "time" : {
+    "start" : 1654694907964,
+    "stop" : 1654694937101,
+    "duration" : 29137
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course overview with mandatory field"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course overview with mandatory field"
+  }, {
+    "name" : "testMethod",
+    "value" : "courseoverview with mandatory field"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course overview with mandatory field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e064c36c377cd396.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

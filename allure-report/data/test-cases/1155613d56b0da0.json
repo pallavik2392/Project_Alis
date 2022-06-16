@@ -1,0 +1,60 @@
+{
+  "uid" : "1155613d56b0da0",
+  "name" : "Staff phonenumber field with <10 digit",
+  "fullName" : "verify Staff  phonenumber field by passing <10 digit.Staff phonenumber field with <10 digit",
+  "historyId" : "2fe73b6f197dc860135a456d34e31ef3",
+  "time" : {
+    "start" : 1654674933569,
+    "stop" : 1654674963747,
+    "duration" : 30178
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff  phonenumber field by passing <10 digit"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff  phonenumber field by passing <10 digit"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff phonenumber field with <10 digit"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff  phonenumber field by passing <10 digit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1155613d56b0da0.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

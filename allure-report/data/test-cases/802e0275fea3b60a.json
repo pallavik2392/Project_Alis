@@ -1,0 +1,70 @@
+{
+  "uid" : "802e0275fea3b60a",
+  "name" : "Staff middle name field with valid name",
+  "fullName" : "verify Staff middle name field by passing valid name.Staff middle name field with valid name",
+  "historyId" : "58a60d3ea744c202bb9efd4daada0ee",
+  "time" : {
+    "start" : 1655123888116,
+    "stop" : 1655123916259,
+    "duration" : 28143
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff middle name field by passing valid name"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff middle name field by passing valid name"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff middle name field with valid name"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff middle name field by passing valid name"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ed23429b202d66a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654665237781,
+        "stop" : 1654665264874,
+        "duration" : 27093
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "802e0275fea3b60a.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

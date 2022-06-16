@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655359365098' stop='1655359436757'>
+    <name>Verify curriculum tab save button is clickable  </name>
+    <title>Verify curriculum tab save button is clickable  </title>
+    <test-cases>
+        <test-case start='1655359365099' status='passed' stop='1655359436756'>
+            <name>verify save button </name>
+            <title>verify save button </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

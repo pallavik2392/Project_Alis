@@ -1,0 +1,62 @@
+{
+  "uid" : "4e43cbea549775ff",
+  "name" : "courseoverview save button",
+  "fullName" : "Verification of course overview save button.courseoverview save button",
+  "historyId" : "96a89e4c588158b9b26263e8a08e0f70",
+  "time" : {
+    "start" : 1654749504845,
+    "stop" : 1654749537302,
+    "duration" : 32457
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course overview save button"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course overview save button"
+  }, {
+    "name" : "testMethod",
+    "value" : "courseoverview save button"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course overview save button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e43cbea549775ff.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

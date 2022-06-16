@@ -23,7 +23,7 @@ exports.config = {
     specs: [
         './test/updatestaff.js'
     ],
-  /*  suites:{
+    /*suites:{
      elements:[
          './test/elements/*.js'
      ]
@@ -31,21 +31,22 @@ exports.config = {
 */
 /*suites:{
     Staffverification:[
-        './test/Staffverification/Verifystaffcancelbutton.js'
+        './test/Staffverification/*.js'
     ]
    },
    */
-    /*suites:{
+   /* suites:{
         CreationUpdation:[
-            './test/CreationUpdation/*.js'
+            './test/CreationUpdation/Addcourse.js'
         ]
        },
     */
-       suites:{
+      suites:{
         CourseVerification:[
-            './test/CourseVerification/Verifycourseoverviewwithonlyshortcode.js'
+            './test/CourseVerification/Verifyschedulescancelbuttonclickable.js'
         ]
        },
+      
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

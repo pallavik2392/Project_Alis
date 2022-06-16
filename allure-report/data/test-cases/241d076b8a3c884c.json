@@ -1,0 +1,60 @@
+{
+  "uid" : "241d076b8a3c884c",
+  "name" : "Staff phonenumber field with letters",
+  "fullName" : "verify Staff  phonenumber field by passing letters.Staff phonenumber field with letters",
+  "historyId" : "1fefe04a396e5719da40c81ea59fda0b",
+  "time" : {
+    "start" : 1654673066301,
+    "stop" : 1654673113731,
+    "duration" : 47430
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff  phonenumber field by passing letters"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff  phonenumber field by passing letters"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff phonenumber field with letters"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff  phonenumber field by passing letters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "241d076b8a3c884c.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "54dc4394d816f82c",
+  "name" : "Staff work phonenumber field with letters",
+  "fullName" : "verify Staff work phonenumber field by passing letters.Staff work phonenumber field with letters",
+  "historyId" : "6d35f0274caeade4bf44bb7f0864d056",
+  "time" : {
+    "start" : 1654681066926,
+    "stop" : 1654681070043,
+    "duration" : 3117
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)",
+  "statusTrace" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Staffverification/Verifystaffworkphonewithletters.js:9:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff work phonenumber field by passing letters"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff work phonenumber field by passing letters"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff work phonenumber field with letters"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff work phonenumber field by passing letters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54dc4394d816f82c.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

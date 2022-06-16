@@ -1,0 +1,60 @@
+{
+  "uid" : "d00113f0ee879cd2",
+  "name" : "courseoverview cancel button",
+  "fullName" : "Verification of course overview cancel button.courseoverview cancel button",
+  "historyId" : "10e8c71a736833c386ce5be9d7473db3",
+  "time" : {
+    "start" : 1654749853303,
+    "stop" : 1654749884782,
+    "duration" : 31479
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course overview cancel button"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course overview cancel button"
+  }, {
+    "name" : "testMethod",
+    "value" : "courseoverview cancel button"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course overview cancel button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d00113f0ee879cd2.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

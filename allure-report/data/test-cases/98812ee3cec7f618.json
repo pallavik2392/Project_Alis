@@ -1,0 +1,70 @@
+{
+  "uid" : "98812ee3cec7f618",
+  "name" : "Staff phonenumber field with invalid number",
+  "fullName" : "verify Staff  phonenumber field by passing invalidnumber.Staff phonenumber field with invalid number",
+  "historyId" : "1a503d3d6f4f885408a2f0b29aee164a",
+  "time" : {
+    "start" : 1655123915750,
+    "stop" : 1655123943974,
+    "duration" : 28224
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff  phonenumber field by passing invalidnumber"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff  phonenumber field by passing invalidnumber"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff phonenumber field with invalid number"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff  phonenumber field by passing invalidnumber"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f6765b356106883e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654673651561,
+        "stop" : 1654673683479,
+        "duration" : 31918
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98812ee3cec7f618.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "9721e27ec42159a0",
+  "name" : "Add icon",
+  "fullName" : "verify add icon for fee.Add icon",
+  "historyId" : "bc6a0f7ae3fd176c891fc30e5baa6abf",
+  "time" : {
+    "start" : 1655116781153,
+    "stop" : 1655116822921,
+    "duration" : 41768
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify add icon for fee"
+  }, {
+    "name" : "testClass",
+    "value" : "verify add icon for fee"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add icon"
+  }, {
+    "name" : "package",
+    "value" : "verify add icon for fee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9721e27ec42159a0.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

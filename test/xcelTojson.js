@@ -343,6 +343,26 @@ console.log('coursenamefieldwithgreaterthan100characters',result.AddCourse[4].C)
 console.log('courseshortcodewithgreaterthan100characters',result.AddCourse[4].D)
 console.log('coursenamewithvaliddata',result.AddCourse[4].E)
 console.log('courseshortcodewithvaliddata',result.AddCourse[4].F)
+console.log('Verifycourse',result.AddCourse[4].G)
+console.log('coursebasicbycourselocation',result.AddCourse[4].H)
+console.log('coursebasicbylangaugeofinsrtuction',result.AddCourse[4].I)
+console.log('coursebasicbypracticalrequirement',result.AddCourse[4].J)
+console.log('coursebasicbymedicalrequirement',result.AddCourse[4].K)
+console.log('coursebasicbymodesofinstruction',result.AddCourse[4].L)
+console.log('searchedcoursetobeclicked',result.AddCourse[4].M)
+console.log('coursefeeamount',result.AddCourse[4].N)
+console.log('coursepaymentredeemablecredit',result.AddCourse[4].O)
+console.log('coursepaymentredeemablemasking',result.AddCourse[4].P)
+console.log('coursepaymentflatdiscountamountverificationforUpfront',result.AddCourse[4].Q)
+console.log('coursepaymentdiscontamountforflat',result.AddCourse[4].R)
+console.log('coursepaymentpercentagediscountamountverificationforUpfront',result.AddCourse[4].S)
+console.log('coursepaymentdiscontamountforpercentage',result.AddCourse[4].T)
+console.log('courseschedulevirtualcapacitybyletters',result.AddCourse[4].U)
+console.log('courseschedulevirtualcapacitybysymbols',result.AddCourse[4].V)
+console.log('courseschedulephysicalcapacitybyletters',result.AddCourse[4].W)
+console.log('courseschedulephysicalcapacitybysymbols',result.AddCourse[4].X)
+console.log('courseschedulebatchstarttime',result.AddCourse[4].Y)
+console.log('courseschedulebatchendtime',result.AddCourse[4].Z)
 
 var dataRequired = function(){
     //browser.ignoreSynchronization=true;
@@ -658,8 +678,29 @@ var dataRequired = function(){
         courseshortcodewithgreaterthan100characters:result.AddCourse[4].D,
         coursenamewithvaliddata:result.AddCourse[4].E,
         courseshortcodewithvaliddata:result.AddCourse[4].F,
+        Verifycourse:result.AddCourse[4].G,
+        coursebasicbycourselocation:result.AddCourse[4].H,
+        coursebasicbylangaugeofinsrtuction:result.AddCourse[4].I,
+        coursebasicbypracticalrequirement:result.AddCourse[4].J,
+        coursebasicbymedicalrequirement:result.AddCourse[4].K,
+        coursebasicbymodesofinstruction:result.AddCourse[4].L,
+        searchedcoursetobeclicked:result.AddCourse[4].M,
+        coursefeeamount:result.AddCourse[4].N,
+        coursepaymentredeemablecredit:result.AddCourse[4].O,
+        coursepaymentredeemablemasking:result.AddCourse[4].P,
+        coursepaymentflatdiscountamountverificationforUpfront:result.AddCourse[4].Q,
+        coursepaymentdiscontamountforflat:result.AddCourse[4].R,
+        coursepaymentpercentagediscountamountverificationforUpfront:result.AddCourse[4].S,
+        coursepaymentdiscontamountforpercentage:result.AddCourse[4].T,
+        courseschedulevirtualcapacitybyletters:result.AddCourse[4].U,
+        courseschedulevirtualcapacitybysymbols:result.AddCourse[4].V,
+        courseschedulephysicalcapacitybyletters:result.AddCourse[4].W,
+        courseschedulephysicalcapacitybysymbols:result.AddCourse[4].X,
+        courseschedulebatchstarttime:result.AddCourse[4].Y,
+        courseschedulebatchendtime:result.AddCourse[4].Z,
 
     };
 }
+
 
 module.exports = new dataRequired();

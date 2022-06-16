@@ -1,0 +1,112 @@
+{
+  "uid" : "4ece6f276251780c",
+  "name" : "Staff email field with symbols",
+  "fullName" : "verify Staff email field by passing symbols.Staff email field with symbols",
+  "historyId" : "3ce9a3a139b5ffd5c7aacf8bee7fe46d",
+  "time" : {
+    "start" : 1655123779823,
+    "stop" : 1655123815240,
+    "duration" : 35417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff email field by passing symbols"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff email field by passing symbols"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff email field with symbols"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff email field by passing symbols"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7395d02fbb6a0a95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123779482,
+        "stop" : 1655123815272,
+        "duration" : 35790
+      }
+    }, {
+      "uid" : "24b512b1713261fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654684938161,
+        "stop" : 1654684964935,
+        "duration" : 26774
+      }
+    }, {
+      "uid" : "c6591a0e38f29eae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654684596766,
+        "stop" : 1654684647387,
+        "duration" : 50621
+      }
+    }, {
+      "uid" : "cee659ef688a32de",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1654684565381,
+        "stop" : 1654684589546,
+        "duration" : 24165
+      }
+    }, {
+      "uid" : "2a1d700c037c4a89",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1654684536654,
+        "stop" : 1654684558141,
+        "duration" : 21487
+      }
+    }, {
+      "uid" : "17175a43f11f99bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654684224396,
+        "stop" : 1654684255560,
+        "duration" : 31164
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ece6f276251780c.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -295,11 +295,21 @@ class LeadPage1 extends  Page{
         
         let clickable = await this.leadsave.isClickable();
         console.log(clickable); // outputs: true or false 
+        if(clickable===true){
+            console.log("save button working properly");
+        }else{
+            console.log("save button not working properly");
+        }
     }
     async leadcancelisclickable(){
         
         let clickable = await this.leadcancel.isClickable();
         console.log(clickable); // outputs: true or false 
+        if(clickable===true){
+            console.log("cancel button working properly");
+        }else{
+            console.log("cancel button not working properly");
+        }
     }
     async enterPrefferedCallingslot(Text1,Text2){
         this.addprefferedtime.click();

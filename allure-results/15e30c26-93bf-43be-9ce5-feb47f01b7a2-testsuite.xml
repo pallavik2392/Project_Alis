@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655276681429' stop='1655276737106'>
+    <name>basic yab verification for course location field</name>
+    <title>basic yab verification for course location field</title>
+    <test-cases>
+        <test-case start='1655276681430' status='passed' stop='1655276737105'>
+            <name>verify msg for course location field</name>
+            <title>verify msg for course location field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

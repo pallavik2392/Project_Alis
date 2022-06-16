@@ -1,0 +1,80 @@
+{
+  "uid" : "c21c74730f1968c4",
+  "name" : "course short code field with >100 characters",
+  "fullName" : "Verify course short code field by passing >100 characters.course short code field with >100 characters",
+  "historyId" : "ff89f5deb7b553871f3907249bb9b5ae",
+  "time" : {
+    "start" : 1654694205805,
+    "stop" : 1654694236960,
+    "duration" : 31155
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify course short code field by passing >100 characters"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify course short code field by passing >100 characters"
+  }, {
+    "name" : "testMethod",
+    "value" : "course short code field with >100 characters"
+  }, {
+    "name" : "package",
+    "value" : "Verify course short code field by passing >100 characters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "66439ba5591ca45f",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//p[@id='shortName-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than 100 characters\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654694055065,
+        "stop" : 1654694094435,
+        "duration" : 39370
+      }
+    }, {
+      "uid" : "4da6c06fe6f9fc64",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//p[@id='shortName-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than 100 characters\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654693961476,
+        "stop" : 1654694038415,
+        "duration" : 76939
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c21c74730f1968c4.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

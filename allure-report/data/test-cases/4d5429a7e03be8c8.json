@@ -1,0 +1,78 @@
+{
+  "uid" : "4d5429a7e03be8c8",
+  "name" : "Staff work phonenumber field with <10 numbers",
+  "fullName" : "verify Staff work phonenumber field by passing <10 numbers.Staff work phonenumber field with <10 numbers",
+  "historyId" : "c882b54ccb2c6f9b96b78d82866a844c",
+  "time" : {
+    "start" : 1655123954590,
+    "stop" : 1655123981503,
+    "duration" : 26913
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-23"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff work phonenumber field by passing <10 numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff work phonenumber field by passing <10 numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff work phonenumber field with <10 numbers"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff work phonenumber field by passing <10 numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "da1d7cc92cad0915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654681820849,
+        "stop" : 1654681850029,
+        "duration" : 29180
+      }
+    }, {
+      "uid" : "8d7c84e5bf74edcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654681700628,
+        "stop" : 1654681734373,
+        "duration" : 33745
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d5429a7e03be8c8.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

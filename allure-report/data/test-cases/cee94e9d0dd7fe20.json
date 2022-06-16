@@ -1,0 +1,62 @@
+{
+  "uid" : "cee94e9d0dd7fe20",
+  "name" : "course",
+  "fullName" : "addcourse.course",
+  "historyId" : "277f58026b0959462fbcdeecb79e0212",
+  "time" : {
+    "start" : 1654852686251,
+    "stop" : 1654852771048,
+    "duration" : 84797
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)",
+  "statusTrace" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)\n                    at async Coursespage.clickOnparticularcourse (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:391:23)\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursebasictabby pssing onlycourse location.js:19:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "addcourse"
+  }, {
+    "name" : "testClass",
+    "value" : "addcourse"
+  }, {
+    "name" : "testMethod",
+    "value" : "course"
+  }, {
+    "name" : "package",
+    "value" : "addcourse"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cee94e9d0dd7fe20.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

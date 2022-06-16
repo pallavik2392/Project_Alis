@@ -1,0 +1,62 @@
+{
+  "uid" : "c172199bf9babfdc",
+  "name" : "clickable or not",
+  "fullName" : "should detect if an element is clickable.clickable or not",
+  "historyId" : "931d9f7bad221c81d91a7c83e7f59c4",
+  "time" : {
+    "start" : 1654613829130,
+    "stop" : 1654613858844,
+    "duration" : 29714
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-35"
+  }, {
+    "name" : "suite",
+    "value" : "should detect if an element is clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "should detect if an element is clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickable or not"
+  }, {
+    "name" : "package",
+    "value" : "should detect if an element is clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c172199bf9babfdc.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

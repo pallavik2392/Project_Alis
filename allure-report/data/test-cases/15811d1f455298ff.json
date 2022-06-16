@@ -1,0 +1,60 @@
+{
+  "uid" : "15811d1f455298ff",
+  "name" : "Staff middle name field with symbols",
+  "fullName" : "verify Staff middle name field by passing symbols.Staff middle name field with symbols",
+  "historyId" : "85ad1d2f4d1780b6275c682e46c45d74",
+  "time" : {
+    "start" : 1654664704674,
+    "stop" : 1654664733297,
+    "duration" : 28623
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff middle name field by passing symbols"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff middle name field by passing symbols"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff middle name field with symbols"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff middle name field by passing symbols"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15811d1f455298ff.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

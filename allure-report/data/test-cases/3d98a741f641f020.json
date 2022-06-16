@@ -1,0 +1,79 @@
+{
+  "uid" : "3d98a741f641f020",
+  "name" : "alternate phne number  field by passing letters",
+  "fullName" : "verify alternate phonenumber field by passing letters.alternate phne number  field by passing letters",
+  "historyId" : "1b5cd87a8dad8678e127af4b646572d4",
+  "time" : {
+    "start" : 1654613588280,
+    "stop" : 1654613618287,
+    "duration" : 30007
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "verify alternate phonenumber field by passing letters"
+  }, {
+    "name" : "testClass",
+    "value" : "verify alternate phonenumber field by passing letters"
+  }, {
+    "name" : "testMethod",
+    "value" : "alternate phne number  field by passing letters"
+  }, {
+    "name" : "package",
+    "value" : "verify alternate phonenumber field by passing letters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57f14d289cf0861e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654584776694,
+        "stop" : 1654584804992,
+        "duration" : 28298
+      }
+    }, {
+      "uid" : "c61bc4edb7e34f59",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//p[@id='alternateMobileNumber-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654584569037,
+        "stop" : 1654584625050,
+        "duration" : 56013
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d98a741f641f020.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

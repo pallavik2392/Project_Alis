@@ -1,0 +1,62 @@
+{
+  "uid" : "b2576ce6048e4601",
+  "name" : "cancelk is clickable or not",
+  "fullName" : "should detect if an cancel button is clickable.cancelk is clickable or not",
+  "historyId" : "15d99cd51382e0ede13b7861faace8aa",
+  "time" : {
+    "start" : 1654613632283,
+    "stop" : 1654613664844,
+    "duration" : 32561
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "should detect if an cancel button is clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "should detect if an cancel button is clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "cancelk is clickable or not"
+  }, {
+    "name" : "package",
+    "value" : "should detect if an cancel button is clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2576ce6048e4601.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655276078994' stop='1655276146427'>
+    <name>basic yab verification for langauge of instruction field</name>
+    <title>basic yab verification for langauge of instruction field</title>
+    <test-cases>
+        <test-case start='1655276078995' status='failed' stop='1655276146421'>
+            <name>verify msg for langauge of instruction field</name>
+            <title>verify msg for langauge of instruction field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//p[@id='practicalRequired-helper-text']`) to have text containing
+                
+                Expected: "This field is required"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//p[@id='practicalRequired-helper-text']`) to have text containing
+                
+                Expected: "This field is required"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursebasictabbywithoutpassinglangauge.js:45:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

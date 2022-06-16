@@ -1,0 +1,97 @@
+{
+  "uid" : "4a6ef61d95e20988",
+  "name" : "Staff work phonenumber field with symbols",
+  "fullName" : "verify Staff work phonenumber field by passing symbols.Staff work phonenumber field with symbols",
+  "historyId" : "d7fca862622fce9051868637bfe428e3",
+  "time" : {
+    "start" : 1655123988073,
+    "stop" : 1655124015274,
+    "duration" : 27201
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-27"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff work phonenumber field by passing symbols"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff work phonenumber field by passing symbols"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff work phonenumber field with symbols"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff work phonenumber field by passing symbols"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "12e20f100b634bee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654682185285,
+        "stop" : 1654682229707,
+        "duration" : 44422
+      }
+    }, {
+      "uid" : "3492297d4788f6f5",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//p[@id='workPhone-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654682095628,
+        "stop" : 1654682140499,
+        "duration" : 44871
+      }
+    }, {
+      "uid" : "dca85e76a4ce53b7",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//p[@id='workPhone-helper-text']`) to have text containing\n                \n                Expected: \"Please enter valid 10 digit phone number\"\n                Received: undefined",
+      "time" : {
+        "start" : 1654682024885,
+        "stop" : 1654682080295,
+        "duration" : 55410
+      }
+    }, {
+      "uid" : "6076097517372f97",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1654681884235,
+        "stop" : 1654681965846,
+        "duration" : 81611
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a6ef61d95e20988.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

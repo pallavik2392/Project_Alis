@@ -1,0 +1,62 @@
+{
+  "uid" : "b7231e457f45f6f9",
+  "name" : "prefferedstart and end time field for deletion",
+  "fullName" : "verify prefferedstart and end time field for deletion.prefferedstart and end time field for deletion",
+  "historyId" : "ff547e7612303fc3f6957fbe0d5fb033",
+  "time" : {
+    "start" : 1654613825131,
+    "stop" : 1654613858289,
+    "duration" : 33158
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//body/div[@id='root']/div[1]/div[2]/div[1]/form[1]/div[2]/div[15]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//body/div[@id='root']/div[1]/div[2]/div[1]/form[1]/div[2]/div[15]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]\" because element wasn't found\n                    at processTimers (internal/timers.js:489:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-32"
+  }, {
+    "name" : "suite",
+    "value" : "verify prefferedstart and end time field for deletion"
+  }, {
+    "name" : "testClass",
+    "value" : "verify prefferedstart and end time field for deletion"
+  }, {
+    "name" : "testMethod",
+    "value" : "prefferedstart and end time field for deletion"
+  }, {
+    "name" : "package",
+    "value" : "verify prefferedstart and end time field for deletion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7231e457f45f6f9.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -174,11 +174,21 @@ class Staffpage extends Page{
         
         let clickable = await this.staffsave.isClickable();
         console.log(clickable); // outputs: true or false 
+        if(clickable===true){
+            console.log("save button working properly");
+        }else{
+            console.log("save button not working properly");
+        }
     }
     async staffcancelisclickable(){
         
         let clickable = await this.staffcancel.isClickable();
         console.log(clickable); // outputs: true or false 
+        if(clickable===true){
+            console.log("cancel button working properly");
+        }else{
+            console.log("cancel button not working properly");
+        }
     }
 
 }

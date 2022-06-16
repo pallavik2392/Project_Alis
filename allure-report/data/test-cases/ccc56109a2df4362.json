@@ -1,0 +1,70 @@
+{
+  "uid" : "ccc56109a2df4362",
+  "name" : "Staff phonenumber field with symbols",
+  "fullName" : "verify Staff  phonenumber field by passing symbols.Staff phonenumber field with symbols",
+  "historyId" : "1e956b3b4e13a8e9cb02f712828c075c",
+  "time" : {
+    "start" : 1655123921440,
+    "stop" : 1655123949048,
+    "duration" : 27608
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-20"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff  phonenumber field by passing symbols"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff  phonenumber field by passing symbols"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff phonenumber field with symbols"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff  phonenumber field by passing symbols"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "87174983d186511a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654675355435,
+        "stop" : 1654675388113,
+        "duration" : 32678
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ccc56109a2df4362.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

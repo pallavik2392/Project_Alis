@@ -1,19 +1,8 @@
 {
-  "total" : 48,
+  "total" : 84,
   "items" : [ {
     "uid" : "5a1621d6ea373344816e82ceb12d98a7",
     "name" : "creation of lead with mandetoryfield",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "270d9cd5c94af6f4d5e2a3137dbeda41",
-    "name" : "verify alternate phonenumber field by passing symbols",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -56,57 +45,68 @@
       "total" : 1
     }
   }, {
+    "uid" : "aad10dd0bf6c2ab9028eec9757bb51ee",
+    "name" : "addcourse",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e9c4d459130f63d7e5102695b761dd57",
+    "name" : "verify topic field error message for mandatory sign",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "5e505b2fe60299c564e7a78f9d043618",
+    "name" : "verify fees amount field by passing maximum value",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "956b6b33df71e14f5384a5deadc16704",
+    "name" : "verify delete icon for fee",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3527fabe4ced2902da07472769e67d89",
+    "name" : "Verification of course Fees save button",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "ad093f2a38b8c5cc094d2efec7959cdc",
     "name" : "Addstaff with mandatory fields only",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "200b1605661ded851da477088a54d233",
-    "name" : "verify Staff first name field by passing numbers",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "326cf7bf725d4e8e9f5aa463c5ef326f",
-    "name" : "verify Staff first name field by passing symbols",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "aca43a0676759ad8707cfcf91a1dc299",
-    "name" : "verify Staff first name field by passing >30 characters",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "c02cd5a5ca15652f1b237d0a048ef298",
-    "name" : "verify alternate phonenumber field by passing invalidnumber",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

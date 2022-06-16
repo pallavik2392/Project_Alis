@@ -1,0 +1,60 @@
+{
+  "uid" : "528057ba25170c7f",
+  "name" : "Staff last name field with >30 characters",
+  "fullName" : "verify Staff last name field by passing >30 characters.Staff last name field with >30 characters",
+  "historyId" : "7bb8e3aabae8b64df7ce6262322c0ef9",
+  "time" : {
+    "start" : 1654670980192,
+    "stop" : 1654671010668,
+    "duration" : 30476
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff last name field by passing >30 characters"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff last name field by passing >30 characters"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff last name field with >30 characters"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff last name field by passing >30 characters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "528057ba25170c7f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

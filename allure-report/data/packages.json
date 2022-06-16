@@ -2,94 +2,10 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Addstaff with mandatory fields only",
-    "children" : [ {
-      "name" : "staff with mandatory fields",
-      "uid" : "54ac762e4a4b1d25",
-      "parentUid" : "235b99e7c8bf581c56b302d411e77a9d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654603499887,
-        "stop" : 1654603554346,
-        "duration" : 54459
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "235b99e7c8bf581c56b302d411e77a9d"
-  }, {
-    "name" : "verify Staff first name field by passing numbers",
-    "children" : [ {
-      "name" : "Staff first name field with numbers",
-      "uid" : "2d1f3b81d1e846cb",
-      "parentUid" : "a9bd5689a000764126872ecad65b960e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654604866443,
-        "stop" : 1654604893305,
-        "duration" : 26862
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "a9bd5689a000764126872ecad65b960e"
-  }, {
-    "name" : "verify Staff first name field by passing symbols",
-    "children" : [ {
-      "name" : "Staff first name field with symbols",
-      "uid" : "8ccfddd8125680a",
-      "parentUid" : "9b6531238113f892665439c29d1a6d46",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654606881741,
-        "stop" : 1654606911532,
-        "duration" : 29791
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "9b6531238113f892665439c29d1a6d46"
-  }, {
-    "name" : "verify Staff first name field by passing >30 characters",
-    "children" : [ {
-      "name" : "Staff first name field with >30 characters",
-      "uid" : "b7fbadf832b39624",
-      "parentUid" : "8131e835e05c7ec96f47f01ccac61800",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654609158045,
-        "stop" : 1654609185979,
-        "duration" : 27934
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "8131e835e05c7ec96f47f01ccac61800"
-  }, {
     "name" : "verify alternate phonenumber field by passing invalidnumber",
     "children" : [ {
       "name" : "alternate phne number  field by passing invalidnumber",
-      "uid" : "ba3cd6cb7914a2c0",
+      "uid" : "bc07b4ac571f3cfe",
       "parentUid" : "39289298c039976fbe3de53b679b63ea",
       "status" : "passed",
       "time" : {
@@ -110,7 +26,7 @@
     "name" : "verify alternate phonenumber field by passing letters",
     "children" : [ {
       "name" : "alternate phne number  field by passing letters",
-      "uid" : "13a98c883fc34d19",
+      "uid" : "3d98a741f641f020",
       "parentUid" : "40e7e9c418022e21a587989fab217374",
       "status" : "passed",
       "time" : {
@@ -128,31 +44,10 @@
     } ],
     "uid" : "40e7e9c418022e21a587989fab217374"
   }, {
-    "name" : "verify alternate phonenumber field by passing <10 digits",
-    "children" : [ {
-      "name" : "alternate phne number  field by passing <10 digit",
-      "uid" : "be14ef21f6e524d4",
-      "parentUid" : "71fd45d44d8fde28b92411711f303f94",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654613588431,
-        "stop" : 1654613624584,
-        "duration" : 36153
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "71fd45d44d8fde28b92411711f303f94"
-  }, {
     "name" : "verify alternate phonenumber field by passing >10 digits",
     "children" : [ {
       "name" : "alternate phne number  field by passing >10 digit",
-      "uid" : "7eeffa9c3ba09516",
+      "uid" : "821987cf97b45359",
       "parentUid" : "b3dfab51af0c5a11f5dbd93b8ec87cb8",
       "status" : "passed",
       "time" : {
@@ -173,7 +68,7 @@
     "name" : "creation of lead with mandetoryfield",
     "children" : [ {
       "name" : "mandetory field",
-      "uid" : "4504c002444bfb0e",
+      "uid" : "dbadca3d159e2f3a",
       "parentUid" : "3e487e138fa76048ca327f6420c97f88",
       "status" : "failed",
       "time" : {
@@ -191,31 +86,10 @@
     } ],
     "uid" : "3e487e138fa76048ca327f6420c97f88"
   }, {
-    "name" : "verify alternate phonenumber field by passing symbols",
-    "children" : [ {
-      "name" : "alternate phne number  field by passing symbols",
-      "uid" : "38bd4452c778adc",
-      "parentUid" : "fdde821425574e2d320d3a69e94caeb3",
-      "status" : "failed",
-      "time" : {
-        "start" : 1654613620996,
-        "stop" : 1654613653446,
-        "duration" : 32450
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "fdde821425574e2d320d3a69e94caeb3"
-  }, {
     "name" : "verify alternate phonenumber field by passing valid number",
     "children" : [ {
       "name" : "alternate phne number  field by passing validnumber",
-      "uid" : "b2624d6e5aba5821",
+      "uid" : "ed246604fee9d817",
       "parentUid" : "358455c8aa72ef9267feec2a88154339",
       "status" : "passed",
       "time" : {
@@ -236,7 +110,7 @@
     "name" : "verify street,area,colony field by passing >100 characters",
     "children" : [ {
       "name" : "street,area,colony field with >100 characters",
-      "uid" : "6b620a5f2ceb8d15",
+      "uid" : "bda89bca3b337ede",
       "parentUid" : "cb855f1cc0524fc9ff4788e719843350",
       "status" : "passed",
       "time" : {
@@ -257,7 +131,7 @@
     "name" : "should detect if an cancel button is clickable",
     "children" : [ {
       "name" : "cancelk is clickable or not",
-      "uid" : "3194534fd910f49c",
+      "uid" : "b2576ce6048e4601",
       "parentUid" : "e3346f7f31d893568325caa3c7a1efee",
       "status" : "passed",
       "time" : {
@@ -278,7 +152,7 @@
     "name" : "verify email field by passing numbers",
     "children" : [ {
       "name" : "Email field",
-      "uid" : "724dd47c643e1e53",
+      "uid" : "4350b645a84c9d32",
       "parentUid" : "d41fa6d414eed84c6c80e453657f738d",
       "status" : "passed",
       "time" : {
@@ -299,7 +173,7 @@
     "name" : "verify email field by passing symbols",
     "children" : [ {
       "name" : "email field",
-      "uid" : "f6da5bc611b23e66",
+      "uid" : "f6b3b1ed886b3518",
       "parentUid" : "27af4f142be2c9aefd09cbe5c7626cae",
       "status" : "passed",
       "time" : {
@@ -320,7 +194,7 @@
     "name" : "verify flat/house number field by passing >100 characters",
     "children" : [ {
       "name" : "flat/house number field with >100 characters",
-      "uid" : "17f7a2764bc3f34a",
+      "uid" : "48f73ffdb86b40f7",
       "parentUid" : "c7dc7b332a75b512472701ffc3e4a267",
       "status" : "passed",
       "time" : {
@@ -341,7 +215,7 @@
     "name" : "verify landmark field by passing >100 letters",
     "children" : [ {
       "name" : "landmark  field by passing >100",
-      "uid" : "6d150b0ef82b3d8b",
+      "uid" : "49d20d57f3c70aa",
       "parentUid" : "c35c2da2d33295e7266693db2eafbc81",
       "status" : "passed",
       "time" : {
@@ -359,31 +233,10 @@
     } ],
     "uid" : "c35c2da2d33295e7266693db2eafbc81"
   }, {
-    "name" : "verify last name field by passing >30 characters",
-    "children" : [ {
-      "name" : "last name field by passing >30 characters",
-      "uid" : "15a4d0ef67a1763d",
-      "parentUid" : "2b1acb60fa4e92767d62e200da9ad97e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1654613681463,
-        "stop" : 1654613713789,
-        "duration" : 32326
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "2b1acb60fa4e92767d62e200da9ad97e"
-  }, {
     "name" : "verify last name field by passing numbers",
     "children" : [ {
       "name" : "last name field by passing numbers",
-      "uid" : "d173b2a53736bea8",
+      "uid" : "2fb92a634868e9a5",
       "parentUid" : "09ff895ed0943618c770ef9da62a54f3",
       "status" : "passed",
       "time" : {
@@ -404,7 +257,7 @@
     "name" : "verify last name field by passing symbols",
     "children" : [ {
       "name" : "last name field by passing symbols",
-      "uid" : "3535cdb1c69369eb",
+      "uid" : "fee05692b2a83b6f",
       "parentUid" : "88acf924d2dc01a5a2377bb10afe2266",
       "status" : "passed",
       "time" : {
@@ -425,7 +278,7 @@
     "name" : "verify last name field by passing valid name",
     "children" : [ {
       "name" : "last name field by passing valid name",
-      "uid" : "faeffec7d085ee96",
+      "uid" : "e0bbc4d78c205938",
       "parentUid" : "9f537ec9c38efd3301c2f3fd0813d8b9",
       "status" : "passed",
       "time" : {
@@ -446,7 +299,7 @@
     "name" : "verify middle name field by passing >30 characters",
     "children" : [ {
       "name" : "middle name field with >30 characters",
-      "uid" : "8540389a568341ca",
+      "uid" : "67705a147f33aa5",
       "parentUid" : "5c74d8a9af786766c8c4027cd1009538",
       "status" : "passed",
       "time" : {
@@ -467,7 +320,7 @@
     "name" : "verify middle name field by passing numbers",
     "children" : [ {
       "name" : "middle name field with numbers",
-      "uid" : "f95ee0db7fef1feb",
+      "uid" : "1081f04339477886",
       "parentUid" : "eecfae223cb95936c9a414b7f0698bae",
       "status" : "passed",
       "time" : {
@@ -488,7 +341,7 @@
     "name" : "verify middle name field by passing symbols",
     "children" : [ {
       "name" : "middle name field with symbols",
-      "uid" : "1ff79a5528fdfb5f",
+      "uid" : "844247cf9bea381",
       "parentUid" : "212321350a3a5e961977da059710d654",
       "status" : "passed",
       "time" : {
@@ -509,7 +362,7 @@
     "name" : "verify middle name field by passing valid name",
     "children" : [ {
       "name" : "middle name field with valid name",
-      "uid" : "7dab47be2024c391",
+      "uid" : "62d6a34ca2720f18",
       "parentUid" : "d49a1148fc2bcd0828e9e825ba44c9c1",
       "status" : "passed",
       "time" : {
@@ -530,7 +383,7 @@
     "name" : "verify whatsapp phonenumber field by passing >100 letters",
     "children" : [ {
       "name" : "whatsapp number  field by passing >100",
-      "uid" : "d0c9c61912d06f6f",
+      "uid" : "379b28ebb1e2f049",
       "parentUid" : "fcdc18624e5186322006b161e353a58e",
       "status" : "passed",
       "time" : {
@@ -551,7 +404,7 @@
     "name" : "verify phonenumber field by passing >10digits",
     "children" : [ {
       "name" : "phonenumber field with >10digits",
-      "uid" : "6e11b5e0b8f76415",
+      "uid" : "dedafea4a411985d",
       "parentUid" : "c72d81c838ff7961deea83b778155408",
       "status" : "passed",
       "time" : {
@@ -572,7 +425,7 @@
     "name" : "verify phonenumber field by passing letters",
     "children" : [ {
       "name" : "phonenumber field with letters",
-      "uid" : "8c537f4bee5b81ec",
+      "uid" : "e26229eb3f5fca9b",
       "parentUid" : "dc35cc8e1ce5fb953f35cd482c737275",
       "status" : "passed",
       "time" : {
@@ -593,7 +446,7 @@
     "name" : "verify phonenumber field by passing validnumber",
     "children" : [ {
       "name" : "phonenumber field with validnumber",
-      "uid" : "97092f3a1b193778",
+      "uid" : "e88da7388059365e",
       "parentUid" : "12fce76fe2a20375c0d099991c67ea69",
       "status" : "passed",
       "time" : {
@@ -614,7 +467,7 @@
     "name" : "verify phonenumber field by passing invalidnumber",
     "children" : [ {
       "name" : "phonenumber field with invalidnumber",
-      "uid" : "56740dfd7db81c63",
+      "uid" : "674911a97d77b32e",
       "parentUid" : "b29bce342060209cc8ee1052f66eb275",
       "status" : "passed",
       "time" : {
@@ -635,7 +488,7 @@
     "name" : "verify phonenumber field by passing symbols",
     "children" : [ {
       "name" : "phonenumber field with symbols",
-      "uid" : "119abf1a0067afba",
+      "uid" : "fce96d965a12d1ad",
       "parentUid" : "52ad8bd2cca896776ecf201311e044b2",
       "status" : "passed",
       "time" : {
@@ -656,7 +509,7 @@
     "name" : "verify postalcode field by passing <6 digits>",
     "children" : [ {
       "name" : "postalcode field with <6 digits>",
-      "uid" : "9bf373fc3bdd2d79",
+      "uid" : "4e2a3d9a3d2bd5c8",
       "parentUid" : "0bbaf0d3eb55c5c44f1a029fc89743c9",
       "status" : "passed",
       "time" : {
@@ -677,7 +530,7 @@
     "name" : "verify postalcode field by passing letters",
     "children" : [ {
       "name" : "postalcode field with letters",
-      "uid" : "9aeb4e23b4901512",
+      "uid" : "2d86d0bf31c5c19d",
       "parentUid" : "ad7b510ccea1ee047f0c87ccf5f62094",
       "status" : "passed",
       "time" : {
@@ -698,7 +551,7 @@
     "name" : "verify postalcode field by passing >6 digits>",
     "children" : [ {
       "name" : "postalcode field with >6 digits>",
-      "uid" : "faa23e06a65d3507",
+      "uid" : "649757b6410b98de",
       "parentUid" : "7ad6c3d8ce5fb165e1485e989a2c51d7",
       "status" : "passed",
       "time" : {
@@ -719,7 +572,7 @@
     "name" : "verify postalcode field by passing symbol",
     "children" : [ {
       "name" : "postalcode field with symbol",
-      "uid" : "143883e6d4922e59",
+      "uid" : "7372deef5723140d",
       "parentUid" : "9326b56e6369eacd7690db6a992c8f12",
       "status" : "passed",
       "time" : {
@@ -740,7 +593,7 @@
     "name" : "verify postalcode field by passing valid pincode",
     "children" : [ {
       "name" : "postalcode field with validpincode",
-      "uid" : "1dde44a88b1d8718",
+      "uid" : "c1d3df5d7fdaf18a",
       "parentUid" : "85ce54c07be05e3616d44823fa7cf453",
       "status" : "passed",
       "time" : {
@@ -761,7 +614,7 @@
     "name" : "verify prefferedstart and end time field for deletion",
     "children" : [ {
       "name" : "prefferedstart and end time field for deletion",
-      "uid" : "7764755fe84fac37",
+      "uid" : "e2746436059e1f02",
       "parentUid" : "e901070b1e5cdde5624145acfc82daba",
       "status" : "broken",
       "time" : {
@@ -782,7 +635,7 @@
     "name" : "verify prefferedstart and end time field by passing valid time",
     "children" : [ {
       "name" : "prefferedstart and end time field with valid time",
-      "uid" : "871f2691e398c5d9",
+      "uid" : "f580c7465a797dda",
       "parentUid" : "67f572178ea5338bca6e13a60b399dbe",
       "status" : "broken",
       "time" : {
@@ -803,7 +656,7 @@
     "name" : "should detect if an element is clickable",
     "children" : [ {
       "name" : "clickable or not",
-      "uid" : "b9bbaae26ad95126",
+      "uid" : "c172199bf9babfdc",
       "parentUid" : "706f38026fad967beac3915c2955b850",
       "status" : "passed",
       "time" : {
@@ -824,7 +677,7 @@
     "name" : "verify whatsapp phonenumber field by passing <10 numbers",
     "children" : [ {
       "name" : "whatsapp number  field by passing <10 numbers",
-      "uid" : "ec76f0bdc625fad3",
+      "uid" : "7761d98fd4e04f9c",
       "parentUid" : "31ab6e655fb9eb19cf9ba5a49e8d1cf8",
       "status" : "failed",
       "time" : {
@@ -845,7 +698,7 @@
     "name" : "verify whatsapp phonenumber field by passing >10 numbers",
     "children" : [ {
       "name" : "whatsapp number  field by passing >10 numbers",
-      "uid" : "fde1b24d7a203b0b",
+      "uid" : "bc3ff636db138f05",
       "parentUid" : "77b05403db50450290e109a17b11e293",
       "status" : "passed",
       "time" : {
@@ -866,7 +719,7 @@
     "name" : "verify whatsapp phonenumber field by passing invalid number",
     "children" : [ {
       "name" : "whatsapp number  field by passing invalid number",
-      "uid" : "9a16b997582101ab",
+      "uid" : "e458e5316a1103e",
       "parentUid" : "e3de07ff15f970be67862dcad5610a62",
       "status" : "passed",
       "time" : {
@@ -887,7 +740,7 @@
     "name" : "verify whatsapp phonenumber field by passing letters",
     "children" : [ {
       "name" : "whatsapp number  field by passing letters",
-      "uid" : "cb8d821106065daf",
+      "uid" : "cd1b9ebcbb1ed4f9",
       "parentUid" : "00649bf3f94f3a48f2baac003bc823cb",
       "status" : "passed",
       "time" : {
@@ -908,7 +761,7 @@
     "name" : "verify whatsapp phonenumber field by passing symbols",
     "children" : [ {
       "name" : "whatsapp number  field by passing symbols",
-      "uid" : "2e4a7f253134d9c",
+      "uid" : "71ae674fbb8ec178",
       "parentUid" : "0ba33e447fc297be6ca498475fe928b8",
       "status" : "passed",
       "time" : {
@@ -929,7 +782,7 @@
     "name" : "verify whatsapp phonenumber field by passing valid number",
     "children" : [ {
       "name" : "whatsapp number  field by passing valid number",
-      "uid" : "4dac919c78444381",
+      "uid" : "2bf6be59815d0754",
       "parentUid" : "386dd3171ff3a3005a1efe686783c234",
       "status" : "passed",
       "time" : {
@@ -950,7 +803,7 @@
     "name" : "verify first name field by passing numbers",
     "children" : [ {
       "name" : "firstname field",
-      "uid" : "2ee1e47769fd6347",
+      "uid" : "50fe6a221a37544d",
       "parentUid" : "28e7a954460a47aac2d180405ad2e520",
       "status" : "passed",
       "time" : {
@@ -971,7 +824,7 @@
     "name" : "verify first name field by passing symbols",
     "children" : [ {
       "name" : "firstname field with symbols",
-      "uid" : "b2f86a895bf68033",
+      "uid" : "78d9dece7494f496",
       "parentUid" : "c08939b020fe617cead304e1637b465e",
       "status" : "passed",
       "time" : {
@@ -992,7 +845,7 @@
     "name" : "verify phonenumber field by passing <10digits",
     "children" : [ {
       "name" : "phonenumber field with <10digits",
-      "uid" : "ac5026d0dec49245",
+      "uid" : "870adf2f239b2b31",
       "parentUid" : "f15db48286890b4365300363dd4839af",
       "status" : "passed",
       "time" : {
@@ -1009,5 +862,908 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
     "uid" : "f15db48286890b4365300363dd4839af"
+  }, {
+    "name" : "verify alternate phonenumber field by passing symbols",
+    "children" : [ {
+      "name" : "alternate phne number  field by passing symbols",
+      "uid" : "da83a44766681eb5",
+      "parentUid" : "fdde821425574e2d320d3a69e94caeb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654617068730,
+        "stop" : 1654617096398,
+        "duration" : 27668
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "fdde821425574e2d320d3a69e94caeb3"
+  }, {
+    "name" : "Verify course short code field by passing >100 characters",
+    "children" : [ {
+      "name" : "course short code field with >100 characters",
+      "uid" : "c21c74730f1968c4",
+      "parentUid" : "fee335c9c63cc23ca5991898e0be9c38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654694205805,
+        "stop" : 1654694236960,
+        "duration" : 31155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "fee335c9c63cc23ca5991898e0be9c38"
+  }, {
+    "name" : "Verification of course overview by passing only course name",
+    "children" : [ {
+      "name" : "courseoverview by passing only coursename",
+      "uid" : "a218b6765b8462b8",
+      "parentUid" : "db127aa562c0794558ef25f79ab53051",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654695601655,
+        "stop" : 1654695636282,
+        "duration" : 34627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "db127aa562c0794558ef25f79ab53051"
+  }, {
+    "name" : "Verification of course overview by passing only shortcode",
+    "children" : [ {
+      "name" : "courseoverview with shortcode only",
+      "uid" : "992899e47a6b6981",
+      "parentUid" : "60c6120de9c876a583b3ee9fcf3e9766",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654695912879,
+        "stop" : 1654695948821,
+        "duration" : 35942
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "60c6120de9c876a583b3ee9fcf3e9766"
+  }, {
+    "name" : "Verification of course overview with valid course name ",
+    "children" : [ {
+      "name" : "courseoverview with valid course name",
+      "uid" : "4d88814d89e6b5a0",
+      "parentUid" : "1fa8edef66f9c85131bb5c6f5bb17856",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654747972714,
+        "stop" : 1654748009115,
+        "duration" : 36401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1fa8edef66f9c85131bb5c6f5bb17856"
+  }, {
+    "name" : "Verification of course overview with mandatory field",
+    "children" : [ {
+      "name" : "courseoverview with mandatory field",
+      "uid" : "2c76b7aeb8c50a25",
+      "parentUid" : "c96164906f1c1140e73ca03f6abe47c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654748399108,
+        "stop" : 1654748433504,
+        "duration" : 34396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "c96164906f1c1140e73ca03f6abe47c9"
+  }, {
+    "name" : "Verification of course overview save button",
+    "children" : [ {
+      "name" : "courseoverview save button",
+      "uid" : "4e43cbea549775ff",
+      "parentUid" : "471d5598a3bd9004bb0ccf8882212752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654749504845,
+        "stop" : 1654749537302,
+        "duration" : 32457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "471d5598a3bd9004bb0ccf8882212752"
+  }, {
+    "name" : "Verification of course overview cancel button",
+    "children" : [ {
+      "name" : "courseoverview cancel button",
+      "uid" : "84dd16af655224c5",
+      "parentUid" : "f9f38775b5bad359e5339051d48f861a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654749894087,
+        "stop" : 1654749928919,
+        "duration" : 34832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "f9f38775b5bad359e5339051d48f861a"
+  }, {
+    "name" : "verify last name field by passing >30 characters",
+    "children" : [ {
+      "name" : "last name field by passing >30 characters",
+      "uid" : "9d6520bbe3923bc",
+      "parentUid" : "2b1acb60fa4e92767d62e200da9ad97e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654964142322,
+        "stop" : 1654964165225,
+        "duration" : 22903
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "2b1acb60fa4e92767d62e200da9ad97e"
+  }, {
+    "name" : "addcourse",
+    "children" : [ {
+      "name" : "course",
+      "uid" : "ab9bb13e1b3ed811",
+      "parentUid" : "e0d330266a2e74caa345467f568afec7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655105951736,
+        "stop" : 1655106036997,
+        "duration" : 85261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 78,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "e0d330266a2e74caa345467f568afec7"
+  }, {
+    "name" : "verify alternate phonenumber field by passing <10 digits",
+    "children" : [ {
+      "name" : "alternate phne number  field by passing <10 digit",
+      "uid" : "6425dd9f11d16e56",
+      "parentUid" : "71fd45d44d8fde28b92411711f303f94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655108078143,
+        "stop" : 1655108108100,
+        "duration" : 29957
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "71fd45d44d8fde28b92411711f303f94"
+  }, {
+    "name" : "verify topic field error message for mandatory sign",
+    "children" : [ {
+      "name" : "verify error message",
+      "uid" : "934dbcfac4c88294",
+      "parentUid" : "4d4c511bc5b9d741cf32ee0cd6562c61",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655108185023,
+        "stop" : 1655108233277,
+        "duration" : 48254
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "4d4c511bc5b9d741cf32ee0cd6562c61"
+  }, {
+    "name" : "verify fees amount field by passing maximum value",
+    "children" : [ {
+      "name" : "verify error message for amount field",
+      "uid" : "198100bd0f79acdc",
+      "parentUid" : "66e1a5d1c53606efab67000cd417e6f3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655115334173,
+        "stop" : 1655115374736,
+        "duration" : 40563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "66e1a5d1c53606efab67000cd417e6f3"
+  }, {
+    "name" : "verify delete icon for fee",
+    "children" : [ {
+      "name" : "delete icon",
+      "uid" : "daf202a8f90d27ff",
+      "parentUid" : "0ff0c76fa41254443aefc19a1dff929b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655116644505,
+        "stop" : 1655116660954,
+        "duration" : 16449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "0ff0c76fa41254443aefc19a1dff929b"
+  }, {
+    "name" : "verify add icon for fee",
+    "children" : [ {
+      "name" : "Add icon",
+      "uid" : "9721e27ec42159a0",
+      "parentUid" : "a31ba8e610d9f3ea517f3aacc2399589",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655116781153,
+        "stop" : 1655116822921,
+        "duration" : 41768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a31ba8e610d9f3ea517f3aacc2399589"
+  }, {
+    "name" : "Verification of course Fees save button",
+    "children" : [ {
+      "name" : "course  fees  save button",
+      "uid" : "7a6b210f99120c1c",
+      "parentUid" : "57f546efc46412977a395492b253593b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655122922058,
+        "stop" : 1655122958724,
+        "duration" : 36666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "57f546efc46412977a395492b253593b"
+  }, {
+    "name" : "Addstaff with mandatory fields only",
+    "children" : [ {
+      "name" : "staff with mandatory fields",
+      "uid" : "dde1dd2aa2436be1",
+      "parentUid" : "235b99e7c8bf581c56b302d411e77a9d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655123778696,
+        "stop" : 1655123829660,
+        "duration" : 50964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "235b99e7c8bf581c56b302d411e77a9d"
+  }, {
+    "name" : "verify Staff last name field by passing >30 characters",
+    "children" : [ {
+      "name" : "Staff last name field with >30 characters",
+      "uid" : "53cd964a6409d8bd",
+      "parentUid" : "a66ad23abb5c08bfab3357a76719eab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123779109,
+        "stop" : 1655123816806,
+        "duration" : 37697
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a66ad23abb5c08bfab3357a76719eab4"
+  }, {
+    "name" : "verify Staff cancel button",
+    "children" : [ {
+      "name" : "cancel staff button",
+      "uid" : "61090dd806fb51e",
+      "parentUid" : "9fd970af6a296bfed80570ccdb4612cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123779703,
+        "stop" : 1655123816836,
+        "duration" : 37133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "9fd970af6a296bfed80570ccdb4612cb"
+  }, {
+    "name" : "verify Staff email field by passing symbols",
+    "children" : [ {
+      "name" : "Staff email field with symbols",
+      "uid" : "4ece6f276251780c",
+      "parentUid" : "1c6277399cd563bbf0fc0f0787894a47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123779823,
+        "stop" : 1655123815240,
+        "duration" : 35417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1c6277399cd563bbf0fc0f0787894a47"
+  }, {
+    "name" : "verify Staff email field by passing valid email",
+    "children" : [ {
+      "name" : "Staff email field with valid emial",
+      "uid" : "53aedfc902148b86",
+      "parentUid" : "e17d64c32888b3466b1a38c075662388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123820630,
+        "stop" : 1655124030499,
+        "duration" : 209869
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "e17d64c32888b3466b1a38c075662388"
+  }, {
+    "name" : "verify Staff first name field by passing >30 characters",
+    "children" : [ {
+      "name" : "Staff first name field with >30 characters",
+      "uid" : "978bf0bcfecdfe23",
+      "parentUid" : "8131e835e05c7ec96f47f01ccac61800",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123820797,
+        "stop" : 1655123848181,
+        "duration" : 27384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "8131e835e05c7ec96f47f01ccac61800"
+  }, {
+    "name" : "verify Staff first name field by passing symbols",
+    "children" : [ {
+      "name" : "Staff first name field with symbols",
+      "uid" : "ce5cdb41758c4ec0",
+      "parentUid" : "9b6531238113f892665439c29d1a6d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123821984,
+        "stop" : 1655123851001,
+        "duration" : 29017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "9b6531238113f892665439c29d1a6d46"
+  }, {
+    "name" : "verify Staff first name field by passing numbers",
+    "children" : [ {
+      "name" : "Staff first name field with numbers",
+      "uid" : "e73397094827ecf6",
+      "parentUid" : "a9bd5689a000764126872ecad65b960e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123821986,
+        "stop" : 1655123850169,
+        "duration" : 28183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a9bd5689a000764126872ecad65b960e"
+  }, {
+    "name" : "verify Staff last name field by passing numbers",
+    "children" : [ {
+      "name" : "Staff last name field with numbers",
+      "uid" : "db4e800e9a565cd3",
+      "parentUid" : "24fd3c008e6106cd8d7c4aed021eec83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123851949,
+        "stop" : 1655123879612,
+        "duration" : 27663
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "24fd3c008e6106cd8d7c4aed021eec83"
+  }, {
+    "name" : "verify Staff last name field by passing valid name",
+    "children" : [ {
+      "name" : "Staff last name field with valid name",
+      "uid" : "fd1a8ad23696a770",
+      "parentUid" : "a204a482c2218d53b8b8dc33fd566a34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123854910,
+        "stop" : 1655123882228,
+        "duration" : 27318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a204a482c2218d53b8b8dc33fd566a34"
+  }, {
+    "name" : "verify Staff middle name field by passing >30 characters",
+    "children" : [ {
+      "name" : "Staff middle name field with >30 characters",
+      "uid" : "cc48e77559b43383",
+      "parentUid" : "806027d0295460d2985eb5649092ba2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123855717,
+        "stop" : 1655123883577,
+        "duration" : 27860
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "806027d0295460d2985eb5649092ba2f"
+  }, {
+    "name" : "verify Staff middle name field by passing numbers",
+    "children" : [ {
+      "name" : "Staff middle name field with numbers",
+      "uid" : "bdb4f357a3f23196",
+      "parentUid" : "8f306413f5487991dee1c62b90c5fc9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123868490,
+        "stop" : 1655123897022,
+        "duration" : 28532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "8f306413f5487991dee1c62b90c5fc9f"
+  }, {
+    "name" : "verify Staff middle name field by passing symbols",
+    "children" : [ {
+      "name" : "Staff middle name field with symbols",
+      "uid" : "ea6b1f7ade4dc6aa",
+      "parentUid" : "2f13959c3b987a78759684b7d209662b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123883892,
+        "stop" : 1655123911920,
+        "duration" : 28028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "2f13959c3b987a78759684b7d209662b"
+  }, {
+    "name" : "verify Staff middle name field by passing valid name",
+    "children" : [ {
+      "name" : "Staff middle name field with valid name",
+      "uid" : "802e0275fea3b60a",
+      "parentUid" : "a3c35afa0d6d50f373881505472ddbdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123888116,
+        "stop" : 1655123916259,
+        "duration" : 28143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a3c35afa0d6d50f373881505472ddbdb"
+  }, {
+    "name" : "verify Staff  phonenumber field by passing <10 digit",
+    "children" : [ {
+      "name" : "Staff phonenumber field with <10 digit",
+      "uid" : "f0d7e694d333000f",
+      "parentUid" : "cb80c8f7504124b964d0452545a174d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123888766,
+        "stop" : 1655123915993,
+        "duration" : 27227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "cb80c8f7504124b964d0452545a174d0"
+  }, {
+    "name" : "verify Staff  phonenumber field by passing >10 digit",
+    "children" : [ {
+      "name" : "Staff phonenumber field with >10 digit",
+      "uid" : "1db9d22599127bb1",
+      "parentUid" : "8d2f29766079fbe7e86bf677f1319ebb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123902395,
+        "stop" : 1655123930922,
+        "duration" : 28527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "8d2f29766079fbe7e86bf677f1319ebb"
+  }, {
+    "name" : "verify Staff  phonenumber field by passing invalidnumber",
+    "children" : [ {
+      "name" : "Staff phonenumber field with invalid number",
+      "uid" : "98812ee3cec7f618",
+      "parentUid" : "759389d394b16b2bf558d08bef33c7ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123915750,
+        "stop" : 1655123943974,
+        "duration" : 28224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "759389d394b16b2bf558d08bef33c7ef"
+  }, {
+    "name" : "verify Staff  phonenumber field by passing letters",
+    "children" : [ {
+      "name" : "Staff phonenumber field with letters",
+      "uid" : "b5856dc759adf3e3",
+      "parentUid" : "ba187436c6414b0c671d004117ab507e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123921287,
+        "stop" : 1655123948077,
+        "duration" : 26790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "ba187436c6414b0c671d004117ab507e"
+  }, {
+    "name" : "verify Staff  phonenumber field by passing symbols",
+    "children" : [ {
+      "name" : "Staff phonenumber field with symbols",
+      "uid" : "ccc56109a2df4362",
+      "parentUid" : "1591e10a1236523bb82beed6303440d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123921440,
+        "stop" : 1655123949048,
+        "duration" : 27608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1591e10a1236523bb82beed6303440d8"
+  }, {
+    "name" : "verify Staff  phonenumber field by passing validnumber",
+    "children" : [ {
+      "name" : "Staff phonenumber field with valid number",
+      "uid" : "7aadb8d2eede718c",
+      "parentUid" : "f2b843ec8ae3d18a92a53c5ee6d78bec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123937510,
+        "stop" : 1655123967471,
+        "duration" : 29961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "f2b843ec8ae3d18a92a53c5ee6d78bec"
+  }, {
+    "name" : "verify Staff save button",
+    "children" : [ {
+      "name" : "savestaff button",
+      "uid" : "1f7749f4358bf19d",
+      "parentUid" : "a48953e9045432bb7dbe18ed70789851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123952257,
+        "stop" : 1655123982939,
+        "duration" : 30682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a48953e9045432bb7dbe18ed70789851"
+  }, {
+    "name" : "verify Staff work phonenumber field by passing <10 numbers",
+    "children" : [ {
+      "name" : "Staff work phonenumber field with <10 numbers",
+      "uid" : "4d5429a7e03be8c8",
+      "parentUid" : "6d294c05717c51a96e7c8f244dbf70dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123954590,
+        "stop" : 1655123981503,
+        "duration" : 26913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "6d294c05717c51a96e7c8f244dbf70dd"
+  }, {
+    "name" : "verify Staff work phonenumber field by passing >10 numbers",
+    "children" : [ {
+      "name" : "Staff work phonenumber field with >10 numbers",
+      "uid" : "869eb88ca62bf342",
+      "parentUid" : "c27f5901ba7877b20027a0f3e664e2f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123955467,
+        "stop" : 1655123983324,
+        "duration" : 27857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "c27f5901ba7877b20027a0f3e664e2f5"
+  }, {
+    "name" : "verify Staff work phonenumber field by passing invalidnumber",
+    "children" : [ {
+      "name" : "Staff work phonenumber field with invalidnumber",
+      "uid" : "8e620a90dae43301",
+      "parentUid" : "f8e59480723b3c8f8dc87cf17e01d514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123973058,
+        "stop" : 1655123999950,
+        "duration" : 26892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "f8e59480723b3c8f8dc87cf17e01d514"
+  }, {
+    "name" : "verify Staff work phonenumber field by passing letters",
+    "children" : [ {
+      "name" : "Staff work phonenumber field with letters",
+      "uid" : "758e5552fe8a641d",
+      "parentUid" : "ea52471b1f80111d20c2e8e0a1146fc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123985488,
+        "stop" : 1655124013663,
+        "duration" : 28175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "ea52471b1f80111d20c2e8e0a1146fc7"
+  }, {
+    "name" : "verify Staff work phonenumber field by passing symbols",
+    "children" : [ {
+      "name" : "Staff work phonenumber field with symbols",
+      "uid" : "4a6ef61d95e20988",
+      "parentUid" : "66a09a8b2e7ba2cd523943c961a66ecd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123988073,
+        "stop" : 1655124015274,
+        "duration" : 27201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "66a09a8b2e7ba2cd523943c961a66ecd"
+  }, {
+    "name" : "verify Staff work phonenumber field by passing validnumber",
+    "children" : [ {
+      "name" : "Staff work phonenumber field with validnumber",
+      "uid" : "38fca654ad58267a",
+      "parentUid" : "887fc50cf0d8a9a42e290bdc257bbedd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655123989088,
+        "stop" : 1655124015993,
+        "duration" : 26905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "887fc50cf0d8a9a42e290bdc257bbedd"
   } ]
 }

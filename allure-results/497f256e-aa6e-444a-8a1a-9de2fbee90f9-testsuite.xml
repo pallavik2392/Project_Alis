@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655372355565' stop='1655372448751'>
+    <name>Verify schedule tab   end datefield for mandatory field  </name>
+    <title>Verify schedule tab   end datefield for mandatory field  </title>
+    <test-cases>
+        <test-case start='1655372355566' status='failed' stop='1655372448749'>
+            <name>end date for mandatory </name>
+            <title>end date for mandatory </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[8]/div[2]/div[1]/p[1]`) to have text containing
+                
+                Expected: "This field is required"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[8]/div[2]/div[1]/p[1]`) to have text containing
+                
+                Expected: "This field is required"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifysheduleenddateformandatoryfield.js:36:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

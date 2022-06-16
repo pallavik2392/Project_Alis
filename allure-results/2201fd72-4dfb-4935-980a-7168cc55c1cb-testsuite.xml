@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655115207359' stop='1655115228721'>
+    <name>verify fees amount field by passing maximum value</name>
+    <title>verify fees amount field by passing maximum value</title>
+    <test-cases>
+        <test-case start='1655115207359' status='broken' stop='1655115228719'>
+            <name>verify error message for amount field</name>
+            <title>verify error message for amount field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>$ is not a function</message>
+                <stack-trace>TypeError: $ is not a function
+                    at Coursespage.get courses [as courses] (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:32:27)
+                    at Coursespage.clickOncourses (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:146:14)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursefeeamountfiledformaxvalidation.js:18:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

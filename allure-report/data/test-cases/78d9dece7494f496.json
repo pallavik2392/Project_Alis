@@ -1,0 +1,62 @@
+{
+  "uid" : "78d9dece7494f496",
+  "name" : "firstname field with symbols",
+  "fullName" : "verify first name field by passing symbols.firstname field with symbols",
+  "historyId" : "8924496b831e385e1ef8dbe4dbbe1c0b",
+  "time" : {
+    "start" : 1654613893805,
+    "stop" : 1654613942660,
+    "duration" : 48855
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-43"
+  }, {
+    "name" : "suite",
+    "value" : "verify first name field by passing symbols"
+  }, {
+    "name" : "testClass",
+    "value" : "verify first name field by passing symbols"
+  }, {
+    "name" : "testMethod",
+    "value" : "firstname field with symbols"
+  }, {
+    "name" : "package",
+    "value" : "verify first name field by passing symbols"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78d9dece7494f496.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

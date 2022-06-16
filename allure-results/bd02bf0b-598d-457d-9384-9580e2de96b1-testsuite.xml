@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655282158196' stop='1655282207720'>
+    <name>curriculum tab verification for radio buttons field for mandatory </name>
+    <title>curriculum tab verification for radio buttons field for mandatory </title>
+    <test-cases>
+        <test-case start='1655282158196' status='passed' stop='1655282207719'>
+            <name>verify msg for radio buttons field</name>
+            <title>verify msg for radio buttons field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

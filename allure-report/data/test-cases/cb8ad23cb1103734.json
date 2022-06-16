@@ -1,0 +1,60 @@
+{
+  "uid" : "cb8ad23cb1103734",
+  "name" : "course",
+  "fullName" : "addcourse.course",
+  "historyId" : "277f58026b0959462fbcdeecb79e0212",
+  "time" : {
+    "start" : 1654690794697,
+    "stop" : 1654690863904,
+    "duration" : 69207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "addcourse"
+  }, {
+    "name" : "testClass",
+    "value" : "addcourse"
+  }, {
+    "name" : "testMethod",
+    "value" : "course"
+  }, {
+    "name" : "package",
+    "value" : "addcourse"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb8ad23cb1103734.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

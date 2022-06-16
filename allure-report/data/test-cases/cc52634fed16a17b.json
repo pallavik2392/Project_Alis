@@ -1,0 +1,60 @@
+{
+  "uid" : "cc52634fed16a17b",
+  "name" : "whatsapp number  field by passing valid number",
+  "fullName" : "verify whatsapp phonenumber field by passing valid number.whatsapp number  field by passing valid number",
+  "historyId" : "d75a4464b3ab0109f36061718d22954c",
+  "time" : {
+    "start" : 1654590523219,
+    "stop" : 1654590557149,
+    "duration" : 33930
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify whatsapp phonenumber field by passing valid number"
+  }, {
+    "name" : "testClass",
+    "value" : "verify whatsapp phonenumber field by passing valid number"
+  }, {
+    "name" : "testMethod",
+    "value" : "whatsapp number  field by passing valid number"
+  }, {
+    "name" : "package",
+    "value" : "verify whatsapp phonenumber field by passing valid number"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc52634fed16a17b.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655123954590' stop='1655123981504'>
+    <name>verify Staff work phonenumber field by passing &lt;10 numbers</name>
+    <title>verify Staff work phonenumber field by passing &lt;10 numbers</title>
+    <test-cases>
+        <test-case start='1655123954590' status='passed' stop='1655123981503'>
+            <name>Staff work phonenumber field with &lt;10 numbers</name>
+            <title>Staff work phonenumber field with &lt;10 numbers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-23'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,70 @@
+{
+  "uid" : "bc07b4ac571f3cfe",
+  "name" : "alternate phne number  field by passing invalidnumber",
+  "fullName" : "verify alternate phonenumber field by passing invalidnumber.alternate phne number  field by passing invalidnumber",
+  "historyId" : "e7794481e9c31e9f8c38f70b981e6319",
+  "time" : {
+    "start" : 1654613587658,
+    "stop" : 1654613615962,
+    "duration" : 28304
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "verify alternate phonenumber field by passing invalidnumber"
+  }, {
+    "name" : "testClass",
+    "value" : "verify alternate phonenumber field by passing invalidnumber"
+  }, {
+    "name" : "testMethod",
+    "value" : "alternate phne number  field by passing invalidnumber"
+  }, {
+    "name" : "package",
+    "value" : "verify alternate phonenumber field by passing invalidnumber"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0344a811329436d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654585182743,
+        "stop" : 1654585203898,
+        "duration" : 21155
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc07b4ac571f3cfe.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

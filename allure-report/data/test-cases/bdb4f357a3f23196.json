@@ -1,0 +1,62 @@
+{
+  "uid" : "bdb4f357a3f23196",
+  "name" : "Staff middle name field with numbers",
+  "fullName" : "verify Staff middle name field by passing numbers.Staff middle name field with numbers",
+  "historyId" : "76cb68206cf30279d139356733fd03af",
+  "time" : {
+    "start" : 1655123868490,
+    "stop" : 1655123897022,
+    "duration" : 28532
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "verify Staff middle name field by passing numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Staff middle name field by passing numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff middle name field with numbers"
+  }, {
+    "name" : "package",
+    "value" : "verify Staff middle name field by passing numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdb4f357a3f23196.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

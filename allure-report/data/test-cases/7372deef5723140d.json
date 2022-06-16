@@ -1,0 +1,62 @@
+{
+  "uid" : "7372deef5723140d",
+  "name" : "postalcode field with symbol",
+  "fullName" : "verify postalcode field by passing symbol.postalcode field with symbol",
+  "historyId" : "a905697bc675bcec7c7b5fd70cb6058",
+  "time" : {
+    "start" : 1654613793007,
+    "stop" : 1654613824917,
+    "duration" : 31910
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-30"
+  }, {
+    "name" : "suite",
+    "value" : "verify postalcode field by passing symbol"
+  }, {
+    "name" : "testClass",
+    "value" : "verify postalcode field by passing symbol"
+  }, {
+    "name" : "testMethod",
+    "value" : "postalcode field with symbol"
+  }, {
+    "name" : "package",
+    "value" : "verify postalcode field by passing symbol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7372deef5723140d.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

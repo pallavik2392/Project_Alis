@@ -61,55 +61,55 @@ class Coursespage extends Page{
     get enablescholarship(){return $("//span[@class=' css-1ckavek']//input[@aria-label='Demo switch']")}
     get enableschemesoffers1(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/div[1]/div[2]/span[1]/input[1]")}
     get anableupfront(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[2]/div[2]/div[1]/div[4]/span[1]/input[1]")}
-    get upfrontdiscounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]")}
+    get upfrontdiscounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[2]/div[2]/div[1]/div[1]/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::div/child::input")}
     //get upfrontflat(){return $("//li[@id='isAllowedToCombineWithScholarship-option-0']")}
     //get upfrontpercentage(){return $("//li[@id='isAllowedToCombineWithScholarship-option-1']")}
     //get upfrontflatdiscountamount(){return $("//input[@id='value']")}
     //get upfrontpercentagediscountamount(){return $("//input[@id='value']")}
     get enablepayablewhenable(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/div[1]/div[4]/span[1]/input[1]")}
-    get payablediscounttype(){return $("body > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > input:nth-child(1)")}
+    get payablediscounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[2]/div[1]/div[1]/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::div/child::input")}
     get payableflat(){return $("//li[@id='isAllowedToCombineWithScholarship-option-0']")}
     get payablepercentage(){return $("//li[@id='isAllowedToCombineWithScholarship-option-1']")}
     get payablediscountamount(){return $("//div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 jss79 css-isbt42']//div[2]//div[2]//div[1]//div[2]//div[1]//div[1]//input[1]")}
     get payablepercentageamount(){return $("//div[@class='MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-3p3yym']//input[@id='value']")}
     get enablebajajfinance(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[2]/div[1]/div[4]/span[1]/input[1]")}
-    get financediscounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]/parent::div")}
+    get financediscounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/div[1]/div[1]/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::div/child::input")}
     get bajajflatdiscount(){return $("//li[@id='isAllowedToCombineWithScholarship-option-0']")}
     get bajajpercentage(){return $("//li[@id='isAllowedToCombineWithScholarship-option-1']")}
     get bajajflatamount(){return $("//div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 jss79 css-isbt42']//div[2]//div[2]//div[1]//div[2]//div[1]//div[1]//input[1]")}
     get bajajpercentageamount(){return $("//div[@class='MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-3p3yym']//input[@id='value']")}
-    get bajajdownpayment(){return $("//div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 jss79 css-isbt42']//div[2]//div[2]//div[1]//div[2]//div[1]//div[1]//input[1]")}
-    get bajajmaxinstallment(){return $("//div[@class='MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-3p3yym']//input[@id='Max Installments']")}
-    get bajajdocuments(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div[1]/input[1]/parent::div")}
-    get bajajpancard(){return $("//li[@id='documentsRequired-option-0']")}
-    get bajajadharcard(){return $("//li[@id='documentsRequired-option-1']")}
-    get bajajbankstatement(){return $("//li[@id='documentsRequired-option-2']")}
+    get bajajdownpayment(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/child::div/following-sibling::div/child::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input")}
+    get bajajmaxinstallment(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/div[1]/following-sibling::div/child::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input")}
+    get bajajdocuments(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/div[1]/following-sibling::div/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::label/following-sibling::div/child::input")}
+    //get bajajpancard(){return $("//li[@id='documentsRequired-option-0']")}
+    //get bajajadharcard(){return $("//li[@id='documentsRequired-option-1']")}
+    //get bajajbankstatement(){return $("//li[@id='documentsRequired-option-2']")}
     get enablehdfc(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[1]/div[4]/span[1]/input[1]/parent::span")}
-    get hdfcdiscounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]/parent::div")}
+    get hdfcdiscounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[1]/div[1]/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::div/child::input")}
     get hdfcflatdiscount(){return $("//li[@id='isAllowedToCombineWithScholarship-option-0']")}
     get hdfcpercentagediscount(){return $("//li[@id='isAllowedToCombineWithScholarship-option-1']")}
     get hdfcflatamount(){return $("//div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 jss79 css-isbt42']//div[2]//div[2]//div[1]//div[2]//div[1]//div[1]//input[1]")}
     get hdfcpercentageamount(){return $("//div[@class='MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-3p3yym']//input[@id='value']")}
-    get hdfcdownpayment(){return $("//div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 jss79 css-isbt42']//div[2]//div[2]//div[1]//div[2]//div[1]//div[1]//input[1]")}
-    get hdfcmaxinstallment(){return $("//div[@class='MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-3p3yym']//input[@id='Max Installments']")}
-    get hdfcdocument(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[3]/div[2]/div[3]/div[2]/div[1]/div[1]/div[1]/input[1]/parent::div")}
-    get hdfcpancard(){return $("//li[@id='documentsRequired-option-0']")}
-    get hdfcadharcard(){return $("//li[@id='documentsRequired-option-1']")}
-    get hdfcbankstatement(){return $("//li[@id='documentsRequired-option-2']")}
+    get hdfcdownpayment(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/child::div/following-sibling::div/child::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input")}
+    get hdfcmaxinstallment(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/child::div/following-sibling::div/child::div/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::input")}
+    get hdfcdocument(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[1]/following-sibling::div/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::label/following-sibling::div/child::input")}
+   // get hdfcpancard(){return $("//li[@id='documentsRequired-option-0']")}
+    //get hdfcadharcard(){return $("//li[@id='documentsRequired-option-1']")}
+   // get hdfcbankstatement(){return $("//li[@id='documentsRequired-option-2']")}
     get enableK11(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/div[1]/div[4]/span[1]/input[1]/parent::span")}
-    get K11discounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[4]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]/parent::div")}
+    get K11discounttype(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/div[1]/div[1]/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::div/child::input")}
     get K11flatdiscount(){return $("//li[@id='isAllowedToCombineWithScholarship-option-0']")}
     get K11percentagediscount(){return $("//li[@id='isAllowedToCombineWithScholarship-option-1']")}
     get K11flatamount(){return $("//div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 jss79 css-isbt42']//div[2]//div[2]//div[1]//div[2]//div[1]//div[1]//input[1]")}
     get K11percentageamount(){return $("//div[@class='MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-3p3yym']//input[@id='value']")}
     get K11installmentstype(){return $("//input[@id='installmentType']/parent::div")}
     get K11cheque(){return $("//li[@id='installmentType-option-0']")}
-    get K11downpayment(){return $("//div[@class='MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 jss79 css-isbt42']//div[2]//div[2]//div[1]//div[2]//div[1]//div[1]//input[1]")}
-    get K11maxinstallments(){return $("//div[@class='MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-3p3yym']//input[@id='Max Installments']")}
-    get K11documents(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[4]/div[2]/div[4]/div[2]/div[1]/div[1]/div[1]/input[1]/parent::div")}
-    get K11pancard(){return $("//li[@id='documentsRequired-option-0']")}
-    get K11adharcard(){return $("//li[@id='documentsRequired-option-1']")}
-    get K11bankstatement(){return $("//li[@id='documentsRequired-option-2']")}
+    get K11downpayment(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/child::div/following-sibling::div/child::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input")}
+    get K11maxinstallments(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/child::div/following-sibling::div/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input")}
+    get K11documents(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/div[1]/following-sibling::div/child::div/following-sibling::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::label/following-sibling::div/child::input")}
+    //get K11pancard(){return $("//li[@id='documentsRequired-option-0']")}
+    //get K11adharcard(){return $("//li[@id='documentsRequired-option-1']")}
+    //get K11bankstatement(){return $("//li[@id='documentsRequired-option-2']")}
     get savepayment(){return $("//button[@type='submit']")}
     get addbatch(){return $("//button[normalize-space()='Batch']")}
     get batchlocation(){return $("//input[@id='location']")}
@@ -261,7 +261,7 @@ class Coursespage extends Page{
         this.upfrontdiscounttype.setValue(Text1);
         const discount=await $("//li[@id='isAllowedToCombineWithScholarship-option-0']");
         await discount.click();
-        const amount=await $("//input[@id='value']");
+        const amount=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[2]/div[2]/div[1]/div[1]/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
         await amount.setValue(Text2)
         
     }
@@ -270,46 +270,72 @@ class Coursespage extends Page{
         this.payablediscounttype.setValue(Text1);
         const discount=await $("//li[@id='isAllowedToCombineWithScholarship-option-0']");
         await discount.click();
-        const amount=await $("//input[@id='value']");
+        const amount=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[4]/div[2]/div[1]/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
         await amount.setValue(Text2)
     }
     async selectBajajfinancemode(Text1,Text2,Text3,Text4,Text5){
         this.financediscounttype.setValue(Text1);
         const discount=await $("//li[@id='isAllowedToCombineWithScholarship-option-0']");
         await discount.click();
-        const amount=await $("//input[@id='value']");
+        const amount=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/div[1]/div[1]/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
         await amount.setValue(Text2)
-            this.bajajdownpayment.setValue(Text3);
+        const bajajdownpayment=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/child::div/following-sibling::div/child::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
+        await bajajdownpayment.addValue(Text3);
+        const bajajmaxinstallment=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/div[1]/following-sibling::div/child::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
+        await bajajmaxinstallment.addValue(Text4);
+       const bajajdocuments=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[2]/div[1]/following-sibling::div/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::label/following-sibling::div/child::input");
+       await bajajdocuments.addValue(Text5);
+       const bajajdocumentdropdown=await $("//li[@id='documentsRequired-option-0']");
+       await bajajdocumentdropdown.click();
+       await browser.pause(5000);
+          /*  this.bajajdownpayment.setValue(Text3);
             this.bajajmaxinstallment.setValue(Text4);
             this.bajajdocuments.setValue(Text5);
             const doc=await $("//li[@id='documentsRequired-option-0']")
-            await doc.click();
+            await doc.click();*/
     }
     async selectHdfcfinancemode(Text1,Text2,Text3,Text4,Text5){
         this.hdfcdiscounttype.setValue(Text1);
         const discount=await $("//li[@id='isAllowedToCombineWithScholarship-option-0']");
         await discount.click();
-        const amount=await $("//input[@id='value']");
+        const amount=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/child::div/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
         await amount.setValue(Text2)
-            this.hdfcdownpayment.setValue(Text3);
+        const hdfcdownpayment1=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/child::div/following-sibling::div/child::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
+        await hdfcdownpayment1.addValue(Text3);
+        const hdfcmaxinstallment=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/child::div/following-sibling::div/child::div/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::input");
+        await hdfcmaxinstallment.addValue(Text4);
+        const hdfcdocuments=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[1]/following-sibling::div/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::label/following-sibling::div/child::input");
+        await hdfcdocuments.addValue(Text5);
+        const hdfcdocumentdropdown=await $("//li[@id='documentsRequired-option-0']");
+        await hdfcdocumentdropdown.click();
+           /* this.hdfcdownpayment.setValue(Text3);
             this.hdfcmaxinstallment.setValue(Text4);
             this.hdfcdocument.setValue(Text5);
             const doc=await $("//li[@id='documentsRequired-option-0']")
-            await doc.click();
+            await doc.click();*/
     }
     async selectK11mode(Text1,Text2,Text3,Text4,Text5){
         this.K11discounttype.setValue(Text1);
         const discount=await $("//li[@id='isAllowedToCombineWithScholarship-option-0']");
         await discount.click();
-        const amount=await $("//input[@id='value']");
+        const amount=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/div[1]/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
         await amount.setValue(Text2)
-            this.K11installmentstype.click();
+        const k11downpayment=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/child::div/following-sibling::div/child::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
+        await k11downpayment.addValue(Text3);
+        const k11maxinstallments=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/child::div/following-sibling::div/child::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::label/following-sibling::div/child::input");
+        await k11maxinstallments.addValue(Text4);
+        const k11documents=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[4]/div[1]/following-sibling::div/child::div/following-sibling::div/following-sibling::div/following-sibling::div/child::div/following-sibling::div/child::div/child::div/child::label/following-sibling::div/child::input");
+        await k11documents.addValue(Text5);
+        const k11documentsdropdown=await $("//li[@id='documentsRequired-option-0']");
+        await k11documentsdropdown.click();
+        await browser.pause(5000);
+            /*this.K11installmentstype.click();
             this.K11cheque.click();
             this.K11downpayment.setValue(Text3);
             this.K11maxinstallments.setValue(Text4);
             this.K11documents.setValue(Text5);
             const doc=await $("//li[@id='documentsRequired-option-0']")
-            await doc.click();
+            await doc.click();*/
     }
     async clickOnsavepayment(){
         this.savepayment.click();

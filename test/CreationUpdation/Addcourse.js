@@ -46,28 +46,32 @@ describe("addcourse",function(){
         await Coursepage.addFee(signinData.FeeType,signinData.Feeamount);
         await browser.pause(5000);
         await Coursepage.clickOnsaveFee();
-        await browser.pause(3000);
+        await browser.pause(5000);
 
         await Coursepage.addScholorship(signinData.Scalarshipreedemable);
         await browser.pause(5000);
         await Coursepage.selectUpfrontmode(signinData.UpfrontdiscountType,signinData.UpfrontdiscountAmount);
         await browser.pause(7000);
-       // await Coursepage.selectPayablewhenablemode(signinData.PayablediscountType,signinData.PayablediscountAmount);
-        //await browser.pause(7000);
-        //await Coursepage.selectBajajfinancemode(signinData.BajajdiscountType,signinData.BajajDiscountamount,signinData.BajajDownpayment,signinData.BajajmaxInstallment,signinData.BajajDocuments);
-       // await browser.pause(7000);
-        //await Coursepage.selectHdfcfinancemode(signinData.HDFCdiscountType,signinData.HDFCDiscountamount,signinData.HDFCDownpayment,signinData.HDFCmaxInstallment,signinData.HDFCDocuments);
-        //await browser.pause(7000);
-        //await Coursepage.selectK11mode(signinData.K11discountType,signinData.K11Discountamount,signinData.K11Downpayment,signinData.K11maxInstallment,signinData.K11Documents);
-        //await browser.pause(5000);
-        await Coursepage.disablePayablewhenable();
-        await browser.pause(3000);
-        await Coursepage.disableBajajfinance();
-        await browser.pause(3000);
-        await Coursepage.disableHDFC();
-        await browser.pause(3000);
-        await Coursepage.disableK11EMI();
-        await browser.pause(3000);
+       
+        await Coursepage.selectBajajfinancemode(signinData.BajajdiscountType,signinData.BajajDiscountamount,signinData.BajajDownpayment,signinData.BajajmaxInstallment,signinData.BajajDocuments);
+        await browser.pause(7000);
+        
+        await Coursepage.selectHdfcfinancemode(signinData.HDFCdiscountType,signinData.HDFCDiscountamount,signinData.HDFCDownpayment,signinData.HDFCmaxInstallment,signinData.HDFCDocuments);
+        await browser.pause(7000);
+       
+        await Coursepage.selectK11mode(signinData.K11discountType,signinData.K11Discountamount,signinData.K11Downpayment,signinData.K11maxInstallment,signinData.K11Documents);
+        await browser.pause(5000);
+        
+        await Coursepage.selectPayablewhenablemode(signinData.PayablediscountType,signinData.PayablediscountAmount);
+        await browser.pause(7000);
+        //await Coursepage.disablePayablewhenable();
+        //await browser.pause(3000);
+       // await Coursepage.disableBajajfinance();
+        //await browser.pause(3000);
+        //await Coursepage.disableHDFC();
+        //await browser.pause(3000);
+       // await Coursepage.disableK11EMI();
+        //await browser.pause(3000);
         await Coursepage.clickOnsavepayment();
         await browser.pause(3000);
         await Coursepage.clickOnAddBatch();

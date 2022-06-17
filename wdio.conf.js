@@ -35,18 +35,18 @@ exports.config = {
     ]
    },
    */
-   /* suites:{
+    suites:{
         CreationUpdation:[
             './test/CreationUpdation/Addcourse.js'
         ]
        },
-    */
-      suites:{
+    
+    /*  suites:{
         CourseVerification:[
-            './test/CourseVerification/Verifyschedulescancelbuttonclickable.js'
+            './test/CourseVerification/following-preceding.js'
         ]
        },
-      
+     */ 
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

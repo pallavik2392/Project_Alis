@@ -44,6 +44,11 @@ describe("Addstaff",function(){
         await Staffpage.clickOnSaveStaff();
         await browser.pause(3000);
 
+        const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
+        await expect(message).toHaveTextContaining("Staff added");
+    
+        await browser.saveScreenshot("./failed.png");
+
 
 
 

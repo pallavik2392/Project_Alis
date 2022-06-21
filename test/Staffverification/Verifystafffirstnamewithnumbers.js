@@ -24,6 +24,8 @@ describe("verify Staff first name field by passing numbers",function(){
 
         const message=await $("//p[@id='firstName-helper-text']");
         await expect(message).toHaveTextContaining("Please enter valid name");
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff8.png");
+
 
     })
 })

@@ -23,6 +23,8 @@ describe("verify Staff cancel button",function(){
         await browser.pause(3000);
         await Staffpage.staffcancelisclickable();
         await browser.pause(3000);
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff3.png");
+
 
         //const message=await $("//p[@id='email-helper-text']");
         //await expect(message).toHaveTextContaining("Email address is invalid");

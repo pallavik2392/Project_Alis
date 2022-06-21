@@ -34,6 +34,8 @@ describe("curriculum tab verification for topic field",function(){
 
         const message=await $("//p[@id='topic-helper-text']");
         await expect(message).toHaveTextContaining("This field is required");
+        await browser.takeScreenshot("./ScreenshotsforAlis/wdio6.png");
+
 
 
     })

@@ -23,30 +23,30 @@ exports.config = {
     specs: [
         './test/updatestaff.js'
     ],
-    /*suites:{
+   /* suites:{
      elements:[
          './test/elements/*.js'
      ]
     },
 */
-/*suites:{
+/*   suites:{
     Staffverification:[
         './test/Staffverification/*.js'
     ]
    },
-   */
-    suites:{
+ */ 
+ /*   suites:{
         CreationUpdation:[
-            './test/CreationUpdation/Addcourse.js'
+            './test/CreationUpdation/*.js'
         ]
        },
-    
-    /*  suites:{
+   */
+     suites:{
         CourseVerification:[
-            './test/CourseVerification/following-preceding.js'
+            './test/CourseVerification/VerifypaymentHDFCmaxinstallmentbymaxvalue.js'
         ]
        },
-     */ 
+      
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -265,12 +265,12 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-     afterTest: function(test, context, { error, result, duration, passed, retries }) {
-        if (error) {
+     afterTest: function(test, context, { Error, result, duration, passed, retries }) {
+       if(Error){
             browser.takeScreenshot();
-          }
+       }
      },
-
+     
 
     /**
      * Hook that gets executed after the suite has ended

@@ -25,5 +25,7 @@ describe("verify Staff  phonenumber field by passing validnumber",function(){
         //const message=await $("//p[@id='mobile-helper-text']");
         //await expect(message).toHaveTextContaining("Please enter valid 10 digit phone number");
 
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff22.png");
+
     })
 })

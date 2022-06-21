@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655809241013' stop='1655809295095'>
+    <name>Verification of bajaj finance's downpayment  field is masked or not </name>
+    <title>Verification of bajaj finance's downpayment  field is masked or not </title>
+    <test-cases>
+        <test-case start='1655809241013' status='passed' stop='1655809295093'>
+            <name>course  downpayment  field for masked</name>
+            <title>course  downpayment  field for masked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

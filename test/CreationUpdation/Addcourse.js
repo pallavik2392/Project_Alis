@@ -27,7 +27,8 @@ describe("addcourse",function(){
         await Coursepage.clickOnoverviewsave()
         await browser.pause(5000);
 
-   
+        const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
+        await expect(message).toHaveTextContaining("New course added");
     
         await Coursepage.enterCourseLocation(signinData.Courselocation);
         await browser.pause(3000);

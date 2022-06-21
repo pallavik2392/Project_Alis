@@ -24,6 +24,8 @@ describe("verify Staff middle name field by passing valid name",function(){
 
         //const message=await $("//p[@id='middleName-helper-text']");
         //await expect(message).toHaveTextContaining("Please enter valid name");
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff16.png");
+
 
     })
 })

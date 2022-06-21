@@ -60,11 +60,11 @@ describe("Upadate Staff",function(){
         await Staffpage.enterStaffRole(signinData.updaterole);
         await browser.pause(3000);
 
-        await Staffpage.updateDesignation(signinData.designationtoreplace);
-        await browser.pause(3000);
+       /*await Staffpage.updateDesignation(signinData.designationtoreplace);
+       await browser.pause(3000);
         await Staffpage.enterDesignation(signinData.updatedesignation);
         await browser.pause(3000);
-
+*/
         await Staffpage.updateDepartment(signinData.departmenttoreplace);
         await browser.pause(3000);
         await Staffpage.enterDepartment(signinData.updatedepartment);
@@ -83,6 +83,8 @@ describe("Upadate Staff",function(){
         await Staffpage.clickOnupdatesave();
         await browser.pause(3000);
 
+        const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
+        await expect(message).toHaveTextContaining("Staff updated");
 
     })
 })

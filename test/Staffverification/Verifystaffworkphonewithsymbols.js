@@ -25,5 +25,7 @@ describe("verify Staff work phonenumber field by passing symbols",function(){
         const message=await $("//p[@id='workPhone-helper-text']");
         await expect(message).toHaveTextContaining("Please enter valid 10 digit phone number");
 
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff28.png");
+
     })
 })

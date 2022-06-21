@@ -25,5 +25,8 @@ describe("verify Staff middle name field by passing >30 characters",function(){
         const message=await $("//p[@id='middleName-helper-text']");
         await expect(message).toHaveTextContaining("Cannot be more than 30 characters");
 
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff13.png");
+
+
     })
 })

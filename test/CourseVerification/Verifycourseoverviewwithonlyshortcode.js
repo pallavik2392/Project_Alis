@@ -27,7 +27,11 @@ describe("Verification of course overview by passing only shortcode",function(){
         await browser.pause(5000);
 
         const message=await $("//p[@id='name-helper-text']");
-        await expect(message).toHaveTextContaining("This field is required");
+        await expect(message).toHaveTextContaining("This  ");
+
+        await browser.pause(3000);
+
+        await browser.saveScreenshot("./Onfailure4.png");
 
     })
 })

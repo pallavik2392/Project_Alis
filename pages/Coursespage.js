@@ -654,7 +654,7 @@ class Coursespage extends Page{
     async clickOnfeestab(){
         this.feestab.click();
     }
-    async updatesavefees(){
+    async updatesaveFees(){
         this.updatesavefees.click();
     }
     async clickOnpayment(){
@@ -794,6 +794,9 @@ class Coursespage extends Page{
     }
     async courseSchedulecancelisclickable(){
         await expect(this.schedulecancel).toBeClickable();
+    }
+    async onlyBajajflatdiscountamount(Text){
+        this.bajajflatamount.addValue(Text);
     }
 
 

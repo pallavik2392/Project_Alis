@@ -25,5 +25,7 @@ describe("verify Staff email field by passing symbols",function(){
         const message=await $("//p[@id='email-helper-text']");
         await expect(message).toHaveTextContaining("Email address is invalid");
 
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff4.png");
+
     })
 })

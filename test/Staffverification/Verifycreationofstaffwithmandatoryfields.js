@@ -41,6 +41,7 @@ describe("Addstaff with mandatory fields only",function(){
         const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
         await expect(message).toHaveTextContaining("Staff added");
 
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff1.png");
 
 
 

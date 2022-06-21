@@ -67,7 +67,7 @@ describe("Updatecourse",function(){
         await browser.pause(3000);
         await Coursepage.addFee(signinData.replacefeetype,signinData.replacefeeamount);
         await browser.pause(3000);
-        await Coursepage.updatesavefees();
+        await Coursepage.updatesaveFees();
         await browser.pause(3000);
 
         //await Coursepage.clickOnpayment();

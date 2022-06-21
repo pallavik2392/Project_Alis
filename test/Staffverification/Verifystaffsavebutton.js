@@ -27,5 +27,7 @@ describe("verify Staff save button",function(){
         //const message=await $("//p[@id='email-helper-text']");
         //await expect(message).toHaveTextContaining("Email address is invalid");
 
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff23.png");
+
     })
 })

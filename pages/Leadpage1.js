@@ -289,7 +289,8 @@ class LeadPage1 extends  Page{
         }
     }
     async clickOnupadtesave(){
-        await updateleadsave.click();
+
+        this.updateleadsave.click();
     }
     async leadsaveisclickable(){
         

@@ -25,5 +25,7 @@ describe("verify Staff first name field by passing >30 characters",function(){
         const message=await $("//p[@id='firstName-helper-text']");
         await expect(message).toHaveTextContaining("Cannot be more than 30 characters");
 
+        await browser.saveScreenshot("./ScreenshotsforAlis/staff7.png");
+
     })
 })

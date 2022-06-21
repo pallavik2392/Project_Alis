@@ -19,6 +19,7 @@ describe ("Update Lead",function(){
         await browser.pause(3000);
         await Leadpage1.clickOnparticularlead();
         await browser.pause(3000);
+        
 
         await Leadpage1.updateFirstname(signinData.updatefirstnamelead);
         await browser.pause(3000);
@@ -115,9 +116,13 @@ describe ("Update Lead",function(){
         await Leadpage1.enterLandmark(signinData.replacelandmark);
         await browser.pause(3000);
 
+        //await Leadpage1.clickOnSave();
+        //await browser.pause(3000);
         await Leadpage1.clickOnupadtesave();
         await browser.pause(3000);
-
+       
+        const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
+        await expect(message).toHaveTextContaining("Lead updated");
 
 
     })

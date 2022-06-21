@@ -45,14 +45,13 @@ describe("Addticket",function(){
         await browser.pause(3000);
         await Supportpage.enterChangenote(signinData.Changenote);
         await browser.pause(3000);
-        await Supportpage.uploadfile();
-        await browser.pause(3000);
+       // await Supportpage.uploadfile();
+        //await browser.pause(3000);
         await Supportpage.clickpOnsaveticket();
-        await browser.pause(3000);
-        
+        await browser.pause(6000);
 
-
-
+        const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
+        await expect(message).toHaveTextContaining("Followup added");
 
         
     })

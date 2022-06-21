@@ -29,10 +29,10 @@ describe("verify fees amount field by passing maximum value",function(){
         await Coursepage.addonlyfeeamount(signinData.coursefeeamount);
         await browser.pause(5000);
 
-        await Coursepage.Verifyerror();
-        await browser.pause(1000);
+        //await Coursepage.Verifyerror();
+        //await browser.pause(1000);
 
-        //const message=await $("//p[@id='value-helper-text']");
-       //await expect(message).toHaveTextContaining("Only digits are allowed");
+        const message=await $("//p[@id='value-helper-text']");
+       await expect(message).toHaveTextContaining("Only digits are allowed");
     })
 })

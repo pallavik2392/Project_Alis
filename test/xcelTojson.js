@@ -363,6 +363,20 @@ console.log('courseschedulephysicalcapacitybyletters',result.AddCourse[4].W)
 console.log('courseschedulephysicalcapacitybysymbols',result.AddCourse[4].X)
 console.log('courseschedulebatchstarttime',result.AddCourse[4].Y)
 console.log('courseschedulebatchendtime',result.AddCourse[4].Z)
+console.log('coursepaymentbajajdiscountamountforflat',result.AddCourse[4].AA)
+console.log('coursepaymentbajajdiscountamountforpercentage',result.AddCourse[4].AB)
+console.log('coursepaymentbajajdownpaymentbypassingmaxvalue',result.AddCourse[4].AC)
+console.log('coursepaymentbajajdownpaymentformaskeddata',result.AddCourse[4].AD)
+console.log('coursepaymentbajajmaxinstallementswithletters',result.AddCourse[4].AE)
+console.log('coursepaymentbajajmaxinstallementswithsymbols',result.AddCourse[4].AF)
+console.log('coursepaymentbajajmaxinstallementswithmaxvalue',result.AddCourse[4].AG)
+console.log('coursepaymenthdfcdiscountamountforflatdiscount',result.AddCourse[4].AH)
+console.log('coursepaymenthdfcdiscountamountforpercentagediscount',result.AddCourse[4].AI)
+console.log('coursepaymenthdfcdownpaymentformaxvalue',result.AddCourse[4].AJ)
+console.log('coursepaymenthdfcdownpaymentformasked',result.AddCourse[4].AK)
+console.log('coursepaymentHDFCmaxinstallmentwithletters',result.AddCourse[4].AL)
+console.log('coursepaymentHDFCmaxinstallmentwithsymbols',result.AddCourse[4].AM)
+console.log('coursepaymentHDFCmaxinstallmentwithmaxvalue',result.AddCourse[4].AN)
 
 var dataRequired = function(){
     //browser.ignoreSynchronization=true;
@@ -698,6 +712,21 @@ var dataRequired = function(){
         courseschedulephysicalcapacitybysymbols:result.AddCourse[4].X,
         courseschedulebatchstarttime:result.AddCourse[4].Y,
         courseschedulebatchendtime:result.AddCourse[4].Z,
+        coursepaymentbajajdiscountamountforflat:result.AddCourse[4].AA,
+        coursepaymentbajajdiscountamountforpercentage:result.AddCourse[4].AB,
+        coursepaymentbajajdownpaymentbypassingmaxvalue:result.AddCourse[4].AC,
+        coursepaymentbajajdownpaymentformaskeddata:result.AddCourse[4].AD,
+        coursepaymentbajajmaxinstallementswithletters:result.AddCourse[4].AE,
+        coursepaymentbajajmaxinstallementswithsymbols:result.AddCourse[4].AF,
+        coursepaymentbajajmaxinstallementswithmaxvalue:result.AddCourse[4].AG,
+        coursepaymenthdfcdiscountamountforflatdiscount:result.AddCourse[4].AH,
+        coursepaymenthdfcdiscountamountforpercentagediscount:result.AddCourse[4].AI,
+        coursepaymenthdfcdownpaymentformaxvalue:result.AddCourse[4].AJ,
+        coursepaymenthdfcdownpaymentformasked:result.AddCourse[4].AK,
+        coursepaymentHDFCmaxinstallmentwithletters:result.AddCourse[4].AL,
+        coursepaymentHDFCmaxinstallmentwithsymbols:result.AddCourse[4].AM,
+        coursepaymentHDFCmaxinstallmentwithmaxvalue:result.AddCourse[4].AN,
+
 
     };
 }

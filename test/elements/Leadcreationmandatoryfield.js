@@ -42,7 +42,7 @@ describe("creation of lead with mandetoryfield",function(){
         await Leadpage1.enterAddress2(signinData.Mendatoryleadstreetarea);
         await browser.pause(3000);
         await Leadpage1.clickOnSave();
-        await browser.pause(3000);
+        await browser.pause(6000);
         const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
         await expect(message).toHaveTextContaining("Lead added");
 

@@ -15,7 +15,7 @@ describe("demo",function(){
         await browser.pause(5000);
 
 
-        await signinpage.enterPassword(signinData.passcred);
+       await signinpage.enterPassword(signinData.passcred);
         //const password = await $("input[id='password']");
         //await password.setValue(signinData.passcred);
         await browser.pause(8000);
@@ -29,6 +29,8 @@ describe("demo",function(){
        // const NewleadBtn = await $("button[type='button']");
         //await NewleadBtn.click();
         //browser.pause(10000);
+
+        await browser.saveScreenshot("./failcase1.png");
 
     })
 })

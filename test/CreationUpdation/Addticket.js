@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Supportpage = require("../../pages/Supportpage");
 
 describe("Addticket",function(){
+    this.retries(3)
+
     it("ticket",async ()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -54,5 +56,10 @@ describe("Addticket",function(){
         await expect(message).toHaveTextContaining("Followup added");
 
         
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/onfailure.png")
     })
 })

@@ -7,6 +7,8 @@ const signinpage = require("../../pages/signinpage");
 const Staffpage = require("../../pages/Staffpage");
 
 describe("Upadate Staff",function(){
+    this.retries(3)
+    
     it("Staff", async()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -86,5 +88,10 @@ describe("Upadate Staff",function(){
         const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
         await expect(message).toHaveTextContaining("Staff updated");
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/updatestaff.png")
     })
 })

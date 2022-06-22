@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Staffpage = require("../../pages/Staffpage");
 
 describe("verify Staff middle name field by passing numbers",function(){
+    this.retries(3)
+
     it("Staff middle name field with numbers", async() =>{
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -25,8 +27,13 @@ describe("verify Staff middle name field by passing numbers",function(){
         const message=await $("//p[@id='middleName-helper-text']");
         await expect(message).toHaveTextContaining("Please enter valid name");
 
-        await browser.saveScreenshot("./ScreenshotsforAlis/staff14.png");
+        //await browser.saveScreenshot("./ScreenshotsforAlis/staff14.png");
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifystaffmiddlenamewithnumbers.png")
     })
 })

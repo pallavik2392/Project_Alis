@@ -1,0 +1,38 @@
+const signinData = require("../../Data/signindata");
+const signinpage = require("../../pages/signinpage");
+const Coursepage = require("../../pages/Coursespage");
+
+describe("Verification of payments save button is clickable or not",function(){
+    this.retries(3)
+
+    it("course payment save button ",async() =>{
+    await browser.url("https://dev-alis.viasimplex.in/");
+        console.log(browser.getUrl());
+        await browser.maximizeWindow();
+        await browser.pause(3000);
+        await signinpage.enterUsername(signinData.usercred);
+        await browser.pause(1000);
+        await signinpage.enterPassword(signinData.passcred);
+        await browser.pause(1000);
+        await signinpage.clickOnSubmit();
+        await browser.pause(5000);
+        await Coursepage.clickOncourses();
+        await browser.pause(5000);
+        await Coursepage.searchCourse(signinData.Verifycourse);
+        await browser.pause(5000);
+        await Coursepage.clickonsearchedcourse(signinData.searchedcoursetobeclicked);
+        await browser.pause(5000);
+
+        await Coursepage.clickOnpayment();
+        await browser.pause(5000);
+        //passing only discountamountfrom different set of data to veryfy other text is same as used while  adding course
+        await Coursepage.selectPayablewhenablemode(signinData.PayablediscountType,signinData.coursepaymentpayablediscountamountforpercentage);
+        await browser.pause(7000);
+
+        await Coursepage.coursePaymentCancelisclickable();
+        await browser.pause(5000);
+
+        
+
+    })
+})

@@ -3,6 +3,8 @@ const Leadpage1 = require("../../pages/Leadpage1");
 const signinpage = require("../../pages/signinpage");
 
 describe ("Update Lead",function(){
+    this.retries(3)
+
     it("Lead",async()=>{
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -125,5 +127,10 @@ describe ("Update Lead",function(){
         await expect(message).toHaveTextContaining("Lead updated");
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/updateLead.png")
     })
 })

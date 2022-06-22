@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Staffpage = require("../../pages/Staffpage");
 
 describe("verify Staff  phonenumber field by passing validnumber",function(){
+    this.retries(3)
+
     it("Staff phonenumber field with valid number", async() =>{
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -25,7 +27,12 @@ describe("verify Staff  phonenumber field by passing validnumber",function(){
         //const message=await $("//p[@id='mobile-helper-text']");
         //await expect(message).toHaveTextContaining("Please enter valid 10 digit phone number");
 
-        await browser.saveScreenshot("./ScreenshotsforAlis/staff22.png");
+       // await browser.saveScreenshot("./ScreenshotsforAlis/staff22.png");
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifystaffphonewithvalidnumber.png")
     })
 })

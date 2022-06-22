@@ -377,6 +377,16 @@ console.log('coursepaymenthdfcdownpaymentformasked',result.AddCourse[4].AK)
 console.log('coursepaymentHDFCmaxinstallmentwithletters',result.AddCourse[4].AL)
 console.log('coursepaymentHDFCmaxinstallmentwithsymbols',result.AddCourse[4].AM)
 console.log('coursepaymentHDFCmaxinstallmentwithmaxvalue',result.AddCourse[4].AN)
+console.log('coursepaymentK11discountamountforflat',result.AddCourse[4].AO)
+console.log('coursepaymentK11discountamountforpercentage',result.AddCourse[4].AP)
+console.log('coursepaymentK11downpaymentformaxvalue',result.AddCourse[4].AQ)
+console.log('coursepaymentK11downpaymentformaskedvalue',result.AddCourse[4].AR)
+console.log('coursepaymentK11maxintallmentswithletters',result.AddCourse[4].AS)
+console.log('coursepaymentK11maxintallmentswithsymbols',result.AddCourse[4].AT)
+console.log('coursepaymentK11maxintallmentswithmaxvalue',result.AddCourse[4].AU)
+console.log('coursepaymentpayablediscountamountforflat',result.AddCourse[4].AV)
+console.log('coursepaymentpayablediscountamountforpercentage',result.AddCourse[4].AW)
+console.log('organizationcode',result.logincred[3].B)
 
 var dataRequired = function(){
     //browser.ignoreSynchronization=true;
@@ -726,6 +736,15 @@ var dataRequired = function(){
         coursepaymentHDFCmaxinstallmentwithletters:result.AddCourse[4].AL,
         coursepaymentHDFCmaxinstallmentwithsymbols:result.AddCourse[4].AM,
         coursepaymentHDFCmaxinstallmentwithmaxvalue:result.AddCourse[4].AN,
+        coursepaymentK11discountamountforflat:result.AddCourse[4].AO,
+        coursepaymentK11discountamountforpercentage:result.AddCourse[4].AP,
+        coursepaymentK11downpaymentformaxvalue:result.AddCourse[4].AQ,
+        coursepaymentK11maxintallmentswithletters:result.AddCourse[4].AS,
+        coursepaymentK11maxintallmentswithsymbols:result.AddCourse[4].AT,
+        coursepaymentK11maxintallmentswithmaxvalue:result.AddCourse[4].AU,
+        coursepaymentpayablediscountamountforflat:result.AddCourse[4].AV,
+        coursepaymentpayablediscountamountforpercentage:result.AddCourse[4].AW,
+        organizationcode:result.logincred[3].B,
 
 
     };

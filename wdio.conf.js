@@ -23,30 +23,35 @@ exports.config = {
     specs: [
         './test/updatestaff.js'
     ],
+ /*   suites:{
+        Regular:[
+            './test/Regular/*.js'
+        ]
+    },*/
    /* suites:{
      elements:[
          './test/elements/*.js'
      ]
     },
 */
-/*   suites:{
+  /* suites:{
     Staffverification:[
         './test/Staffverification/*.js'
     ]
    },
- */ 
- /*   suites:{
+ */
+    suites:{
         CreationUpdation:[
             './test/CreationUpdation/*.js'
         ]
        },
-   */
-     suites:{
+   
+     /*suites:{
         CourseVerification:[
-            './test/CourseVerification/VerifypaymentHDFCmaxinstallmentbymaxvalue.js'
+            './test/CourseVerification/*.js'
         ]
        },
-      
+      */
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

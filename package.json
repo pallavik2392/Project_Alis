@@ -8,7 +8,8 @@
     "elements": "node_modules/.bin/wdio ./wdio.conf.js --suite elements",
     "CreationUpdation": "node_modules/.bin/wdio ./wdio.conf.js --suite CreationUpdation",
     "Staffverification": "node_modules/.bin/wdio ./wdio.conf.js --suite Staffverification",
-    "CourseVerification": "node_modules/.bin/wdio ./wdio.conf.js --suite CourseVerification"
+    "CourseVerification": "node_modules/.bin/wdio ./wdio.conf.js --suite CourseVerification",
+    "Regular": "node_modules/.bin/wdio ./wdio.conf.js --suite Regular"
   },
   "author": "pallavi",
   "license": "MIT",

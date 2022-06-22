@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Staffpage = require("../../pages/Staffpage");
 
 describe("verify Staff last name field by passing >30 characters",function(){
+    this.retries(3)
+
     it("Staff last name field with >30 characters", async() =>{
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -27,5 +29,10 @@ describe("verify Staff last name field by passing >30 characters",function(){
 
         await browser.saveScreenshot("./ScreenshotsforAlis/staff2.png");
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifylastnamewith>30characters.png")
     })
 })

@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Staffpage = require("../../pages/Staffpage");
 
 describe("verify Staff first name field by passing symbols",function(){
+    this.retries(3)
+
     it("Staff first name field with symbols", async() =>{
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -27,5 +29,10 @@ describe("verify Staff first name field by passing symbols",function(){
         await browser.saveScreenshot("./ScreenshotsforAlis/staff9.png");
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifystafffirstnamewithsymbols.png")
     })
 })

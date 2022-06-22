@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Staffpage = require("../../pages/Staffpage");
 
 describe("verify Staff first name field by passing >30 characters",function(){
+    this.retries(3)
+
     it("Staff first name field with >30 characters", async() =>{
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -25,7 +27,12 @@ describe("verify Staff first name field by passing >30 characters",function(){
         const message=await $("//p[@id='firstName-helper-text']");
         await expect(message).toHaveTextContaining("Cannot be more than 30 characters");
 
-        await browser.saveScreenshot("./ScreenshotsforAlis/staff7.png");
+       // await browser.saveScreenshot("./ScreenshotsforAlis/staff7.png");
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifystafffirstnameformaxvalidation.png")
     })
 })

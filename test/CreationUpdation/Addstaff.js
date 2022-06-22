@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Staffpage = require("../../pages/Staffpage");
 
 describe("Addstaff",function(){
+    this.retries(3)
+
     it("staff", async() =>{
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -47,10 +49,15 @@ describe("Addstaff",function(){
         const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
         await expect(message).toHaveTextContaining("Staff added");
     
-        await browser.saveScreenshot("./failed.png");
+        //await browser.saveScreenshot("./failed.png");
 
 
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Addstaff.png")
     })
 })

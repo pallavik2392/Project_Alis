@@ -1,0 +1,86 @@
+{
+  "uid" : "d440fd8c5a338cb4",
+  "name" : "Staff",
+  "fullName" : "Upadate Staff.Staff",
+  "historyId" : "2109d4250f392ac6a6793f2666a0932d",
+  "time" : {
+    "start" : 1655904714052,
+    "stop" : 1655904897190,
+    "duration" : 183138
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call doubleClick on element with selector \"//p[normalize-space()='Certificate']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call doubleClick on element with selector \"//p[normalize-space()='Certificate']\" because element wasn't found",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call doubleClick on element with selector \"//p[normalize-space()='Certificate']\" because element wasn't found",
+    "statusTrace" : "Error: Can't call doubleClick on element with selector \"//p[normalize-space()='Certificate']\" because element wasn't found",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9423f6a36cbffd80",
+      "name" : "Screenshot",
+      "source" : "9423f6a36cbffd80.png",
+      "type" : "image/png",
+      "size" : 79739
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Upadate Staff"
+  }, {
+    "name" : "testClass",
+    "value" : "Upadate Staff"
+  }, {
+    "name" : "testMethod",
+    "value" : "Staff"
+  }, {
+    "name" : "package",
+    "value" : "Upadate Staff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d440fd8c5a338cb4.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

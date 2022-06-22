@@ -24,6 +24,7 @@ const { assert } = require("console");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { $ } = require("protractor");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
@@ -149,6 +150,7 @@ class Coursespage extends Page{
     get FeesCancel(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[2]")}
     get curriculumcancel(){return $("//button[normalize-space()='Cancel']")}
     get schedulecancel(){return $("//button[normalize-space()='Cancel']")}
+    get paymentcancel(){return $("//button[normalize-space()='Cancel']")}
 
     async clickOncourses(){
         this.courses.click();
@@ -692,18 +694,16 @@ class Coursespage extends Page{
     }
     async updateBatchendtime(Text1,Text2,Text3){
         //batch endtime edit start here
-        const name=await $("//p[normalize-space()='"+Text1+"']");
-        await name.doubleClick();
+       // const name=await $("//p[normalize-space()='"+Text1+"']");
+        //await name.doubleClick();
         const endtime=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[9]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/input[1]");
         await endtime.click();
         const time2=await $ ("//input[@placeholder='Batch end time?']");
         await time2.click();
-        const edit1=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
-        var runInBrowser = function(argument) { 
-            argument.click();
-          };
-          var elementToClickOn = browser.$("//button[@aria-label='clock view is open, go to text input view']//*[name()='svg']/child::*");
-           browser.execute(runInBrowser, elementToClickOn);
+        const edit1=await $("//body/div[2]/div[3]/child::div/child::div/child::div/child::div/child::div/child::div/following-sibling::div/following-sibling::button/child::*/child::*");
+        browser.executeScript("document.querySelector('#svg').click()")
+
+       
         /*browser.waitUntil(function(){
           return edit1.isDisplayed()===true
       },6000, 'element not displayed after given time')
@@ -797,6 +797,12 @@ class Coursespage extends Page{
     }
     async onlyBajajflatdiscountamount(Text){
         this.bajajflatamount.addValue(Text);
+    }
+    async coursePaymentsaveisclickable(){
+        await expect(this.savepayment).toBeClickable();
+    }
+    async coursePaymentCancelisclickable(){
+        await expect(this.paymentcancel).toBeClickable();
     }
 
 

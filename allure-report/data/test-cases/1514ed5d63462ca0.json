@@ -1,0 +1,86 @@
+{
+  "uid" : "1514ed5d63462ca0",
+  "name" : "staff",
+  "fullName" : "Addstaff.staff",
+  "historyId" : "435177e464a08f5d04064df0cd255260",
+  "time" : {
+    "start" : 1655904714292,
+    "stop" : 1655905014418,
+    "duration" : 300126
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Staff added\"\n                Received: \"A user with this phone number/email already exists\"",
+  "statusTrace" : "Error: Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Staff added\"\n                Received: \"A user with this phone number/email already exists\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CreationUpdation/Addstaff.js:50:31)\n                    at runMicrotasks (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Staff added\"\n                Received: \"A user with this phone number/email already exists\"",
+    "statusTrace" : "Error: Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Staff added\"\n                Received: \"A user with this phone number/email already exists\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CreationUpdation/Addstaff.js:50:31)\n                    at runMicrotasks (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e266645ce34f877",
+      "name" : "Screenshot",
+      "source" : "1e266645ce34f877.png",
+      "type" : "image/png",
+      "size" : 80619
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Addstaff"
+  }, {
+    "name" : "testClass",
+    "value" : "Addstaff"
+  }, {
+    "name" : "testMethod",
+    "value" : "staff"
+  }, {
+    "name" : "package",
+    "value" : "Addstaff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1514ed5d63462ca0.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

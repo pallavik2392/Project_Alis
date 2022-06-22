@@ -24,8 +24,13 @@ describe("verify Staff email field by passing valid email",function(){
 
         //const message=await $("//p[@id='email-helper-text']");
         //await expect(message).toHaveTextContaining("Email address is invalid");
-        await browser.saveScreenshot("./ScreenshotsforAlis/staffnew.png");
+        //await browser.saveScreenshot("./ScreenshotsforAlis/staffnew.png");
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifystaffemailwithvalidemail.png")
     })
 })

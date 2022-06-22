@@ -1,3 +1,4 @@
+//const { browser } = require("protractor");
 const signinData = require("../../Data/signindata");
 const signinpage = require("../../pages/signinpage");
 const Staffpage = require("../../pages/Staffpage");
@@ -24,9 +25,15 @@ describe("verify Staff last name field by passing numbers",function(){
 
         const message=await $("//p[@id='lastName-helper-text']");
         await expect(message).toHaveTextContaining("Please enter valid name");
-
+/*
         await browser.saveScreenshot("./ScreenshotsforAlis/staff11.png");
+  */
 
+    })
 
+   // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/onfailure.png")
     })
 })

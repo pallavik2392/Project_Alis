@@ -1,0 +1,100 @@
+{
+  "435177e464a08f5d04064df0cd255260" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1514ed5d63462ca0",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Staff added\"\n                Received: \"A user with this phone number/email already exists\"",
+      "time" : {
+        "start" : 1655904714292,
+        "stop" : 1655905014418,
+        "duration" : 300126
+      }
+    } ]
+  },
+  "2109d4250f392ac6a6793f2666a0932d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d440fd8c5a338cb4",
+      "status" : "broken",
+      "statusDetails" : "Can't call doubleClick on element with selector \"//p[normalize-space()='Certificate']\" because element wasn't found",
+      "time" : {
+        "start" : 1655904714052,
+        "stop" : 1655904897190,
+        "duration" : 183138
+      }
+    } ]
+  },
+  "277f58026b0959462fbcdeecb79e0212" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "196b0e2d5654336e",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"New course added\"\n                Received: \"Course with the given name already exists\"",
+      "time" : {
+        "start" : 1655904714315,
+        "stop" : 1655905028464,
+        "duration" : 314149
+      }
+    } ]
+  },
+  "e66a78c858391579896f767f0f06b543" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a06d37fad9763f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655904713935,
+        "stop" : 1655904858295,
+        "duration" : 144360
+      }
+    } ]
+  },
+  "359f6e0f71c5e54812d12155af31e19f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e67d02933e7f0de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655904714172,
+        "stop" : 1655904807840,
+        "duration" : 93668
+      }
+    } ]
+  }
+}

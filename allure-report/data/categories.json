@@ -1,0 +1,76 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Can't call doubleClick on element with selector \"//p[normalize-space()='Certificate']\" because element wasn't found",
+      "children" : [ {
+        "name" : "Staff",
+        "uid" : "d440fd8c5a338cb4",
+        "parentUid" : "16726fb87d10e5ff04dc47540fcf48b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1655904714052,
+          "stop" : 1655904897190,
+          "duration" : 183138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "16726fb87d10e5ff04dc47540fcf48b7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"Staff added\"\n                Received: \"A user with this phone number/email already exists\"",
+      "children" : [ {
+        "name" : "staff",
+        "uid" : "1514ed5d63462ca0",
+        "parentUid" : "985caf553eef20203f86b98e40e38d7c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655904714292,
+          "stop" : 1655905014418,
+          "duration" : 300126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "985caf553eef20203f86b98e40e38d7c"
+    }, {
+      "name" : "Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing\n                \n                Expected: \"New course added\"\n                Received: \"Course with the given name already exists\"",
+      "children" : [ {
+        "name" : "course",
+        "uid" : "196b0e2d5654336e",
+        "parentUid" : "22bab5193b1b1be8e7f397a754575b42",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655904714315,
+          "stop" : 1655905028464,
+          "duration" : 314149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "22bab5193b1b1be8e7f397a754575b42"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

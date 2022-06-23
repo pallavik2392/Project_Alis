@@ -111,15 +111,17 @@ describe("Updatecourse",function(){
         await browser.pause(3000);
         await Coursepage.updateBatchenddate(signinData.updatebatchenddate,signinData.replacebatchenddate);
         await browser.pause(3000);
-       */ 
+        
         await Coursepage.updateBatchtime(signinData.updatebatchtime,signinData.replacestarttime);
         await browser.pause(3000);
        await Coursepage.updateBatchendtime(signinData.updatebatchtime,signinData.updateendtime,signinData.replaceendtime);
         await browser.pause(3000);
-
+*/
         await Coursepage.updateFrequency(signinData.updatefrequency);
         await browser.pause(3000);
-        await Coursepage.setFrequency(signinData.replacefrequency,signinData.updateweek);
+        //await Coursepage.setFrequency(signinData.replacefrequency,signinData.updateweek1);
+        //await browser.pause(3000);
+        await Coursepage.setfrequencytoUpdate(signinData.replacefrequency,signinData.updateweek3)
         await browser.pause(3000);
 
 

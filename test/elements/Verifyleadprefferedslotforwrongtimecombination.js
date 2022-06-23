@@ -3,6 +3,8 @@ const Leadpage1 = require("../../pages/Leadpage1");
 const signinpage = require("../../pages/signinpage");
 
 describe("verify prefferedstart and end time field for deletion",function(){
+    this.retries(3)
+
     it("prefferedstart and end time field for deletion",async()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -24,5 +26,10 @@ describe("verify prefferedstart and end time field for deletion",function(){
         
         const message=await $("//p[contains(text(),'Please select valid time interval')]");
         await expect(message).toHaveTextContaining("Please select valid time interval");
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifyleadprefferedslotforwrongtimecombination.png")
     })
 })

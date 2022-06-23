@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973650624' stop='1655973704378'>
+    <name>Verification of hdfc's downpayment field masked or not </name>
+    <title>Verification of hdfc's downpayment field masked or not </title>
+    <test-cases>
+        <test-case start='1655973650625' status='passed' stop='1655973704371'>
+            <name>course  hdfc's downpaymentt  field masked or not</name>
+            <title>course  hdfc's downpaymentt  field masked or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-45'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-45'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='616c0e97-8aea-4227-92cf-0698a59bc2a8-attachment.png' type='image/png' size='111272'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

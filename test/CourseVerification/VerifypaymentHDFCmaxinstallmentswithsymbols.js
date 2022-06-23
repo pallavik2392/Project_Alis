@@ -36,4 +36,9 @@ describe("Verification of hdfc's maxinstallments field for symbols ",function(){
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Cmaxinstallmentswithsymbols.png")
+    })
 })

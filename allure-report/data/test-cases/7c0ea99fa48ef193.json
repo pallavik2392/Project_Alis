@@ -1,0 +1,78 @@
+{
+  "uid" : "7c0ea99fa48ef193",
+  "name" : "course  payment amount field for flat percentage",
+  "fullName" : "Verification of bajaj finance's discount amount field for percentage.course  payment amount field for flat percentage",
+  "historyId" : "4dcd9577fa2816efeefcfde36274e4f1",
+  "time" : {
+    "start" : 1655973473476,
+    "stop" : 1655973554591,
+    "duration" : 81115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "270a486fd7720ca9",
+      "name" : "Screenshot",
+      "source" : "270a486fd7720ca9.png",
+      "type" : "image/png",
+      "size" : 103302
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-37"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of bajaj finance's discount amount field for percentage"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of bajaj finance's discount amount field for percentage"
+  }, {
+    "name" : "testMethod",
+    "value" : "course  payment amount field for flat percentage"
+  }, {
+    "name" : "package",
+    "value" : "Verification of bajaj finance's discount amount field for percentage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c0ea99fa48ef193.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

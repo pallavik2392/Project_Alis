@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973675768' stop='1655973724811'>
+    <name>Verification of hdfc's maxinstallments field max validation </name>
+    <title>Verification of hdfc's maxinstallments field max validation </title>
+    <test-cases>
+        <test-case start='1655973675768' status='passed' stop='1655973724810'>
+            <name>course  hdfc's maxinstallments field max validation </name>
+            <title>course  hdfc's maxinstallments field max validation </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-47'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-47'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6eb9c18f-856e-4237-b133-c633c90af284-attachment.png' type='image/png' size='115163'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

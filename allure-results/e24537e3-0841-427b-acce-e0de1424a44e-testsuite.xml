@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973808640' stop='1655973871898'>
+    <name>Verification of K11 max installments field by passing sumbols </name>
+    <title>Verification of K11 max installments field by passing sumbols </title>
+    <test-cases>
+        <test-case start='1655973808641' status='passed' stop='1655973871897'>
+            <name>course  K11 max installments field by passing symbols </name>
+            <title>course  K11 max installments field by passing symbols </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-55'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-55'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d827f5c6-183e-4f1c-9a73-3e30138adba8-attachment.png' type='image/png' size='119035'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

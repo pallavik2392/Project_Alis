@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973173601' stop='1655973222922'>
+    <name>Verification of course overview save button</name>
+    <title>Verification of course overview save button</title>
+    <test-cases>
+        <test-case start='1655973173602' status='passed' stop='1655973222921'>
+            <name>courseoverview save button</name>
+            <title>courseoverview save button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-19'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-19'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4ec95539-fc99-4761-a2ac-4dabba83ab41-attachment.png' type='image/png' size='47383'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

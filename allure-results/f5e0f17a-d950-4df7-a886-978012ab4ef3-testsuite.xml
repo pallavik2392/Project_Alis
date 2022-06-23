@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973380771' stop='1655973455537'>
+    <name>Verify schedule tab   virtual capacity field by passing letters  </name>
+    <title>Verify schedule tab   virtual capacity field by passing letters  </title>
+    <test-cases>
+        <test-case start='1655973380772' status='passed' stop='1655973455537'>
+            <name>virtual capacity by passing letters </name>
+            <title>virtual capacity by passing letters </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-30'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-30'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6c408b81-c405-4e0a-b066-442df1f3a376-attachment.png' type='image/png' size='106857'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

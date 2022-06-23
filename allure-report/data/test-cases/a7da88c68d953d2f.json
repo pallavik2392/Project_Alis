@@ -1,0 +1,94 @@
+{
+  "uid" : "a7da88c68d953d2f",
+  "name" : "virtual capacity by passing letters ",
+  "fullName" : "Verify schedule tab   virtual capacity field by passing letters  .virtual capacity by passing letters ",
+  "historyId" : "610d660fabc88fa9c3e172f719ee3e90",
+  "time" : {
+    "start" : 1655974120278,
+    "stop" : 1655974432839,
+    "duration" : 312561
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//h5[@aria-label='C sharp']\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"//h5[@aria-label='C sharp']\") still not displayed after 10000ms\n                    at async Coursespage.clickonsearchedcourse (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:465:9)\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifyschedulevirtualcapacitybypassingsymbols.js:25:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//h5[@aria-label='C sharp']\") still not displayed after 10000ms",
+    "statusTrace" : "Error: element (\"//h5[@aria-label='C sharp']\") still not displayed after 10000ms\n                    at async Coursespage.clickonsearchedcourse (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:465:9)\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifyschedulevirtualcapacitybypassingsymbols.js:25:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4041088d8e29a3e",
+      "name" : "Screenshot",
+      "source" : "4041088d8e29a3e.png",
+      "type" : "image/png",
+      "size" : 75928
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-69"
+  }, {
+    "name" : "suite",
+    "value" : "Verify schedule tab   virtual capacity field by passing letters  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify schedule tab   virtual capacity field by passing letters  "
+  }, {
+    "name" : "testMethod",
+    "value" : "virtual capacity by passing letters "
+  }, {
+    "name" : "package",
+    "value" : "Verify schedule tab   virtual capacity field by passing letters  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e80e7434eef8defa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973380772,
+        "stop" : 1655973455537,
+        "duration" : 74765
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a7da88c68d953d2f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

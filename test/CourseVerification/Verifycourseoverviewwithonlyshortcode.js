@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Coursepage = require("../../pages/Coursespage");
 
 describe("Verification of course overview by passing only shortcode",function(){
+    this.retries(3)
+
     it("courseoverview with shortcode only",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -33,5 +35,10 @@ describe("Verification of course overview by passing only shortcode",function(){
 
         await browser.saveScreenshot("./Onfailure4.png");
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifycourseoverviewwithonlyshortcode.png")
     })
 })

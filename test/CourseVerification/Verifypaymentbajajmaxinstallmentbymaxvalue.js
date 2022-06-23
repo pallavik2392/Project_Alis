@@ -35,4 +35,9 @@ describe("Verification of bajaj finance's maxinstallments  field by passing max 
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifypaymentbajajmaxinstallmentbymaxvalue.png")
+    })
 })

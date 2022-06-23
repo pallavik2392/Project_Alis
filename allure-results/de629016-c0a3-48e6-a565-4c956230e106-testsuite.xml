@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655972821777' stop='1655972923137'>
+    <name>addcourse</name>
+    <title>addcourse</title>
+    <test-cases>
+        <test-case start='1655972821778' status='passed' stop='1655972923137'>
+            <name>course</name>
+            <title>course</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='13d6aca4-e1e3-4162-9cae-543f348a9920-attachment.png' type='image/png' size='87711'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

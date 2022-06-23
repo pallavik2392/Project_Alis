@@ -1,0 +1,78 @@
+{
+  "uid" : "ba90324ee8c02c4b",
+  "name" : "course  hdfc's downpaymentt  field masked or not",
+  "fullName" : "Verification of hdfc's downpayment field masked or not .course  hdfc's downpaymentt  field masked or not",
+  "historyId" : "7133cf918eccf0d5b69a7a632fa03ace",
+  "time" : {
+    "start" : 1655973650625,
+    "stop" : 1655973704371,
+    "duration" : 53746
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "54b9d12a7acf8167",
+      "name" : "Screenshot",
+      "source" : "54b9d12a7acf8167.png",
+      "type" : "image/png",
+      "size" : 111272
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-45"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of hdfc's downpayment field masked or not "
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of hdfc's downpayment field masked or not "
+  }, {
+    "name" : "testMethod",
+    "value" : "course  hdfc's downpaymentt  field masked or not"
+  }, {
+    "name" : "package",
+    "value" : "Verification of hdfc's downpayment field masked or not "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba90324ee8c02c4b.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

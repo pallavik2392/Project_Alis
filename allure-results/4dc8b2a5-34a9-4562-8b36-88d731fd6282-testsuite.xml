@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973720321' stop='1655973993304'>
+    <name>Verification of K11 discount amount  field for flat discount </name>
+    <title>Verification of K11 discount amount  field for flat discount </title>
+    <test-cases>
+        <test-case start='1655973720322' status='failed' stop='1655973993303'>
+            <name>course  K11 discount amount field for flat </name>
+            <title>course  K11 discount amount field for flat </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-51'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-51'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-51'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-51'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-51'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b832ca8e-e180-482b-be78-aadec06995e3-attachment.png' type='image/png' size='116611'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/p[1]`) to have text containing
+                
+                Expected: "Cannot be more than 999"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/p[1]`) to have text containing
+                
+                Expected: "Cannot be more than 999"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/VerifypaymentK11discountamountfotflatdiscount.js:33:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

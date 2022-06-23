@@ -1,0 +1,78 @@
+{
+  "uid" : "b243a9c45c2bea8b",
+  "name" : "practical location for mandatory ",
+  "fullName" : "Verify schedule tab   practical location field for mandatory field  .practical location for mandatory ",
+  "historyId" : "6566ce0176dde108a552f4c10ff5a54a",
+  "time" : {
+    "start" : 1655973995321,
+    "stop" : 1655974075158,
+    "duration" : 79837
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3e42aaae52d8cc78",
+      "name" : "Screenshot",
+      "source" : "3e42aaae52d8cc78.png",
+      "type" : "image/png",
+      "size" : 112175
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-63"
+  }, {
+    "name" : "suite",
+    "value" : "Verify schedule tab   practical location field for mandatory field  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify schedule tab   practical location field for mandatory field  "
+  }, {
+    "name" : "testMethod",
+    "value" : "practical location for mandatory "
+  }, {
+    "name" : "package",
+    "value" : "Verify schedule tab   practical location field for mandatory field  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b243a9c45c2bea8b.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

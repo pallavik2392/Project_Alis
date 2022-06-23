@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655972655137' stop='1655972797311'>
+    <name>Verify schedule tab frequecy for mandatory field  </name>
+    <title>Verify schedule tab frequecy for mandatory field  </title>
+    <test-cases>
+        <test-case start='1655972655140' status='passed' stop='1655972797296'>
+            <name>frequency for mandatory </name>
+            <title>frequency for mandatory </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='75ac6f2c-f115-40e7-83be-1d0d547c5b79-attachment.png' type='image/png' size='95685'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

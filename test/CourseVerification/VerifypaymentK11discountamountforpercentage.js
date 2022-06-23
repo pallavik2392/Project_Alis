@@ -36,4 +36,9 @@ describe("Verification of K11 discount amount  field for percentage discount ",f
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/VerifypaymentK11discountamountforpercentage.png")
+    })
 })

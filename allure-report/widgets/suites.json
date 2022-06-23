@@ -1,8 +1,8 @@
 {
-  "total" : 5,
+  "total" : 64,
   "items" : [ {
-    "uid" : "50d833b92a42c4cbf98fce5c4e94d8e3",
-    "name" : "Addstaff",
+    "uid" : "fd5f4d6ee3e7c7b862eee4b63822d2d6",
+    "name" : "Verify curriculum tab cancel button is clickable  ",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "aad10dd0bf6c2ab9028eec9757bb51ee",
-    "name" : "addcourse",
+    "uid" : "6596204a3c18f1d36dc3028574b88d2b",
+    "name" : "curriculum tab verification for topic field",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -23,35 +23,90 @@
       "total" : 1
     }
   }, {
-    "uid" : "27c5426001ec91337a6ccb58ab7b4425",
-    "name" : "Upadate Staff",
+    "uid" : "3527fabe4ced2902da07472769e67d89",
+    "name" : "Verification of course Fees save button",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b520a5181d15fd8ea455b333fd1f3f09",
+    "name" : "Verification of course overview by passing only shortcode",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fe72f50857799508c0690fe78a0122f5",
+    "name" : "Verification of bajaj finance's discount amount field for flat ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e9c4d459130f63d7e5102695b761dd57",
+    "name" : "verify topic field error message for mandatory sign",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "bb43c84370e8a9f31e4cab617fa8886a",
+    "name" : "Verification of hdfc's discount amount   field for flat discount with max validation ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9bb4eb3cdc052e038b8ddd2307296be4",
+    "name" : "Verification of K11 discount amount  field for flat discount ",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b6a44f824ed410c683b0abd02f623b50",
+    "name" : "Verification of Payablwwhwnable discount amount field for flat",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d90bc25161a4b4a322dc61cbf0e32cfb",
+    "name" : "Verify schedule tab   virtual capacity field by passing letters  ",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "1decdcb4224b41a7c46c2a6b0f0b01e8",
-    "name" : "Update Lead",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "323e0acc94a85566cf6ea342456b2918",
-    "name" : "Addticket",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

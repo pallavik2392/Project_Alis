@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Coursepage = require("../../pages/Coursespage");
 
 describe("Verify schedule tab  start date field for mandatory field  ",function(){
+    this.retries(3)
+
     it("start date for mandatory ",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -35,5 +37,10 @@ describe("Verify schedule tab  start date field for mandatory field  ",function(
         const message=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[7]/div[2]/div[1]/p[1]");
         await expect(message).toHaveTextContaining("This field is required");
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifyschedulestartdateformandatoryfield.png")
     })
 })

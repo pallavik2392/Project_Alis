@@ -1,9 +1,11 @@
 const signinData = require("../../Data/signindata");
 const signinpage = require("../../pages/signinpage");
 const Coursepage = require("../../pages/Coursespage");
-const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 
 describe("verify topic field error message for mandatory sign",function(){
+    this.retries(3)
+
     it("verify error message",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -31,5 +33,10 @@ describe("verify topic field error message for mandatory sign",function(){
 
         const message=await $("//p[@id='topic-helper-text']");
         await expect(message).toHaveTextContaining("This field is required");
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifycoursetopicfieldasmandatory.png")
     })
 })

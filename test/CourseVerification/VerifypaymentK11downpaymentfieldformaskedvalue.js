@@ -35,4 +35,9 @@ describe("Verification of K11 downpayment field for masked or not ",function(){
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/VerifypaymentK11downpaymentfieldformaskedvalue.png")
+    })
 })

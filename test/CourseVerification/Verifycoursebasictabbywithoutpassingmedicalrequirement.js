@@ -4,6 +4,8 @@ const Coursepage = require("../../pages/Coursespage");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 
 describe("basic yab verification for medical requirement field",function(){
+    this.retries(3)
+
     it("verify msg for medical requirement field",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -45,5 +47,10 @@ describe("basic yab verification for medical requirement field",function(){
         await expect(message).toHaveTextContaining("This field is required");
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifycoursebasctabwithou.png")
     })
 })

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655972933789' stop='1655973156791'>
+    <name>curriculum tab verification for topic field</name>
+    <title>curriculum tab verification for topic field</title>
+    <test-cases>
+        <test-case start='1655972933789' status='failed' stop='1655973156789'>
+            <name>verify msg for topic field</name>
+            <title>verify msg for topic field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-11'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9e47a89e-f7d9-4b19-a952-b9d992c16773-attachment.png' type='image/png' size='62501'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//p[@id='topic-helper-text']`) to have text containing
+                
+                Expected: "This field is required"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//p[@id='topic-helper-text']`) to have text containing
+                
+                Expected: "This field is required"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursecurruculumtabformendatoryfieldfortopic.js:38:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -20,6 +20,7 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 const console = require("console");
 const { assert } = require("console");
+//const { browser } = require("protractor");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
@@ -409,8 +410,8 @@ class Coursespage extends Page{
         await select.click();
         if(Text1==='Every Month'){
             const month=await $("//input[@id='repeats']");
-            let isDisplayedInViewport = month.isDisplayedInViewport();
-           console.log(isDisplayedInViewport); // outputs: false
+
+            
 
             /*await month.waitUntil(async function () {
                 return (await this.isDisplayed())
@@ -425,6 +426,30 @@ class Coursespage extends Page{
             const week=await $("//li[@id='repeats-option-0']");
             await week.click();
         }
+    }
+    async setfrequencytoUpdate(Text1,Text2){
+        this.frequency.setValue(Text1);
+        const select=await $("//li[@id='frequency-option-0']");
+        await select.click();
+        const month=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[10]/div[1]/div[2]/child::div/following-sibling::div/child::p");
+        await month.doubleClick();
+        await browser.pause(4000);
+        if(Text2==='Week 1'){
+            const week=await $("//li[@id='repeats-option-0']");
+            await week.click();
+        }
+        else if(Text2==='Week 2'){
+            const week=await $("//li[@id='repeats-option-1']");
+            await week.click();
+        }
+        else if(Text2==='Week 3'){
+            const week=await $("//li[@id='repeats-option-2']");
+            await week.click();
+        }else{
+            const week=await $("//li[@id='repeats-option-3']");
+            await week.click();
+        }
+
     }
     async selectSunday(){
         this.sunday.click();
@@ -698,10 +723,10 @@ class Coursespage extends Page{
         //await name.doubleClick();
         const endtime=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[9]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/input[1]");
         await endtime.click();
-        const time2=await $ ("//input[@placeholder='Batch end time?']");
-        await time2.click();
+        //const time2=await $ ("//input[@placeholder='Batch end time?']");
+       // await time2.click();
         const edit1=await $("//body/div[2]/div[3]/child::div/child::div/child::div/child::div/child::div/child::div/following-sibling::div/following-sibling::button/child::*/child::*");
-        browser.executeScript("document.querySelector('#svg').click()")
+       /* browser.executeScript("document.querySelector('#svg').click()")
 
        
         /*browser.waitUntil(function(){
@@ -737,7 +762,7 @@ class Coursespage extends Page{
         await browser.keys('Backspace');
         }
         const time3=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
-        await time3.addValue(Text2);
+        await time3.addValue(Text3);
         const ok1=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
         await ok1.click();
     }

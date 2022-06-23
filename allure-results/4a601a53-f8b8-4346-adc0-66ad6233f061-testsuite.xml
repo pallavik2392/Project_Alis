@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973126247' stop='1655973157394'>
+    <name>Verify course name field by passing >100 characters</name>
+    <title>Verify course name field by passing >100 characters</title>
+    <test-cases>
+        <test-case start='1655973126248' status='passed' stop='1655973157393'>
+            <name>course name with >100 characters</name>
+            <title>course name with >100 characters</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-16'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-16'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fac334a1-6500-495b-b44c-ef69dcb219e6-attachment.png' type='image/png' size='56647'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

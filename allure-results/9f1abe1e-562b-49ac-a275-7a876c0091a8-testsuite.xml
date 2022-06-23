@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973845296' stop='1655973895417'>
+    <name>Verification of K11 max installments field by passing maximum value</name>
+    <title>Verification of K11 max installments field by passing maximum value</title>
+    <test-cases>
+        <test-case start='1655973845297' status='passed' stop='1655973895415'>
+            <name>course  K11 max installments field by passing maximum value </name>
+            <title>course  K11 max installments field by passing maximum value </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-56'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-56'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5a075146-3759-452d-93f6-bf07e11506a4-attachment.png' type='image/png' size='119111'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

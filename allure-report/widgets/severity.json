@@ -1,51 +1,641 @@
 [ {
-  "uid" : "d440fd8c5a338cb4",
-  "name" : "Staff",
+  "uid" : "6f429f29045e4474",
+  "name" : "time for mandatory ",
   "time" : {
-    "start" : 1655904714052,
-    "stop" : 1655904897190,
-    "duration" : 183138
+    "start" : 1655974099875,
+    "stop" : 1655974171044,
+    "duration" : 71169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa7660ec8f04128e",
+  "name" : "course payment save button ",
+  "time" : {
+    "start" : 1655973322175,
+    "stop" : 1655973378601,
+    "duration" : 56426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8a569f0bb67c9bd",
+  "name" : "delete icon",
+  "time" : {
+    "start" : 1655972655627,
+    "stop" : 1655972856054,
+    "duration" : 200427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17065aad610697ac",
+  "name" : "course  K11 max installments field by passing symbols ",
+  "time" : {
+    "start" : 1655973808641,
+    "stop" : 1655973871897,
+    "duration" : 63256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67b2a10163a66945",
+  "name" : "verify error message",
+  "time" : {
+    "start" : 1655973416700,
+    "stop" : 1655973626702,
+    "duration" : 210002
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ba93a0958cf566",
+  "name" : "courseoverview with shortcode only",
+  "time" : {
+    "start" : 1655973226932,
+    "stop" : 1655973398537,
+    "duration" : 171605
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "767fca1a9f87aff8",
+  "name" : "start date for mandatory ",
+  "time" : {
+    "start" : 1655974077242,
+    "stop" : 1655974164723,
+    "duration" : 87481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67c97bc320da6781",
+  "name" : "verify cancel button ",
+  "time" : {
+    "start" : 1655972858568,
+    "stop" : 1655973093616,
+    "duration" : 235048
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b2032d153126271",
+  "name" : "course name with >100 characters",
+  "time" : {
+    "start" : 1655973126248,
+    "stop" : 1655973157393,
+    "duration" : 31145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1c4a3645581ca2a",
+  "name" : "verify msg for medical requirement field",
+  "time" : {
+    "start" : 1655972801491,
+    "stop" : 1655972949694,
+    "duration" : 148203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b243a9c45c2bea8b",
+  "name" : "practical location for mandatory ",
+  "time" : {
+    "start" : 1655973995321,
+    "stop" : 1655974075158,
+    "duration" : 79837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7da88c68d953d2f",
+  "name" : "virtual capacity by passing letters ",
+  "time" : {
+    "start" : 1655974120278,
+    "stop" : 1655974432839,
+    "duration" : 312561
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "2e67d02933e7f0de",
-  "name" : "ticket",
+  "uid" : "e9f4783aff445324",
+  "name" : "frequency for mandatory ",
   "time" : {
-    "start" : 1655904714172,
-    "stop" : 1655904807840,
-    "duration" : 93668
+    "start" : 1655972655140,
+    "stop" : 1655972797296,
+    "duration" : 142156
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9a06d37fad9763f7",
-  "name" : "Lead",
+  "uid" : "1c74d0de907b7283",
+  "name" : "batch langauge for mandatory ",
   "time" : {
-    "start" : 1655904713935,
-    "stop" : 1655904858295,
-    "duration" : 144360
+    "start" : 1655973875122,
+    "stop" : 1655973953959,
+    "duration" : 78837
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "196b0e2d5654336e",
+  "uid" : "185335e17a4c8de4",
+  "name" : "courseoverview with valid course name",
+  "time" : {
+    "start" : 1655973229495,
+    "stop" : 1655973260394,
+    "duration" : 30899
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96e9743128c0dc80",
+  "name" : "course  hdfc discount amount  field for percentage discount amount",
+  "time" : {
+    "start" : 1655973633406,
+    "stop" : 1655973682857,
+    "duration" : 49451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b3543d2f0789fe0",
+  "name" : "courseoverview save button",
+  "time" : {
+    "start" : 1655973173602,
+    "stop" : 1655973222921,
+    "duration" : 49319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "432678c8aa8cc561",
+  "name" : "course  Payablwwhwnable discount amount field for flat ",
+  "time" : {
+    "start" : 1655973846571,
+    "stop" : 1655974046239,
+    "duration" : 199668
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de784018aa3ac989",
   "name" : "course",
   "time" : {
-    "start" : 1655904714315,
-    "stop" : 1655905028464,
-    "duration" : 314149
+    "start" : 1655972821778,
+    "stop" : 1655972923137,
+    "duration" : 101359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12230c317bea610f",
+  "name" : "course  hdfc's downpaymentt  field for max validation",
+  "time" : {
+    "start" : 1655973657999,
+    "stop" : 1655973717846,
+    "duration" : 59847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fdfcefc2d2c0a47",
+  "name" : "verify msg for topic field",
+  "time" : {
+    "start" : 1655972933789,
+    "stop" : 1655973156789,
+    "duration" : 223000
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "1514ed5d63462ca0",
-  "name" : "staff",
+  "uid" : "7cc34f8be932cb2b",
+  "name" : "course  payment scholarship field save button",
   "time" : {
-    "start" : 1655904714292,
-    "stop" : 1655905014418,
-    "duration" : 300126
+    "start" : 1655973622186,
+    "stop" : 1655973704441,
+    "duration" : 82255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2d6ed5439eb0f80",
+  "name" : "verify msg for course location field",
+  "time" : {
+    "start" : 1655972655473,
+    "stop" : 1655972819154,
+    "duration" : 163681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c0ea99fa48ef193",
+  "name" : "course  payment amount field for flat percentage",
+  "time" : {
+    "start" : 1655973473476,
+    "stop" : 1655973554591,
+    "duration" : 81115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b504339beadd663e",
+  "name" : "days for mandatory ",
+  "time" : {
+    "start" : 1655973947145,
+    "stop" : 1655974084821,
+    "duration" : 137676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48e267599242e9db",
+  "name" : "course  bajaj maxinstallment  field by passing max value",
+  "time" : {
+    "start" : 1655973530185,
+    "stop" : 1655973610615,
+    "duration" : 80430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bba7ecf8800aef",
+  "name" : "virtual save clickable",
+  "time" : {
+    "start" : 1655974032449,
+    "stop" : 1655974116076,
+    "duration" : 83627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "755f910c8a77af7d",
+  "name" : "course short code field with >100 characters",
+  "time" : {
+    "start" : 1655973402766,
+    "stop" : 1655973433723,
+    "duration" : 30957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0e09f0b3706411a",
+  "name" : "virtual cancel clickable",
+  "time" : {
+    "start" : 1655974049059,
+    "stop" : 1655974126555,
+    "duration" : 77496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba90324ee8c02c4b",
+  "name" : "course  hdfc's downpaymentt  field masked or not",
+  "time" : {
+    "start" : 1655973650625,
+    "stop" : 1655973704371,
+    "duration" : 53746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a17c0c8290748f6",
+  "name" : "verify error message for amount field",
+  "time" : {
+    "start" : 1655972996728,
+    "stop" : 1655973122934,
+    "duration" : 126206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "408f484e86914496",
+  "name" : "course  bajaj maxinstallment  field by passing symbols",
+  "time" : {
+    "start" : 1655973581499,
+    "stop" : 1655973647641,
+    "duration" : 66142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df12fac17d614c19",
+  "name" : "course  bajaj maxinstallment  field by passing letters",
+  "time" : {
+    "start" : 1655973558583,
+    "stop" : 1655973618869,
+    "duration" : 60286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da22137344ae2765",
+  "name" : "course  payment scholarship field by passing letters and symbol",
+  "time" : {
+    "start" : 1655973613341,
+    "stop" : 1655973654915,
+    "duration" : 41574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3b7a012aaee554f",
+  "name" : "course  K11 discount amount field for flat ",
+  "time" : {
+    "start" : 1655973720322,
+    "stop" : 1655973993303,
+    "duration" : 272981
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f881897b3df3b16",
+  "name" : "course  hdfc's maxinstallments field max validation ",
+  "time" : {
+    "start" : 1655973675768,
+    "stop" : 1655973724810,
+    "duration" : 49042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55eae6ff9849d7e4",
+  "name" : "verify msg for practical requirement field",
+  "time" : {
+    "start" : 1655972803653,
+    "stop" : 1655972930935,
+    "duration" : 127282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "706add65f18d0c83",
+  "name" : "virtual capacity for mandatory ",
+  "time" : {
+    "start" : 1655974129157,
+    "stop" : 1655974504101,
+    "duration" : 374944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "294d264f3c0e7064",
+  "name" : "course  downpayment  field for masked",
+  "time" : {
+    "start" : 1655973473293,
+    "stop" : 1655973527231,
+    "duration" : 53938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1fcdc8c53e525a5",
+  "name" : "courseoverview by passing only coursename",
+  "time" : {
+    "start" : 1655973213429,
+    "stop" : 1655973249160,
+    "duration" : 35731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e22fb6dafee92ca5",
+  "name" : "course  hdfc discount amount  field for flat discount amount",
+  "time" : {
+    "start" : 1655973444469,
+    "stop" : 1655973671036,
+    "duration" : 226567
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "25a8438c424f3512",
+  "name" : "course  fees  save button",
+  "time" : {
+    "start" : 1655973096080,
+    "stop" : 1655973272126,
+    "duration" : 176046
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d1ce33825e377e8",
+  "name" : "course  downpayment  field for flat percentage",
+  "time" : {
+    "start" : 1655973489578,
+    "stop" : 1655973571259,
+    "duration" : 81681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd0f55b02e5e68bd",
+  "name" : "course  hdfc's maxinstallments field for symbols ",
+  "time" : {
+    "start" : 1655973714599,
+    "stop" : 1655973774492,
+    "duration" : 59893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd29b6d57535bc32",
+  "name" : "verify save button ",
+  "time" : {
+    "start" : 1655973400274,
+    "stop" : 1655973469113,
+    "duration" : 68839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae93bfbfdd386c74",
+  "name" : "verify msg for langauge of instruction field",
+  "time" : {
+    "start" : 1655972655148,
+    "stop" : 1655972893597,
+    "duration" : 238449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d748f44a3c1a1089",
+  "name" : "Add icon",
+  "time" : {
+    "start" : 1655972952543,
+    "stop" : 1655972993960,
+    "duration" : 41417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c1d013cce0802b6",
+  "name" : "course  payment discount amount with percentage ",
+  "time" : {
+    "start" : 1655973372121,
+    "stop" : 1655973413761,
+    "duration" : 41640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bae55950ec49dbf",
+  "name" : "course  K11 max installments field by passing maximum value ",
+  "time" : {
+    "start" : 1655973845297,
+    "stop" : 1655973895415,
+    "duration" : 50118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4de2d28345aa13a8",
+  "name" : "course  K11 downpayment field for masked or not ",
+  "time" : {
+    "start" : 1655973728579,
+    "stop" : 1655973836164,
+    "duration" : 107585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9935a7fa704300a9",
+  "name" : "verify msg for radio buttons field",
+  "time" : {
+    "start" : 1655972925637,
+    "stop" : 1655973032193,
+    "duration" : 106556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7cdf154a5e4963e",
+  "name" : "course  hdfc's maxinstallments field for letters ",
+  "time" : {
+    "start" : 1655973685663,
+    "stop" : 1655973788089,
+    "duration" : 102426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b3860af18ff7348",
+  "name" : "physical capacity by passing letters ",
+  "time" : {
+    "start" : 1655973957664,
+    "stop" : 1655974028623,
+    "duration" : 70959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adf43e91d87b5902",
+  "name" : "end date for mandatory ",
+  "time" : {
+    "start" : 1655974167689,
+    "stop" : 1655974474100,
+    "duration" : 306411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87d1ca9231625794",
+  "name" : "physical capacity by passing symbols ",
+  "time" : {
+    "start" : 1655972654797,
+    "stop" : 1655972800928,
+    "duration" : 146131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f43278bb043f81a",
+  "name" : "course  payment amount field for flat percentage",
+  "time" : {
+    "start" : 1655973251694,
+    "stop" : 1655973469421,
+    "duration" : 217727
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3090cb3090bb5cf",
+  "name" : "course  K11 discount amount field for percentage ",
+  "time" : {
+    "start" : 1655973713951,
+    "stop" : 1655973802840,
+    "duration" : 88889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7afc3504590b5a57",
+  "name" : "course  Payablwwhwnable discount amount field for percentage ",
+  "time" : {
+    "start" : 1655973851311,
+    "stop" : 1655973941391,
+    "duration" : 90080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb4f93fdac446736",
+  "name" : "courseoverview cancel button",
+  "time" : {
+    "start" : 1655973162024,
+    "stop" : 1655973210156,
+    "duration" : 48132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3b612322ca09b3b",
+  "name" : "course  K11 max installments field by passing letters ",
+  "time" : {
+    "start" : 1655973793040,
+    "stop" : 1655973848543,
+    "duration" : 55503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e03103e86742c39d",
+  "name" : "courseoverview with mandatory field",
+  "time" : {
+    "start" : 1655973457709,
+    "stop" : 1655973486142,
+    "duration" : 28433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c0ef500792d2c49",
+  "name" : "batchlocation for mandatory ",
+  "time" : {
+    "start" : 1655973899624,
+    "stop" : 1655974097591,
+    "duration" : 197967
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b5cabe07a727920",
+  "name" : "course  K11 downpayment field for maximum validation ",
+  "time" : {
+    "start" : 1655973779824,
+    "stop" : 1655973837815,
+    "duration" : 57991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f1911946dde5a1a",
+  "name" : "time field  for wrong combination ",
+  "time" : {
+    "start" : 1655974087124,
+    "stop" : 1655974231248,
+    "duration" : 144124
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

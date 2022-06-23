@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Coursepage = require("../../pages/Coursespage");
 
 describe("Verification of course overview save button",function(){
+    this.retries(3)
+
     it("courseoverview save button",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -27,5 +29,10 @@ describe("Verification of course overview save button",function(){
 
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifycourseoverviewsavebutton.png")
     })
 })

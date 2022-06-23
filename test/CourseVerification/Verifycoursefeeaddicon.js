@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Coursepage = require("../../pages/Coursespage");
 
 describe("verify add icon for fee",function(){
+    this.retries(3)
+
     it("Add icon",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -28,5 +30,10 @@ describe("verify add icon for fee",function(){
         await Coursepage.clickonaddicon();
         await browser.pause(5000);
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifycoursefeeaddicon.png")
     })
 })

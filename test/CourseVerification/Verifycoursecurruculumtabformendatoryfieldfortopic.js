@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Coursepage = require("../../pages/Coursespage");
 
 describe("curriculum tab verification for topic field",function(){
+    this.retries(3)
+
     it("verify msg for topic field",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -34,9 +36,14 @@ describe("curriculum tab verification for topic field",function(){
 
         const message=await $("//p[@id='topic-helper-text']");
         await expect(message).toHaveTextContaining("This field is required");
-        await browser.takeScreenshot("./ScreenshotsforAlis/wdio6.png");
+        //await browser.takeScreenshot("./ScreenshotsforAlis/wdio6.png");
 
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifycoursecurriculumtabformandatoryfieldfortopic.png")
     })
 })

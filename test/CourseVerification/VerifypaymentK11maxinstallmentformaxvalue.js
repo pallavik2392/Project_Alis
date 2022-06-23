@@ -37,4 +37,9 @@ describe("Verification of K11 max installments field by passing maximum value",f
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/VerifypaymentK11maxinstallmentformaxvalue.png")
+    })
 })

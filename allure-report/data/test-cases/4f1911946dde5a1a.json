@@ -1,0 +1,78 @@
+{
+  "uid" : "4f1911946dde5a1a",
+  "name" : "time field  for wrong combination ",
+  "fullName" : "Verify schedule tab time field for wrong time combination  .time field  for wrong combination ",
+  "historyId" : "2d848e34a00a5f560a570cc409a2b599",
+  "time" : {
+    "start" : 1655974087124,
+    "stop" : 1655974231248,
+    "duration" : 144124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60501d1459199c72",
+      "name" : "Screenshot",
+      "source" : "60501d1459199c72.png",
+      "type" : "image/png",
+      "size" : 108787
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-67"
+  }, {
+    "name" : "suite",
+    "value" : "Verify schedule tab time field for wrong time combination  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify schedule tab time field for wrong time combination  "
+  }, {
+    "name" : "testMethod",
+    "value" : "time field  for wrong combination "
+  }, {
+    "name" : "package",
+    "value" : "Verify schedule tab time field for wrong time combination  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f1911946dde5a1a.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

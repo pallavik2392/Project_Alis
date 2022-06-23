@@ -1,0 +1,86 @@
+{
+  "uid" : "67b2a10163a66945",
+  "name" : "verify error message",
+  "fullName" : "verify topic field error message for mandatory sign.verify error message",
+  "historyId" : "ca9394965bea85cef68592924c54fb8e",
+  "time" : {
+    "start" : 1655973416700,
+    "stop" : 1655973626702,
+    "duration" : 210002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//p[@id='topic-helper-text']`) to have text containing\n                \n                Expected: \"This field is required\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//p[@id='topic-helper-text']`) to have text containing\n                \n                Expected: \"This field is required\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursetopicfieldasmandatory.js:35:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//p[@id='topic-helper-text']`) to have text containing\n                \n                Expected: \"This field is required\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`//p[@id='topic-helper-text']`) to have text containing\n                \n                Expected: \"This field is required\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursetopicfieldasmandatory.js:35:31)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "182863e0a750e43f",
+      "name" : "Screenshot",
+      "source" : "182863e0a750e43f.png",
+      "type" : "image/png",
+      "size" : 62306
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-33"
+  }, {
+    "name" : "suite",
+    "value" : "verify topic field error message for mandatory sign"
+  }, {
+    "name" : "testClass",
+    "value" : "verify topic field error message for mandatory sign"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify error message"
+  }, {
+    "name" : "package",
+    "value" : "verify topic field error message for mandatory sign"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "67b2a10163a66945.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

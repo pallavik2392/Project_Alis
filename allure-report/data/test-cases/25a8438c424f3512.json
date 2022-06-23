@@ -1,0 +1,95 @@
+{
+  "uid" : "25a8438c424f3512",
+  "name" : "course  fees  save button",
+  "fullName" : "Verification of course Fees save button.course  fees  save button",
+  "historyId" : "408db584ea7997e81c8bd0c635a84ca6",
+  "time" : {
+    "start" : 1655973096080,
+    "stop" : 1655973272126,
+    "duration" : 176046
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[1]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+  "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[1]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"\n                    at Coursespage.courseFeessaveisclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:766:37)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursefeessavebutton.js:31:26)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[1]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+    "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[1]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"\n                    at Coursespage.courseFeessaveisclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:766:37)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursefeessavebutton.js:31:26)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6271065f1213b01d",
+      "name" : "Screenshot",
+      "source" : "6271065f1213b01d.png",
+      "type" : "image/png",
+      "size" : 64308
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-15"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course Fees save button"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course Fees save button"
+  }, {
+    "name" : "testMethod",
+    "value" : "course  fees  save button"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course Fees save button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1889505a2952970c",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[2]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+      "time" : {
+        "start" : 1655973041681,
+        "stop" : 1655973225547,
+        "duration" : 183866
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "25a8438c424f3512.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "e9f4783aff445324",
+  "name" : "frequency for mandatory ",
+  "fullName" : "Verify schedule tab frequecy for mandatory field  .frequency for mandatory ",
+  "historyId" : "d7909759096bedf78388d0a92f383cd7",
+  "time" : {
+    "start" : 1655972655140,
+    "stop" : 1655972797296,
+    "duration" : 142156
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "14dcd59b53c5efce",
+      "name" : "Screenshot",
+      "source" : "14dcd59b53c5efce.png",
+      "type" : "image/png",
+      "size" : 95685
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Verify schedule tab frequecy for mandatory field  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify schedule tab frequecy for mandatory field  "
+  }, {
+    "name" : "testMethod",
+    "value" : "frequency for mandatory "
+  }, {
+    "name" : "package",
+    "value" : "Verify schedule tab frequecy for mandatory field  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9f4783aff445324.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

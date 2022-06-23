@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973851311' stop='1655973941391'>
+    <name>Verification of Payablwwhwnable discount amount field for percentage</name>
+    <title>Verification of Payablwwhwnable discount amount field for percentage</title>
+    <test-cases>
+        <test-case start='1655973851311' status='passed' stop='1655973941391'>
+            <name>course  Payablwwhwnable discount amount field for percentage </name>
+            <title>course  Payablwwhwnable discount amount field for percentage </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-58'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-58'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-58'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b760492c-e57c-4216-934a-88d8e454ae62-attachment.png' type='image/png' size='113519'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

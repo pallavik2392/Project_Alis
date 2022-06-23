@@ -1,0 +1,86 @@
+{
+  "uid" : "7cc34f8be932cb2b",
+  "name" : "course  payment scholarship field save button",
+  "fullName" : "Verification of course payment max redeemable field by passing maximum value.course  payment scholarship field save button",
+  "historyId" : "f345791a77c25e80e209f9d1a1635543",
+  "time" : {
+    "start" : 1655973622186,
+    "stop" : 1655973704441,
+    "duration" : 82255
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "235d4d9af42f542c",
+      "name" : "Screenshot",
+      "source" : "235d4d9af42f542c.png",
+      "type" : "image/png",
+      "size" : 104154
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-43"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course payment max redeemable field by passing maximum value"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course payment max redeemable field by passing maximum value"
+  }, {
+    "name" : "testMethod",
+    "value" : "course  payment scholarship field save button"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course payment max redeemable field by passing maximum value"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "704b2fbcbada3ff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973276817,
+        "stop" : 1655973315611,
+        "duration" : 38794
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cc34f8be932cb2b.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -3,6 +3,8 @@ const Leadpage1 = require("../../pages/Leadpage1");
 const signinpage = require("../../pages/signinpage");
 
 describe("verify whatsapp phonenumber field by passing <10 numbers",function(){
+    this.retries(3)
+
     it("whatsapp number  field by passing <10 numbers",async()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -22,5 +24,10 @@ describe("verify whatsapp phonenumber field by passing <10 numbers",function(){
         await browser.pause(3000);
         const message=await $("//p[@id='whatsappNumber-helper-text']");
         await expect(message).toHaveTextContaining("Please enter valid 10 digit phone number");
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifyleadwhatsappphonewith<10.png")
     })
 })

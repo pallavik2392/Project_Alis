@@ -2,16 +2,16 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Update Lead",
+    "name" : "Verify schedule tab   physical capacity field by passing symbols  ",
     "children" : [ {
-      "name" : "Lead",
-      "uid" : "9a06d37fad9763f7",
-      "parentUid" : "ec39e1df40d0607ea39eea1c5f13c1e4",
+      "name" : "physical capacity by passing symbols ",
+      "uid" : "87d1ca9231625794",
+      "parentUid" : "ab3f47b57d302f0f6bd5cc9fe3a1649c",
       "status" : "passed",
       "time" : {
-        "start" : 1655904713935,
-        "stop" : 1655904858295,
-        "duration" : 144360
+        "start" : 1655972654797,
+        "stop" : 1655972800928,
+        "duration" : 146131
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,39 +21,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
-    "uid" : "ec39e1df40d0607ea39eea1c5f13c1e4"
+    "uid" : "ab3f47b57d302f0f6bd5cc9fe3a1649c"
   }, {
-    "name" : "Upadate Staff",
+    "name" : "Verify schedule tab frequecy for mandatory field  ",
     "children" : [ {
-      "name" : "Staff",
-      "uid" : "d440fd8c5a338cb4",
-      "parentUid" : "5477692fd80d93148710b2cf9fd17a80",
-      "status" : "broken",
-      "time" : {
-        "start" : 1655904714052,
-        "stop" : 1655904897190,
-        "duration" : 183138
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "5477692fd80d93148710b2cf9fd17a80"
-  }, {
-    "name" : "Addticket",
-    "children" : [ {
-      "name" : "ticket",
-      "uid" : "2e67d02933e7f0de",
-      "parentUid" : "eef2c1769b9b72d79053a0ef77266568",
+      "name" : "frequency for mandatory ",
+      "uid" : "e9f4783aff445324",
+      "parentUid" : "b4e453dd7a14f4db2dbd80349079b6ee",
       "status" : "passed",
       "time" : {
-        "start" : 1655904714172,
-        "stop" : 1655904807840,
-        "duration" : 93668
+        "start" : 1655972655140,
+        "stop" : 1655972797296,
+        "duration" : 142156
       },
       "flaky" : false,
       "newFailed" : false,
@@ -63,18 +42,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
-    "uid" : "eef2c1769b9b72d79053a0ef77266568"
+    "uid" : "b4e453dd7a14f4db2dbd80349079b6ee"
   }, {
-    "name" : "Addstaff",
+    "name" : "basic yab verification for langauge of instruction field",
     "children" : [ {
-      "name" : "staff",
-      "uid" : "1514ed5d63462ca0",
-      "parentUid" : "d989c443322adba0e3989df5a243f9f7",
-      "status" : "failed",
+      "name" : "verify msg for langauge of instruction field",
+      "uid" : "ae93bfbfdd386c74",
+      "parentUid" : "9fe9879ef1938a35e80a261d7253055a",
+      "status" : "passed",
       "time" : {
-        "start" : 1655904714292,
-        "stop" : 1655905014418,
-        "duration" : 300126
+        "start" : 1655972655148,
+        "stop" : 1655972893597,
+        "duration" : 238449
       },
       "flaky" : false,
       "newFailed" : false,
@@ -84,18 +63,102 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
-    "uid" : "d989c443322adba0e3989df5a243f9f7"
+    "uid" : "9fe9879ef1938a35e80a261d7253055a"
+  }, {
+    "name" : "basic yab verification for course location field",
+    "children" : [ {
+      "name" : "verify msg for course location field",
+      "uid" : "b2d6ed5439eb0f80",
+      "parentUid" : "bd5db48552ad2f8f67aa2454b7a776cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655972655473,
+        "stop" : 1655972819154,
+        "duration" : 163681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "bd5db48552ad2f8f67aa2454b7a776cc"
+  }, {
+    "name" : "verify delete icon for fee",
+    "children" : [ {
+      "name" : "delete icon",
+      "uid" : "f8a569f0bb67c9bd",
+      "parentUid" : "0ff0c76fa41254443aefc19a1dff929b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655972655627,
+        "stop" : 1655972856054,
+        "duration" : 200427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "0ff0c76fa41254443aefc19a1dff929b"
+  }, {
+    "name" : "basic yab verification for medical requirement field",
+    "children" : [ {
+      "name" : "verify msg for medical requirement field",
+      "uid" : "c1c4a3645581ca2a",
+      "parentUid" : "8eb12946b1da7e4a8dba3ba2923b09b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655972801491,
+        "stop" : 1655972949694,
+        "duration" : 148203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "8eb12946b1da7e4a8dba3ba2923b09b8"
+  }, {
+    "name" : "basic yab verification for practical requirement field",
+    "children" : [ {
+      "name" : "verify msg for practical requirement field",
+      "uid" : "55eae6ff9849d7e4",
+      "parentUid" : "fcf94824c2ac010a3141a7e5dd1a8a8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655972803653,
+        "stop" : 1655972930935,
+        "duration" : 127282
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "fcf94824c2ac010a3141a7e5dd1a8a8e"
   }, {
     "name" : "addcourse",
     "children" : [ {
       "name" : "course",
-      "uid" : "196b0e2d5654336e",
+      "uid" : "de784018aa3ac989",
       "parentUid" : "e0d330266a2e74caa345467f568afec7",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1655904714315,
-        "stop" : 1655905028464,
-        "duration" : 314149
+        "start" : 1655972821778,
+        "stop" : 1655972923137,
+        "duration" : 101359
       },
       "flaky" : false,
       "newFailed" : false,
@@ -106,5 +169,1181 @@
       "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
     "uid" : "e0d330266a2e74caa345467f568afec7"
+  }, {
+    "name" : "Verify curriculum tab cancel button is clickable  ",
+    "children" : [ {
+      "name" : "verify cancel button ",
+      "uid" : "67c97bc320da6781",
+      "parentUid" : "02364356eb94404bc6a5371665edca52",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655972858568,
+        "stop" : 1655973093616,
+        "duration" : 235048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "02364356eb94404bc6a5371665edca52"
+  }, {
+    "name" : "curriculum tab verification for radio buttons field for mandatory ",
+    "children" : [ {
+      "name" : "verify msg for radio buttons field",
+      "uid" : "9935a7fa704300a9",
+      "parentUid" : "25e09c3892f8f711f47eb6d9c24e7673",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655972925637,
+        "stop" : 1655973032193,
+        "duration" : 106556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "25e09c3892f8f711f47eb6d9c24e7673"
+  }, {
+    "name" : "curriculum tab verification for topic field",
+    "children" : [ {
+      "name" : "verify msg for topic field",
+      "uid" : "8fdfcefc2d2c0a47",
+      "parentUid" : "c4771788b5e15bfa015ee2aab60cd58c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655972933789,
+        "stop" : 1655973156789,
+        "duration" : 223000
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "c4771788b5e15bfa015ee2aab60cd58c"
+  }, {
+    "name" : "verify add icon for fee",
+    "children" : [ {
+      "name" : "Add icon",
+      "uid" : "d748f44a3c1a1089",
+      "parentUid" : "a31ba8e610d9f3ea517f3aacc2399589",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655972952543,
+        "stop" : 1655972993960,
+        "duration" : 41417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a31ba8e610d9f3ea517f3aacc2399589"
+  }, {
+    "name" : "verify fees amount field by passing maximum value",
+    "children" : [ {
+      "name" : "verify error message for amount field",
+      "uid" : "1a17c0c8290748f6",
+      "parentUid" : "66e1a5d1c53606efab67000cd417e6f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655972996728,
+        "stop" : 1655973122934,
+        "duration" : 126206
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "66e1a5d1c53606efab67000cd417e6f3"
+  }, {
+    "name" : "Verification of course Fees save button",
+    "children" : [ {
+      "name" : "course  fees  save button",
+      "uid" : "25a8438c424f3512",
+      "parentUid" : "57f546efc46412977a395492b253593b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655973096080,
+        "stop" : 1655973272126,
+        "duration" : 176046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "57f546efc46412977a395492b253593b"
+  }, {
+    "name" : "Verify course name field by passing >100 characters",
+    "children" : [ {
+      "name" : "course name with >100 characters",
+      "uid" : "3b2032d153126271",
+      "parentUid" : "112e9493e6dcb4ffdfe8b5d818b87253",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973126248,
+        "stop" : 1655973157393,
+        "duration" : 31145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "112e9493e6dcb4ffdfe8b5d818b87253"
+  }, {
+    "name" : "Verification of course overview cancel button",
+    "children" : [ {
+      "name" : "courseoverview cancel button",
+      "uid" : "fb4f93fdac446736",
+      "parentUid" : "f9f38775b5bad359e5339051d48f861a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973162024,
+        "stop" : 1655973210156,
+        "duration" : 48132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "f9f38775b5bad359e5339051d48f861a"
+  }, {
+    "name" : "Verification of course overview save button",
+    "children" : [ {
+      "name" : "courseoverview save button",
+      "uid" : "8b3543d2f0789fe0",
+      "parentUid" : "471d5598a3bd9004bb0ccf8882212752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973173602,
+        "stop" : 1655973222921,
+        "duration" : 49319
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "471d5598a3bd9004bb0ccf8882212752"
+  }, {
+    "name" : "Verification of course overview by passing only course name",
+    "children" : [ {
+      "name" : "courseoverview by passing only coursename",
+      "uid" : "f1fcdc8c53e525a5",
+      "parentUid" : "db127aa562c0794558ef25f79ab53051",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973213429,
+        "stop" : 1655973249160,
+        "duration" : 35731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "db127aa562c0794558ef25f79ab53051"
+  }, {
+    "name" : "Verification of course overview by passing only shortcode",
+    "children" : [ {
+      "name" : "courseoverview with shortcode only",
+      "uid" : "e1ba93a0958cf566",
+      "parentUid" : "60c6120de9c876a583b3ee9fcf3e9766",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655973226932,
+        "stop" : 1655973398537,
+        "duration" : 171605
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "60c6120de9c876a583b3ee9fcf3e9766"
+  }, {
+    "name" : "Verification of course overview with valid course name ",
+    "children" : [ {
+      "name" : "courseoverview with valid course name",
+      "uid" : "185335e17a4c8de4",
+      "parentUid" : "1fa8edef66f9c85131bb5c6f5bb17856",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973229495,
+        "stop" : 1655973260394,
+        "duration" : 30899
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1fa8edef66f9c85131bb5c6f5bb17856"
+  }, {
+    "name" : "Verification of bajaj finance's discount amount field for flat ",
+    "children" : [ {
+      "name" : "course  payment amount field for flat percentage",
+      "uid" : "1f43278bb043f81a",
+      "parentUid" : "eb475c491bd45bcb18614fd3d94dc8ac",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655973251694,
+        "stop" : 1655973469421,
+        "duration" : 217727
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "eb475c491bd45bcb18614fd3d94dc8ac"
+  }, {
+    "name" : "Verification of payments save button is clickable or not",
+    "children" : [ {
+      "name" : "course payment save button ",
+      "uid" : "fa7660ec8f04128e",
+      "parentUid" : "1a56df417365caeb3b0b94704e01a0f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973322175,
+        "stop" : 1655973378601,
+        "duration" : 56426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1a56df417365caeb3b0b94704e01a0f3"
+  }, {
+    "name" : "Verification of course payment discountamount field with percentage by passing maximum value",
+    "children" : [ {
+      "name" : "course  payment discount amount with percentage ",
+      "uid" : "6c1d013cce0802b6",
+      "parentUid" : "f766232b06636338079abc09cd249f4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973372121,
+        "stop" : 1655973413761,
+        "duration" : 41640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "f766232b06636338079abc09cd249f4c"
+  }, {
+    "name" : "Verify curriculum tab save button is clickable  ",
+    "children" : [ {
+      "name" : "verify save button ",
+      "uid" : "fd29b6d57535bc32",
+      "parentUid" : "e0b04aaa444d33beaba75b1f6c93f266",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973400274,
+        "stop" : 1655973469113,
+        "duration" : 68839
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "e0b04aaa444d33beaba75b1f6c93f266"
+  }, {
+    "name" : "Verify course short code field by passing >100 characters",
+    "children" : [ {
+      "name" : "course short code field with >100 characters",
+      "uid" : "755f910c8a77af7d",
+      "parentUid" : "fee335c9c63cc23ca5991898e0be9c38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973402766,
+        "stop" : 1655973433723,
+        "duration" : 30957
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "fee335c9c63cc23ca5991898e0be9c38"
+  }, {
+    "name" : "verify topic field error message for mandatory sign",
+    "children" : [ {
+      "name" : "verify error message",
+      "uid" : "67b2a10163a66945",
+      "parentUid" : "4d4c511bc5b9d741cf32ee0cd6562c61",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655973416700,
+        "stop" : 1655973626702,
+        "duration" : 210002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "4d4c511bc5b9d741cf32ee0cd6562c61"
+  }, {
+    "name" : "Verification of hdfc's discount amount   field for flat discount with max validation ",
+    "children" : [ {
+      "name" : "course  hdfc discount amount  field for flat discount amount",
+      "uid" : "e22fb6dafee92ca5",
+      "parentUid" : "03cd4ad3df6952789cc8d5272bb30232",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655973444469,
+        "stop" : 1655973671036,
+        "duration" : 226567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "03cd4ad3df6952789cc8d5272bb30232"
+  }, {
+    "name" : "Verification of course overview with mandatory field",
+    "children" : [ {
+      "name" : "courseoverview with mandatory field",
+      "uid" : "e03103e86742c39d",
+      "parentUid" : "c96164906f1c1140e73ca03f6abe47c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973457709,
+        "stop" : 1655973486142,
+        "duration" : 28433
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "c96164906f1c1140e73ca03f6abe47c9"
+  }, {
+    "name" : "Verification of bajaj finance's downpayment  field is masked or not ",
+    "children" : [ {
+      "name" : "course  downpayment  field for masked",
+      "uid" : "294d264f3c0e7064",
+      "parentUid" : "c0a6d2ecbf48f5fd159608a49df87592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973473293,
+        "stop" : 1655973527231,
+        "duration" : 53938
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "c0a6d2ecbf48f5fd159608a49df87592"
+  }, {
+    "name" : "Verification of bajaj finance's discount amount field for percentage",
+    "children" : [ {
+      "name" : "course  payment amount field for flat percentage",
+      "uid" : "7c0ea99fa48ef193",
+      "parentUid" : "826ffc8a3c02e33f1d4b6e85a466b39b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973473476,
+        "stop" : 1655973554591,
+        "duration" : 81115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "826ffc8a3c02e33f1d4b6e85a466b39b"
+  }, {
+    "name" : "Verification of bajaj finance's downpayment  field for max validation ",
+    "children" : [ {
+      "name" : "course  downpayment  field for flat percentage",
+      "uid" : "6d1ce33825e377e8",
+      "parentUid" : "1aa32ca3536ab9d7bfbcfb20958a0cc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973489578,
+        "stop" : 1655973571259,
+        "duration" : 81681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1aa32ca3536ab9d7bfbcfb20958a0cc6"
+  }, {
+    "name" : "Verification of bajaj finance's maxinstallments  field by passing max value ",
+    "children" : [ {
+      "name" : "course  bajaj maxinstallment  field by passing max value",
+      "uid" : "48e267599242e9db",
+      "parentUid" : "ccbbe0061cec7c2cee182b488c9efbfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973530185,
+        "stop" : 1655973610615,
+        "duration" : 80430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "ccbbe0061cec7c2cee182b488c9efbfa"
+  }, {
+    "name" : "Verification of bajaj finance's maxinstallments  field by passing letters ",
+    "children" : [ {
+      "name" : "course  bajaj maxinstallment  field by passing letters",
+      "uid" : "df12fac17d614c19",
+      "parentUid" : "81090c989f7296107f8bf96fc1222108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973558583,
+        "stop" : 1655973618869,
+        "duration" : 60286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "81090c989f7296107f8bf96fc1222108"
+  }, {
+    "name" : "Verification of bajaj finance's maxinstallments  field by passing symbols ",
+    "children" : [ {
+      "name" : "course  bajaj maxinstallment  field by passing symbols",
+      "uid" : "408f484e86914496",
+      "parentUid" : "6e5c78b04dfb8f2a3639e4f0f16009b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973581499,
+        "stop" : 1655973647641,
+        "duration" : 66142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "6e5c78b04dfb8f2a3639e4f0f16009b8"
+  }, {
+    "name" : "Verification of course payment max redeemable field by passing letters and symbols",
+    "children" : [ {
+      "name" : "course  payment scholarship field by passing letters and symbol",
+      "uid" : "da22137344ae2765",
+      "parentUid" : "ba68fee050487def3bb343dd30b15384",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973613341,
+        "stop" : 1655973654915,
+        "duration" : 41574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "ba68fee050487def3bb343dd30b15384"
+  }, {
+    "name" : "Verification of course payment max redeemable field by passing maximum value",
+    "children" : [ {
+      "name" : "course  payment scholarship field save button",
+      "uid" : "7cc34f8be932cb2b",
+      "parentUid" : "1cb5176205a83b11544aa3da553fae1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973622186,
+        "stop" : 1655973704441,
+        "duration" : 82255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1cb5176205a83b11544aa3da553fae1f"
+  }, {
+    "name" : "Verification of hdfc's discount amount   field for percentage discount with max validation ",
+    "children" : [ {
+      "name" : "course  hdfc discount amount  field for percentage discount amount",
+      "uid" : "96e9743128c0dc80",
+      "parentUid" : "dbf6aed5383d806c071456038f8a98e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973633406,
+        "stop" : 1655973682857,
+        "duration" : 49451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "dbf6aed5383d806c071456038f8a98e4"
+  }, {
+    "name" : "Verification of hdfc's downpayment field masked or not ",
+    "children" : [ {
+      "name" : "course  hdfc's downpaymentt  field masked or not",
+      "uid" : "ba90324ee8c02c4b",
+      "parentUid" : "08e8299aa6f9e81f3ea85c5cc3ca1dec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973650625,
+        "stop" : 1655973704371,
+        "duration" : 53746
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "08e8299aa6f9e81f3ea85c5cc3ca1dec"
+  }, {
+    "name" : "Verification of hdfc's downpayment field for   max validation ",
+    "children" : [ {
+      "name" : "course  hdfc's downpaymentt  field for max validation",
+      "uid" : "12230c317bea610f",
+      "parentUid" : "458c3ff4fa090d43d97ec5cf97c3ad45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973657999,
+        "stop" : 1655973717846,
+        "duration" : 59847
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "458c3ff4fa090d43d97ec5cf97c3ad45"
+  }, {
+    "name" : "Verification of hdfc's maxinstallments field max validation ",
+    "children" : [ {
+      "name" : "course  hdfc's maxinstallments field max validation ",
+      "uid" : "6f881897b3df3b16",
+      "parentUid" : "6bf835075ebf4e14827532f76860ff8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973675768,
+        "stop" : 1655973724810,
+        "duration" : 49042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "6bf835075ebf4e14827532f76860ff8e"
+  }, {
+    "name" : "Verification of hdfc's maxinstallments field for letters ",
+    "children" : [ {
+      "name" : "course  hdfc's maxinstallments field for letters ",
+      "uid" : "c7cdf154a5e4963e",
+      "parentUid" : "45915f9cb97bbbeff769ac2840ca28b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973685663,
+        "stop" : 1655973788089,
+        "duration" : 102426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "45915f9cb97bbbeff769ac2840ca28b0"
+  }, {
+    "name" : "Verification of K11 discount amount  field for percentage discount ",
+    "children" : [ {
+      "name" : "course  K11 discount amount field for percentage ",
+      "uid" : "3090cb3090bb5cf",
+      "parentUid" : "8db44c899e33826bdde9afb65e3656e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973713951,
+        "stop" : 1655973802840,
+        "duration" : 88889
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "8db44c899e33826bdde9afb65e3656e7"
+  }, {
+    "name" : "Verification of hdfc's maxinstallments field for symbols ",
+    "children" : [ {
+      "name" : "course  hdfc's maxinstallments field for symbols ",
+      "uid" : "fd0f55b02e5e68bd",
+      "parentUid" : "1447b739baf5bf0032aeae349f0d626c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973714599,
+        "stop" : 1655973774492,
+        "duration" : 59893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1447b739baf5bf0032aeae349f0d626c"
+  }, {
+    "name" : "Verification of K11 discount amount  field for flat discount ",
+    "children" : [ {
+      "name" : "course  K11 discount amount field for flat ",
+      "uid" : "a3b7a012aaee554f",
+      "parentUid" : "be96ae4334215920096820f5f130a8bb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655973720322,
+        "stop" : 1655973993303,
+        "duration" : 272981
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "be96ae4334215920096820f5f130a8bb"
+  }, {
+    "name" : "Verification of K11 downpayment field for masked or not ",
+    "children" : [ {
+      "name" : "course  K11 downpayment field for masked or not ",
+      "uid" : "4de2d28345aa13a8",
+      "parentUid" : "2906989bec5d534b070d855edf9134e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973728579,
+        "stop" : 1655973836164,
+        "duration" : 107585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "2906989bec5d534b070d855edf9134e4"
+  }, {
+    "name" : "Verification of K11 downpayment field for maximum validation ",
+    "children" : [ {
+      "name" : "course  K11 downpayment field for maximum validation ",
+      "uid" : "1b5cabe07a727920",
+      "parentUid" : "bd6fce83c065b5a567614f68a38dd930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973779824,
+        "stop" : 1655973837815,
+        "duration" : 57991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "bd6fce83c065b5a567614f68a38dd930"
+  }, {
+    "name" : "Verification of K11 max installments field by passing letters ",
+    "children" : [ {
+      "name" : "course  K11 max installments field by passing letters ",
+      "uid" : "d3b612322ca09b3b",
+      "parentUid" : "57d1123a37bee3a85506cfdc5003d2e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973793040,
+        "stop" : 1655973848543,
+        "duration" : 55503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "57d1123a37bee3a85506cfdc5003d2e4"
+  }, {
+    "name" : "Verification of K11 max installments field by passing sumbols ",
+    "children" : [ {
+      "name" : "course  K11 max installments field by passing symbols ",
+      "uid" : "17065aad610697ac",
+      "parentUid" : "f0546e6fe9f183cfbb1c16dc83a9d4d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973808641,
+        "stop" : 1655973871897,
+        "duration" : 63256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "f0546e6fe9f183cfbb1c16dc83a9d4d4"
+  }, {
+    "name" : "Verification of K11 max installments field by passing maximum value",
+    "children" : [ {
+      "name" : "course  K11 max installments field by passing maximum value ",
+      "uid" : "9bae55950ec49dbf",
+      "parentUid" : "df9db01e9b1219f62dc39f0e02eb7143",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973845297,
+        "stop" : 1655973895415,
+        "duration" : 50118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "df9db01e9b1219f62dc39f0e02eb7143"
+  }, {
+    "name" : "Verification of Payablwwhwnable discount amount field for flat",
+    "children" : [ {
+      "name" : "course  Payablwwhwnable discount amount field for flat ",
+      "uid" : "432678c8aa8cc561",
+      "parentUid" : "3fc25b4a9262ae653017c62e077dd6a8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1655973846571,
+        "stop" : 1655974046239,
+        "duration" : 199668
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "3fc25b4a9262ae653017c62e077dd6a8"
+  }, {
+    "name" : "Verification of Payablwwhwnable discount amount field for percentage",
+    "children" : [ {
+      "name" : "course  Payablwwhwnable discount amount field for percentage ",
+      "uid" : "7afc3504590b5a57",
+      "parentUid" : "c42607085c8b9a7c33ff02e2e47a6889",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973851311,
+        "stop" : 1655973941391,
+        "duration" : 90080
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "c42607085c8b9a7c33ff02e2e47a6889"
+  }, {
+    "name" : "Verify schedule tab   batch langauge field for mandatory field  ",
+    "children" : [ {
+      "name" : "batch langauge for mandatory ",
+      "uid" : "1c74d0de907b7283",
+      "parentUid" : "0ca93ef9036b09b23ffd2ab916215ec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973875122,
+        "stop" : 1655973953959,
+        "duration" : 78837
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "0ca93ef9036b09b23ffd2ab916215ec1"
+  }, {
+    "name" : "Verify schedule tab   batch location field for mandatory field  ",
+    "children" : [ {
+      "name" : "batchlocation for mandatory ",
+      "uid" : "8c0ef500792d2c49",
+      "parentUid" : "1b4aca3985ea77764ff8b7537f466b15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973899624,
+        "stop" : 1655974097591,
+        "duration" : 197967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1b4aca3985ea77764ff8b7537f466b15"
+  }, {
+    "name" : "Verify schedule tab days for mandatory field  ",
+    "children" : [ {
+      "name" : "days for mandatory ",
+      "uid" : "b504339beadd663e",
+      "parentUid" : "bb5806993c124ac0aaf67207c88e6d6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973947145,
+        "stop" : 1655974084821,
+        "duration" : 137676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "bb5806993c124ac0aaf67207c88e6d6d"
+  }, {
+    "name" : "Verify schedule tab   physical capacity field by passing letters  ",
+    "children" : [ {
+      "name" : "physical capacity by passing letters ",
+      "uid" : "7b3860af18ff7348",
+      "parentUid" : "209869348ee884c6113bb08cecf338cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973957664,
+        "stop" : 1655974028623,
+        "duration" : 70959
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "209869348ee884c6113bb08cecf338cb"
+  }, {
+    "name" : "Verify schedule tab   practical location field for mandatory field  ",
+    "children" : [ {
+      "name" : "practical location for mandatory ",
+      "uid" : "b243a9c45c2bea8b",
+      "parentUid" : "13bcfab7cded1f9d745b7c10d67ac6f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655973995321,
+        "stop" : 1655974075158,
+        "duration" : 79837
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "13bcfab7cded1f9d745b7c10d67ac6f0"
+  }, {
+    "name" : "Verify save button is clickable or not  ",
+    "children" : [ {
+      "name" : "virtual save clickable",
+      "uid" : "2bba7ecf8800aef",
+      "parentUid" : "a040db1fe72fc64b4116ae14c15c950a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655974032449,
+        "stop" : 1655974116076,
+        "duration" : 83627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a040db1fe72fc64b4116ae14c15c950a"
+  }, {
+    "name" : "Verify cancel button is clickable or not  ",
+    "children" : [ {
+      "name" : "virtual cancel clickable",
+      "uid" : "b0e09f0b3706411a",
+      "parentUid" : "abba5dd72d5ca53bb6648bc96aa3531c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655974049059,
+        "stop" : 1655974126555,
+        "duration" : 77496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "abba5dd72d5ca53bb6648bc96aa3531c"
+  }, {
+    "name" : "Verify schedule tab  start date field for mandatory field  ",
+    "children" : [ {
+      "name" : "start date for mandatory ",
+      "uid" : "767fca1a9f87aff8",
+      "parentUid" : "e6e7a55feed61a1656107c4d4d1ebc37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655974077242,
+        "stop" : 1655974164723,
+        "duration" : 87481
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "e6e7a55feed61a1656107c4d4d1ebc37"
+  }, {
+    "name" : "Verify schedule tab time field for wrong time combination  ",
+    "children" : [ {
+      "name" : "time field  for wrong combination ",
+      "uid" : "4f1911946dde5a1a",
+      "parentUid" : "50b440e9d9d8819f3080253d4291bc66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655974087124,
+        "stop" : 1655974231248,
+        "duration" : 144124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "50b440e9d9d8819f3080253d4291bc66"
+  }, {
+    "name" : "Verify schedule tab time for mandatory field  ",
+    "children" : [ {
+      "name" : "time for mandatory ",
+      "uid" : "6f429f29045e4474",
+      "parentUid" : "f0c3570c8f9386f7759cc7e5e84a1221",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655974099875,
+        "stop" : 1655974171044,
+        "duration" : 71169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "f0c3570c8f9386f7759cc7e5e84a1221"
+  }, {
+    "name" : "Verify schedule tab   virtual capacity field by passing letters  ",
+    "children" : [ {
+      "name" : "virtual capacity by passing letters ",
+      "uid" : "a7da88c68d953d2f",
+      "parentUid" : "7470d9b6448618a9843ac22cc0abedfe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1655974120278,
+        "stop" : 1655974432839,
+        "duration" : 312561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "7470d9b6448618a9843ac22cc0abedfe"
+  }, {
+    "name" : "Verify schedule tab   virtual capacity field for mandatory field  ",
+    "children" : [ {
+      "name" : "virtual capacity for mandatory ",
+      "uid" : "706add65f18d0c83",
+      "parentUid" : "0aae63fc8fb74301202a7f82f51cd6e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655974129157,
+        "stop" : 1655974504101,
+        "duration" : 374944
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "0aae63fc8fb74301202a7f82f51cd6e4"
+  }, {
+    "name" : "Verify schedule tab   end datefield for mandatory field  ",
+    "children" : [ {
+      "name" : "end date for mandatory ",
+      "uid" : "adf43e91d87b5902",
+      "parentUid" : "553380a535c19d4a3ece779b93aee321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655974167689,
+        "stop" : 1655974474100,
+        "duration" : 306411
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "553380a535c19d4a3ece779b93aee321"
   } ]
 }

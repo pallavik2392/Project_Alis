@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655973899623' stop='1655974097592'>
+    <name>Verify schedule tab   batch location field for mandatory field  </name>
+    <title>Verify schedule tab   batch location field for mandatory field  </title>
+    <test-cases>
+        <test-case start='1655973899624' status='passed' stop='1655974097591'>
+            <name>batchlocation for mandatory </name>
+            <title>batchlocation for mandatory </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-60'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-60'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-60'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-60'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='63919b45-f6f0-45c7-8bff-2d2eec067b78-attachment.png' type='image/png' size='112175'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

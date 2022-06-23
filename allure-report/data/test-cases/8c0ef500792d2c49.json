@@ -1,0 +1,78 @@
+{
+  "uid" : "8c0ef500792d2c49",
+  "name" : "batchlocation for mandatory ",
+  "fullName" : "Verify schedule tab   batch location field for mandatory field  .batchlocation for mandatory ",
+  "historyId" : "e38d075800b808bf156228ba0e5305a8",
+  "time" : {
+    "start" : 1655973899624,
+    "stop" : 1655974097591,
+    "duration" : 197967
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "edb48dc0757a3ab0",
+      "name" : "Screenshot",
+      "source" : "edb48dc0757a3ab0.png",
+      "type" : "image/png",
+      "size" : 112175
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-60"
+  }, {
+    "name" : "suite",
+    "value" : "Verify schedule tab   batch location field for mandatory field  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify schedule tab   batch location field for mandatory field  "
+  }, {
+    "name" : "testMethod",
+    "value" : "batchlocation for mandatory "
+  }, {
+    "name" : "package",
+    "value" : "Verify schedule tab   batch location field for mandatory field  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c0ef500792d2c49.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

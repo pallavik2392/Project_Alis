@@ -1,0 +1,86 @@
+{
+  "uid" : "a3b7a012aaee554f",
+  "name" : "course  K11 discount amount field for flat ",
+  "fullName" : "Verification of K11 discount amount  field for flat discount .course  K11 discount amount field for flat ",
+  "historyId" : "ebc90393eb9836a759f223505a5db1f0",
+  "time" : {
+    "start" : 1655973720322,
+    "stop" : 1655973993303,
+    "duration" : 272981
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/p[1]`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/p[1]`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/VerifypaymentK11discountamountfotflatdiscount.js:33:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/p[1]`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/p[1]`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/VerifypaymentK11discountamountfotflatdiscount.js:33:31)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "418193874709d9d2",
+      "name" : "Screenshot",
+      "source" : "418193874709d9d2.png",
+      "type" : "image/png",
+      "size" : 116611
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-51"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of K11 discount amount  field for flat discount "
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of K11 discount amount  field for flat discount "
+  }, {
+    "name" : "testMethod",
+    "value" : "course  K11 discount amount field for flat "
+  }, {
+    "name" : "package",
+    "value" : "Verification of K11 discount amount  field for flat discount "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a3b7a012aaee554f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

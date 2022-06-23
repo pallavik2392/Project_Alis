@@ -1,0 +1,80 @@
+{
+  "uid" : "1889505a2952970c",
+  "name" : "course  fees  save button",
+  "fullName" : "Verification of course Fees save button.course  fees  save button",
+  "historyId" : "408db584ea7997e81c8bd0c635a84ca6",
+  "time" : {
+    "start" : 1655973041681,
+    "stop" : 1655973225547,
+    "duration" : 183866
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[2]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+  "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[2]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"\n                    at Coursespage.courseFeescancelisclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:777:39)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursefeescancelbutton.js:31:26)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[2]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+    "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[2]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"\n                    at Coursespage.courseFeescancelisclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:777:39)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursefeescancelbutton.js:31:26)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "336f516e49e0c86a",
+      "name" : "Screenshot",
+      "source" : "336f516e49e0c86a.png",
+      "type" : "image/png",
+      "size" : 64321
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-14"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course Fees save button"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course Fees save button"
+  }, {
+    "name" : "testMethod",
+    "value" : "course  fees  save button"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course Fees save button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1889505a2952970c.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

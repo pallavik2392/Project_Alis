@@ -1,0 +1,78 @@
+{
+  "uid" : "b0e09f0b3706411a",
+  "name" : "virtual cancel clickable",
+  "fullName" : "Verify cancel button is clickable or not  .virtual cancel clickable",
+  "historyId" : "c93ab5aa81a74caae041a2780337a964",
+  "time" : {
+    "start" : 1655974049059,
+    "stop" : 1655974126555,
+    "duration" : 77496
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b065aa3eaf25102c",
+      "name" : "Screenshot",
+      "source" : "b065aa3eaf25102c.png",
+      "type" : "image/png",
+      "size" : 103458
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-65"
+  }, {
+    "name" : "suite",
+    "value" : "Verify cancel button is clickable or not  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify cancel button is clickable or not  "
+  }, {
+    "name" : "testMethod",
+    "value" : "virtual cancel clickable"
+  }, {
+    "name" : "package",
+    "value" : "Verify cancel button is clickable or not  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0e09f0b3706411a.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

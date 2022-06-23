@@ -34,4 +34,9 @@ describe("Verification of hdfc's downpayment field masked or not ",function(){
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/VerifypaymentHDFCdownpaymentfieldmaskedornot.png")
+    })
 })

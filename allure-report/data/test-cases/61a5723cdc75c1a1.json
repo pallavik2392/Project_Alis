@@ -1,0 +1,80 @@
+{
+  "uid" : "61a5723cdc75c1a1",
+  "name" : "verify save button ",
+  "fullName" : "Verify curriculum tab save button is clickable  .verify save button ",
+  "historyId" : "6e838e4881a409ce106ffe6c936271b5",
+  "time" : {
+    "start" : 1655972903732,
+    "stop" : 1655973163637,
+    "duration" : 259905
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//button[@type='submit']`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+  "statusTrace" : "Error: Expect $(`//button[@type='submit']`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"\n                    at Coursespage.courseCurriculumsaveisclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:784:38)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursecurriculumsavebutton.js:32:26)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//button[@type='submit']`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+    "statusTrace" : "Error: Expect $(`//button[@type='submit']`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"\n                    at Coursespage.courseCurriculumsaveisclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:784:38)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursecurriculumsavebutton.js:32:26)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a48d7e1cb3f49d6c",
+      "name" : "Screenshot",
+      "source" : "a48d7e1cb3f49d6c.png",
+      "type" : "image/png",
+      "size" : 62501
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Verify curriculum tab save button is clickable  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify curriculum tab save button is clickable  "
+  }, {
+    "name" : "testMethod",
+    "value" : "verify save button "
+  }, {
+    "name" : "package",
+    "value" : "Verify curriculum tab save button is clickable  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61a5723cdc75c1a1.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

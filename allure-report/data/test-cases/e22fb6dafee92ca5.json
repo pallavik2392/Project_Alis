@@ -1,0 +1,86 @@
+{
+  "uid" : "e22fb6dafee92ca5",
+  "name" : "course  hdfc discount amount  field for flat discount amount",
+  "fullName" : "Verification of hdfc's discount amount   field for flat discount with max validation .course  hdfc discount amount  field for flat discount amount",
+  "historyId" : "ddad61116b88db62f40c24d7dfff6d7d",
+  "time" : {
+    "start" : 1655973444469,
+    "stop" : 1655973671036,
+    "duration" : 226567
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//p[@id='Max Installments-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//p[@id='Max Installments-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifyhdfcdiscountamountfieldforflatdiscount.js:33:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//p[@id='Max Installments-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`//p[@id='Max Installments-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifyhdfcdiscountamountfieldforflatdiscount.js:33:31)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bfcb381f0a6975a0",
+      "name" : "Screenshot",
+      "source" : "bfcb381f0a6975a0.png",
+      "type" : "image/png",
+      "size" : 112593
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-34"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of hdfc's discount amount   field for flat discount with max validation "
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of hdfc's discount amount   field for flat discount with max validation "
+  }, {
+    "name" : "testMethod",
+    "value" : "course  hdfc discount amount  field for flat discount amount"
+  }, {
+    "name" : "package",
+    "value" : "Verification of hdfc's discount amount   field for flat discount with max validation "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e22fb6dafee92ca5.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

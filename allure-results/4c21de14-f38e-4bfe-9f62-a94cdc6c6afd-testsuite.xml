@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655974077241' stop='1655974164724'>
+    <name>Verify schedule tab  start date field for mandatory field  </name>
+    <title>Verify schedule tab  start date field for mandatory field  </title>
+    <test-cases>
+        <test-case start='1655974077242' status='passed' stop='1655974164723'>
+            <name>start date for mandatory </name>
+            <title>start date for mandatory </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-66'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-66'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='64ffe56d-a052-420f-ade1-0e83702936e1-attachment.png' type='image/png' size='112181'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

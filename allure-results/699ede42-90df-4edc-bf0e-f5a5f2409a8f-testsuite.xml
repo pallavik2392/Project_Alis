@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655972655144' stop='1655972893597'>
+    <name>basic yab verification for langauge of instruction field</name>
+    <title>basic yab verification for langauge of instruction field</title>
+    <test-cases>
+        <test-case start='1655972655148' status='passed' stop='1655972893597'>
+            <name>verify msg for langauge of instruction field</name>
+            <title>verify msg for langauge of instruction field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f41318a0-941d-454d-881c-e2f40144f5a0-attachment.png' type='image/png' size='91275'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

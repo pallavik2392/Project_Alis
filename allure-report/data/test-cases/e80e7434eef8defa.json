@@ -1,0 +1,76 @@
+{
+  "uid" : "e80e7434eef8defa",
+  "name" : "virtual capacity by passing letters ",
+  "fullName" : "Verify schedule tab   virtual capacity field by passing letters  .virtual capacity by passing letters ",
+  "historyId" : "610d660fabc88fa9c3e172f719ee3e90",
+  "time" : {
+    "start" : 1655973380772,
+    "stop" : 1655973455537,
+    "duration" : 74765
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "76e5fbdb5611ca47",
+      "name" : "Screenshot",
+      "source" : "76e5fbdb5611ca47.png",
+      "type" : "image/png",
+      "size" : 106857
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-30"
+  }, {
+    "name" : "suite",
+    "value" : "Verify schedule tab   virtual capacity field by passing letters  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify schedule tab   virtual capacity field by passing letters  "
+  }, {
+    "name" : "testMethod",
+    "value" : "virtual capacity by passing letters "
+  }, {
+    "name" : "package",
+    "value" : "Verify schedule tab   virtual capacity field by passing letters  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e80e7434eef8defa.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

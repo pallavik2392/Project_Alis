@@ -35,4 +35,9 @@ describe("Verification of hdfc's downpayment field for   max validation ",functi
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifypaymenthdfcdownpaymentformaxvalue.png")
+    })
 })

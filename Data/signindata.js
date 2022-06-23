@@ -207,7 +207,7 @@ updateendtime : xcelTojson.testConfig.updateendtime,
 replaceendtime : xcelTojson.testConfig.replaceendtime,
 updatefrequency : xcelTojson.testConfig.updatefrequency,
 replacefrequency : xcelTojson.testConfig.replacefrequency,
-updateweek : xcelTojson.testConfig.updateweek,
+updateweek1 : xcelTojson.testConfig.updateweek1,
 Week : xcelTojson.testConfig.Week,
 updateadminfirstname : xcelTojson.testConfig.updateadminfirstname,
 replacefirstname : xcelTojson.testConfig.replacefirstname,
@@ -357,6 +357,9 @@ coursepaymentK11maxintallmentswithmaxvalue : xcelTojson.testConfig.coursepayment
 coursepaymentpayablediscountamountforflat : xcelTojson.testConfig.coursepaymentpayablediscountamountforflat,
 coursepaymentpayablediscountamountforpercentage : xcelTojson.testConfig.coursepaymentpayablediscountamountforpercentage,
 organizationcode : xcelTojson.testConfig.organizationcode,
+updateweek2 : xcelTojson.testConfig.updateweek2,
+updateweek3 : xcelTojson.testConfig.updateweek3,
+updateweek4 : xcelTojson.testConfig.updateweek4,
 
 
 }

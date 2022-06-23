@@ -235,7 +235,7 @@ console.log('updateendtime',result.AddCourse[2].AM)
 console.log('replaceendtime',result.AddCourse[2].AN)
 console.log('updatefrequency',result.AddCourse[2].AO)
 console.log('replacefrequency',result.AddCourse[2].AP)
-console.log('updateweek',result.AddCourse[2].AQ)
+console.log('updateweek1',result.AddCourse[2].AQ)
 console.log('Week',result.AddCourse[0].AQ)
 console.log('updateadminfirstname',result.AdminProfile[0].A)
 console.log('replacefirstname',result.AdminProfile[0].B)
@@ -387,6 +387,10 @@ console.log('coursepaymentK11maxintallmentswithmaxvalue',result.AddCourse[4].AU)
 console.log('coursepaymentpayablediscountamountforflat',result.AddCourse[4].AV)
 console.log('coursepaymentpayablediscountamountforpercentage',result.AddCourse[4].AW)
 console.log('organizationcode',result.logincred[3].B)
+console.log('updateweek2',result.AddCourse[2].AR)
+console.log('updateweek3',result.AddCourse[2].AS)
+console.log('updateweek4',result.AddCourse[2].AT)
+
 
 var dataRequired = function(){
     //browser.ignoreSynchronization=true;
@@ -594,7 +598,7 @@ var dataRequired = function(){
         replaceendtime:result.AddCourse[2].AN,
         updatefrequency:result.AddCourse[2].AO,
         replacefrequency:result.AddCourse[2].AP,
-        updateweek:result.AddCourse[2].AQ,
+        updateweek1:result.AddCourse[2].AQ,
         Week :result.AddCourse[0].AQ,
         updateadminfirstname:result.AdminProfile[0].A,
         replacefirstname:result.AdminProfile[0].B,
@@ -745,6 +749,9 @@ var dataRequired = function(){
         coursepaymentpayablediscountamountforflat:result.AddCourse[4].AV,
         coursepaymentpayablediscountamountforpercentage:result.AddCourse[4].AW,
         organizationcode:result.logincred[3].B,
+        updateweek2:result.AddCourse[2].AR,
+        updateweek3:result.AddCourse[2].AS,
+        updateweek4:result.AddCourse[2].AT,
 
 
     };

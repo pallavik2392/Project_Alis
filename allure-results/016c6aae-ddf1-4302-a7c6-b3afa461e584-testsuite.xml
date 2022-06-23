@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655972654796' stop='1655972800928'>
+    <name>Verify schedule tab   physical capacity field by passing symbols  </name>
+    <title>Verify schedule tab   physical capacity field by passing symbols  </title>
+    <test-cases>
+        <test-case start='1655972654797' status='passed' stop='1655972800928'>
+            <name>physical capacity by passing symbols </name>
+            <title>physical capacity by passing symbols </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e84544f6-47d1-4bd4-8ea5-4445d36ad2c4-attachment.png' type='image/png' size='106881'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

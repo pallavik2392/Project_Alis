@@ -1,0 +1,78 @@
+{
+  "uid" : "7afc3504590b5a57",
+  "name" : "course  Payablwwhwnable discount amount field for percentage ",
+  "fullName" : "Verification of Payablwwhwnable discount amount field for percentage.course  Payablwwhwnable discount amount field for percentage ",
+  "historyId" : "c635dc2073c7485156f8778367b81bb6",
+  "time" : {
+    "start" : 1655973851311,
+    "stop" : 1655973941391,
+    "duration" : 90080
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60d0f15bcc8356fb",
+      "name" : "Screenshot",
+      "source" : "60d0f15bcc8356fb.png",
+      "type" : "image/png",
+      "size" : 113519
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-58"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of Payablwwhwnable discount amount field for percentage"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of Payablwwhwnable discount amount field for percentage"
+  }, {
+    "name" : "testMethod",
+    "value" : "course  Payablwwhwnable discount amount field for percentage "
+  }, {
+    "name" : "package",
+    "value" : "Verification of Payablwwhwnable discount amount field for percentage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7afc3504590b5a57.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

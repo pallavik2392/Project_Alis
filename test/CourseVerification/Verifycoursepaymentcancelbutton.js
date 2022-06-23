@@ -35,4 +35,9 @@ describe("Verification of payments save button is clickable or not",function(){
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifycoursepaymentcancelbutton.png")
+    })
 })

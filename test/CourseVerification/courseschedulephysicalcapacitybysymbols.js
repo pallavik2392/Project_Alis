@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Coursepage = require("../../pages/Coursespage");
 
 describe("Verify schedule tab   physical capacity field by passing symbols  ",function(){
+    this.retries(3)
+
     it("physical capacity by passing symbols ",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -33,5 +35,10 @@ describe("Verify schedule tab   physical capacity field by passing symbols  ",fu
         const message=await $("//p[@id='physicalCapacity-helper-text']");
         await expect(message).toHaveTextContaining("Only digits are allowed");
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/coursechedulephysicalcapacitybysymbols.png")
     })
 })

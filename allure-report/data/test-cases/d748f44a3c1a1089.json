@@ -1,0 +1,78 @@
+{
+  "uid" : "d748f44a3c1a1089",
+  "name" : "Add icon",
+  "fullName" : "verify add icon for fee.Add icon",
+  "historyId" : "bc6a0f7ae3fd176c891fc30e5baa6abf",
+  "time" : {
+    "start" : 1655972952543,
+    "stop" : 1655972993960,
+    "duration" : 41417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c61de50c81208eaf",
+      "name" : "Screenshot",
+      "source" : "c61de50c81208eaf.png",
+      "type" : "image/png",
+      "size" : 66280
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "verify add icon for fee"
+  }, {
+    "name" : "testClass",
+    "value" : "verify add icon for fee"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add icon"
+  }, {
+    "name" : "package",
+    "value" : "verify add icon for fee"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d748f44a3c1a1089.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

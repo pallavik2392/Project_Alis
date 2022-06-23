@@ -1,0 +1,78 @@
+{
+  "uid" : "da22137344ae2765",
+  "name" : "course  payment scholarship field by passing letters and symbol",
+  "fullName" : "Verification of course payment max redeemable field by passing letters and symbols.course  payment scholarship field by passing letters and symbol",
+  "historyId" : "f0c5e928f9571900f5cde4da516ddc38",
+  "time" : {
+    "start" : 1655973613341,
+    "stop" : 1655973654915,
+    "duration" : 41574
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c9b29390d5cb9a",
+      "name" : "Screenshot",
+      "source" : "6c9b29390d5cb9a.png",
+      "type" : "image/png",
+      "size" : 72632
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-42"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course payment max redeemable field by passing letters and symbols"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course payment max redeemable field by passing letters and symbols"
+  }, {
+    "name" : "testMethod",
+    "value" : "course  payment scholarship field by passing letters and symbol"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course payment max redeemable field by passing letters and symbols"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da22137344ae2765.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

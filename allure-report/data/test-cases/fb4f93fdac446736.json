@@ -1,0 +1,78 @@
+{
+  "uid" : "fb4f93fdac446736",
+  "name" : "courseoverview cancel button",
+  "fullName" : "Verification of course overview cancel button.courseoverview cancel button",
+  "historyId" : "10e8c71a736833c386ce5be9d7473db3",
+  "time" : {
+    "start" : 1655973162024,
+    "stop" : 1655973210156,
+    "duration" : 48132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cde3e35b5fe6e35b",
+      "name" : "Screenshot",
+      "source" : "cde3e35b5fe6e35b.png",
+      "type" : "image/png",
+      "size" : 47398
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of course overview cancel button"
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of course overview cancel button"
+  }, {
+    "name" : "testMethod",
+    "value" : "courseoverview cancel button"
+  }, {
+    "name" : "package",
+    "value" : "Verification of course overview cancel button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb4f93fdac446736.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

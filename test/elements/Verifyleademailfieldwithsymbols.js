@@ -3,6 +3,8 @@ const Leadpage1 = require("../../pages/Leadpage1");
 const signinpage = require("../../pages/signinpage");
 
 describe("verify email field by passing symbols",function(){
+    this.retries(3)
+
     it("email field",async()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -22,5 +24,10 @@ describe("verify email field by passing symbols",function(){
         await browser.pause(3000);
         const message=await $("//p[@id='email-helper-text']");
         await expect(message).toHaveTextContaining("Email address is invalid");
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifyleademailfieldwithsymbols.png")
     })
 })

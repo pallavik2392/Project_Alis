@@ -36,4 +36,9 @@ describe("Verification of K11 discount amount  field for flat discount ",functio
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/VerifypaymentK11discountamountforflatdiscount.png")
+    })
 })

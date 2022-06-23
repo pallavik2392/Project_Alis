@@ -3,6 +3,8 @@ const signinpage = require("../../pages/signinpage");
 const Coursepage = require("../../pages/Coursespage");
 
 describe("Verify cancel button is clickable or not  ",function(){
+    this.retries(3)
+
     it("virtual cancel clickable",async() =>{
     await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
@@ -34,5 +36,10 @@ describe("Verify cancel button is clickable or not  ",function(){
         await browser.pause(3000);
 
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifyschedulecancelbuttonclickable.png")
     })
 })

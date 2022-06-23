@@ -1,0 +1,78 @@
+{
+  "uid" : "6d1ce33825e377e8",
+  "name" : "course  downpayment  field for flat percentage",
+  "fullName" : "Verification of bajaj finance's downpayment  field for max validation .course  downpayment  field for flat percentage",
+  "historyId" : "71e5059983d1c9b1d5aefd19b29c90c3",
+  "time" : {
+    "start" : 1655973489578,
+    "stop" : 1655973571259,
+    "duration" : 81681
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "913666aeb815ec0",
+      "name" : "Screenshot",
+      "source" : "913666aeb815ec0.png",
+      "type" : "image/png",
+      "size" : 103146
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-38"
+  }, {
+    "name" : "suite",
+    "value" : "Verification of bajaj finance's downpayment  field for max validation "
+  }, {
+    "name" : "testClass",
+    "value" : "Verification of bajaj finance's downpayment  field for max validation "
+  }, {
+    "name" : "testMethod",
+    "value" : "course  downpayment  field for flat percentage"
+  }, {
+    "name" : "package",
+    "value" : "Verification of bajaj finance's downpayment  field for max validation "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d1ce33825e377e8.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

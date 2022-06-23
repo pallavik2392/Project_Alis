@@ -37,4 +37,9 @@ describe("Verification of K11 max installments field by passing letters ",functi
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/VerifypaymentK11maxinstallmentbyletters.png")
+    })
 })

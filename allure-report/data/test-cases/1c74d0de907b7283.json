@@ -1,0 +1,78 @@
+{
+  "uid" : "1c74d0de907b7283",
+  "name" : "batch langauge for mandatory ",
+  "fullName" : "Verify schedule tab   batch langauge field for mandatory field  .batch langauge for mandatory ",
+  "historyId" : "ee76284071aff0c53d2d36d27171428f",
+  "time" : {
+    "start" : 1655973875122,
+    "stop" : 1655973953959,
+    "duration" : 78837
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7263aabebcd7d4d",
+      "name" : "Screenshot",
+      "source" : "a7263aabebcd7d4d.png",
+      "type" : "image/png",
+      "size" : 112175
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-59"
+  }, {
+    "name" : "suite",
+    "value" : "Verify schedule tab   batch langauge field for mandatory field  "
+  }, {
+    "name" : "testClass",
+    "value" : "Verify schedule tab   batch langauge field for mandatory field  "
+  }, {
+    "name" : "testMethod",
+    "value" : "batch langauge for mandatory "
+  }, {
+    "name" : "package",
+    "value" : "Verify schedule tab   batch langauge field for mandatory field  "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c74d0de907b7283.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

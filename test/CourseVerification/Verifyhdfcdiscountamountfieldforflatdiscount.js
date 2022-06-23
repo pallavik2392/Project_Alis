@@ -35,4 +35,9 @@ describe("Verification of hdfc's discount amount   field for flat discount with 
         
 
     })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Verifyhdfcdiscountamountfieldforflat.png")
+    })
 })

@@ -4,7 +4,9 @@ const Leadpage1 = require("../../pages/Leadpage1");
 const signinpage = require("../../pages/signinpage");
 
 describe("creation of lead with mandetoryfield",function(){
-    it("mandetory field",async()=> {
+    this.retries(3)
+
+    it("mandatory field",async()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
         console.log(browser.getUrl());
         await browser.maximizeWindow();
@@ -42,11 +44,16 @@ describe("creation of lead with mandetoryfield",function(){
         await Leadpage1.enterAddress2(signinData.Mendatoryleadstreetarea);
         await browser.pause(3000);
         await Leadpage1.clickOnSave();
-        await browser.pause(6000);
+        await browser.pause(8000);
         const message=await $("//div[@class='MuiAlert-message css-1w0ym84']");
         await expect(message).toHaveTextContaining("Lead added");
 
         
 
+    })
+    // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
+   
+    after(async()=>{
+        await browser.saveScreenshot("./ScreenshotsforAlis/Leadcreationmandatoryfield.png")
     })
 })

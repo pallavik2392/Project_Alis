@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656065626015' stop='1656065639119'>
+    <name>Verify forgot passwords username with symbols</name>
+    <title>Verify forgot passwords username with symbols</title>
+    <test-cases>
+        <test-case start='1656065626015' status='passed' stop='1656065639118'>
+            <name>forgot passwords username with symbols</name>
+            <title>forgot passwords username with symbols</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0a3504bd-dc8b-47ae-973e-a42698def199-attachment.png' type='image/png' size='235264'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

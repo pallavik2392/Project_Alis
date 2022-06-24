@@ -20,6 +20,8 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 const console = require("console");
 const { assert } = require("console");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { browser } = require("protractor");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
@@ -152,6 +154,9 @@ class Coursespage extends Page{
     get curriculumcancel(){return $("//button[normalize-space()='Cancel']")}
     get schedulecancel(){return $("//button[normalize-space()='Cancel']")}
     get paymentcancel(){return $("//button[normalize-space()='Cancel']")}
+    get disableallscheme(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/div[1]/div[2]/span[1]/input[1]")}
+    get disablescholarship(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]/div[2]/span[1]/input[1]")}
+
 
     async clickOncourses(){
         this.courses.click();
@@ -167,6 +172,15 @@ class Coursespage extends Page{
     }
     async disableK11EMI(){
         this.enableK11.click();
+    }
+    async disableUpfront(){
+        this.anableupfront.click();
+    }
+    async disableallschemesandoffers(){
+        this.disableallscheme.click();
+    }
+    async disableScholarshipradiobutton(){
+        this.disablescholarship.click();
     }
 
     async clickOnNewcourse(){

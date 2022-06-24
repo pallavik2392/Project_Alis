@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656062792204' stop='1656062814332'>
+    <name>Verify signin button clickable</name>
+    <title>Verify signin button clickable</title>
+    <test-cases>
+        <test-case start='1656062792205' status='passed' stop='1656062814331'>
+            <name>button clickable</name>
+            <title>button clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e2f4998c-33f8-471e-b0e6-6d8d184acf19-attachment.png' type='image/png' size='232247'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

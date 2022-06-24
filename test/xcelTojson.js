@@ -390,6 +390,30 @@ console.log('organizationcode',result.logincred[3].B)
 console.log('updateweek2',result.AddCourse[2].AR)
 console.log('updateweek3',result.AddCourse[2].AS)
 console.log('updateweek4',result.AddCourse[2].AT)
+console.log('usernamewithletters',result.logincred[4].B)
+console.log('usernamewithsymbols',result.logincred[5].B)
+console.log('usernamewithnumbers',result.logincred[6].B)
+console.log('usernamewithinvalidemail',result.logincred[7].B)
+console.log('usernamewithvalidemail',result.logincred[8].B)
+console.log('wrongusername',result.logincred[9].B)
+console.log('wrongpassword',result.logincred[10].B)
+console.log('forgotpasswordusernamewithletters',result.logincred[11].B)
+console.log('forgotpasswordusernamewithsymbols',result.logincred[12].B)
+console.log('forgotpasswordusernamewithnumbers',result.logincred[13].B)
+console.log('forgotpasswordusernamewithvalidemail',result.logincred[14].B)
+console.log('forgotpasswordusernamewithinvalidemail',result.logincred[15].B)
+console.log('course1',result.AddCourse[6].A)
+console.log('courseshortcode1',result.AddCourse[6].B)
+console.log('course2',result.AddCourse[6].C)
+console.log('courseshortcode2',result.AddCourse[6].D)
+console.log('course3',result.AddCourse[6].E)
+console.log('courseshortcode3',result.AddCourse[6].F)
+console.log('course4',result.AddCourse[6].G)
+console.log('courseshortcode4',result.AddCourse[6].H)
+console.log('course5',result.AddCourse[6].I)
+console.log('courseshortcode5',result.AddCourse[6].J)
+console.log('course6',result.AddCourse[6].K)
+console.log('courseshortcode6',result.AddCourse[6].L)
 
 
 var dataRequired = function(){
@@ -752,7 +776,30 @@ var dataRequired = function(){
         updateweek2:result.AddCourse[2].AR,
         updateweek3:result.AddCourse[2].AS,
         updateweek4:result.AddCourse[2].AT,
-
+        usernamewithletters:result.logincred[4].B,
+        usernamewithsymbols:result.logincred[5].B,
+        usernamewithnumbers:result.logincred[6].B,
+        usernamewithinvalidemail:result.logincred[7].B,
+        usernamewithvalidemail:result.logincred[8].B,
+        wrongusername:result.logincred[9].B,
+        wrongpassword:result.logincred[10].B,
+        forgotpasswordusernamewithletters:result.logincred[11].B,
+        forgotpasswordusernamewithsymbols:result.logincred[12].B,
+        forgotpasswordusernamewithnumbers:result.logincred[13].B,
+        forgotpasswordusernamewithvalidemail:result.logincred[14].B,
+        forgotpasswordusernamewithinvalidemail:result.logincred[15].B,
+        course1:result.AddCourse[6].A,
+        courseshortcode1:result.AddCourse[6].B,
+        course2:result.AddCourse[6].C,
+        courseshortcode2:result.AddCourse[6].D,
+        course3:result.AddCourse[6].E,
+        courseshortcode3:result.AddCourse[6].F,
+        course4:result.AddCourse[6].G,
+        courseshortcode4:result.AddCourse[6].H,
+        course5:result.AddCourse[6].I,
+        courseshortcode5:result.AddCourse[6].J,
+        course6:result.AddCourse[6].K,
+        courseshortcode6:result.AddCourse[6].L,
 
     };
 }

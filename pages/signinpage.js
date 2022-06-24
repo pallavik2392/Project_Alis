@@ -35,6 +35,9 @@ class SigninPage extends Page{
      async clickOnOrganization(){
          this.organization.click();
      }
+     async Signinisclickable(){
+        await expect(this.signinBtn).toBeClickable();
+    }
 
 }
 module.exports = new SigninPage();

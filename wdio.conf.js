@@ -23,9 +23,14 @@ exports.config = {
     specs: [
         './test/updatestaff.js'
     ],
-    suites:{
+  /*  suites:{
+        SignIn:[
+            './test/SignIn/Verifyforgotpasswordusernamewithvaliddata.js'
+        ]
+    },*/
+    /*suites:{
         Regular:[
-            './test/Regular/updatecourse.js'
+            './test/Regular/VerifyInvitecode.js'
         ]
     },
    /* suites:{
@@ -46,12 +51,12 @@ exports.config = {
         ]
        },
    */
- /*    suites:{
+     suites:{
         CourseVerification:[
-            './test/CourseVerification/*.js'
+            './test/CourseVerification/Verifycoursecannotbeaddedwithscholarshipandschemesonly.js'
         ]
        },
-   */   
+      
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

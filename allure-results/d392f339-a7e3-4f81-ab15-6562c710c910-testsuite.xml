@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656074714811' stop='1656074793830'>
+    <name>addcourse with scholarship and one of the payment mode and without schemes</name>
+    <title>addcourse with scholarship and one of the payment mode and without schemes</title>
+    <test-cases>
+        <test-case start='1656074714811' status='passed' stop='1656074793829'>
+            <name>course with scholarship and one of the payment mode and without schemes</name>
+            <title>course with scholarship and one of the payment mode and without schemes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='db61de6c-8a28-405c-8713-4f7062e07a20-attachment.png' type='image/png' size='45145'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656043649957' stop='1656043664673'>
+    <name>Verify email for forgot password</name>
+    <title>Verify email for forgot password</title>
+    <test-cases>
+        <test-case start='1656043649964' status='passed' stop='1656043664672'>
+            <name>forgot password</name>
+            <title>forgot password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

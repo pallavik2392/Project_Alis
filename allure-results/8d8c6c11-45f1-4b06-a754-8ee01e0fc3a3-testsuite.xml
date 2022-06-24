@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656073214172' stop='1656073408332'>
+    <name>addcourse with scholarship and one of the payment mode and without schemes</name>
+    <title>addcourse with scholarship and one of the payment mode and without schemes</title>
+    <test-cases>
+        <test-case start='1656073214173' status='failed' stop='1656073408331'>
+            <name>course with scholarship and one of the payment mode and without schemes</name>
+            <title>course with scholarship and one of the payment mode and without schemes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5724de29-9c51-4fce-ad8b-3bbbfb97f1ef-attachment.png' type='image/png' size='44498'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing
+                
+                Expected: "New course added"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing
+                
+                Expected: "New course added"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursecanbeaddedwithscholarshipandonepaymentmodeandwithoutschemes.js:33:31)
+                    at runMicrotasks (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

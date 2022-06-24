@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656071424031' stop='1656071470323'>
+    <name>addcourse with scholarship</name>
+    <title>addcourse with scholarship</title>
+    <test-cases>
+        <test-case start='1656071424032' status='broken' stop='1656071470323'>
+            <name>course with scholarship</name>
+            <title>course with scholarship</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d0cd95de-3553-4261-9a7b-0dba061968b8-attachment.png' type='image/png' size='166590'/>
+            </attachments>
+            <failure>
+                <message>this.courses.click is not a function</message>
+                <stack-trace>TypeError: this.courses.click is not a function
+                    at Coursespage.clickOncourses (/home/vaibhav/Desktop/demoproject/Alis/pages/Coursespage.js:159:22)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursecannotbeaddedwithscholarshiponly.js:19:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656072279500' stop='1656072467186'>
+    <name>addcourse with schemes and offers only</name>
+    <title>addcourse with schemes and offers only</title>
+    <test-cases>
+        <test-case start='1656072279500' status='failed' stop='1656072467186'>
+            <name>course with schemes and offer</name>
+            <title>course with schemes and offer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b332b90a-3ccc-48fe-b8ab-277066d1bf0f-attachment.png' type='image/png' size='44489'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing
+                
+                Expected: "New course added"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//div[@class='MuiAlert-message css-1w0ym84']`) to have text containing
+                
+                Expected: "New course added"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/CourseVerification/Verifycoursecannotbeaddedbyselectingschemesonly.js:33:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656076759746' stop='1656076830611'>
+    <name>addcourse with  payment mode only</name>
+    <title>addcourse with  payment mode only</title>
+    <test-cases>
+        <test-case start='1656076759747' status='passed' stop='1656076830611'>
+            <name>course with payment mode only</name>
+            <title>course with payment mode only</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a7719d3c-5a55-48a1-8e1b-fbf74f2fd450-attachment.png' type='image/png' size='62493'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -9,7 +9,8 @@
     "CreationUpdation": "node_modules/.bin/wdio ./wdio.conf.js --suite CreationUpdation",
     "Staffverification": "node_modules/.bin/wdio ./wdio.conf.js --suite Staffverification",
     "CourseVerification": "node_modules/.bin/wdio ./wdio.conf.js --suite CourseVerification",
-    "Regular": "node_modules/.bin/wdio ./wdio.conf.js --suite Regular"
+    "Regular": "node_modules/.bin/wdio ./wdio.conf.js --suite Regular",
+    "SignIn":"node_modules/.bin/wdio ./wdio.conf.js --suite SignIn"
   },
   "author": "pallavi",
   "license": "MIT",

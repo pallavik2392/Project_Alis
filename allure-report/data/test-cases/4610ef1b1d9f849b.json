@@ -1,0 +1,86 @@
+{
+  "uid" : "4610ef1b1d9f849b",
+  "name" : "signin with valid username and invalid password",
+  "fullName" : "Sign in page with valid username and invalid password .signin with valid username and invalid password",
+  "historyId" : "a47bc1a2783d070e97b00e0f4f079891",
+  "time" : {
+    "start" : 1656411422405,
+    "stop" : 1656411456131,
+    "duration" : 33726
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//p[contains(text(),'Incorrect username or password. Please check and t')]`) to have text containing\n                \n                Expected: \"invalid\"\n                Received: \"Incorrect username or password. Please check and try again.\"",
+  "statusTrace" : "Error: Expect $(`//p[contains(text(),'Incorrect username or password. Please check and t')]`) to have text containing\n                \n                Expected: \"invalid\"\n                Received: \"Incorrect username or password. Please check and try again.\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/SignIn/Verifysigninpagewithvalidusernameandinvalidpassword.js:25:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//p[contains(text(),'Incorrect username or password. Please check and t')]`) to have text containing\n                \n                Expected: \"invalid\"\n                Received: \"Incorrect username or password. Please check and try again.\"",
+    "statusTrace" : "Error: Expect $(`//p[contains(text(),'Incorrect username or password. Please check and t')]`) to have text containing\n                \n                Expected: \"invalid\"\n                Received: \"Incorrect username or password. Please check and try again.\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/SignIn/Verifysigninpagewithvalidusernameandinvalidpassword.js:25:31)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9515d18ced96d9e6",
+      "name" : "Screenshot",
+      "source" : "9515d18ced96d9e6.png",
+      "type" : "image/png",
+      "size" : 214130
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "Sign in page with valid username and invalid password "
+  }, {
+    "name" : "testClass",
+    "value" : "Sign in page with valid username and invalid password "
+  }, {
+    "name" : "testMethod",
+    "value" : "signin with valid username and invalid password"
+  }, {
+    "name" : "package",
+    "value" : "Sign in page with valid username and invalid password "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4610ef1b1d9f849b.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

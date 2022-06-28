@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656411376876' stop='1656411404195'>
+    <name>Verify forgot passwords username with invalid data</name>
+    <title>Verify forgot passwords username with invalid data</title>
+    <test-cases>
+        <test-case start='1656411376877' status='failed' stop='1656411404195'>
+            <name>forgot passwords username with invalid data</name>
+            <title>forgot passwords username with invalid data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bc0fbbda-23d8-477f-8e9c-9b07e475f517-attachment.png' type='image/png' size='235612'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//p[@id='username-helper-text']`) to have text containing
+                
+                Expected: "Wrong"
+                Received: "Email address is invalid"</message>
+                <stack-trace>Error: Expect $(`//p[@id='username-helper-text']`) to have text containing
+                
+                Expected: "Wrong"
+                Received: "Email address is invalid"
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/SignIn/Verifyforgotpasswordusernamewithinvaliddata.js:21:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

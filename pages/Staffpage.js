@@ -178,10 +178,17 @@ class Staffpage extends Page{
 
         await expect(this.staffcancel).toBeClickable();
 
-
-
-
     }
+    async VerifyNewstaffbuttonforRolewiseaccessNotclickable(){
+       
+        await expect(this.neawstaff).not.toBeClickable();
+    }
+
+    async VerifyNewstaffebuttonforRolewiseaccessNotexist(){
+   
+        await expect(this.neawstaff).not.toBeExisting();
+
+}
 
 }
 module.exports = new Staffpage();

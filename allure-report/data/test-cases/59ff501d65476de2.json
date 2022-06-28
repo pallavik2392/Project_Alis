@@ -1,0 +1,78 @@
+{
+  "uid" : "59ff501d65476de2",
+  "name" : "without password and username",
+  "fullName" : "Verify sign in page without passing password and username.without password and username",
+  "historyId" : "24ad90844cedf0df43c83045f74395b0",
+  "time" : {
+    "start" : 1656411408669,
+    "stop" : 1656411427780,
+    "duration" : 19111
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a7a297eab1fe64e",
+      "name" : "Screenshot",
+      "source" : "8a7a297eab1fe64e.png",
+      "type" : "image/png",
+      "size" : 233255
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Verify sign in page without passing password and username"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify sign in page without passing password and username"
+  }, {
+    "name" : "testMethod",
+    "value" : "without password and username"
+  }, {
+    "name" : "package",
+    "value" : "Verify sign in page without passing password and username"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59ff501d65476de2.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

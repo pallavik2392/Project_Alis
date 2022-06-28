@@ -38,6 +38,17 @@ class SigninPage extends Page{
      async Signinisclickable(){
         await expect(this.signinBtn).toBeClickable();
     }
+    async verifyInvitecode(text1,text2){
+        const email=await $("//span[contains(text(),'"+text1+"')]/parent::div/parent::td");
+
+        await email.click();
+        await browser.pause(3000);
+        const time = await $("//span[contains(text(),'"+text2+"')]");
+        
+        await browser.pause(3000);
+        await expect(time).toBeExisting();
+
+    }
 
 }
 module.exports = new SigninPage();

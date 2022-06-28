@@ -22,7 +22,7 @@ describe("Sign in page with valid username and invalid password ",function(){
 
 
         const message=await $("//p[contains(text(),'Incorrect username or password. Please check and t')]");
-        await expect(message).toHaveTextContaining("Incorrect username or password. Please check and try again.");
+        await expect(message).toHaveTextContaining("invalid");
        
 
     })

@@ -1,8 +1,8 @@
 {
-  "total" : 64,
+  "total" : 16,
   "items" : [ {
-    "uid" : "fd5f4d6ee3e7c7b862eee4b63822d2d6",
-    "name" : "Verify curriculum tab cancel button is clickable  ",
+    "uid" : "33ccbb3a09d0273f647c16cd01b0d1de",
+    "name" : "Verify forgot passwords username with invalid data",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "6596204a3c18f1d36dc3028574b88d2b",
-    "name" : "curriculum tab verification for topic field",
+    "uid" : "d5db8eca45d59d5c885f46fbb86d342b",
+    "name" : "Sign in page with valid username and invalid password ",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -23,90 +23,90 @@
       "total" : 1
     }
   }, {
-    "uid" : "3527fabe4ced2902da07472769e67d89",
-    "name" : "Verification of course Fees save button",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "b520a5181d15fd8ea455b333fd1f3f09",
-    "name" : "Verification of course overview by passing only shortcode",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "fe72f50857799508c0690fe78a0122f5",
-    "name" : "Verification of bajaj finance's discount amount field for flat ",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "e9c4d459130f63d7e5102695b761dd57",
-    "name" : "verify topic field error message for mandatory sign",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "bb43c84370e8a9f31e4cab617fa8886a",
-    "name" : "Verification of hdfc's discount amount   field for flat discount with max validation ",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "9bb4eb3cdc052e038b8ddd2307296be4",
-    "name" : "Verification of K11 discount amount  field for flat discount ",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "b6a44f824ed410c683b0abd02f623b50",
-    "name" : "Verification of Payablwwhwnable discount amount field for flat",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "d90bc25161a4b4a322dc61cbf0e32cfb",
-    "name" : "Verify schedule tab   virtual capacity field by passing letters  ",
+    "uid" : "a2e9324fb1d3bcf3b347a093f0706f22",
+    "name" : "Verify forgot passwords username with symbols",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "16bedb1642d4bd167a352c0bbca7bba9",
+    "name" : "Verify forgot password's username with letters",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "114f325b1ec7a163bee6be453ece8090",
+    "name" : "Verify forgot passwords username with numbers",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "95c96bde267d711d00c6b6014721f5d2",
+    "name" : "Verify forgot passwords username with valid data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "44a08d49affacd139d83f56f8320c7c9",
+    "name" : "Verify signin button clickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a83f0e0ae9d82d5ae4281830c2eaabd4",
+    "name" : "Verify sign in page using username only",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e75240f212c8f2e1fa629b0b262af0df",
+    "name" : "Verify sign in page using password only",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c19bca1a2be45fe8eff030b65b6ff4ab",
+    "name" : "Sign in page with invalid username and valid password ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

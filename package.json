@@ -10,7 +10,8 @@
     "Staffverification": "node_modules/.bin/wdio ./wdio.conf.js --suite Staffverification",
     "CourseVerification": "node_modules/.bin/wdio ./wdio.conf.js --suite CourseVerification",
     "Regular": "node_modules/.bin/wdio ./wdio.conf.js --suite Regular",
-    "SignIn":"node_modules/.bin/wdio ./wdio.conf.js --suite SignIn"
+    "SignIn":"node_modules/.bin/wdio ./wdio.conf.js --suite SignIn",
+    "ExecutiveRole":"node_modules/.bin/wdio ./wdio.conf.js --suite ExecutiveRole"
   },
   "author": "pallavi",
   "license": "MIT",

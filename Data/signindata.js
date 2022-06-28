@@ -384,5 +384,8 @@ course5 : xcelTojson.testConfig.course5,
 courseshortcode5 : xcelTojson.testConfig.courseshortcode5,
 course6 : xcelTojson.testConfig.course6,
 courseshortcode6 : xcelTojson.testConfig.courseshortcode6,
-
+Emailsubjectline : xcelTojson.testConfig.Emailsubjectline,
+timeORdate : xcelTojson.testConfig.timeORdate,
+Executiveusername : xcelTojson.testConfig.Executiveusername,
+Executivepassword : xcelTojson.testConfig.Executivepassword,
 }

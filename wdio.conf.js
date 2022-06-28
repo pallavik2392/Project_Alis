@@ -23,16 +23,21 @@ exports.config = {
     specs: [
         './test/updatestaff.js'
     ],
-  /*  suites:{
+ /*   suites:{
         SignIn:[
-            './test/SignIn/Verifyforgotpasswordusernamewithvaliddata.js'
+            './test/SignIn/*.js'
         ]
     },*/
-    /*suites:{
-        Regular:[
-            './test/Regular/VerifyInvitecode.js'
+    suites:{
+        ExecutiveRole:[
+            './test/ExecutiveRole/Verifyexecutiverolenewleadbuttonshouldnotbeclickable.js'
         ]
     },
+  /* suites:{
+        Regular:[
+            './test/Regular/Verifygmailforinvitecode.js'
+        ]
+    },*/
    /* suites:{
      elements:[
          './test/elements/*.js'
@@ -51,12 +56,12 @@ exports.config = {
         ]
        },
    */
-     suites:{
+  /*   suites:{
         CourseVerification:[
-            './test/CourseVerification/Verifycoursecannotbeaddedwithscholarshipandschemesonly.js'
+            './test/CourseVerification/*.js'
         ]
        },
-      
+      */
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

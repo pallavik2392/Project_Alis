@@ -1,0 +1,86 @@
+{
+  "uid" : "8e155d4b926fd482",
+  "name" : "forgot passwords username with invalid data",
+  "fullName" : "Verify forgot passwords username with invalid data.forgot passwords username with invalid data",
+  "historyId" : "8a545129ac1d8e2f83c8a828dd0a9fb7",
+  "time" : {
+    "start" : 1656411376877,
+    "stop" : 1656411404195,
+    "duration" : 27318
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//p[@id='username-helper-text']`) to have text containing\n                \n                Expected: \"Wrong\"\n                Received: \"Email address is invalid\"",
+  "statusTrace" : "Error: Expect $(`//p[@id='username-helper-text']`) to have text containing\n                \n                Expected: \"Wrong\"\n                Received: \"Email address is invalid\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/SignIn/Verifyforgotpasswordusernamewithinvaliddata.js:21:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//p[@id='username-helper-text']`) to have text containing\n                \n                Expected: \"Wrong\"\n                Received: \"Email address is invalid\"",
+    "statusTrace" : "Error: Expect $(`//p[@id='username-helper-text']`) to have text containing\n                \n                Expected: \"Wrong\"\n                Received: \"Email address is invalid\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/SignIn/Verifyforgotpasswordusernamewithinvaliddata.js:21:31)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "34f225bfc5f1f990",
+      "name" : "Screenshot",
+      "source" : "34f225bfc5f1f990.png",
+      "type" : "image/png",
+      "size" : 235612
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Verify forgot passwords username with invalid data"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify forgot passwords username with invalid data"
+  }, {
+    "name" : "testMethod",
+    "value" : "forgot passwords username with invalid data"
+  }, {
+    "name" : "package",
+    "value" : "Verify forgot passwords username with invalid data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8e155d4b926fd482.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

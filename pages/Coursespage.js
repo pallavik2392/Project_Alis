@@ -843,6 +843,16 @@ class Coursespage extends Page{
     async coursePaymentCancelisclickable(){
         await expect(this.paymentcancel).toBeClickable();
     }
+    async VerifyNewcoursebuttonforRolewiseaccessNotexist(){
+       
+        await expect(this.newcourse).not.toBeExisting();
+
+    }
+    async VerifyNewcoursebuttonforRolewiseaccessNotclickable(){
+       
+        await expect(this.newcourse).not.toBeClickable();
+
+    }
 
 
 }

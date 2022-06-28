@@ -1,0 +1,78 @@
+{
+  "uid" : "70ccf544060b67a",
+  "name" : "forgot passwords username with numbers",
+  "fullName" : "Verify forgot passwords username with numbers.forgot passwords username with numbers",
+  "historyId" : "db66839a4db7f3b1356664177da26799",
+  "time" : {
+    "start" : 1656411377777,
+    "stop" : 1656411393935,
+    "duration" : 16158
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "88469837803e3afd",
+      "name" : "Screenshot",
+      "source" : "88469837803e3afd.png",
+      "type" : "image/png",
+      "size" : 235347
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Verify forgot passwords username with numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify forgot passwords username with numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "forgot passwords username with numbers"
+  }, {
+    "name" : "package",
+    "value" : "Verify forgot passwords username with numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70ccf544060b67a.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

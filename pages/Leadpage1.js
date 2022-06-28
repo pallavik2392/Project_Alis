@@ -345,6 +345,16 @@ class LeadPage1 extends  Page{
         ))
          this.deletecallingslot.click();
     }
+    async VerifyNewleadbuttonforRolewiseaccessNotexist(){
+       
+        await expect(this.leadnewlead).not.toBeExisting();
+
+    }
+    async VerifyNewleadbuttonforRolewiseaccessNotclickable(){
+       
+        await expect(this.leadnewlead).not.toBeClickable();
+
+    }
     
     
 }

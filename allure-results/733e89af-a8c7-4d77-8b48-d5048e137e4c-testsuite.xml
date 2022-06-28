@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656411448817' stop='1656411461909'>
+    <name>Verify username field by valid email</name>
+    <title>Verify username field by valid email</title>
+    <test-cases>
+        <test-case start='1656411448822' status='passed' stop='1656411461908'>
+            <name>username with valid email</name>
+            <title>username with valid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-15'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-15'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e538baa7-6c32-445b-be7c-aacedd390fa4-attachment.png' type='image/png' size='230730'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

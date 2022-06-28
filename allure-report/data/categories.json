@@ -4,16 +4,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Expect $(`//button[normalize-space()='Cancel']`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+      "name" : "Expect $(`//p[@id='username-helper-text']`) to have text containing\n                \n                Expected: \"Wrong\"\n                Received: \"Email address is invalid\"",
       "children" : [ {
-        "name" : "verify cancel button ",
-        "uid" : "67c97bc320da6781",
-        "parentUid" : "26beb6b783912ffd50e17ec5b3534ca4",
+        "name" : "forgot passwords username with invalid data",
+        "uid" : "8e155d4b926fd482",
+        "parentUid" : "e235ffb875061df60c705ed44efe718c",
         "status" : "failed",
         "time" : {
-          "start" : 1655972858568,
-          "stop" : 1655973093616,
-          "duration" : 235048
+          "start" : 1656411376877,
+          "stop" : 1656411404195,
+          "duration" : 27318
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,35 +23,18 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "26beb6b783912ffd50e17ec5b3534ca4"
+      "uid" : "e235ffb875061df60c705ed44efe718c"
     }, {
-      "name" : "Expect $(`//p[@id='topic-helper-text']`) to have text containing\n                \n                Expected: \"This field is required\"\n                Received: undefined",
+      "name" : "Expect $(`//p[contains(text(),'Incorrect username or password. Please check and t')]`) to have text containing\n                \n                Expected: \"invalid\"\n                Received: \"Incorrect username or password. Please check and try again.\"",
       "children" : [ {
-        "name" : "verify msg for topic field",
-        "uid" : "8fdfcefc2d2c0a47",
-        "parentUid" : "f2e4fb75bbb4e7a7f63146b220113c12",
+        "name" : "signin with valid username and invalid password",
+        "uid" : "4610ef1b1d9f849b",
+        "parentUid" : "3e930bf727eeb9879b518ca37a15ce64",
         "status" : "failed",
         "time" : {
-          "start" : 1655972933789,
-          "stop" : 1655973156789,
-          "duration" : 223000
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      }, {
-        "name" : "verify error message",
-        "uid" : "67b2a10163a66945",
-        "parentUid" : "f2e4fb75bbb4e7a7f63146b220113c12",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655973416700,
-          "stop" : 1655973626702,
-          "duration" : 210002
+          "start" : 1656411422405,
+          "stop" : 1656411456131,
+          "duration" : 33726
         },
         "flaky" : false,
         "newFailed" : false,
@@ -61,155 +44,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-101.0.4951.54" ]
       } ],
-      "uid" : "f2e4fb75bbb4e7a7f63146b220113c12"
-    }, {
-      "name" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/button[1]`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
-      "children" : [ {
-        "name" : "course  fees  save button",
-        "uid" : "25a8438c424f3512",
-        "parentUid" : "6e8d8f154885734cb61f1132bc992620",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655973096080,
-          "stop" : 1655973272126,
-          "duration" : 176046
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "6e8d8f154885734cb61f1132bc992620"
-    }, {
-      "name" : "Expect $(`//p[@id='name-helper-text']`) to have text containing\n                \n                Expected: \"This  \"\n                Received: \"This field is required\"",
-      "children" : [ {
-        "name" : "courseoverview with shortcode only",
-        "uid" : "e1ba93a0958cf566",
-        "parentUid" : "81d3fd940313ae4882541b04d5bdf3be",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655973226932,
-          "stop" : 1655973398537,
-          "duration" : 171605
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "81d3fd940313ae4882541b04d5bdf3be"
-    }, {
-      "name" : "Expect $(`//p[@id='value-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than 100%\"\n                Received: \"Only digits are allowed\"",
-      "children" : [ {
-        "name" : "course  payment amount field for flat percentage",
-        "uid" : "1f43278bb043f81a",
-        "parentUid" : "52e25fe5585d95f20d838d779b4f7a8e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655973251694,
-          "stop" : 1655973469421,
-          "duration" : 217727
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "52e25fe5585d95f20d838d779b4f7a8e"
-    }, {
-      "name" : "Expect $(`//p[@id='Max Installments-helper-text']`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined",
-      "children" : [ {
-        "name" : "course  hdfc discount amount  field for flat discount amount",
-        "uid" : "e22fb6dafee92ca5",
-        "parentUid" : "17e645fb20f01df910c248df10bad9e4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655973444469,
-          "stop" : 1655973671036,
-          "duration" : 226567
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      }, {
-        "name" : "course  Payablwwhwnable discount amount field for flat ",
-        "uid" : "432678c8aa8cc561",
-        "parentUid" : "17e645fb20f01df910c248df10bad9e4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655973846571,
-          "stop" : 1655974046239,
-          "duration" : 199668
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "17e645fb20f01df910c248df10bad9e4"
-    }, {
-      "name" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/p[1]`) to have text containing\n                \n                Expected: \"Cannot be more than 999\"\n                Received: undefined",
-      "children" : [ {
-        "name" : "course  K11 discount amount field for flat ",
-        "uid" : "a3b7a012aaee554f",
-        "parentUid" : "1ee31d09d281773f5d8df202a75136fc",
-        "status" : "failed",
-        "time" : {
-          "start" : 1655973720322,
-          "stop" : 1655973993303,
-          "duration" : 272981
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "1ee31d09d281773f5d8df202a75136fc"
+      "uid" : "3e930bf727eeb9879b518ca37a15ce64"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "element (\"//h5[@aria-label='C sharp']\") still not displayed after 10000ms",
-      "children" : [ {
-        "name" : "virtual capacity by passing letters ",
-        "uid" : "a7da88c68d953d2f",
-        "parentUid" : "c975e26935d78c314bd30906088995ce",
-        "status" : "broken",
-        "time" : {
-          "start" : 1655974120278,
-          "stop" : 1655974432839,
-          "duration" : 312561
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 1,
-        "retriesStatusChange" : true,
-        "parameters" : [ "chrome-101.0.4951.54" ]
-      } ],
-      "uid" : "c975e26935d78c314bd30906088995ce"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

@@ -1,0 +1,78 @@
+{
+  "uid" : "bf3ae5cfe9cb08cb",
+  "name" : "forgot passwords username with valid data",
+  "fullName" : "Verify forgot passwords username with valid data.forgot passwords username with valid data",
+  "historyId" : "86404dc222f73f4f84de7dc51c99ef6b",
+  "time" : {
+    "start" : 1656411380350,
+    "stop" : 1656411395347,
+    "duration" : 14997
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bed7efc1eba36b3a",
+      "name" : "Screenshot",
+      "source" : "bed7efc1eba36b3a.png",
+      "type" : "image/png",
+      "size" : 235307
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Verify forgot passwords username with valid data"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify forgot passwords username with valid data"
+  }, {
+    "name" : "testMethod",
+    "value" : "forgot passwords username with valid data"
+  }, {
+    "name" : "package",
+    "value" : "Verify forgot passwords username with valid data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf3ae5cfe9cb08cb.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

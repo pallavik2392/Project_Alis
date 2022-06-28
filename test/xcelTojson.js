@@ -414,6 +414,10 @@ console.log('course5',result.AddCourse[6].I)
 console.log('courseshortcode5',result.AddCourse[6].J)
 console.log('course6',result.AddCourse[6].K)
 console.log('courseshortcode6',result.AddCourse[6].L)
+console.log('Emailsubjectline',result.logincred[16].B)
+console.log('timeORdate',result.logincred[17].B)
+console.log('Executiveusername',result.logincred[18].B)
+console.log('Executivepassword',result.logincred[19].B)
 
 
 var dataRequired = function(){
@@ -800,6 +804,10 @@ var dataRequired = function(){
         courseshortcode5:result.AddCourse[6].J,
         course6:result.AddCourse[6].K,
         courseshortcode6:result.AddCourse[6].L,
+        Emailsubjectline:result.logincred[16].B,
+        timeORdate:result.logincred[17].B,
+        Executiveusername:result.logincred[18].B,
+        Executivepassword:result.logincred[19].B,
 
     };
 }

@@ -18,7 +18,7 @@ describe("Verify forgot passwords username with invalid data",function(){
        await FPusername.setValue(signinData.forgotpasswordusernamewithinvalidemail);
 
        const message=await $("//p[@id='username-helper-text']");
-        await expect(message).toHaveTextContaining("Email address is invalid");
+        await expect(message).toHaveTextContaining("Wrong");
        
 
        

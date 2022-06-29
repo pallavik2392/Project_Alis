@@ -1,0 +1,76 @@
+{
+  "uid" : "76f60e797b638a58",
+  "name" : "verify new staff button not exist",
+  "fullName" : "verify executive should not be able to create staff by new staff button not exist.verify new staff button not exist",
+  "historyId" : "29973b449ce983b798b934851e0fbcb1",
+  "time" : {
+    "start" : 1656474848590,
+    "stop" : 1656474867414,
+    "duration" : 18824
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b46e42b672c8ba5",
+      "name" : "Screenshot",
+      "source" : "1b46e42b672c8ba5.png",
+      "type" : "image/png",
+      "size" : 163569
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "verify executive should not be able to create staff by new staff button not exist"
+  }, {
+    "name" : "testClass",
+    "value" : "verify executive should not be able to create staff by new staff button not exist"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify new staff button not exist"
+  }, {
+    "name" : "package",
+    "value" : "verify executive should not be able to create staff by new staff button not exist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76f60e797b638a58.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

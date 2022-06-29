@@ -22,6 +22,7 @@ const console = require("console");
 const { assert } = require("console");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { browser } = require("protractor");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
@@ -156,6 +157,7 @@ class Coursespage extends Page{
     get paymentcancel(){return $("//button[normalize-space()='Cancel']")}
     get disableallscheme(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/div[1]/div[2]/span[1]/input[1]")}
     get disablescholarship(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]/div[2]/span[1]/input[1]")}
+    get particularcourse(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")} 
 
 
     async clickOncourses(){
@@ -851,6 +853,11 @@ class Coursespage extends Page{
     async VerifyNewcoursebuttonforRolewiseaccessNotclickable(){
        
         await expect(this.newcourse).not.toBeClickable();
+
+    }
+    async Verifyparticularcourseclickable(){
+       
+        await expect(this.particularcourse).toBeClickable();
 
     }
 

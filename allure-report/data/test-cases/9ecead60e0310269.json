@@ -1,0 +1,76 @@
+{
+  "uid" : "9ecead60e0310269",
+  "name" : "verify executive can add scholarship",
+  "fullName" : "verify for executive role can add scholorship.verify executive can add scholarship",
+  "historyId" : "8c9540e18cae98b408b7d2d0873ae6c8",
+  "time" : {
+    "start" : 1656492835575,
+    "stop" : 1656492859301,
+    "duration" : 23726
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4d9680f52e13f5a",
+      "name" : "Screenshot",
+      "source" : "4d9680f52e13f5a.png",
+      "type" : "image/png",
+      "size" : 88855
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role can add scholorship"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role can add scholorship"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify executive can add scholarship"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role can add scholorship"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ecead60e0310269.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

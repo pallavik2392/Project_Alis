@@ -4,6 +4,7 @@ var fs=require('fs-extra');
 //const  path = require("path");
 
 const excelToJson = require('convert-excel-to-json');
+const { Console } = require('console');
 //const { browser } = require('protractor');
 
 const result = excelToJson({
@@ -418,6 +419,9 @@ console.log('Emailsubjectline',result.logincred[16].B)
 console.log('timeORdate',result.logincred[17].B)
 console.log('Executiveusername',result.logincred[18].B)
 console.log('Executivepassword',result.logincred[19].B)
+console.log('Coursenameforscholarship',result.Student[0].A)
+console.log('Dateearnedscholarship',result.Student[0].B)
+console.log('Benefitsearnedforscholarship',result.Student[0].C)
 
 
 var dataRequired = function(){
@@ -808,6 +812,9 @@ var dataRequired = function(){
         timeORdate:result.logincred[17].B,
         Executiveusername:result.logincred[18].B,
         Executivepassword:result.logincred[19].B,
+        Coursenameforscholarship:result.Student[0].A,
+        Dateearnedscholarship:result.Student[0].B,
+        Benefitsearnedforscholarship:result.Student[0].C,
 
     };
 }

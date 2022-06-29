@@ -1,0 +1,86 @@
+{
+  "uid" : "cf0e7d7b46bf16bf",
+  "name" : "verify new lead button disabled",
+  "fullName" : "verify for executive role new lead button should be disable.verify new lead button disabled",
+  "historyId" : "2fbb03f66657d409a845c19a1666949d",
+  "time" : {
+    "start" : 1656478451669,
+    "stop" : 1656478470260,
+    "duration" : 18591
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cd4ea37e8462724d",
+      "name" : "Screenshot",
+      "source" : "cd4ea37e8462724d.png",
+      "type" : "image/png",
+      "size" : 163569
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role new lead button should be disable"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role new lead button should be disable"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify new lead button disabled"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role new lead button should be disable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c459dfd57e67d64d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656474824139,
+        "stop" : 1656474845675,
+        "duration" : 21536
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf0e7d7b46bf16bf.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

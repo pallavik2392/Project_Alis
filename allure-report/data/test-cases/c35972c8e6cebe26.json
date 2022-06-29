@@ -1,0 +1,62 @@
+{
+  "uid" : "c35972c8e6cebe26",
+  "name" : "\"after all\" hook for verify for executive role should  able to update course",
+  "fullName" : "verify for executive role should  able to update course.\"after all\" hook for verify for executive role should  able to update course",
+  "historyId" : "759703ac172796480ca03e29ae5524a7",
+  "time" : {
+    "start" : 1656490044881,
+    "stop" : 1656490248540,
+    "duration" : 203659
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "chrome not reachable\n                  (Session info: chrome=101.0.4951.54)",
+  "statusTrace" : "chrome not reachable: chrome not reachable\n                  (Session info: chrome=101.0.4951.54)\n                    at runMicrotasks (<anonymous>)\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutiveroleabletoeditcoursedetails.js:142:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for verify for executive role should  able to update course"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c35972c8e6cebe26.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

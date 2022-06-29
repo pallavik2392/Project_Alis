@@ -1,0 +1,80 @@
+{
+  "uid" : "ded00aa8ab4c67f1",
+  "name" : "verify particular course able to update",
+  "fullName" : "verify for executive role should  able to update course.verify particular course able to update",
+  "historyId" : "9231954ff00bb12c7330546493729ecd",
+  "time" : {
+    "start" : 1656489738959,
+    "stop" : 1656489786377,
+    "duration" : 47418
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Coursespage is not defined",
+  "statusTrace" : "ReferenceError: Coursespage is not defined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutiveroleabletoeditcoursedetails.js:19:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Coursespage is not defined",
+    "statusTrace" : "ReferenceError: Coursespage is not defined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutiveroleabletoeditcoursedetails.js:19:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "474e11cf3e52e541",
+      "name" : "Screenshot",
+      "source" : "474e11cf3e52e541.png",
+      "type" : "image/png",
+      "size" : 51419
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify particular course able to update"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ded00aa8ab4c67f1.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

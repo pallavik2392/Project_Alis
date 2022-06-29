@@ -1,0 +1,110 @@
+{
+  "uid" : "10c8333c27c1f1ea",
+  "name" : "verify new staff button not exist",
+  "fullName" : "verify executive should not be able to create staff by new staff button not exist.verify new staff button not exist",
+  "historyId" : "29973b449ce983b798b934851e0fbcb1",
+  "time" : {
+    "start" : 1656479305399,
+    "stop" : 1656479410353,
+    "duration" : 104954
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//button[normalize-space()='New Staff']`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+  "statusTrace" : "Error: Expect $(`//button[normalize-space()='New Staff']`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"\n                    at Staffpage.VerifyNewstaffebuttonforRolewiseaccessNotexist (/home/vaibhav/Desktop/demoproject/Alis/pages/Staffpage.js:189:38)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutiveshouldnotcreatestaff.js:22:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//button[normalize-space()='New Staff']`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+    "statusTrace" : "Error: Expect $(`//button[normalize-space()='New Staff']`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"\n                    at Staffpage.VerifyNewstaffebuttonforRolewiseaccessNotexist (/home/vaibhav/Desktop/demoproject/Alis/pages/Staffpage.js:189:38)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutiveshouldnotcreatestaff.js:22:25)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84c0d81dd8eb1c08",
+      "name" : "Screenshot",
+      "source" : "84c0d81dd8eb1c08.png",
+      "type" : "image/png",
+      "size" : 95724
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify executive should not be able to create staff by new staff button not exist"
+  }, {
+    "name" : "testClass",
+    "value" : "verify executive should not be able to create staff by new staff button not exist"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify new staff button not exist"
+  }, {
+    "name" : "package",
+    "value" : "verify executive should not be able to create staff by new staff button not exist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aeca573353236a0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656479201042,
+        "stop" : 1656479224836,
+        "duration" : 23794
+      }
+    }, {
+      "uid" : "7e36e07797a69bc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656479152348,
+        "stop" : 1656479170971,
+        "duration" : 18623
+      }
+    }, {
+      "uid" : "76f60e797b638a58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656474848590,
+        "stop" : 1656474867414,
+        "duration" : 18824
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "10c8333c27c1f1ea.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

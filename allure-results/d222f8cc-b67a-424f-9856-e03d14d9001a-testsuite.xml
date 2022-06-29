@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656477855432' stop='1656477921806'>
+    <name>verify for executive role new course button should be disable</name>
+    <title>verify for executive role new course button should be disable</title>
+    <test-cases>
+        <test-case start='1656477855432' status='broken' stop='1656477921806'>
+            <name>verify new course button should not be clickable</name>
+            <title>verify new course button should not be clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e4e3f0b4-1d42-4408-8fe6-4b1755861472-attachment.png' type='image/png' size='163381'/>
+            </attachments>
+            <failure>
+                <message>Coursepage is not defined</message>
+                <stack-trace>ReferenceError: Coursepage is not defined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutiveroleshouldnotcreatecoursebynewcoursebuttonabsent.js:19:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

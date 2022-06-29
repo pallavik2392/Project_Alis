@@ -1,0 +1,76 @@
+{
+  "uid" : "f6a92ca0f4caf85b",
+  "name" : "verify new lead button exist",
+  "fullName" : "verify executive should not be able to create lead.verify new lead button exist",
+  "historyId" : "23a7202dd6c7e2af1163cffca95e7634",
+  "time" : {
+    "start" : 1656420385853,
+    "stop" : 1656420485058,
+    "duration" : 99205
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4e1ca7be5f0712a",
+      "name" : "Screenshot",
+      "source" : "4e1ca7be5f0712a.png",
+      "type" : "image/png",
+      "size" : 4922
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify executive should not be able to create lead"
+  }, {
+    "name" : "testClass",
+    "value" : "verify executive should not be able to create lead"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify new lead button exist"
+  }, {
+    "name" : "package",
+    "value" : "verify executive should not be able to create lead"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6a92ca0f4caf85b.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

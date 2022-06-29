@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656474824761' stop='1656474847033'>
+    <name>verify executive should not be able to create lead</name>
+    <title>verify executive should not be able to create lead</title>
+    <test-cases>
+        <test-case start='1656474824762' status='passed' stop='1656474847032'>
+            <name>verify new lead button exist</name>
+            <title>verify new lead button exist</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1600e8e1-bee9-40aa-bed3-7aded7f70775-attachment.png' type='image/png' size='163569'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -25,6 +25,6 @@ describe("verify executive should not be able to create lead",function(){
     // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
    
     after(async()=>{
-        await browser.saveScreenshot("./ScreenshotsforAlis/VerifyExecutiveaccessfornewleadbutton.png")
+        await browser.saveScreenshot("./ScreenshotsforAlis/VerifyExecutiveaccessfornewleadbuttonshouldnotexist.png")
     })
 })

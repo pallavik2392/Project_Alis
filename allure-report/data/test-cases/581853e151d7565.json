@@ -1,0 +1,78 @@
+{
+  "uid" : "581853e151d7565",
+  "name" : "forgot passwords username with symbols",
+  "fullName" : "Verify forgot passwords username with symbols.forgot passwords username with symbols",
+  "historyId" : "3e97db8055f42624fb7d3bfb61e5a2ea",
+  "time" : {
+    "start" : 1656411376436,
+    "stop" : 1656411392262,
+    "duration" : 15826
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "52e1a9a0f717b9c0",
+      "name" : "Screenshot",
+      "source" : "52e1a9a0f717b9c0.png",
+      "type" : "image/png",
+      "size" : 235454
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify forgot passwords username with symbols"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify forgot passwords username with symbols"
+  }, {
+    "name" : "testMethod",
+    "value" : "forgot passwords username with symbols"
+  }, {
+    "name" : "package",
+    "value" : "Verify forgot passwords username with symbols"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "581853e151d7565.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

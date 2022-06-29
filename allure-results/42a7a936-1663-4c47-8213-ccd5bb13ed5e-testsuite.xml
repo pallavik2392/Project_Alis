@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656483299586' stop='1656483319473'>
+    <name>verify for executive role invite code icon clickable</name>
+    <title>verify for executive role invite code icon clickable</title>
+    <test-cases>
+        <test-case start='1656483299587' status='passed' stop='1656483319473'>
+            <name>verify invite code  icon clickable</name>
+            <title>verify invite code  icon clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ccffbab4-5adb-4448-b235-784c05d0b601-attachment.png' type='image/png' size='163569'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

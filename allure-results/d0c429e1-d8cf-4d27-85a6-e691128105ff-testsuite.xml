@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656478721093' stop='1656478766773'>
+    <name>verify for executive role should not able to create batch by new course buttonshould not exist</name>
+    <title>verify for executive role should not able to create batch by new course buttonshould not exist</title>
+    <test-cases>
+        <test-case start='1656478721094' status='broken' stop='1656478766771'>
+            <name>"after all" hook for verify for executive role should not able to create batch by new course buttonshould not exist</name>
+            <title>"after all" hook for verify for executive role should not able to create batch by new course buttonshould not exist</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>saveScreenshot expects a filepath of type string and ".png" file ending</message>
+                <stack-trace>Error: saveScreenshot expects a filepath of type string and ".png" file ending
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutiveroleshouldnotcreatebatchbynewcoursebuttondoesnotexist.js:30:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

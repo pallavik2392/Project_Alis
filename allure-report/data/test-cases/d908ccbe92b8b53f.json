@@ -1,0 +1,87 @@
+{
+  "uid" : "d908ccbe92b8b53f",
+  "name" : "verify particular course selecable",
+  "fullName" : "verify for executive role should  able to select particulr course.verify particular course selecable",
+  "historyId" : "cdaf82c26c4f1ddc65f2f91a74804ceb",
+  "time" : {
+    "start" : 1656484594488,
+    "stop" : 1656484620933,
+    "duration" : 26445
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4963d2c4b5f194f",
+      "name" : "Screenshot",
+      "source" : "c4963d2c4b5f194f.png",
+      "type" : "image/png",
+      "size" : 92047
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role should  able to select particulr course"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role should  able to select particulr course"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify particular course selecable"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role should  able to select particulr course"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a37b7f59a46a92ed",
+      "status" : "broken",
+      "statusDetails" : "this.courses.click is not a function",
+      "time" : {
+        "start" : 1656484540634,
+        "stop" : 1656484586062,
+        "duration" : 45428
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d908ccbe92b8b53f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

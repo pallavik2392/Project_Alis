@@ -388,4 +388,7 @@ Emailsubjectline : xcelTojson.testConfig.Emailsubjectline,
 timeORdate : xcelTojson.testConfig.timeORdate,
 Executiveusername : xcelTojson.testConfig.Executiveusername,
 Executivepassword : xcelTojson.testConfig.Executivepassword,
+Coursenameforscholarship : xcelTojson.testConfig.Coursenameforscholarship,
+Dateearnedscholarship : xcelTojson.testConfig.Dateearnedscholarship,
+Benefitsearnedforscholarship : xcelTojson.testConfig.Benefitsearnedforscholarship,
 }

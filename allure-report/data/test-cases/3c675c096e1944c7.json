@@ -1,0 +1,80 @@
+{
+  "uid" : "3c675c096e1944c7",
+  "name" : "verify invite code  icon clickable",
+  "fullName" : "verify for executive role invite code icon clickable.verify invite code  icon clickable",
+  "historyId" : "6e612ca479b3673522e1abecf1c05ba1",
+  "time" : {
+    "start" : 1656483169112,
+    "stop" : 1656483215842,
+    "duration" : 46730
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'isDevTools' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'isDevTools' of undefined\n                    at LeadPage1.get leadinviteicon [as leadinviteicon] (/home/vaibhav/Desktop/demoproject/Alis/pages/Leadpage1.js:52:33)\n                    at LeadPage1.VerifyleadinvitecodeiconforRolewiseaccessclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Leadpage1.js:370:27)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutivecanclickoninvitecodeicon.js:20:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'isDevTools' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'isDevTools' of undefined\n                    at LeadPage1.get leadinviteicon [as leadinviteicon] (/home/vaibhav/Desktop/demoproject/Alis/pages/Leadpage1.js:52:33)\n                    at LeadPage1.VerifyleadinvitecodeiconforRolewiseaccessclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Leadpage1.js:370:27)\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutivecanclickoninvitecodeicon.js:20:25)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5c856a9fb6cccc4",
+      "name" : "Screenshot",
+      "source" : "e5c856a9fb6cccc4.png",
+      "type" : "image/png",
+      "size" : 163381
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role invite code icon clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role invite code icon clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify invite code  icon clickable"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role invite code icon clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c675c096e1944c7.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

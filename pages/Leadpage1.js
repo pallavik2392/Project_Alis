@@ -10,6 +10,8 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 const Page = require("../test/pageobjects/page");
 
 class LeadPage1 extends  Page{
@@ -46,6 +48,9 @@ class LeadPage1 extends  Page{
     get leadcancel(){return $("//button[normalize-space()='Cancel']")}
     get addprefferedtime(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/form[1]/div[2]/div[15]/div[2]/div[1]/button[1]")}
     get deletecallingslot(){return $("//div[@role='button']//*[name()='svg']/child::*")}
+    get leadediticon(){return $("//tbody/tr[1]/td[8]/span[1]/button[2]")}
+    get leadinviteicon(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[8]/span[1]/button[1]/i[1]")}
+
 
     async  enterFirstname(text){
         this.leadfname.setValue(text);
@@ -353,6 +358,16 @@ class LeadPage1 extends  Page{
     async VerifyNewleadbuttonforRolewiseaccessNotclickable(){
        
         await expect(this.leadnewlead).not.toBeClickable();
+
+    }
+    async VerifyleadediticonforRolewiseaccessclickable(){
+       
+        await expect(this.leadediticon).toBeClickable();
+
+    }
+    async VerifyleadinvitecodeiconforRolewiseaccessclickable(){
+       
+        await expect(this.leadinviteicon).toBeClickable();
 
     }
     

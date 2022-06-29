@@ -1,23 +1,4 @@
 {
-  "24ad90844cedf0df43c83045f74395b0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "59ff501d65476de2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411408669,
-        "stop" : 1656411427780,
-        "duration" : 19111
-      }
-    } ]
-  },
   "3c3443cf343c66004edc99792ad9efe5" : {
     "statistic" : {
       "failed" : 0,
@@ -28,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a2a9e3081a69d69",
+      "uid" : "b6c0e046bb72e00c",
       "status" : "passed",
       "time" : {
         "start" : 1656411401659,
@@ -37,23 +18,22 @@
       }
     } ]
   },
-  "a47bc1a2783d070e97b00e0f4f079891" : {
+  "6e612ca479b3673522e1abecf1c05ba1" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4610ef1b1d9f849b",
-      "status" : "failed",
-      "statusDetails" : "Expect $(`//p[contains(text(),'Incorrect username or password. Please check and t')]`) to have text containing\n                \n                Expected: \"invalid\"\n                Received: \"Incorrect username or password. Please check and try again.\"",
+      "uid" : "efc90e75be1cf159",
+      "status" : "passed",
       "time" : {
-        "start" : 1656411422405,
-        "stop" : 1656411456131,
-        "duration" : 33726
+        "start" : 1656483299587,
+        "stop" : 1656483319473,
+        "duration" : 19886
       }
     } ]
   },
@@ -67,7 +47,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7a629392baa01317",
+      "uid" : "25c2b9edd5016dd5",
       "status" : "passed",
       "time" : {
         "start" : 1656411399684,
@@ -76,26 +56,27 @@
       }
     } ]
   },
-  "74e4f766805df66bd28185fece0d062c" : {
+  "80e2ec86936565d5c361cdeceba4ec34" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "feaea1c8ca6b7390",
-      "status" : "passed",
+      "uid" : "5dfdf2f0588d01a1",
+      "status" : "broken",
+      "statusDetails" : "Coursepage is not defined",
       "time" : {
-        "start" : 1656411448822,
-        "stop" : 1656411461908,
-        "duration" : 13086
+        "start" : 1656474824868,
+        "stop" : 1656474875209,
+        "duration" : 50341
       }
     } ]
   },
-  "a9442afed391ba84316f6267c161dbd3" : {
+  "54d9adde866d1c8de4ee5511c4a27f88" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -105,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eeaa679fba025a69",
+      "uid" : "90823e9a8c8b6b04",
       "status" : "passed",
       "time" : {
-        "start" : 1656411430527,
-        "stop" : 1656411445055,
-        "duration" : 14528
+        "start" : 1656416554706,
+        "stop" : 1656416605983,
+        "duration" : 51277
       }
     } ]
   },
@@ -124,7 +105,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a57096b4f334e129",
+      "uid" : "581853e151d7565",
       "status" : "passed",
       "time" : {
         "start" : 1656411376436,
@@ -133,41 +114,23 @@
       }
     } ]
   },
-  "2c8e5c0342f6e5816d4c16777bd3c1da" : {
+  "d9d110498b3a24b908c9b009fc324237" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2b34f000f817c892",
-      "status" : "passed",
+      "uid" : "2779b345a5e97433",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=101.0.4951.54)",
       "time" : {
-        "start" : 1656411436555,
-        "stop" : 1656411450413,
-        "duration" : 13858
-      }
-    } ]
-  },
-  "f5706b8c4f69357547f49996bc4708b7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d84f777edbce3695",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411435587,
-        "stop" : 1656411448991,
-        "duration" : 13404
+        "start" : 1656420915490,
+        "stop" : 1656421026569,
+        "duration" : 111079
       }
     } ]
   },
@@ -181,7 +144,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "df635ce75a27fdc6",
+      "uid" : "89e422f64253990c",
       "status" : "passed",
       "time" : {
         "start" : 1656411377640,
@@ -200,7 +163,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66d0f419938defd6",
+      "uid" : "e212ff979aa34d74",
       "status" : "passed",
       "time" : {
         "start" : 1656411402731,
@@ -209,7 +172,7 @@
       }
     } ]
   },
-  "18baa9fae4e4d03140785fa25bed237f" : {
+  "cdaf82c26c4f1ddc65f2f91a74804ceb" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -219,12 +182,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "29bc70eb3eb9aacf",
+      "uid" : "d908ccbe92b8b53f",
       "status" : "passed",
       "time" : {
-        "start" : 1656411401186,
-        "stop" : 1656411425860,
-        "duration" : 24674
+        "start" : 1656484594488,
+        "stop" : 1656484620933,
+        "duration" : 26445
+      }
+    } ]
+  },
+  "2fbb03f66657d409a845c19a1666949d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf0e7d7b46bf16bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656478451669,
+        "stop" : 1656478470260,
+        "duration" : 18591
       }
     } ]
   },
@@ -238,7 +220,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bf3ae5cfe9cb08cb",
+      "uid" : "f83357b607be7359",
       "status" : "passed",
       "time" : {
         "start" : 1656411380350,
@@ -257,7 +239,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e155d4b926fd482",
+      "uid" : "6507e58fef59ce8e",
       "status" : "failed",
       "statusDetails" : "Expect $(`//p[@id='username-helper-text']`) to have text containing\n                \n                Expected: \"Wrong\"\n                Received: \"Email address is invalid\"",
       "time" : {
@@ -277,7 +259,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7acd70df979c6b03",
+      "uid" : "e11020c9d327a313",
       "status" : "passed",
       "time" : {
         "start" : 1656411434385,
@@ -296,12 +278,400 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "70ccf544060b67a",
+      "uid" : "1348464bb5ea353f",
       "status" : "passed",
       "time" : {
         "start" : 1656411377777,
         "stop" : 1656411393935,
         "duration" : 16158
+      }
+    } ]
+  },
+  "24ad90844cedf0df43c83045f74395b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35d20b5bd0ca212c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656411408669,
+        "stop" : 1656411427780,
+        "duration" : 19111
+      }
+    } ]
+  },
+  "a47bc1a2783d070e97b00e0f4f079891" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7429e583ca9fafdd",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//p[contains(text(),'Incorrect username or password. Please check and t')]`) to have text containing\n                \n                Expected: \"invalid\"\n                Received: \"Incorrect username or password. Please check and try again.\"",
+      "time" : {
+        "start" : 1656411422405,
+        "stop" : 1656411456131,
+        "duration" : 33726
+      }
+    } ]
+  },
+  "74e4f766805df66bd28185fece0d062c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e34a3c0717bb25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656411448822,
+        "stop" : 1656411461908,
+        "duration" : 13086
+      }
+    } ]
+  },
+  "a9442afed391ba84316f6267c161dbd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13bfaab65ad7867b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656411430527,
+        "stop" : 1656411445055,
+        "duration" : 14528
+      }
+    } ]
+  },
+  "58861e4ac6658b4078563279b7d4202f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0eb1e0b8f2a2608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656481511000,
+        "stop" : 1656481529412,
+        "duration" : 18412
+      }
+    } ]
+  },
+  "2c8e5c0342f6e5816d4c16777bd3c1da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61c66a821977fa9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656411436555,
+        "stop" : 1656411450413,
+        "duration" : 13858
+      }
+    } ]
+  },
+  "f5706b8c4f69357547f49996bc4708b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbf25bcc9c211c06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656411435587,
+        "stop" : 1656411448991,
+        "duration" : 13404
+      }
+    } ]
+  },
+  "18baa9fae4e4d03140785fa25bed237f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c712360f19419314",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656411401186,
+        "stop" : 1656411425860,
+        "duration" : 24674
+      }
+    } ]
+  },
+  "aea8ca82fd58500d6a0939b209642ed4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13e6fff4c4ea727e",
+      "status" : "broken",
+      "statusDetails" : "saveScreenshot expects a filepath of type string and \".png\" file ending",
+      "time" : {
+        "start" : 1656478083562,
+        "stop" : 1656478130458,
+        "duration" : 46896
+      }
+    } ]
+  },
+  "ffbf482bc57f153ee373acd33ed028b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1da4e637dca3e502",
+      "status" : "broken",
+      "statusDetails" : "saveScreenshot expects a filepath of type string and \".png\" file ending",
+      "time" : {
+        "start" : 1656478790763,
+        "stop" : 1656478835979,
+        "duration" : 45216
+      }
+    } ]
+  },
+  "9231954ff00bb12c7330546493729ecd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e32476482a632c00",
+      "status" : "broken",
+      "statusDetails" : "Can't call doubleClick on element with selector \"//p[normalize-space()='No']\" because element wasn't found",
+      "time" : {
+        "start" : 1656504203324,
+        "stop" : 1656504429279,
+        "duration" : 225955
+      }
+    } ]
+  },
+  "7715d21b2da2744925b6247507b513f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "419b248d7861a3be",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1656479274253,
+        "stop" : 1656479299753,
+        "duration" : 25500
+      }
+    } ]
+  },
+  "62c43fe91d6cb732a98b0a444b132a10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb19040f0fa2d8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656478344747,
+        "stop" : 1656478371514,
+        "duration" : 26767
+      }
+    } ]
+  },
+  "61c5dd7393ce2dae33100c335ddac850" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf6370688ccbe5ac",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1656483138628,
+        "stop" : 1656483162803,
+        "duration" : 24175
+      }
+    } ]
+  },
+  "29973b449ce983b798b934851e0fbcb1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10c8333c27c1f1ea",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//button[normalize-space()='New Staff']`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+      "time" : {
+        "start" : 1656479305399,
+        "stop" : 1656479410353,
+        "duration" : 104954
+      }
+    } ]
+  },
+  "23a7202dd6c7e2af1163cffca95e7634" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eebd0b3276074f92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656478564971,
+        "stop" : 1656478583503,
+        "duration" : 18532
+      }
+    } ]
+  },
+  "55dcbea352ea4b909472b39f543fbd7e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f27e76bb0bde179f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656478959643,
+        "stop" : 1656478983577,
+        "duration" : 23934
+      }
+    } ]
+  },
+  "759703ac172796480ca03e29ae5524a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e257e11518d792a",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=101.0.4951.54)",
+      "time" : {
+        "start" : 1656504574946,
+        "stop" : 1656504690365,
+        "duration" : 115419
+      }
+    } ]
+  },
+  "f2416c527cf618dbe5442a0972b49c48" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1445c9740510bad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656479076888,
+        "stop" : 1656479104923,
+        "duration" : 28035
+      }
+    } ]
+  },
+  "8c9540e18cae98b408b7d2d0873ae6c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5137aef032ab616",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656495175514,
+        "stop" : 1656495250994,
+        "duration" : 75480
       }
     } ]
   }

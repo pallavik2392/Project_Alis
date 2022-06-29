@@ -30,7 +30,7 @@ exports.config = {
     },*/
     suites:{
         ExecutiveRole:[
-            './test/ExecutiveRole/Verifyexecutiverolenewleadbuttonshouldnotbeclickable.js'
+            './test/ExecutiveRole/Verifyexecutiveroleabletoeditcoursedetails.js'
         ]
     },
   /* suites:{

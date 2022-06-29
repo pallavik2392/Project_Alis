@@ -16,6 +16,8 @@ describe("verify executive should not be able to create staff by new staff butto
         await browser.pause(1000);
         await signinpage.clickOnSubmit();
         await browser.pause(5000);
+        await Staffpage.clickOnstaff();
+        await browser.pause(5000);
 
         await Staffpage.VerifyNewstaffebuttonforRolewiseaccessNotexist();
         await browser.pause(5000);

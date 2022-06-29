@@ -2,7 +2,7 @@ const signinData = require("../../Data/signindata");
 const signinpage = require("../../pages/signinpage");
 const Coursespage = require("../../pages/Coursespage");
 
-describe("verify for executive role new lead button should be disable",function(){
+describe("verify for executive role new course button should be disable",function(){
     this.retries(3)
 
     it("verify new course button should not be clickable",async()=> {
@@ -16,7 +16,7 @@ describe("verify for executive role new lead button should be disable",function(
         await browser.pause(1000);
         await signinpage.clickOnSubmit();
         await browser.pause(5000);
-        await Coursepage.clickOncourses();
+        await Coursespage.clickOncourses();
         await browser.pause(5000);
 
         await Coursespage.VerifyNewcoursebuttonforRolewiseaccessNotclickable();

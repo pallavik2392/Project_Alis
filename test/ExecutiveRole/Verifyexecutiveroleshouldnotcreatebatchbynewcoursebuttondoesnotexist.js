@@ -2,7 +2,7 @@ const signinData = require("../../Data/signindata");
 const signinpage = require("../../pages/signinpage");
 const Coursespage = require("../../pages/Coursespage");
 
-describe("verify for executive role new lead button should be exist",function(){
+describe("verify for executive role should not able to create batch by new course buttonshould not exist",function(){
     this.retries(3)
 
     it("verify new course button should not be exist",async()=> {
@@ -16,7 +16,7 @@ describe("verify for executive role new lead button should be exist",function(){
         await browser.pause(1000);
         await signinpage.clickOnSubmit();
         await browser.pause(5000);
-        await Coursepage.clickOncourses();
+        await Coursespage.clickOncourses();
         await browser.pause(5000);
 
         await Coursespage.VerifyNewcoursebuttonforRolewiseaccessNotexist();
@@ -27,6 +27,6 @@ describe("verify for executive role new lead button should be exist",function(){
     // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
    
     after(async()=>{
-        await browser.saveScreenshot("./ScreenshotsforAlis/VerifyExecutiveaccessfornewcoursebuttondoesnotexistpng")
+        await browser.saveScreenshot("./ScreenshotsforAlis/VerifyExecutiveaccessfornewcoursebuttondoesnotexist.png")
     })
 })

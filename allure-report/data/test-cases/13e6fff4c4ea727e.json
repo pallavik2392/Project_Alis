@@ -1,0 +1,77 @@
+{
+  "uid" : "13e6fff4c4ea727e",
+  "name" : "\"after all\" hook for verify for executive role new lead button should be exist",
+  "fullName" : "verify for executive role new lead button should be exist.\"after all\" hook for verify for executive role new lead button should be exist",
+  "historyId" : "aea8ca82fd58500d6a0939b209642ed4",
+  "time" : {
+    "start" : 1656478083562,
+    "stop" : 1656478130458,
+    "duration" : 46896
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "saveScreenshot expects a filepath of type string and \".png\" file ending",
+  "statusTrace" : "Error: saveScreenshot expects a filepath of type string and \".png\" file ending\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutiveroleshouldnotcreatebatchbynewcoursebuttondoesnotexist.js:30:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role new lead button should be exist"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role new lead button should be exist"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for verify for executive role new lead button should be exist"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role new lead button should be exist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4605b98b2331c1e5",
+      "status" : "broken",
+      "statusDetails" : "saveScreenshot expects a filepath of type string and \".png\" file ending",
+      "time" : {
+        "start" : 1656474824450,
+        "stop" : 1656474874385,
+        "duration" : 49935
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "13e6fff4c4ea727e.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

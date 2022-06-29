@@ -1,0 +1,87 @@
+{
+  "uid" : "f27e76bb0bde179f",
+  "name" : "verify new course button should not be exist",
+  "fullName" : "verify for executive role should not able to create batch by new course buttonshould not exist.verify new course button should not be exist",
+  "historyId" : "55dcbea352ea4b909472b39f543fbd7e",
+  "time" : {
+    "start" : 1656478959643,
+    "stop" : 1656478983577,
+    "duration" : 23934
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6bcce0485cd37dbb",
+      "name" : "Screenshot",
+      "source" : "6bcce0485cd37dbb.png",
+      "type" : "image/png",
+      "size" : 92047
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role should not able to create batch by new course buttonshould not exist"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role should not able to create batch by new course buttonshould not exist"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify new course button should not be exist"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role should not able to create batch by new course buttonshould not exist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d3676afe06513600",
+      "status" : "broken",
+      "statusDetails" : "Coursepage is not defined",
+      "time" : {
+        "start" : 1656478878563,
+        "stop" : 1656478923543,
+        "duration" : 44980
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f27e76bb0bde179f.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

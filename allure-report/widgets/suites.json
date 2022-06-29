@@ -1,6 +1,17 @@
 {
-  "total" : 16,
+  "total" : 29,
   "items" : [ {
+    "uid" : "33b0c4f2a140b61ae62e834edf7984d8",
+    "name" : "verify executive should not be able to create staff by new staff button not exist",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "33ccbb3a09d0273f647c16cd01b0d1de",
     "name" : "Verify forgot passwords username with invalid data",
     "statistic" : {
@@ -23,6 +34,61 @@
       "total" : 1
     }
   }, {
+    "uid" : "72f8bc448115cf8097fb3ad47df6cab5",
+    "name" : "verify for executive role new lead button should be disable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "b7042c7cf39af31b67356560ddec591a",
+    "name" : "verify for executive role should  able to update course",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "30d5fcb948d37f1ba4be0b4d8aeee350",
+    "name" : "verify for executive role should not able to create batch by new course buttonshould not exist",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "70c61c5324cc996c47f16b115368d9b8",
+    "name" : "verify for executive role invite code icon clickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "e527510683df34743f15dd9a4f620018",
+    "name" : "verify for executive role new lead button should be exist",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "a2e9324fb1d3bcf3b347a093f0706f22",
     "name" : "Verify forgot passwords username with symbols",
     "statistic" : {
@@ -36,72 +102,6 @@
   }, {
     "uid" : "16bedb1642d4bd167a352c0bbca7bba9",
     "name" : "Verify forgot password's username with letters",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "114f325b1ec7a163bee6be453ece8090",
-    "name" : "Verify forgot passwords username with numbers",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "95c96bde267d711d00c6b6014721f5d2",
-    "name" : "Verify forgot passwords username with valid data",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "44a08d49affacd139d83f56f8320c7c9",
-    "name" : "Verify signin button clickable",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "a83f0e0ae9d82d5ae4281830c2eaabd4",
-    "name" : "Verify sign in page using username only",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "e75240f212c8f2e1fa629b0b262af0df",
-    "name" : "Verify sign in page using password only",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "c19bca1a2be45fe8eff030b65b6ff4ab",
-    "name" : "Sign in page with invalid username and valid password ",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -19,7 +19,7 @@ describe("Updatecourse",function(){
         await Coursepage.clickOnparticularcourse(signinData.searchcoursename);
         await browser.pause(3000);
 
-       /* await Coursepage.clickOnBasictab();
+        await Coursepage.clickOnBasictab();
         await browser.pause(3000);
         await Coursepage.updateCourselocation(signinData.updatecourselocation);
         await browser.pause(3000);
@@ -78,7 +78,7 @@ describe("Updatecourse",function(){
         await browser.pause(3000);
         await Coursepage.clickOnupdatepaymentsave();
         await browser.pause(3000);
-*/
+
 
         await Coursepage.clickOnscheduletab();
         await browser.pause(3000);
@@ -125,8 +125,8 @@ describe("Updatecourse",function(){
         await browser.pause(3000);
 
 
-     // await Coursepage.clickOnupdatebatchsave();
-      //await browser.pause(3000);
+      await Coursepage.clickOnupdatebatchsave();
+      await browser.pause(3000);
 
 
 

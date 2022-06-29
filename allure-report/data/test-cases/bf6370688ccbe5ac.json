@@ -1,0 +1,68 @@
+{
+  "uid" : "bf6370688ccbe5ac",
+  "name" : "\"after all\" hook for verify for executive role invite code icon clickable",
+  "fullName" : "verify for executive role invite code icon clickable.\"after all\" hook for verify for executive role invite code icon clickable",
+  "historyId" : "61c5dd7393ce2dae33100c335ddac850",
+  "time" : {
+    "start" : 1656483138628,
+    "stop" : 1656483162803,
+    "duration" : 24175
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "chrome not reachable\n                  (Session info: chrome=101.0.4951.54)",
+  "statusTrace" : "chrome not reachable: chrome not reachable\n                  (Session info: chrome=101.0.4951.54)\n                    at async Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/ExecutiveRole/Verifyexecutivecanclickoninvitecodeicon.js:28:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role invite code icon clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role invite code icon clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after all\" hook for verify for executive role invite code icon clickable"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role invite code icon clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bf6370688ccbe5ac.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

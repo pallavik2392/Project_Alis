@@ -1,0 +1,76 @@
+{
+  "uid" : "c459dfd57e67d64d",
+  "name" : "verify new lead button disabled",
+  "fullName" : "verify for executive role new lead button should be disable.verify new lead button disabled",
+  "historyId" : "2fbb03f66657d409a845c19a1666949d",
+  "time" : {
+    "start" : 1656474824139,
+    "stop" : 1656474845675,
+    "duration" : 21536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "473eba557de1408a",
+      "name" : "Screenshot",
+      "source" : "473eba557de1408a.png",
+      "type" : "image/png",
+      "size" : 163569
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role new lead button should be disable"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role new lead button should be disable"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify new lead button disabled"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role new lead button should be disable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c459dfd57e67d64d.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

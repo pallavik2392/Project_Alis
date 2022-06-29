@@ -1,0 +1,113 @@
+{
+  "uid" : "e32476482a632c00",
+  "name" : "verify particular course able to update",
+  "fullName" : "verify for executive role should  able to update course.verify particular course able to update",
+  "historyId" : "9231954ff00bb12c7330546493729ecd",
+  "time" : {
+    "start" : 1656504203324,
+    "stop" : 1656504429279,
+    "duration" : 225955
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call doubleClick on element with selector \"//p[normalize-space()='No']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call doubleClick on element with selector \"//p[normalize-space()='No']\" because element wasn't found",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call doubleClick on element with selector \"//p[normalize-space()='No']\" because element wasn't found",
+    "statusTrace" : "Error: Can't call doubleClick on element with selector \"//p[normalize-space()='No']\" because element wasn't found",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6309f184aa32deaa",
+      "name" : "Screenshot",
+      "source" : "6309f184aa32deaa.png",
+      "type" : "image/png",
+      "size" : 81221
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify particular course able to update"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role should  able to update course"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cf3a9f3eabefc5e9",
+      "status" : "broken",
+      "statusDetails" : "Can't call doubleClick on element with selector \"//p[normalize-space()='No']\" because element wasn't found",
+      "time" : {
+        "start" : 1656489791862,
+        "stop" : 1656489975997,
+        "duration" : 184135
+      }
+    }, {
+      "uid" : "ded00aa8ab4c67f1",
+      "status" : "broken",
+      "statusDetails" : "Coursespage is not defined",
+      "time" : {
+        "start" : 1656489738959,
+        "stop" : 1656489786377,
+        "duration" : 47418
+      }
+    }, {
+      "uid" : "82ab78d056468b19",
+      "status" : "broken",
+      "statusDetails" : "Coursepage is not defined",
+      "time" : {
+        "start" : 1656489593783,
+        "stop" : 1656489659107,
+        "duration" : 65324
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e32476482a632c00.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

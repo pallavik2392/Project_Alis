@@ -12,6 +12,9 @@
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
 //const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
+//const { browser } = require("protractor");
+//const { default: $ } = require("webdriverio/build/commands/browser/$");
 const Page = require("../test/pageobjects/page");
 
 class LeadPage1 extends  Page{
@@ -50,6 +53,8 @@ class LeadPage1 extends  Page{
     get deletecallingslot(){return $("//div[@role='button']//*[name()='svg']/child::*")}
     get leadediticon(){return $("//tbody/tr[1]/td[8]/span[1]/button[2]")}
     get leadinviteicon(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[8]/span[1]/button[1]/i[1]")}
+    get allleadcheckbox(){return $("//thead/tr[1]/th[1]/span[1]/child::*")}
+
 
 
     async  enterFirstname(text){
@@ -369,6 +374,24 @@ class LeadPage1 extends  Page{
        
         await expect(this.leadinviteicon).toBeClickable();
 
+    }
+    async searchFunctionality(text){
+        this.leadsearch.setValue(text);
+    }
+    async Coursefilterworking(text){
+        this.leadcoursefilter.click();
+        const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await search.setValue(text);
+        await browser.pause(3000);
+        const selectcourse=await $("//body/div[2]/div[1]/div[2]/div[1]/label[1]/span[1]/child::*");
+        await selectcourse.click();
+        await browser.pause(3000);
+        const apply=await $("//body/div[2]/div[1]/div[3]/div[1]/div[1]/button[2]");
+        await apply.click();
+        await browser.pause(3000);
+    }
+    async selectCheckboxforalllead(){
+        this.allleadcheckbox.click();
     }
     
     

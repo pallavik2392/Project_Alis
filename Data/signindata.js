@@ -391,4 +391,10 @@ Executivepassword : xcelTojson.testConfig.Executivepassword,
 Coursenameforscholarship : xcelTojson.testConfig.Coursenameforscholarship,
 Dateearnedscholarship : xcelTojson.testConfig.Dateearnedscholarship,
 Benefitsearnedforscholarship : xcelTojson.testConfig.Benefitsearnedforscholarship,
+Juniorusername : xcelTojson.testConfig.Juniorusername,
+Juniorpassword : xcelTojson.testConfig.Juniorpassword,
+Searchfunctiondata : xcelTojson.testConfig.Searchfunctiondata,
+searchdataforcoursefilter : xcelTojson.testConfig.searchdataforcoursefilter,
+
+
 }

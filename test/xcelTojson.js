@@ -422,6 +422,11 @@ console.log('Executivepassword',result.logincred[19].B)
 console.log('Coursenameforscholarship',result.Student[0].A)
 console.log('Dateearnedscholarship',result.Student[0].B)
 console.log('Benefitsearnedforscholarship',result.Student[0].C)
+console.log('Juniorusername',result.logincred[20].B)
+console.log('Juniorpassword',result.logincred[21].B)
+console.log('Searchfunctiondata',result.Admissions[0].A)
+console.log('searchdataforcoursefilter',result.Admissions[0].B)
+
 
 
 var dataRequired = function(){
@@ -815,6 +820,10 @@ var dataRequired = function(){
         Coursenameforscholarship:result.Student[0].A,
         Dateearnedscholarship:result.Student[0].B,
         Benefitsearnedforscholarship:result.Student[0].C,
+        Juniorusername:result.logincred[20].B,
+        Juniorpassword:result.logincred[21].B,
+        Searchfunctiondata:result.Admissions[0].A,
+        searchdataforcoursefilter:result.Admissions[0].B,
 
     };
 }

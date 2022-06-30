@@ -11,7 +11,9 @@
     "CourseVerification": "node_modules/.bin/wdio ./wdio.conf.js --suite CourseVerification",
     "Regular": "node_modules/.bin/wdio ./wdio.conf.js --suite Regular",
     "SignIn":"node_modules/.bin/wdio ./wdio.conf.js --suite SignIn",
-    "ExecutiveRole":"node_modules/.bin/wdio ./wdio.conf.js --suite ExecutiveRole"
+    "ExecutiveRole":"node_modules/.bin/wdio ./wdio.conf.js --suite ExecutiveRole",
+    "JuniorRole":"node_modules/.bin/wdio ./wdio.conf.js --suite JuniorRole",
+    "Admissions":"node_modules/.bin/wdio ./wdio.conf.js --suite Admissions"
   },
   "author": "pallavi",
   "license": "MIT",

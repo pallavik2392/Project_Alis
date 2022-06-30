@@ -120,6 +120,16 @@ class Supportpage extends Page{
        await uploadfile.addValue(remoteFilePath);
        
     }
+    async VerifyNewticketbuttonforRolewiseaccessNotexist(){
+       
+        await expect(this.newticket).not.toBeExisting();
+
+    }
+    async VerifyNewticketbuttonforRolewiseaccessNotclickable(){
+       
+        await expect(this.newticket).not.toBeClickable();
+
+    }
 
 
 }

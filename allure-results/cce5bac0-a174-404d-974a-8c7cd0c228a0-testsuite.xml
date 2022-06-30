@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656568816479' stop='1656568840210'>
+    <name>verify for junior role should  able to select particulr course</name>
+    <title>verify for junior role should  able to select particulr course</title>
+    <test-cases>
+        <test-case start='1656568816483' status='passed' stop='1656568840209'>
+            <name>verify particular course selecable for junior</name>
+            <title>verify particular course selecable for junior</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1bf1461f-7d99-4712-9a6d-27002a757055-attachment.png' type='image/png' size='92047'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -54,6 +54,16 @@ class LeadPage1 extends  Page{
     get leadediticon(){return $("//tbody/tr[1]/td[8]/span[1]/button[2]")}
     get leadinviteicon(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[8]/span[1]/button[1]/i[1]")}
     get allleadcheckbox(){return $("//thead/tr[1]/th[1]/span[1]/child::*")}
+    get bulkpathfield(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]")}
+    get deleteicon(){return $("//tbody/tr[1]/td[8]/span[1]/button[3]")}
+    get deleteleadconfirm(){return $("//body/div[2]/div[3]/div[1]/form[1]/div[2]/button[2]")}
+    get applicationtab(){return $("//a[contains(text(),'Applications')]")}
+    get applicationstatusfilter(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/button[3]")}
+    get applicationcoursesfilter(){return $("//button[normalize-space()='Courses: All']")}
+    get applicationconselorfilter(){return $("//button[normalize-space()='Counselors: All']")}
+    get applicationview(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[6]/span[1]/button[1]/i[1]")}
+    get searchofinvitee(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/child::div/child::div/child::*")}
+    get inviteetab(){return $("//a[contains(text(),'Invitees')]")}
 
 
 
@@ -393,7 +403,89 @@ class LeadPage1 extends  Page{
     async selectCheckboxforalllead(){
         this.allleadcheckbox.click();
     }
-    
-    
+    async clickOnDownloadsampleCSV(){
+        this.leadsamplecsv.click();
+    }
+    async clickOnBulkimport(){
+        this.leadbulkimport.click();
+    }
+    async VerifyUploadfilepathExist(){
+        await expect(this.bulkpathfield).toBeDisplayed();
+
+    }
+    async clickOninviteleadbutton(){
+        this.leadinvite.click();
+    }
+    async clickOndeletelead(){
+        this.deleteicon.click();
+    }
+    async confirmDeletelead(){
+        this.deleteleadconfirm.click();
+    }
+    async clickOnApplicationtab(){
+        this.applicationtab.click();
+    }
+    async statusFilterworkingofApplications(text1,text2){
+        this.applicationstatusfilter.click();
+        const search=await $("//input[@name='searchQuery']");
+        await search.setValue(text1);
+        await browser.pause(3000);
+        const selectstatus=await $("//span[contains(text(),'"+text2+"')]/parent::label/child::span/child::*");
+        await selectstatus.click();
+        await browser.pause(3000);
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+        await browser.pause(3000);
+    }
+    async coursesFilterworkingofApplications(text1,text2){
+        this.applicationcoursesfilter.click();
+        const search=await $("//input[@name='searchQuery']");
+        await search.setValue(text1);
+        await browser.pause(3000);
+        const selectcourse=await $("//span[contains(text(),'"+text2+"')]/parent::label/child::span/child::*");
+        await selectcourse.click();
+        await browser.pause(3000);
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+        await browser.pause(3000);
+    }
+    async conselorFilterworkingofApplications(text1,text2){
+        this.applicationconselorfilter.click();
+        const search=await $("//input[@name='searchQuery']");
+        await search.setValue(text1);
+        await browser.pause(3000);
+        const selectconselor=await $("//span[contains(text(),'"+text2+"')]/parent::label/child::span/child::*");
+        await selectconselor.click();
+        await browser.pause(3000);
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+        await browser.pause(3000);
+    }
+    async clickOnviewicon(){
+        this.applicationview.click();
+    }
+    async clickOninviteetab(){
+        this.inviteetab.click();
+    }
+    async searchinviteefunction(text){
+        this.searchofinvitee.setValue(text);
+        
+    }
+    async verifyleadbecomesinvitee(){
+        const lead = await $("//tbody/tr[1]/td[2]/span[1]/div[1]/div[2]/div[1]/p[1]").getText();
+        this.leadinviteicon.click();
+        await browser.pause(3000);
+        this.inviteetab.click();
+        await browser.pause(3000);
+        this.searchofinvitee.setValue(lead);
+        await browser.pause(3000);
+        const id=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/h6[1]").getText();
+        const message=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/h6[1]");
+        await expect(message).toHaveTextContaining(id);
+
+    }
+    async clickOneditlead(){
+        this.leadediticon.click();
+    }
 }
 module.exports = new LeadPage1();

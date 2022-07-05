@@ -424,8 +424,20 @@ console.log('Dateearnedscholarship',result.Student[0].B)
 console.log('Benefitsearnedforscholarship',result.Student[0].C)
 console.log('Juniorusername',result.logincred[20].B)
 console.log('Juniorpassword',result.logincred[21].B)
-console.log('Searchfunctiondata',result.Admissions[0].A)
-console.log('searchdataforcoursefilter',result.Admissions[0].B)
+console.log('Searchfunctiondataoflead',result.Admissions[0].A)
+console.log('searchdataforcoursefilteroflead',result.Admissions[0].B)
+console.log('searchdataforstatusfilterofapplications',result.Admissions[0].C)
+console.log('searchdataforstatusfilterofapplicationsforstatus',result.Admissions[0].D)
+console.log('searchdataforcoursesfilterofapplications',result.Admissions[0].E)
+console.log('searchdataforcoursesfilterofapplicationsforcourse',result.Admissions[0].F)
+console.log('searchdataforconselorsfilterofapplications',result.Admissions[0].G)
+console.log('searchdataforconselorfilterofapplicationsforconselor',result.Admissions[0].H)
+console.log('searchdataofinvitee',result.Admissions[0].I)
+console.log('courseforattendance',result.Admissions[3].A)
+console.log('Batchforattendance',result.Admissions[3].B)
+console.log('Topicforattendance',result.Admissions[3].C)
+console.log('dateofattendance',result.Admissions[3].D)
+console.log('Studentsearchedbymobilenumber',result.Admissions[5].A)
 
 
 
@@ -822,8 +834,20 @@ var dataRequired = function(){
         Benefitsearnedforscholarship:result.Student[0].C,
         Juniorusername:result.logincred[20].B,
         Juniorpassword:result.logincred[21].B,
-        Searchfunctiondata:result.Admissions[0].A,
-        searchdataforcoursefilter:result.Admissions[0].B,
+        Searchfunctiondataoflead:result.Admissions[0].A,
+        searchdataforcoursefilteroflead:result.Admissions[0].B,
+        searchdataforstatusfilterofapplications:result.Admissions[0].C,
+        searchdataforstatusfilterofapplicationsforstatus:result.Admissions[0].D,
+        searchdataforcoursesfilterofapplications:result.Admissions[0].E,
+        searchdataforcoursesfilterofapplicationsforcourse:result.Admissions[0].F,
+        searchdataforconselorsfilterofapplications:result.Admissions[0].G,
+        searchdataforconselorfilterofapplicationsforconselor:result.Admissions[0].H,
+        searchdataofinvitee:result.Admissions[0].I,
+        courseforattendance:result.Admissions[3].A,
+        Batchforattendance:result.Admissions[3].B,
+        Topicforattendance:result.Admissions[3].C,
+        dateofattendance:result.Admissions[3].D,
+        Studentsearchedbymobilenumber:result.Admissions[5].A,
 
     };
 }

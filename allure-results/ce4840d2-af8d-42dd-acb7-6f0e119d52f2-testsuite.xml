@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657016382295' stop='1657016463215'>
+    <name>verify  invitee's all details</name>
+    <title>verify  invitee's all details</title>
+    <test-cases>
+        <test-case start='1657016382296' status='failed' stop='1657016463215'>
+            <name>Verify invitee's details</name>
+            <title>Verify invitee's details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='27a5108f-c3f9-4025-82ec-b9108139904e-attachment.png' type='image/png' size='87521'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[8]/div[2]/child::p`) to have text containing
+                
+                Expected: "16/09/2007"
+                Received: "Invalid date"</message>
+                <stack-trace>Error: Expect $(`//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[8]/div[2]/child::p`) to have text containing
+                
+                Expected: "16/09/2007"
+                Received: "Invalid date"
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyinviteesalldetails.js:74:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

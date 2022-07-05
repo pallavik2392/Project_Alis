@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657006955217' stop='1657007028839'>
+    <name>verify  invitee's all details</name>
+    <title>verify  invitee's all details</title>
+    <test-cases>
+        <test-case start='1657006955218' status='broken' stop='1657007028839'>
+            <name>Verify invitee's details</name>
+            <title>Verify invitee's details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1750f57f-3155-4083-9547-25f41fddbe0e-attachment.png' type='image/png' size='99879'/>
+            </attachments>
+            <failure>
+                <message>Can't call getText on element with selector "//body[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[5]/div[2]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "//body[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/div[5]/div[2]" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

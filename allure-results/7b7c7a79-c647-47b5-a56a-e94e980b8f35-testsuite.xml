@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657025563954' stop='1657025594431'>
+    <name>Marked attendance of student can not be editable </name>
+    <title>Marked attendance of student can not be editable </title>
+    <test-cases>
+        <test-case start='1657025563955' status='passed' stop='1657025594430'>
+            <name>radio button of attendance not clickable</name>
+            <title>radio button of attendance not clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3a578123-feb9-4658-8e2b-b95b0ccdd5dc-attachment.png' type='image/png' size='88204'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

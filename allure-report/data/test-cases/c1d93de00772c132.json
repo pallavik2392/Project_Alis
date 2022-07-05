@@ -1,0 +1,78 @@
+{
+  "uid" : "c1d93de00772c132",
+  "name" : "verify new staff button not clickable",
+  "fullName" : "verify executive should not be able to create staff by new staff button not clickable.verify new staff button not clickable",
+  "historyId" : "62c43fe91d6cb732a98b0a444b132a10",
+  "time" : {
+    "start" : 1656940368660,
+    "stop" : 1656940400997,
+    "duration" : 32337
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "30fc1ef3fa301de6",
+      "name" : "Screenshot",
+      "source" : "30fc1ef3fa301de6.png",
+      "type" : "image/png",
+      "size" : 95724
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "verify executive should not be able to create staff by new staff button not clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "verify executive should not be able to create staff by new staff button not clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify new staff button not clickable"
+  }, {
+    "name" : "package",
+    "value" : "verify executive should not be able to create staff by new staff button not clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1d93de00772c132.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

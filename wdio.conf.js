@@ -28,19 +28,24 @@ exports.config = {
             './test/SignIn/*.js'
         ]
     },*/
-  /*  suites:{
+   /* suites:{
         ExecutiveRole:[
-            './test/ExecutiveRole/Verifynewticketcannotbeclickableforexecutiverole.js'
+            './test/ExecutiveRole/Verifynewticketbuttonnotexistforexecutiverole.js'
         ]
     },*/
   /*  suites:{
         JuniorRole:[
-            './test/JuniorRole/Verifynewticketbuttonnotexistforjuniorrole.js'
+            './test/JuniorRole/VerifyNewticketbuttonnotexistforjuniorrole.js'
+        ]
+    },*/
+   /* suites:{
+        Admissions:[
+            './test/Admissions/Verifyinviteesalldetails.js'
         ]
     },*/
     suites:{
-        Admissions:[
-            './test/Admissions/Verifyafterselectingleadscheckboxinviteleadbuttonappears.js'
+        Students:[
+            './test/Students/Verifyattendanceofstudent.js'
         ]
     },
   /* suites:{

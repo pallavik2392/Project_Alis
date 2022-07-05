@@ -1,350 +1,140 @@
 [ {
-  "uid" : "25c2b9edd5016dd5",
-  "name" : "button clickable",
+  "uid" : "4eb4bc3d7653334b",
+  "name" : "verify new course button should not be exist for executive",
   "time" : {
-    "start" : 1656411399684,
-    "stop" : 1656411419255,
-    "duration" : 19571
+    "start" : 1656940404404,
+    "stop" : 1656940445986,
+    "duration" : 41582
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c712360f19419314",
-  "name" : "signin with username only",
-  "time" : {
-    "start" : 1656411401186,
-    "stop" : 1656411425860,
-    "duration" : 24674
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1348464bb5ea353f",
-  "name" : "forgot passwords username with numbers",
-  "time" : {
-    "start" : 1656411377777,
-    "stop" : 1656411393935,
-    "duration" : 16158
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0eb1e0b8f2a2608",
-  "name" : "verifyedit icon clickable",
-  "time" : {
-    "start" : 1656481511000,
-    "stop" : 1656481529412,
-    "duration" : 18412
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e32476482a632c00",
-  "name" : "verify particular course able to update",
-  "time" : {
-    "start" : 1656504203324,
-    "stop" : 1656504429279,
-    "duration" : 225955
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "10c8333c27c1f1ea",
-  "name" : "verify new staff button not exist",
-  "time" : {
-    "start" : 1656479305399,
-    "stop" : 1656479410353,
-    "duration" : 104954
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "581853e151d7565",
-  "name" : "forgot passwords username with symbols",
-  "time" : {
-    "start" : 1656411376436,
-    "stop" : 1656411392262,
-    "duration" : 15826
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "419b248d7861a3be",
-  "name" : "\"after all\" hook for verify executive should not be able to create staff by new staff button not exist",
-  "time" : {
-    "start" : 1656479274253,
-    "stop" : 1656479299753,
-    "duration" : 25500
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "eebd0b3276074f92",
-  "name" : "verify new lead button exist",
-  "time" : {
-    "start" : 1656478564971,
-    "stop" : 1656478583503,
-    "duration" : 18532
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bf6370688ccbe5ac",
-  "name" : "\"after all\" hook for verify for executive role invite code icon clickable",
-  "time" : {
-    "start" : 1656483138628,
-    "stop" : 1656483162803,
-    "duration" : 24175
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2779b345a5e97433",
-  "name" : "\"after all\" hook for verify for executive role new lead button should be disable",
-  "time" : {
-    "start" : 1656420915490,
-    "stop" : 1656421026569,
-    "duration" : 111079
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cf0e7d7b46bf16bf",
+  "uid" : "390350b2ac5779e7",
   "name" : "verify new lead button disabled",
   "time" : {
-    "start" : 1656478451669,
-    "stop" : 1656478470260,
-    "duration" : 18591
+    "start" : 1656940373740,
+    "stop" : 1656940394404,
+    "duration" : 20664
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "eb19040f0fa2d8d",
-  "name" : "verify new staff button not clickable",
-  "time" : {
-    "start" : 1656478344747,
-    "stop" : 1656478371514,
-    "duration" : 26767
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f27e76bb0bde179f",
-  "name" : "verify new course button should not be exist",
-  "time" : {
-    "start" : 1656478959643,
-    "stop" : 1656478983577,
-    "duration" : 23934
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5137aef032ab616",
-  "name" : "verify executive can add scholarship",
-  "time" : {
-    "start" : 1656495175514,
-    "stop" : 1656495250994,
-    "duration" : 75480
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1445c9740510bad1",
-  "name" : "verify new course button should not be clickable",
-  "time" : {
-    "start" : 1656479076888,
-    "stop" : 1656479104923,
-    "duration" : 28035
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90823e9a8c8b6b04",
-  "name" : "Invite code",
-  "time" : {
-    "start" : 1656416554706,
-    "stop" : 1656416605983,
-    "duration" : 51277
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "efc90e75be1cf159",
-  "name" : "verify invite code  icon clickable",
-  "time" : {
-    "start" : 1656483299587,
-    "stop" : 1656483319473,
-    "duration" : 19886
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f83357b607be7359",
-  "name" : "forgot passwords username with valid data",
-  "time" : {
-    "start" : 1656411380350,
-    "stop" : 1656411395347,
-    "duration" : 14997
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d908ccbe92b8b53f",
+  "uid" : "8675d05430f6ccbc",
   "name" : "verify particular course selecable",
   "time" : {
-    "start" : 1656484594488,
-    "stop" : 1656484620933,
-    "duration" : 26445
+    "start" : 1656940343645,
+    "stop" : 1656940371202,
+    "duration" : 27557
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "61c66a821977fa9d",
-  "name" : "username with numbers",
+  "uid" : "d55dc0f11251669f",
+  "name" : "verifyedit icon clickable",
   "time" : {
-    "start" : 1656411436555,
-    "stop" : 1656411450413,
-    "duration" : 13858
+    "start" : 1656940343914,
+    "stop" : 1656940366163,
+    "duration" : 22249
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1da4e637dca3e502",
-  "name" : "\"after all\" hook for verify for executive role should not able to create batch by new course buttonshould not exist",
+  "uid" : "c02fc12c6148229c",
+  "name" : "verify new ticket button should not be exist for executive",
   "time" : {
-    "start" : 1656478790763,
-    "stop" : 1656478835979,
-    "duration" : 45216
+    "start" : 1656940428723,
+    "stop" : 1656940454411,
+    "duration" : 25688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbc96164e43ff504",
+  "name" : "verify particular course able to update",
+  "time" : {
+    "start" : 1656940343259,
+    "stop" : 1656940541925,
+    "duration" : 198666
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "e212ff979aa34d74",
-  "name" : "signin with invalid username and valid password",
-  "time" : {
-    "start" : 1656411402731,
-    "stop" : 1656411428058,
-    "duration" : 25327
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13bfaab65ad7867b",
-  "name" : "username with symbols",
-  "time" : {
-    "start" : 1656411430527,
-    "stop" : 1656411445055,
-    "duration" : 14528
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e34a3c0717bb25c",
-  "name" : "username with valid email",
-  "time" : {
-    "start" : 1656411448822,
-    "stop" : 1656411461908,
-    "duration" : 13086
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6507e58fef59ce8e",
-  "name" : "forgot passwords username with invalid data",
-  "time" : {
-    "start" : 1656411376877,
-    "stop" : 1656411404195,
-    "duration" : 27318
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "89e422f64253990c",
-  "name" : "forgot password's username with letters",
-  "time" : {
-    "start" : 1656411377640,
-    "stop" : 1656411393721,
-    "duration" : 16081
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dbf25bcc9c211c06",
-  "name" : "username with invalid email",
-  "time" : {
-    "start" : 1656411435587,
-    "stop" : 1656411448991,
-    "duration" : 13404
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e257e11518d792a",
-  "name" : "\"after all\" hook for verify for executive role should  able to update course",
-  "time" : {
-    "start" : 1656504574946,
-    "stop" : 1656504690365,
-    "duration" : 115419
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5dfdf2f0588d01a1",
+  "uid" : "ee7ac40b2e967c10",
   "name" : "verify new course button should not be clickable",
   "time" : {
-    "start" : 1656474824868,
-    "stop" : 1656474875209,
-    "duration" : 50341
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7429e583ca9fafdd",
-  "name" : "signin with valid username and invalid password",
-  "time" : {
-    "start" : 1656411422405,
-    "stop" : 1656411456131,
-    "duration" : 33726
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "35d20b5bd0ca212c",
-  "name" : "without password and username",
-  "time" : {
-    "start" : 1656411408669,
-    "stop" : 1656411427780,
-    "duration" : 19111
+    "start" : 1656940396887,
+    "stop" : 1656940421849,
+    "duration" : 24962
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b6c0e046bb72e00c",
-  "name" : "signin with password only",
+  "uid" : "1b925252422d210c",
+  "name" : "verify new course button should not be exist",
   "time" : {
-    "start" : 1656411401659,
-    "stop" : 1656411429234,
-    "duration" : 27575
+    "start" : 1656940394099,
+    "stop" : 1656940419101,
+    "duration" : 25002
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "13e6fff4c4ea727e",
-  "name" : "\"after all\" hook for verify for executive role new lead button should be exist",
+  "uid" : "3119fb0ddf8af38d",
+  "name" : "verify new ticket button should not be clickable for executive",
   "time" : {
-    "start" : 1656478083562,
-    "stop" : 1656478130458,
-    "duration" : 46896
+    "start" : 1656940434809,
+    "stop" : 1656940457636,
+    "duration" : 22827
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e11020c9d327a313",
-  "name" : "username withletters",
+  "uid" : "4ed1c623a6eba285",
+  "name" : "verify invite code  icon clickable",
   "time" : {
-    "start" : 1656411434385,
-    "stop" : 1656411447824,
-    "duration" : 13439
+    "start" : 1656940343752,
+    "stop" : 1656940370124,
+    "duration" : 26372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1d93de00772c132",
+  "name" : "verify new staff button not clickable",
+  "time" : {
+    "start" : 1656940368660,
+    "stop" : 1656940400997,
+    "duration" : 32337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "372692ac8dc0730d",
+  "name" : "verify new lead button exist",
+  "time" : {
+    "start" : 1656940374862,
+    "stop" : 1656940396732,
+    "duration" : 21870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8599a6a495153140",
+  "name" : "verify executive can add scholarship",
+  "time" : {
+    "start" : 1656940343666,
+    "stop" : 1656940391596,
+    "duration" : 47930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d29335c7c8e9d",
+  "name" : "verify new staff button not exist",
+  "time" : {
+    "start" : 1656940400476,
+    "stop" : 1656940433712,
+    "duration" : 33236
   },
   "status" : "passed",
   "severity" : "normal"

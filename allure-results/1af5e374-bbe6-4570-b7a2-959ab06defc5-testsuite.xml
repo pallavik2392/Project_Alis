@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657029583865' stop='1657029636234'>
+    <name>Verify attendance of student </name>
+    <title>Verify attendance of student </title>
+    <test-cases>
+        <test-case start='1657029583866' status='failed' stop='1657029636234'>
+            <name>Verify student present for batch of course for which its attendance marked</name>
+            <title>Verify student present for batch of course for which its attendance marked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d3e83b9b-0113-4838-a023-f56e6bb20c78-attachment.png' type='image/png' size='107721'/>
+            </attachments>
+            <failure>
+                <message>Expect 20225130001 to exist
+                
+                Expected: "exist"
+                Received: "not exist"</message>
+                <stack-trace>Error: Expect 20225130001 to exist
+                
+                Expected: "exist"
+                Received: "not exist"
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/Verifyattendanceofstudent.js:49:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

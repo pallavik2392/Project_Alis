@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657020198547' stop='1657020232106'>
+    <name>Mark attendance of student course wise </name>
+    <title>Mark attendance of student course wise </title>
+    <test-cases>
+        <test-case start='1657020198548' status='passed' stop='1657020232105'>
+            <name>coursewise attendance</name>
+            <title>coursewise attendance</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='165734d8-be70-4121-9206-232c75dcb250-attachment.png' type='image/png' size='60095'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

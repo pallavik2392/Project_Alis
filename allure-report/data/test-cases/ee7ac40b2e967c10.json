@@ -1,0 +1,78 @@
+{
+  "uid" : "ee7ac40b2e967c10",
+  "name" : "verify new course button should not be clickable",
+  "fullName" : "verify for executive role new course button should be disable.verify new course button should not be clickable",
+  "historyId" : "f2416c527cf618dbe5442a0972b49c48",
+  "time" : {
+    "start" : 1656940396887,
+    "stop" : 1656940421849,
+    "duration" : 24962
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a3cea6cf9a9f29c5",
+      "name" : "Screenshot",
+      "source" : "a3cea6cf9a9f29c5.png",
+      "type" : "image/png",
+      "size" : 4922
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "verify for executive role new course button should be disable"
+  }, {
+    "name" : "testClass",
+    "value" : "verify for executive role new course button should be disable"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify new course button should not be clickable"
+  }, {
+    "name" : "package",
+    "value" : "verify for executive role new course button should be disable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee7ac40b2e967c10.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

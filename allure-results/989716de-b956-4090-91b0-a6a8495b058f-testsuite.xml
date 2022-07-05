@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656940368660' stop='1656940400998'>
+    <name>verify executive should not be able to create staff by new staff button not clickable</name>
+    <title>verify executive should not be able to create staff by new staff button not clickable</title>
+    <test-cases>
+        <test-case start='1656940368660' status='passed' stop='1656940400997'>
+            <name>verify new staff button not clickable</name>
+            <title>verify new staff button not clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1f4d4170-68e9-4e4e-a46a-00a557ba7ea1-attachment.png' type='image/png' size='95724'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

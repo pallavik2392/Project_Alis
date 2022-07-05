@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657020616267' stop='1657020650473'>
+    <name>Mark attendance of student course wise </name>
+    <title>Mark attendance of student course wise </title>
+    <test-cases>
+        <test-case start='1657020616267' status='broken' stop='1657020650464'>
+            <name>coursewise attendance</name>
+            <title>coursewise attendance</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a190e6b3-d66e-4d53-9d0b-80eef5ef5e5f-attachment.png' type='image/png' size='152656'/>
+            </attachments>
+            <failure>
+                <message>this.studentmenu.click is not a function</message>
+                <stack-trace>TypeError: this.studentmenu.click is not a function
+                    at Studentpage.clickOnstudentMenu (/home/vaibhav/Desktop/demoproject/Alis/pages/Studentpage.js:33:26)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/markattendancecoursewise.js:20:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656941063565' stop='1656941171332'>
+    <name>verify for junior role new ticket button should not be exist</name>
+    <title>verify for junior role new ticket button should not be exist</title>
+    <test-cases>
+        <test-case start='1656941063565' status='failed' stop='1656941171331'>
+            <name>verify new ticket button should not be exist for junior</name>
+            <title>verify new ticket button should not be exist for junior</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0f86a141-1701-4bb4-af59-6fde8f960c8b-attachment.png' type='image/png' size='54157'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//button[normalize-space()='NEW TICKET']`) not to be existing
+                
+                Expected [not]: "not existing"
+                Received      : "existing"</message>
+                <stack-trace>Error: Expect $(`//button[normalize-space()='NEW TICKET']`) not to be existing
+                
+                Expected [not]: "not existing"
+                Received      : "existing"
+                    at Supportpage.VerifyNewticketbuttonforRolewiseaccessNotexist (/home/vaibhav/Desktop/demoproject/Alis/pages/Supportpage.js:125:42)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/JuniorRole/VerifyNewticketbuttonnotexistforjuniorrole.js:22:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

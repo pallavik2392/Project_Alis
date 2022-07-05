@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657008565659' stop='1657008631721'>
+    <name>verify  invitee's all details</name>
+    <title>verify  invitee's all details</title>
+    <test-cases>
+        <test-case start='1657008565659' status='passed' stop='1657008631720'>
+            <name>Verify invitee's details</name>
+            <title>Verify invitee's details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4abd3c76-a31c-46ae-8568-ebcf1c62bccb-attachment.png' type='image/png' size='87521'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

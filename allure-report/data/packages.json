@@ -2,373 +2,16 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Verify forgot passwords username with symbols",
+    "name" : "verify for executive role should  able to update course",
     "children" : [ {
-      "name" : "forgot passwords username with symbols",
-      "uid" : "581853e151d7565",
-      "parentUid" : "19ab5ee1e9831fb2dfdb89a76d599151",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411376436,
-        "stop" : 1656411392262,
-        "duration" : 15826
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "19ab5ee1e9831fb2dfdb89a76d599151"
-  }, {
-    "name" : "Verify forgot passwords username with invalid data",
-    "children" : [ {
-      "name" : "forgot passwords username with invalid data",
-      "uid" : "6507e58fef59ce8e",
-      "parentUid" : "e0519e774522313b8450603b6d323198",
-      "status" : "failed",
-      "time" : {
-        "start" : 1656411376877,
-        "stop" : 1656411404195,
-        "duration" : 27318
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "e0519e774522313b8450603b6d323198"
-  }, {
-    "name" : "Verify forgot password's username with letters",
-    "children" : [ {
-      "name" : "forgot password's username with letters",
-      "uid" : "89e422f64253990c",
-      "parentUid" : "060cfa21997abef92ebf98ed8c0b2581",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411377640,
-        "stop" : 1656411393721,
-        "duration" : 16081
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "060cfa21997abef92ebf98ed8c0b2581"
-  }, {
-    "name" : "Verify forgot passwords username with numbers",
-    "children" : [ {
-      "name" : "forgot passwords username with numbers",
-      "uid" : "1348464bb5ea353f",
-      "parentUid" : "b56fa99fb601532216da11de4a32a212",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411377777,
-        "stop" : 1656411393935,
-        "duration" : 16158
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "b56fa99fb601532216da11de4a32a212"
-  }, {
-    "name" : "Verify forgot passwords username with valid data",
-    "children" : [ {
-      "name" : "forgot passwords username with valid data",
-      "uid" : "f83357b607be7359",
-      "parentUid" : "2d4ca07fdf4a95eedb35a7f3cba3c2e3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411380350,
-        "stop" : 1656411395347,
-        "duration" : 14997
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "2d4ca07fdf4a95eedb35a7f3cba3c2e3"
-  }, {
-    "name" : "Verify signin button clickable",
-    "children" : [ {
-      "name" : "button clickable",
-      "uid" : "25c2b9edd5016dd5",
-      "parentUid" : "dc5eddaa8693863a5881ec47d18dc4ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411399684,
-        "stop" : 1656411419255,
-        "duration" : 19571
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "dc5eddaa8693863a5881ec47d18dc4ff"
-  }, {
-    "name" : "Verify sign in page using username only",
-    "children" : [ {
-      "name" : "signin with username only",
-      "uid" : "c712360f19419314",
-      "parentUid" : "d24496ded2ad3a81ab268bd8b42da468",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411401186,
-        "stop" : 1656411425860,
-        "duration" : 24674
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "d24496ded2ad3a81ab268bd8b42da468"
-  }, {
-    "name" : "Verify sign in page using password only",
-    "children" : [ {
-      "name" : "signin with password only",
-      "uid" : "b6c0e046bb72e00c",
-      "parentUid" : "9baf9de2654de9166037246c1e483066",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411401659,
-        "stop" : 1656411429234,
-        "duration" : 27575
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "9baf9de2654de9166037246c1e483066"
-  }, {
-    "name" : "Sign in page with invalid username and valid password ",
-    "children" : [ {
-      "name" : "signin with invalid username and valid password",
-      "uid" : "e212ff979aa34d74",
-      "parentUid" : "fb9b493f9e90e0633f3b8908e2427cb0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411402731,
-        "stop" : 1656411428058,
-        "duration" : 25327
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "fb9b493f9e90e0633f3b8908e2427cb0"
-  }, {
-    "name" : "Verify sign in page without passing password and username",
-    "children" : [ {
-      "name" : "without password and username",
-      "uid" : "35d20b5bd0ca212c",
-      "parentUid" : "3f0c7648a349752516d6c45832ad91bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411408669,
-        "stop" : 1656411427780,
-        "duration" : 19111
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "3f0c7648a349752516d6c45832ad91bd"
-  }, {
-    "name" : "Sign in page with valid username and invalid password ",
-    "children" : [ {
-      "name" : "signin with valid username and invalid password",
-      "uid" : "7429e583ca9fafdd",
-      "parentUid" : "a10dd92887c9255daf93620078904dd1",
-      "status" : "failed",
-      "time" : {
-        "start" : 1656411422405,
-        "stop" : 1656411456131,
-        "duration" : 33726
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "a10dd92887c9255daf93620078904dd1"
-  }, {
-    "name" : "Verify username field by passing symbols",
-    "children" : [ {
-      "name" : "username with symbols",
-      "uid" : "13bfaab65ad7867b",
-      "parentUid" : "ab273fdc1df14bdc3faf630be71f9a2d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411430527,
-        "stop" : 1656411445055,
-        "duration" : 14528
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "ab273fdc1df14bdc3faf630be71f9a2d"
-  }, {
-    "name" : "Verify username field by passing letters",
-    "children" : [ {
-      "name" : "username withletters",
-      "uid" : "e11020c9d327a313",
-      "parentUid" : "f9e3ff7f12471040b38c3e81c932b3d4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411434385,
-        "stop" : 1656411447824,
-        "duration" : 13439
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "f9e3ff7f12471040b38c3e81c932b3d4"
-  }, {
-    "name" : "Verify username field by invalid email",
-    "children" : [ {
-      "name" : "username with invalid email",
-      "uid" : "dbf25bcc9c211c06",
-      "parentUid" : "4e6b6c0b9175ab08bb68557a593132b6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411435587,
-        "stop" : 1656411448991,
-        "duration" : 13404
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "4e6b6c0b9175ab08bb68557a593132b6"
-  }, {
-    "name" : "Verify username field by passing numbers",
-    "children" : [ {
-      "name" : "username with numbers",
-      "uid" : "61c66a821977fa9d",
-      "parentUid" : "803d79be6dbee93914fa74273ab8ec01",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411436555,
-        "stop" : 1656411450413,
-        "duration" : 13858
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "803d79be6dbee93914fa74273ab8ec01"
-  }, {
-    "name" : "Verify username field by valid email",
-    "children" : [ {
-      "name" : "username with valid email",
-      "uid" : "e34a3c0717bb25c",
-      "parentUid" : "2c7cf9c231112c3cfa40366832e64352",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656411448822,
-        "stop" : 1656411461908,
-        "duration" : 13086
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "2c7cf9c231112c3cfa40366832e64352"
-  }, {
-    "name" : "Verify email for Invitecode",
-    "children" : [ {
-      "name" : "Invite code",
-      "uid" : "90823e9a8c8b6b04",
-      "parentUid" : "2411a977db4b564b741f2c8d8b3cd874",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656416554706,
-        "stop" : 1656416605983,
-        "duration" : 51277
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "2411a977db4b564b741f2c8d8b3cd874"
-  }, {
-    "name" : "verify for executive role new lead button should be disable",
-    "children" : [ {
-      "name" : "\"after all\" hook for verify for executive role new lead button should be disable",
-      "uid" : "2779b345a5e97433",
-      "parentUid" : "56fb5e4cbd3adac47c3d2b73582ac31a",
+      "name" : "verify particular course able to update",
+      "uid" : "bbc96164e43ff504",
+      "parentUid" : "30690d71143a5f76020437a1d8e11074",
       "status" : "broken",
       "time" : {
-        "start" : 1656420915490,
-        "stop" : 1656421026569,
-        "duration" : 111079
+        "start" : 1656940343259,
+        "stop" : 1656940541925,
+        "duration" : 198666
       },
       "flaky" : false,
       "newFailed" : false,
@@ -377,279 +20,26 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "verify new course button should not be clickable",
-      "uid" : "5dfdf2f0588d01a1",
-      "parentUid" : "56fb5e4cbd3adac47c3d2b73582ac31a",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656474824868,
-        "stop" : 1656474875209,
-        "duration" : 50341
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "verify new lead button disabled",
-      "uid" : "cf0e7d7b46bf16bf",
-      "parentUid" : "56fb5e4cbd3adac47c3d2b73582ac31a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656478451669,
-        "stop" : 1656478470260,
-        "duration" : 18591
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
-    "uid" : "56fb5e4cbd3adac47c3d2b73582ac31a"
-  }, {
-    "name" : "verify for executive role new lead button should be exist",
-    "children" : [ {
-      "name" : "\"after all\" hook for verify for executive role new lead button should be exist",
-      "uid" : "13e6fff4c4ea727e",
-      "parentUid" : "f8c979c903b1b9093cd39a3ccd4413bf",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656478083562,
-        "stop" : 1656478130458,
-        "duration" : 46896
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "f8c979c903b1b9093cd39a3ccd4413bf"
-  }, {
-    "name" : "verify executive should not be able to create staff by new staff button not clickable",
-    "children" : [ {
-      "name" : "verify new staff button not clickable",
-      "uid" : "eb19040f0fa2d8d",
-      "parentUid" : "30ee6243e98970be7c38fa706e805b59",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656478344747,
-        "stop" : 1656478371514,
-        "duration" : 26767
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "30ee6243e98970be7c38fa706e805b59"
-  }, {
-    "name" : "verify executive should not be able to create lead",
-    "children" : [ {
-      "name" : "verify new lead button exist",
-      "uid" : "eebd0b3276074f92",
-      "parentUid" : "fe65f81cefb52ba335322a569ddd786f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656478564971,
-        "stop" : 1656478583503,
-        "duration" : 18532
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "fe65f81cefb52ba335322a569ddd786f"
-  }, {
-    "name" : "verify for executive role should not able to create batch by new course buttonshould not exist",
-    "children" : [ {
-      "name" : "\"after all\" hook for verify for executive role should not able to create batch by new course buttonshould not exist",
-      "uid" : "1da4e637dca3e502",
-      "parentUid" : "5faa86509208e2759f3d7719665c2d74",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656478790763,
-        "stop" : 1656478835979,
-        "duration" : 45216
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "verify new course button should not be exist",
-      "uid" : "f27e76bb0bde179f",
-      "parentUid" : "5faa86509208e2759f3d7719665c2d74",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656478959643,
-        "stop" : 1656478983577,
-        "duration" : 23934
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "5faa86509208e2759f3d7719665c2d74"
-  }, {
-    "name" : "verify for executive role new course button should be disable",
-    "children" : [ {
-      "name" : "verify new course button should not be clickable",
-      "uid" : "1445c9740510bad1",
-      "parentUid" : "e5548c58754f66fa98a75155722d3e47",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656479076888,
-        "stop" : 1656479104923,
-        "duration" : 28035
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "e5548c58754f66fa98a75155722d3e47"
-  }, {
-    "name" : "verify executive should not be able to create staff by new staff button not exist",
-    "children" : [ {
-      "name" : "\"after all\" hook for verify executive should not be able to create staff by new staff button not exist",
-      "uid" : "419b248d7861a3be",
-      "parentUid" : "ede97b5a392e130dbec1cb037c508f52",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656479274253,
-        "stop" : 1656479299753,
-        "duration" : 25500
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "verify new staff button not exist",
-      "uid" : "10c8333c27c1f1ea",
-      "parentUid" : "ede97b5a392e130dbec1cb037c508f52",
-      "status" : "failed",
-      "time" : {
-        "start" : 1656479305399,
-        "stop" : 1656479410353,
-        "duration" : 104954
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "ede97b5a392e130dbec1cb037c508f52"
-  }, {
-    "name" : "verify for executive role edit lead icon clickable",
-    "children" : [ {
-      "name" : "verifyedit icon clickable",
-      "uid" : "b0eb1e0b8f2a2608",
-      "parentUid" : "63f8cc935d192d9bb95f1e9335f73f7e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656481511000,
-        "stop" : 1656481529412,
-        "duration" : 18412
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "63f8cc935d192d9bb95f1e9335f73f7e"
-  }, {
-    "name" : "verify for executive role invite code icon clickable",
-    "children" : [ {
-      "name" : "\"after all\" hook for verify for executive role invite code icon clickable",
-      "uid" : "bf6370688ccbe5ac",
-      "parentUid" : "79f886900a872db1cb2fb03aabdf448b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1656483138628,
-        "stop" : 1656483162803,
-        "duration" : 24175
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "verify invite code  icon clickable",
-      "uid" : "efc90e75be1cf159",
-      "parentUid" : "79f886900a872db1cb2fb03aabdf448b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1656483299587,
-        "stop" : 1656483319473,
-        "duration" : 19886
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-101.0.4951.54" ]
-    } ],
-    "uid" : "79f886900a872db1cb2fb03aabdf448b"
+    "uid" : "30690d71143a5f76020437a1d8e11074"
   }, {
     "name" : "verify for executive role should  able to select particulr course",
     "children" : [ {
       "name" : "verify particular course selecable",
-      "uid" : "d908ccbe92b8b53f",
+      "uid" : "8675d05430f6ccbc",
       "parentUid" : "a6ab76a9c942f473de37fcf4da6767ab",
       "status" : "passed",
       "time" : {
-        "start" : 1656484594488,
-        "stop" : 1656484620933,
-        "duration" : 26445
+        "start" : 1656940343645,
+        "stop" : 1656940371202,
+        "duration" : 27557
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
     "uid" : "a6ab76a9c942f473de37fcf4da6767ab"
@@ -657,51 +47,244 @@
     "name" : "verify for executive role can add scholorship",
     "children" : [ {
       "name" : "verify executive can add scholarship",
-      "uid" : "d5137aef032ab616",
+      "uid" : "8599a6a495153140",
       "parentUid" : "62f73f11b488c709b1b494bc8b465dfb",
       "status" : "passed",
       "time" : {
-        "start" : 1656495175514,
-        "stop" : 1656495250994,
-        "duration" : 75480
+        "start" : 1656940343666,
+        "stop" : 1656940391596,
+        "duration" : 47930
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
     "uid" : "62f73f11b488c709b1b494bc8b465dfb"
   }, {
-    "name" : "verify for executive role should  able to update course",
+    "name" : "verify for executive role invite code icon clickable",
     "children" : [ {
-      "name" : "verify particular course able to update",
-      "uid" : "e32476482a632c00",
-      "parentUid" : "30690d71143a5f76020437a1d8e11074",
-      "status" : "broken",
+      "name" : "verify invite code  icon clickable",
+      "uid" : "4ed1c623a6eba285",
+      "parentUid" : "79f886900a872db1cb2fb03aabdf448b",
+      "status" : "passed",
       "time" : {
-        "start" : 1656504203324,
-        "stop" : 1656504429279,
-        "duration" : 225955
+        "start" : 1656940343752,
+        "stop" : 1656940370124,
+        "duration" : 26372
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 3,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
-    }, {
-      "name" : "\"after all\" hook for verify for executive role should  able to update course",
-      "uid" : "9e257e11518d792a",
-      "parentUid" : "30690d71143a5f76020437a1d8e11074",
-      "status" : "broken",
+    } ],
+    "uid" : "79f886900a872db1cb2fb03aabdf448b"
+  }, {
+    "name" : "verify for executive role edit lead icon clickable",
+    "children" : [ {
+      "name" : "verifyedit icon clickable",
+      "uid" : "d55dc0f11251669f",
+      "parentUid" : "63f8cc935d192d9bb95f1e9335f73f7e",
+      "status" : "passed",
       "time" : {
-        "start" : 1656504574946,
-        "stop" : 1656504690365,
-        "duration" : 115419
+        "start" : 1656940343914,
+        "stop" : 1656940366163,
+        "duration" : 22249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "63f8cc935d192d9bb95f1e9335f73f7e"
+  }, {
+    "name" : "verify executive should not be able to create staff by new staff button not clickable",
+    "children" : [ {
+      "name" : "verify new staff button not clickable",
+      "uid" : "c1d93de00772c132",
+      "parentUid" : "30ee6243e98970be7c38fa706e805b59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940368660,
+        "stop" : 1656940400997,
+        "duration" : 32337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "30ee6243e98970be7c38fa706e805b59"
+  }, {
+    "name" : "verify for executive role new lead button should be disable",
+    "children" : [ {
+      "name" : "verify new lead button disabled",
+      "uid" : "390350b2ac5779e7",
+      "parentUid" : "56fb5e4cbd3adac47c3d2b73582ac31a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940373740,
+        "stop" : 1656940394404,
+        "duration" : 20664
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "56fb5e4cbd3adac47c3d2b73582ac31a"
+  }, {
+    "name" : "verify executive should not be able to create lead",
+    "children" : [ {
+      "name" : "verify new lead button exist",
+      "uid" : "372692ac8dc0730d",
+      "parentUid" : "fe65f81cefb52ba335322a569ddd786f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940374862,
+        "stop" : 1656940396732,
+        "duration" : 21870
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "fe65f81cefb52ba335322a569ddd786f"
+  }, {
+    "name" : "verify for executive role should not able to create batch by new course buttonshould not exist",
+    "children" : [ {
+      "name" : "verify new course button should not be exist",
+      "uid" : "1b925252422d210c",
+      "parentUid" : "5faa86509208e2759f3d7719665c2d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940394099,
+        "stop" : 1656940419101,
+        "duration" : 25002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "5faa86509208e2759f3d7719665c2d74"
+  }, {
+    "name" : "verify for executive role new course button should be disable",
+    "children" : [ {
+      "name" : "verify new course button should not be clickable",
+      "uid" : "ee7ac40b2e967c10",
+      "parentUid" : "e5548c58754f66fa98a75155722d3e47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940396887,
+        "stop" : 1656940421849,
+        "duration" : 24962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "e5548c58754f66fa98a75155722d3e47"
+  }, {
+    "name" : "verify executive should not be able to create staff by new staff button not exist",
+    "children" : [ {
+      "name" : "verify new staff button not exist",
+      "uid" : "9d29335c7c8e9d",
+      "parentUid" : "ede97b5a392e130dbec1cb037c508f52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940400476,
+        "stop" : 1656940433712,
+        "duration" : 33236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "ede97b5a392e130dbec1cb037c508f52"
+  }, {
+    "name" : "verify for executive role new course button should not be exist",
+    "children" : [ {
+      "name" : "verify new course button should not be exist for executive",
+      "uid" : "4eb4bc3d7653334b",
+      "parentUid" : "661aa0bcbd667f01c821bc6a398766cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940404404,
+        "stop" : 1656940445986,
+        "duration" : 41582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "661aa0bcbd667f01c821bc6a398766cd"
+  }, {
+    "name" : "verify for executive role new ticket button should not be exist",
+    "children" : [ {
+      "name" : "verify new ticket button should not be exist for executive",
+      "uid" : "c02fc12c6148229c",
+      "parentUid" : "6a553e48a50afb0c9706e59df4aeef96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940428723,
+        "stop" : 1656940454411,
+        "duration" : 25688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "6a553e48a50afb0c9706e59df4aeef96"
+  }, {
+    "name" : "verify for executive role new ticket button should not be clickable",
+    "children" : [ {
+      "name" : "verify new ticket button should not be clickable for executive",
+      "uid" : "3119fb0ddf8af38d",
+      "parentUid" : "0fbea12efab6091a70cb2620980d62ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656940434809,
+        "stop" : 1656940457636,
+        "duration" : 22827
       },
       "flaky" : false,
       "newFailed" : false,
@@ -711,6 +294,6 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-101.0.4951.54" ]
     } ],
-    "uid" : "30690d71143a5f76020437a1d8e11074"
+    "uid" : "0fbea12efab6091a70cb2620980d62ec"
   } ]
 }

@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657028979949' stop='1657029030821'>
+    <name>Verify attendance of student </name>
+    <title>Verify attendance of student </title>
+    <test-cases>
+        <test-case start='1657028979950' status='failed' stop='1657029030821'>
+            <name>Verify student present for batch of course for which its attendance marked</name>
+            <title>Verify student present for batch of course for which its attendance marked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='310ac96c-6089-4848-b3ed-d52b4cb6fe38-attachment.png' type='image/png' size='107715'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[6]/child::h6`) to have text containing
+                
+                Expected: "BATCH ID: TSO-1"
+                Received: "Batch ID: TSO-1"</message>
+                <stack-trace>Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[6]/child::h6`) to have text containing
+                
+                Expected: "BATCH ID: TSO-1"
+                Received: "Batch ID: TSO-1"
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/Verifyattendanceofstudent.js:46:39)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657102601804' stop='1657102635716'>
+    <name>Verify courses add to wallet button is clickable </name>
+    <title>Verify courses add to wallet button is clickable </title>
+    <test-cases>
+        <test-case start='1657102601805' status='passed' stop='1657102635715'>
+            <name>add to wallet button is clickable</name>
+            <title>add to wallet button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='eefbab43-300b-45ce-87ff-4b0dc428baea-attachment.png' type='image/png' size='100871'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

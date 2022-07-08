@@ -23,6 +23,20 @@ class Supportpage extends Page{
     get priority(){return $("//input[@id='priority']")}
     get changenote(){return $("//textarea[@id='note']")}
     get saveticket(){return $("//button[@type='submit']")}
+    get getticket(){return $("//button[normalize-space()='GET TICKET']")}
+    get next(){return $("//a[contains(text(),'Next')]")}
+    get history(){return $("//a[contains(text(),'History')]")}
+    get coursesfilter(){return $("//button[normalize-space()='Course: All']")}
+    get locationsfilter(){return $("//button[normalize-space()='Locations: All']")}
+    get departmentfilter(){return $("//button[normalize-space()='Department: All']")}
+    get categoryfilter(){return $("//button[normalize-space()='Category: All']")}
+    get subcategoryfilter(){return $("//button[normalize-space()='Sub-category: All']")}
+    get tagsfilter(){return $("//button[normalize-space()='Tag: All']")}
+    get priorityfilter(){return $("//button[normalize-space()='Priority: All']")}
+
+
+
+
 
     async clickOnsupport(){
         this.support.click();
@@ -130,6 +144,82 @@ class Supportpage extends Page{
         await expect(this.newticket).not.toBeClickable();
 
     }
+    async clickOnGetticket(){
+        this.getticket.click();
+    }
+    async clickOnnexttab(){
+        this.next.click();
+    }
+    async Verifycoursesfilter(text){
+        this.coursesfilter.click();
+        const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await search.setValue(text);
+        const course=await $("//body/div[2]/div[1]/div[2]/div[1]/label[1]/span[1]/child::*");
+        await course.click();
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+    }
+    async Verifylocationsfilter(text){
+        this.locationsfilter.click();
+        const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await search.setValue(text);
+        const location=await $("//body/div[2]/div[1]/div[2]/div[1]/child::label/child::span/child::*");
+        await location.click();
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+    }
+    async Verifydepartmentfilter(text){
+        this.departmentfilter.click();
+        const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await search.setValue(text);
+        const department=await $("//body/div[2]/div[1]/div[2]/div[1]/child::label/child::span/child::*");
+        await department.click();
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+    }
+    async Verifycategoryfilter(text){
+        this.categoryfilter.click();
+        const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await search.setValue(text);
+        const category=await $("//body/div[2]/div[1]/div[2]/div[1]/child::label/child::span/child::*");
+        await category.click();
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+    }
+    async Verifysubcategoryfilter(text){
+        this.subcategoryfilter.click();
+        const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await search.setValue(text);
+        const subcategory=await $("//body/div[2]/div[1]/div[2]/div[1]/child::label/child::span");
+        await subcategory.click();
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+    }
+    async Verifytagsfilter(text){
+        this.tagsfilter.click();
+        const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await search.setValue(text);
+        const tags=await $("//body/div[2]/div[1]/div[2]/div[1]/child::label/child::span");
+        await tags.click();
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+    }
+    async Verifypriorityfilter(text){
+        this.priorityfilter.click();
+        if(text==='Low'){
+            const low1=await $("//body/div[2]/div[1]/div[1]/div[1]/div[2]/label[1]/span[1]/child::*");
+            await low1.click();
+        }else if(text==='Medium'){
+            const medium1=await $("//body/div[2]/div[1]/div[1]/div[1]/div[3]/label[1]/span[1]/child::*");
+            await medium1.click();
+        }else{
+            const high1=await $("//body/div[2]/div[1]/div[1]/div[1]/div[4]/label[1]/span[1]/child::*");
+            await high1.click();
+        }
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+    }
+    
 
 
 }

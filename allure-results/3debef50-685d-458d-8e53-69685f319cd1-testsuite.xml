@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657284575108' stop='1657284655594'>
+    <name>Verify department filter for next tab of support</name>
+    <title>Verify department filter for next tab of support</title>
+    <test-cases>
+        <test-case start='1657284575108' status='broken' stop='1657284655593'>
+            <name>department filter of next tab</name>
+            <title>department filter of next tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b45c28f3-4a23-4b7a-9463-959ead620c70-attachment.png' type='image/png' size='152656'/>
+            </attachments>
+            <failure>
+                <message>this.support.click is not a function</message>
+                <stack-trace>TypeError: this.support.click is not a function
+                    at Supportpage.clickOnsupport (/home/vaibhav/Desktop/demoproject/Alis/pages/Supportpage.js:38:22)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifydepartmentfilterofnexttab.js:20:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

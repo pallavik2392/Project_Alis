@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657273865365' stop='1657273891132'>
+    <name>Verify  course version changes if anychange made</name>
+    <title>Verify  course version changes if anychange made</title>
+    <test-cases>
+        <test-case start='1657273865366' status='broken' stop='1657273891132'>
+            <name>verify course version change aftermaking any change</name>
+            <title>verify course version change aftermaking any change</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='79097de3-adb8-4d9a-bc0a-31929a7b503d-attachment.png' type='image/png' size='22376'/>
+            </attachments>
+            <failure>
+                <message>Can't call scrollIntoView on element with selector "//h5[normalize-space()='Manual7']" because element wasn't found</message>
+                <stack-trace>Error: Can't call scrollIntoView on element with selector "//h5[normalize-space()='Manual7']" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

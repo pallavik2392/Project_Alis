@@ -35,6 +35,11 @@ class Staffpage extends Page{
     get particularstaff(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")}
     get updatesave(){return $("//button[@type='submit']")}
     get staffcancel(){return $("//button[normalize-space()='Cancel']")}
+    get searchstaff(){return $("//input[@placeholder='Search']")}
+    get stafflocation(){return $("//button[normalize-space()='Locations: All']")}
+    get locationsearch(){return $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]")}
+
+
 
     async  enterFirstname(text){
         this.stafffirstname.setValue(text);
@@ -179,6 +184,11 @@ class Staffpage extends Page{
         await expect(this.staffcancel).toBeClickable();
 
     }
+    async Newstaffisclickable(){
+
+        await expect(this.neawstaff).toBeClickable();
+
+    }
     async VerifyNewstaffbuttonforRolewiseaccessNotclickable(){
        
         await expect(this.neawstaff).not.toBeClickable();
@@ -188,7 +198,23 @@ class Staffpage extends Page{
    
         await expect(this.neawstaff).not.toBeExisting();
 
-}
+    }
+    async enterdatainsearchfield(text){
+        this.searchstaff.setValue(text);
+    }
+    async verifystaffexist(text){
+        const staffname=await ("//h5[contains(text(),'"+text+"')]");
+        await expect(staffname).toBeDisplayedInViewport();
+    }
+    async searchstaffbylocation(text){
+        this.stafflocation.click();
+        this.locationsearch.setValue(text);
+        const location=await $("//body/div[2]/div[1]/div[2]/div[1]/child::label/child::span/child::*");
+        await location.click();
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
+    }
+    
 
 }
 module.exports = new Staffpage();

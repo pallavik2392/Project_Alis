@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657102720571' stop='1657102754007'>
+    <name>Verify courses invoices button is clickable </name>
+    <title>Verify courses invoices button is clickable </title>
+    <test-cases>
+        <test-case start='1657102720574' status='passed' stop='1657102754006'>
+            <name>invoices button is clickable</name>
+            <title>invoices button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6e892854-adf8-4921-b264-11ff65de6167-attachment.png' type='image/png' size='100871'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

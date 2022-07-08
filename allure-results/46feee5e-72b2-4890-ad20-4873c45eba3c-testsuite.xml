@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657256751192' stop='1657256877060'>
+    <name>verify search functionality of staff</name>
+    <title>verify search functionality of staff</title>
+    <test-cases>
+        <test-case start='1657256751193' status='failed' stop='1657256877059'>
+            <name>Staff search functionality</name>
+            <title>Staff search functionality</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1e1cbd64-5a78-4d6f-8721-63f22a254079-attachment.png' type='image/png' size='41998'/>
+            </attachments>
+            <failure>
+                <message>Expect //h5[contains(text(),'mvc')] to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect //h5[contains(text(),'mvc')] to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Staffpage.verifystaffexist (/home/vaibhav/Desktop/demoproject/Alis/pages/Staffpage.js:198:33)
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Staffverification/Verifysearchfunctionalityforstaff.js:24:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

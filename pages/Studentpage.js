@@ -26,6 +26,43 @@ class Studentpage extends Page{
     get particularstudentattendanceradiobutton(){return $("//tbody/tr[1]/td[5]/span[1]/div[1]/span[1]/input[1]")}
     get particularstudentsattendancetab(){return $("//a[contains(text(),'Attendance')]")}
     get attendancecard(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]")}
+    get particularstudentspaymenttab(){return $("//a[contains(text(),'Payment')]")}
+    get wallettab(){return $("//h4[contains(text(),'WALLET')]")}
+    get addtowalletbutton(){return $("//button[normalize-space()='Add to Wallet']")}
+    get invoicesbutton(){return $("//button[normalize-space()='Invoices']")}
+    get updatemode(){return $("//button[normalize-space()='Update Mode']")}
+    get canceladmission(){return $("//button[normalize-space()='Cancel Admission']")}
+    get coursestab(){return $("//h4[contains(text(),'COURSES')]")}
+    get addtowalletreason(){return $("//textarea[@id='reason']")}
+    get addtowalletsave(){return $("//button[@type='submit']")}
+    get Walletcredittobeissued(){return $("//input[@id='amount']")}
+    get invoicesviewbillingsummary(){return $("//button[@aria-label='View Billing Summary']")}
+    get invoicesdownloadinvoice(){return $("//button[@aria-label='Download Invoice']")}
+    get invoicesviewtransactions(){return $("//i[@class='flaticon-view']")}
+    get invoicescanceladmission(){return $("//button[@aria-label='Cancel Invoice']//i[@class='flaticon-x-mark']")}
+    get addinvoice(){return $("//i[@class='flaticon-add']")}
+    get addinvoiceproduct(){return $("//input[@id='name']")}
+    get addinvoiceproductrate(){return $("//input[@id='rate']")}
+    get productsave(){return $("//button[@type='submit']")}
+    get productaddanother(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[3]/button[1]/i[1]")}
+    get productdelete(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[3]/button[2]/i[1]")}
+    get scholarshipcreditreturn(){return $("//input[@id='scholarship']")}
+    get cancellationreason(){return $("//textarea[@id='reason']")}
+    get canceladmissionsave(){return $("//button[@type='submit']")}
+    get addticket(){return $("//i[@class='flaticon-add']")}
+    get supportcourse(){return $("//input[@id='course']")}
+    get supportsubject(){return $("//input[@id='subject']")}
+    get department(){return $("//input[@id='department']")}
+    get supportcategory(){return $("//input[@id='category']")}
+    get supportsubcategory(){return $("//input[@id='subcategory']")}
+    get supporttags(){return $("//input[@id='tags']")}
+    get supportnextdate(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/input[1]")}
+    get supportstarttime(){return $("//input[@placeholder='Start time']")}
+    get supportendtime(){return $("//input[@placeholder='End time']")}
+    get supportstatus(){return $("//input[@id='status']")}
+    get supportpriority(){return $("//input[@id='priority']")}
+    get supportchangenote(){return $("//textarea[@id='note']")}
+    get supportsave(){return $("//button[@type='submit']")}
 
 
 
@@ -43,6 +80,12 @@ class Studentpage extends Page{
     }
     async clickOnpayment(){
         this.paymenttab.click();
+    }
+    async clickonparticularstudentswallettab(){
+        this.wallettab.click();
+    }
+    async clickOnparticularstudentscoursestab(){
+        this.coursestab.click();
     }
     async clickOnscholarship(){
         this.scholarshiptab.click();
@@ -112,6 +155,163 @@ class Studentpage extends Page{
     async searchstudentbynumber(text){
         this.searchfunction.setValue(text);
     }
+    async clickOnparticularstudentspaymenttab(){
+        this.particularstudentspaymenttab.click();
+    }
+    async coursesaddtowalletisclickable(){
+        await expect(this.addtowalletbutton).toBeClickable();
+    }
+    async coursesinvoicesisclickable(){
+        await expect(this.invoicesbutton).toBeClickable();
+    }
+    async coursesupdatemodeisclickable(){
+        await expect(this.updatemode).toBeClickable();
+    }
+    async coursescanceladmissionisclickable(){
+        await expect(this.canceladmission).toBeClickable();
+    }
+    async entertextinaddtowalletreasonfield(text){
+        this.addtowalletreason.setValue(text);
+    }
+    async clickOnaddtowallet(){
+        this.addtowalletbutton.click();
+    }
+    async clickOnaddtowalletsave(){
+        this.addtowalletsave.click();
+    }
+    async enteramountinwalletcreditissued(text){
+        this.Walletcredittobeissued.setValue(text);
+    }
+    async clickOninvoicesbutton(){
+        this.invoicesbutton.click();
+    }
+    async clickOninvoicesviewbillingsummary(){
+        this.invoicesviewbillingsummary.click();
+    }
+    async clickOninvoicesdownloadinvoice(){
+        this.invoicesdownloadinvoice.click();
+    }
+    async clickOninvoicesViewtransaction(){
+        this.invoicesviewtransactions.click();
+    }
+    async clickOninvoicescanceladmissions(){
+        this.invoicescanceladmission.click();
+    }
+    async invoicesviewtransactionisclickable(){
+        await expect(this.invoicesviewtransactions).toBeClickable();
+    }
+    async invoicescanceladmissionisclickable(){
+        await expect(this.invoicescanceladmission).toBeClickable();
+    }
+    async clickOnaddinvoice(){
+        this.addinvoice.click();
+    } 
+    async addproducttoinvoice(text){
+        this.addinvoiceproduct.setValue(text);
+    }
+    async addproductratetoinvoice(text){
+        this.addinvoiceproductrate.setValue(text);
+    }
+    async clickOnsaveofinvoice(){
+        this.productsave.click();
+    }
+    async productaddanotherisclickable(){
+        await expect(this.productaddanother).toBeClickable();
+    }
+    async productdeleteisclickable(){
+        await expect(this.productdelete).toBeClickable();
+    }
+    async clickOncanceladmission(){
+        this.invoicescanceladmission.click();
+    }
+    async enterscholarshipcreditamount(text){
+        this.scholarshipcreditreturn.setValue(text);
+    }
+    async entercancellationreason(text){
+        this.cancellationreason.setValue(text)
+    }
+    async clickOncanceladmissionsave(){
+        this.canceladmissionsave.click();
+    }
+    async clickonaddticket(){
+        this.addticket.click();
+    }
+    async entercoursetofollowup(text){
+        this.supportcourse.setValue(text);
+        const name=await $("//div[@id='course-option-0']");
+        await name.click();
+    }
+    async entersubjecttofollowup(text){
+        this.supportsubject.setValue(text);
+        const name=await $("//div[@id='subject-option-0']");
+        await name.click();
+    }
+    async enterdepartmenttofollowup(text){
+        this.department.setValue(text);
+        const name=await $("//div[@id='department-option-0']");
+        await name.click();
+    }
+    async entercategorytofollowup(text){
+        this.supportcategory.setValue(text);
+        const name=await $("//div[@id='category-option-0']");
+        await name.click();
+    }
+    async entersubcategorytofollowup(text){
+        this.supportsubcategory.setValue(text);
+        const name=await $("//div[@id='subcategory-option-0']");
+        await name.click();
+    }
+    async entertagtofollowup(text){
+        this.supporttags.setValue(text);
+        const name=await $("//div[@id='tags-option-0']");
+        await name.click();
+    }
+    async enternextdatetoffffollowup(text){
+        this.supportnextdate.click();
+        const edit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await edit.click();
+        const date=await $("//input[@placeholder='dd/mm/yyyy']");
+        await date.setValue(text);
+        const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await ok.click();
+    }
+    async enterstarttimetofollowup(text){
+        this.supportstarttime.click();
+        const edit=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await edit.click();
+        const starttime=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await starttime.setValue(text);
+        const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await ok.click();
+    }
+    async enterendtime(text){
+        this.supportendtime.click();
+        const edit =await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[1]");
+        await edit.click();
+        const endtime=await $("//body/div[2]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
+        await endtime.setValue(text);
+        const ok=await $("//body/div[2]/div[3]/div[1]/div[2]/button[2]");
+        await ok.click();
+    }
+    async enterstatustofollowup(text){
+        this.supportstatus.click();
+        const open=await $("//div[@id='status-option-0']");
+        await open.click();
+
+    }
+    async enterprioritytofollowup(text){
+        this.supportpriority.setValue(text);
+        const name=await $("//div[@id='priority-option-0']");
+        await name.click();
+
+    }
+    async enterchangenotetofollowup(text){
+        this.supportchangenote.setValue(text);
+    }
+    async clickOnsavetofollowup(){
+        this.supportsave.click();
+    }
+
 
 
 }

@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657196499643' stop='1657196536465'>
+    <name>Verify  support can be added from students menu</name>
+    <title>Verify  support can be added from students menu</title>
+    <test-cases>
+        <test-case start='1657196499644' status='broken' stop='1657196536464'>
+            <name>Add support from students menu</name>
+            <title>Add support from students menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dc6e10b7-683b-41c5-a0fa-8b55657761b1-attachment.png' type='image/png' size='85415'/>
+            </attachments>
+            <failure>
+                <message>this.department.setValue is not a function</message>
+                <stack-trace>TypeError: this.department.setValue is not a function
+                    at Studentpage.enterdepartmenttofollowup (/home/vaibhav/Desktop/demoproject/Alis/pages/Studentpage.js:250:25)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/Verifysupportcanbecreatedfromstudentsmenu.js:36:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

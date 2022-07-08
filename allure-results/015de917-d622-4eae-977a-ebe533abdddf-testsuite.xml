@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657278951894' stop='1657279025061'>
+    <name>Verify save button is clickable or not  </name>
+    <title>Verify save button is clickable or not  </title>
+    <test-cases>
+        <test-case start='1657278951896' status='passed' stop='1657279025059'>
+            <name>virtual save clickable</name>
+            <title>virtual save clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-73'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-73'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='eb0c2cb3-7082-4024-9e82-07d28cd9d0ca-attachment.png' type='image/png' size='103659'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

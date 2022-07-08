@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657279026180' stop='1657279099337'>
+    <name>Verify schedule tab time field for wrong time combination  </name>
+    <title>Verify schedule tab time field for wrong time combination  </title>
+    <test-cases>
+        <test-case start='1657279026181' status='passed' stop='1657279099336'>
+            <name>time field  for wrong combination </name>
+            <title>time field  for wrong combination </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-76'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-76'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9cf1ca39-4243-4e22-a515-90954f8bcf87-attachment.png' type='image/png' size='108889'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

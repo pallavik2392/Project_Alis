@@ -43,25 +43,30 @@ exports.config = {
             './test/Admissions/Verifyinviteesalldetails.js'
         ]
     },*/
-    suites:{
+ /*   suites:{
         Students:[
-            './test/Students/Verifyattendanceofstudent.js'
-        ]
-    },
-  /* suites:{
-        Regular:[
-            './test/Regular/Verifygmailforinvitecode.js'
+            './test/Students/Verifysupportcanbecreatedfromstudentsmenu.js'
         ]
     },*/
+  /* suites:{
+        Regular:[
+            './test/Regular/Verifyuserabletogetticket.js'
+        ]
+    },*/
+    suites:{
+        Supportcases:[
+            './test/Supportcases/Verifypriorityfilterofnexttab.js'
+        ]
+    },
    /* suites:{
      elements:[
          './test/elements/*.js'
      ]
     },
 */
-  /* suites:{
+ /*  suites:{
     Staffverification:[
-        './test/Staffverification/*.js'
+        './test/Staffverification/Verifynewstaffbuttonclickabl.js'
     ]
    },
  */
@@ -73,10 +78,12 @@ exports.config = {
    */
   /*   suites:{
         CourseVerification:[
-            './test/CourseVerification/*.js'
+            './test/CourseVerification/Verifycourseversionchangesifanyupdatemadeincourse.js'
         ]
        },
       */
+       
+
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'

@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657170568020' stop='1657170664793'>
+    <name>Verify  product field for max validation </name>
+    <title>Verify  product field for max validation </title>
+    <test-cases>
+        <test-case start='1657170568021' status='broken' stop='1657170664792'>
+            <name>product field with max validation</name>
+            <title>product field with max validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fd33176a-3696-4c9c-a086-d0fa4449a28c-attachment.png' type='image/png' size='109472'/>
+            </attachments>
+            <failure>
+                <message>text1 is not defined</message>
+                <stack-trace>ReferenceError: text1 is not defined
+                    at Studentpage.addproducttoinvoice (/home/vaibhav/Desktop/demoproject/Alis/pages/Studentpage.js:190:41)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/Verifyproductfieldofinvoiceformaxvalidation.js:37:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

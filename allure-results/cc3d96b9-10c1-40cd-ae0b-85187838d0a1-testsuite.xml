@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657257403437' stop='1657257530786'>
+    <name>verify search functionality of staff</name>
+    <title>verify search functionality of staff</title>
+    <test-cases>
+        <test-case start='1657257403438' status='failed' stop='1657257530786'>
+            <name>Staff search functionality</name>
+            <title>Staff search functionality</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='637a5415-211e-42d0-9d94-dab310d1c019-attachment.png' type='image/png' size='97186'/>
+            </attachments>
+            <failure>
+                <message>Expect //h5[contains(text(),'mvc')] to be displayed in viewport
+                
+                Expected: "displayed in viewport"
+                Received: "not displayed in viewport"</message>
+                <stack-trace>Error: Expect //h5[contains(text(),'mvc')] to be displayed in viewport
+                
+                Expected: "displayed in viewport"
+                Received: "not displayed in viewport"
+                    at Staffpage.verifystaffexist (/home/vaibhav/Desktop/demoproject/Alis/pages/Staffpage.js:198:33)
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Staffverification/Verifysearchfunctionalityforstaff.js:24:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

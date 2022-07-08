@@ -14,7 +14,8 @@
     "ExecutiveRole":"node_modules/.bin/wdio ./wdio.conf.js --suite ExecutiveRole",
     "JuniorRole":"node_modules/.bin/wdio ./wdio.conf.js --suite JuniorRole",
     "Admissions":"node_modules/.bin/wdio ./wdio.conf.js --suite Admissions",
-    "Students":"node_modules/.bin/wdio ./wdio.conf.js --suite Students"
+    "Students":"node_modules/.bin/wdio ./wdio.conf.js --suite Students",
+    "Supportcases":"node_modules/.bin/wdio ./wdio.conf.js --suite Supportcases"
   },
   "author": "pallavi",
   "license": "MIT",

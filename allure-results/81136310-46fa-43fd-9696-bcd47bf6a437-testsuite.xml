@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657278309558' stop='1657278372546'>
+    <name>basic yab verification for langauge of instruction field</name>
+    <title>basic yab verification for langauge of instruction field</title>
+    <test-cases>
+        <test-case start='1657278309561' status='passed' stop='1657278372545'>
+            <name>verify msg for langauge of instruction field</name>
+            <title>verify msg for langauge of instruction field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='52299ab5-2707-469f-ac43-ce5d015d7a7d-attachment.png' type='image/png' size='91261'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

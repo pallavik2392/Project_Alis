@@ -158,6 +158,8 @@ class Coursespage extends Page{
     get disableallscheme(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[2]/div[1]/div[2]/span[1]/input[1]")}
     get disablescholarship(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]/div[2]/span[1]/input[1]")}
     get particularcourse(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")} 
+    get statusfilter(){return $("//button[normalize-space()='Status: All']")}
+
 
 
     async clickOncourses(){
@@ -855,9 +857,30 @@ class Coursespage extends Page{
         await expect(this.newcourse).not.toBeClickable();
 
     }
+    async VerifyNewcoursebuttonforRolewiseaccessclickable(){
+       
+        await expect(this.newcourse).toBeClickable();
+
+    }
     async Verifyparticularcourseclickable(){
        
         await expect(this.particularcourse).toBeClickable();
+
+    }
+    async Verifystatusfilter(text){
+        this.statusfilter.click();
+        if(text==='Active'){
+            const active=await $("//body/div[2]/div[1]/div[1]/div[1]/div[2]/label[1]/span[1]/input[1]");
+            await active.click();
+        }else if(text==='Inactive'){
+            const inactive=await $("//body/div[2]/div[1]/div[1]/div[1]/div[3]/label[1]/span[1]/input[1]");
+            await inactive.click();
+        }else {
+            const all=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/label[1]/span[1]/input[1]");
+            await all.click();
+        }
+        const apply=await $("//button[normalize-space()='Apply']");
+        await apply.click();
 
     }
 

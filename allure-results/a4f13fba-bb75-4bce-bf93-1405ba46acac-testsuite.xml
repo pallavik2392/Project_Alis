@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657172788378' stop='1657172838783'>
+    <name>Verify  add another of add product clickable</name>
+    <title>Verify  add another of add product clickable</title>
+    <test-cases>
+        <test-case start='1657172788378' status='passed' stop='1657172838782'>
+            <name>add another is clickable</name>
+            <title>add another is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ff87ebaf-a165-4fec-a69b-38b544dc9ce1-attachment.png' type='image/png' size='110492'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

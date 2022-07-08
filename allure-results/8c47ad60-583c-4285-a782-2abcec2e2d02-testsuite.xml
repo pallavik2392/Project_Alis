@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657102334811' stop='1657102372492'>
+    <name>Verify courses add to wallet button is clickable </name>
+    <title>Verify courses add to wallet button is clickable </title>
+    <test-cases>
+        <test-case start='1657102334812' status='broken' stop='1657102372492'>
+            <name>add to wallet button is clickable</name>
+            <title>add to wallet button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a581499f-6a4f-4d45-af33-369665b2b556-attachment.png' type='image/png' size='152656'/>
+            </attachments>
+            <failure>
+                <message>this.studentmenu.click is not a function</message>
+                <stack-trace>TypeError: this.studentmenu.click is not a function
+                    at Studentpage.clickOnstudentMenu (/home/vaibhav/Desktop/demoproject/Alis/pages/Studentpage.js:40:26)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/verifycoursesaddtowalletbuttonclickable.js:21:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

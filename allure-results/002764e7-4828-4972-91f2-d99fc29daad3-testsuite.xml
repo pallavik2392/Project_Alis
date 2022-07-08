@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657196953702' stop='1657197012121'>
+    <name>Verify  support can be added from students menu</name>
+    <title>Verify  support can be added from students menu</title>
+    <test-cases>
+        <test-case start='1657196953702' status='broken' stop='1657197012120'>
+            <name>Add support from students menu</name>
+            <title>Add support from students menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2a8f0d41-05b6-46d4-8d41-9873f68392c1-attachment.png' type='image/png' size='86818'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//div[@id='tags-option-0']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//div[@id='tags-option-0']" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

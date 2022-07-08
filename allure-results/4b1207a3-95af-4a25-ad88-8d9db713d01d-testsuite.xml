@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657261218770' stop='1657261243084'>
+    <name>verify new taff button clickable</name>
+    <title>verify new taff button clickable</title>
+    <test-cases>
+        <test-case start='1657261218771' status='passed' stop='1657261243083'>
+            <name>new staff ckickable</name>
+            <title>new staff ckickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b08e8662-4856-4fdf-98db-05edc28614e6-attachment.png' type='image/png' size='42259'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

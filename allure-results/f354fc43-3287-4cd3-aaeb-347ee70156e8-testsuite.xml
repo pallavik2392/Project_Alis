@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657100635208' stop='1657100675836'>
+    <name>Verify credit issued amount with wallet </name>
+    <title>Verify credit issued amount with wallet </title>
+    <test-cases>
+        <test-case start='1657100635209' status='passed' stop='1657100675836'>
+            <name>Verify credit issued amount</name>
+            <title>Verify credit issued amount</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fb7779ff-45bb-4757-a09c-9c7a6a86ad3a-attachment.png' type='image/png' size='96723'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

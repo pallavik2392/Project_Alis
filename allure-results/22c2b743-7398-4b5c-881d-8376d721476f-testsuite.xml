@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657185839823' stop='1657185878615'>
+    <name>Verify  scholarship's benefits field for max validation</name>
+    <title>Verify  scholarship's benefits field for max validation</title>
+    <test-cases>
+        <test-case start='1657185839824' status='passed' stop='1657185878614'>
+            <name>benefits for max validation</name>
+            <title>benefits for max validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='84aaab97-1257-4cf1-86b2-2d6267fad8f9-attachment.png' type='image/png' size='102721'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

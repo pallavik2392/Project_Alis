@@ -5,6 +5,7 @@ var fs=require('fs-extra');
 
 const excelToJson = require('convert-excel-to-json');
 const { Console } = require('console');
+const console = require('console');
 //const { browser } = require('protractor');
 
 const result = excelToJson({
@@ -438,6 +439,32 @@ console.log('Batchforattendance',result.Admissions[3].B)
 console.log('Topicforattendance',result.Admissions[3].C)
 console.log('dateofattendance',result.Admissions[3].D)
 console.log('Studentsearchedbymobilenumber',result.Admissions[5].A)
+console.log('studentsearchbymobilenumberforverifyingpaymentdetails',result.Admissions[7].A)
+console.log('greterthan250limit',result.Admissions[7].B)
+console.log('validdataforwalletcreditissued',result.Admissions[7].C)
+console.log('validamountdataforwalletcreditissuedfield',result.Admissions[7].D)
+console.log('invoiceproduct',result.Admissions[9].A)
+console.log('invoiceproductrate',result.Admissions[9].B)
+console.log('invoiceprodutwithmaxvalue',result.Admissions[9].C)
+console.log('invoiveproductratewithmaxvalue',result.Admissions[9].D)
+console.log('scholarshipcreditreturn',result.Admissions[9].E)
+console.log('cancellationreason',result.Admissions[9].F)
+console.log('coursetoaddscholarship',result.Admissions[11].A)
+console.log('datetoaddscholarship',result.Admissions[11].B)
+console.log('benefitstoaddscholarship',result.Admissions[11].C)
+console.log('benefitstoaddscholarshipformaxvalidation',result.Admissions[11].D)
+console.log('stafftobesearched',result.Admissions[13].A)
+console.log('stafflocationtobesearched',result.Admissions[13].B)
+console.log('coursenametobesearched',result.Admissions[13].C)
+console.log('Statusofcoursetobesearched',result.Admissions[13].D)
+console.log('Coursenametobepassedincoursefilter',result.Admissions[15].A)
+console.log('Coursenametobepassedinlocationfilter',result.Admissions[15].B)
+console.log('Coursenametobepassedindepartmentfilter',result.Admissions[15].C)
+console.log('Coursenametobepassedincategoryfilter',result.Admissions[15].D)
+console.log('Coursenametobepassedinsubcategoryfilter',result.Admissions[15].E)
+console.log('Coursenametobepassedintagfilter',result.Admissions[15].F)
+console.log('Coursenametobepassedinpriorityfilter',result.Admissions[15].G)
+
 
 
 
@@ -848,6 +875,32 @@ var dataRequired = function(){
         Topicforattendance:result.Admissions[3].C,
         dateofattendance:result.Admissions[3].D,
         Studentsearchedbymobilenumber:result.Admissions[5].A,
+        studentsearchbymobilenumberforverifyingpaymentdetails:result.Admissions[7].A,
+        greterthan250limit:result.Admissions[7].B,
+        validdataforwalletcreditissued:result.Admissions[7].C,
+        validamountdataforwalletcreditissuedfield:result.Admissions[7].D,
+        invoiceproduct:result.Admissions[9].A,
+        invoiceproductrate:result.Admissions[9].B,
+        invoiceprodutwithmaxvalue:result.Admissions[9].C,
+        invoiveproductratewithmaxvalue:result.Admissions[9].D,
+        scholarshipcreditreturn:result.Admissions[9].E,
+        cancellationreason:result.Admissions[9].F,
+        coursetoaddscholarship:result.Admissions[11].A,
+        datetoaddscholarship:result.Admissions[11].B,
+        benefitstoaddscholarship:result.Admissions[11].C,
+        benefitstoaddscholarshipformaxvalidation:result.Admissions[11].D,
+        stafftobesearched:result.Admissions[13].A,
+        stafflocationtobesearched:result.Admissions[13].B,
+        coursenametobesearched:result.Admissions[13].C,
+        Statusofcoursetobesearched:result.Admissions[13].D,
+        Coursenametobepassedincoursefilter:result.Admissions[15].A,
+        Coursenametobepassedinlocationfilter:result.Admissions[15].B,
+        Coursenametobepassedindepartmentfilter:result.Admissions[15].C,
+        Coursenametobepassedincategoryfilter:result.Admissions[15].D,
+        Coursenametobepassedinsubcategoryfilter:result.Admissions[15].E,
+        Coursenametobepassedintagfilter:result.Admissions[15].F,
+        Coursenametobepassedinpriorityfilter:result.Admissions[15].G,
+
 
     };
 }

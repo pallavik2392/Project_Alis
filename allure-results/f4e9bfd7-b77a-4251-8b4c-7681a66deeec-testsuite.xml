@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657279022426' stop='1657279095416'>
+    <name>Verify cancel button is clickable or not  </name>
+    <title>Verify cancel button is clickable or not  </title>
+    <test-cases>
+        <test-case start='1657279022440' status='passed' stop='1657279095415'>
+            <name>virtual cancel clickable</name>
+            <title>virtual cancel clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-74'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-74'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fa94f8b7-d35b-4664-976e-a64e198ae108-attachment.png' type='image/png' size='103634'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

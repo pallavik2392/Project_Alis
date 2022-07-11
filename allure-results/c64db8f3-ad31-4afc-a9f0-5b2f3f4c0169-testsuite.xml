@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657538705939' stop='1657538732829'>
+    <name>verify approve botton  is clickable after verifying all 3 documents </name>
+    <title>verify approve botton  is clickable after verifying all 3 documents </title>
+    <test-cases>
+        <test-case start='1657538705940' status='passed' stop='1657538732829'>
+            <name>verify approve clickable after verifying documents</name>
+            <title>verify approve clickable after verifying documents</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0610ec82-8b47-45d8-9bd7-c4150d3f7654-attachment.png' type='image/png' size='80626'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

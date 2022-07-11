@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657527220181' stop='1657527306194'>
+    <name>verify view botton  is clickable for identity of appliations tab </name>
+    <title>verify view botton  is clickable for identity of appliations tab </title>
+    <test-cases>
+        <test-case start='1657527220182' status='failed' stop='1657527306193'>
+            <name>view button clickable</name>
+            <title>view button clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='143582ff-c0d4-4770-a3dc-fb5e4b830077-attachment.png' type='image/png' size='137668'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//div[@class='jss1 MuiBox-root css-0']//div[2]//button[3]`) to be clickable
+                
+                Expected: "clickable"
+                Received: "not clickable"</message>
+                <stack-trace>Error: Expect $(`//div[@class='jss1 MuiBox-root css-0']//div[2]//button[3]`) to be clickable
+                
+                Expected: "clickable"
+                Received: "not clickable"
+                    at LeadPage1.Verifyidentityviewbuttonisclickable (/home/vaibhav/Desktop/demoproject/Alis/pages/Leadpage1.js:496:47)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyviewbuttonofidentiytabofapplications.js:25:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

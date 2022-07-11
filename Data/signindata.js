@@ -432,6 +432,7 @@ Coursenametobepassedincategoryfilter : xcelTojson.testConfig.Coursenametobepasse
 Coursenametobepassedinsubcategoryfilter : xcelTojson.testConfig.Coursenametobepassedinsubcategoryfilter,
 Coursenametobepassedintagfilter : xcelTojson.testConfig.Coursenametobepassedintagfilter,
 Coursenametobepassedinpriorityfilter : xcelTojson.testConfig.Coursenametobepassedinpriorityfilter,
-
+datetocompareforNexttb : xcelTojson.testConfig.datetocompareforNexttb,
+datetocompareforTodaytab : xcelTojson.testConfig.datetocompareforTodaytab,
 
 }

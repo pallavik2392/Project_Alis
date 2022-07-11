@@ -464,6 +464,9 @@ console.log('Coursenametobepassedincategoryfilter',result.Admissions[15].D)
 console.log('Coursenametobepassedinsubcategoryfilter',result.Admissions[15].E)
 console.log('Coursenametobepassedintagfilter',result.Admissions[15].F)
 console.log('Coursenametobepassedinpriorityfilter',result.Admissions[15].G)
+console.log('datetocompareforNexttb',result.Admissions[17].A)
+console.log('datetocompareforTodaytab',result.Admissions[17].B)
+console.log('datetocompareforhistorytab',result.Admissions[17].C)
 
 
 
@@ -900,6 +903,9 @@ var dataRequired = function(){
         Coursenametobepassedinsubcategoryfilter:result.Admissions[15].E,
         Coursenametobepassedintagfilter:result.Admissions[15].F,
         Coursenametobepassedinpriorityfilter:result.Admissions[15].G,
+        datetocompareforNexttb:result.Admissions[17].A,
+        datetocompareforTodaytab:result.Admissions[17].B,
+        datetocompareforhistorytab:result.Admissions[17].C,
 
 
     };

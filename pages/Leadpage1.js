@@ -64,6 +64,20 @@ class LeadPage1 extends  Page{
     get applicationview(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[6]/span[1]/button[1]/i[1]")}
     get searchofinvitee(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/child::div/child::div/child::*")}
     get inviteetab(){return $("//a[contains(text(),'Invitees')]")}
+    get identiryviewbutton(){return $("//div[@class='jss1 MuiBox-root css-0']//div[2]//button[3]")}
+    get identityverifybutton(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/button[2]")}
+    get identitydenybutton(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/button[1]")}
+    get applicationview(){return $("//tbody/tr[1]/td[6]/span[1]/button[1]")}
+    get identityapprove(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[10]/button[1]")}
+    get identityreject(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[10]/button[2]")}
+    get identityverify2ndbutton(){return $("//div[5]//button[2]")}
+    get identityverify3rdbutton(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[8]/button[2]")}
+    get educationapprovebutton(){return $("//button[normalize-space()='Approve']")}
+    get educationrejectbutton(){return $("//button[normalize-space()='Reject']")}
+    get educationtab(){return $("//h4[@class='MuiTypography-root MuiTypography-h4 jss34 css-nqxb97']")}
+    get healthhistoryapprovebutton(){return $("//button[normalize-space()='Approve']")}
+    get healthhistoryrejectbutton(){return $("//button[normalize-space()='Reject']")}
+    get healthhistorytab(){return $("//h4[@class='MuiTypography-root MuiTypography-h4 jss34 css-nqxb97']")}
 
 
 
@@ -487,5 +501,67 @@ class LeadPage1 extends  Page{
     async clickOneditlead(){
         this.leadediticon.click();
     }
+    async Verifyidentityviewbuttonisclickable(){
+       
+        await expect(this.identiryviewbutton).toBeClickable();
+
+    }
+    async VerifyidentityVerifybuttonisclickable(){
+       
+        await expect(this.identityverifybutton).toBeClickable();
+
+    }
+    async VerifyidentityDenybuttonisclickable(){
+       
+        await expect(this.identitydenybutton).toBeClickable();
+
+    }
+    async clickOnapplicationsviewbutton(){
+        this.applicationview.click();
+    }
+    async verifyidentityapprovebuttonclickable(){
+        await expect(this.identityapprove).toBeClickable();
+    }
+    async verifyidentityapprovebuttonNotclickable(){
+        await expect(this.identityapprove).not.toBeClickable();
+    }
+    async clickOnVerify1stdocument(){
+        this.identityverifybutton.click();
+    }
+    async clickOnVerify2nddocument(){
+        this.identityverify2ndbutton.click();
+    }
+    async clickOnVerify3rddocument(){
+        this.identityverify3rdbutton.click();
+    }
+    async verifyidentityrejectbuttonclickable(){
+        await expect(this.identityreject).toBeClickable();
+    }
+    async verifyidentityrejrctbuttonNotclickable(){
+        await expect(this.identityreject).not.toBeClickable();
+    }
+    async clickOndenyingfirstdocument(){
+        this.identitydenybutton.click();
+    }
+    async verifyeducationapprovebuttonclickable(){
+        await expect(this.educationapprovebutton).toBeClickable();
+    }
+    async verifyeducationrejectbuttonclickable(){
+        await expect(this.educationrejectbutton).toBeClickable();
+    }
+    async clickOneducationtab(){
+        this.educationtab.click();
+    }
+    async verifyHealthhistoryapprovebuttonclickable(){
+        await expect(this.healthhistoryapprovebutton).toBeClickable();
+    }
+    async verifyHealthhistoryrejectbuttonclickable(){
+        await expect(this.healthhistoryrejectbutton).toBeClickable();
+    }
+    async clickOnhealthhisorytab(){
+        this.healthhistorytab.click();
+    }
+
+    
 }
 module.exports = new LeadPage1();

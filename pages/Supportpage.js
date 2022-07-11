@@ -33,6 +33,8 @@ class Supportpage extends Page{
     get subcategoryfilter(){return $("//button[normalize-space()='Sub-category: All']")}
     get tagsfilter(){return $("//button[normalize-space()='Tag: All']")}
     get priorityfilter(){return $("//button[normalize-space()='Priority: All']")}
+    get todaysattendedcard(){return $("//h5[normalize-space()='Attended']")}
+
 
 
 
@@ -150,6 +152,9 @@ class Supportpage extends Page{
     async clickOnnexttab(){
         this.next.click();
     }
+    async clickOnhistorytab(){
+        this.history.click();
+    }
     async Verifycoursesfilter(text){
         this.coursesfilter.click();
         const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
@@ -220,6 +225,9 @@ class Supportpage extends Page{
         await apply.click();
     }
     
+    async clickOntodaysattendedcard(){
+        this.todaysattendedcard.click();
+    }
 
 
 }

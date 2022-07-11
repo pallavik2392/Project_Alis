@@ -38,11 +38,11 @@ exports.config = {
             './test/JuniorRole/VerifyNewticketbuttonnotexistforjuniorrole.js'
         ]
     },*/
-   /* suites:{
+    suites:{
         Admissions:[
-            './test/Admissions/Verifyinviteesalldetails.js'
+            './test/Admissions/Verifyapprovebuttonofidentityenabledafterclickingall3verifybuttons.js'
         ]
-    },*/
+    },
  /*   suites:{
         Students:[
             './test/Students/Verifysupportcanbecreatedfromstudentsmenu.js'
@@ -53,11 +53,11 @@ exports.config = {
             './test/Regular/Verifyuserabletogetticket.js'
         ]
     },*/
-    suites:{
+  /*  suites:{
         Supportcases:[
-            './test/Supportcases/Verifypriorityfilterofnexttab.js'
+            './test/Supportcases/verifyhistorytabcontainsallpastdatetickets.js'
         ]
-    },
+    },*/
    /* suites:{
      elements:[
          './test/elements/*.js'

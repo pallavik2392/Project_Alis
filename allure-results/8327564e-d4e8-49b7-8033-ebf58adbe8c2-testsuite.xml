@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657513059086' stop='1657513111525'>
+    <name>Verify courses filter for history tab of support</name>
+    <title>Verify courses filter for history tab of support</title>
+    <test-cases>
+        <test-case start='1657513059087' status='failed' stop='1657513111524'>
+            <name>courses filter of history tab</name>
+            <title>courses filter of history tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='87a414de-ff77-46a2-9f5d-3f4a7c9af165-attachment.png' type='image/png' size='51842'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[2]/child::p`) to have text containing
+                
+                Expected: "Low"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[2]/child::p`) to have text containing
+                
+                Expected: "Low"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifycoursefilterofhistorytab.js:32:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

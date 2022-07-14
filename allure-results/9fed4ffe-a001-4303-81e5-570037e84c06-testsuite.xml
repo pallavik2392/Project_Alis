@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657783550284' stop='1657783615667'>
+    <name>Verify staff profile details cortect</name>
+    <title>Verify staff profile details cortect</title>
+    <test-cases>
+        <test-case start='1657783550285' status='failed' stop='1657783615667'>
+            <name>staff</name>
+            <title>staff</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2ac4a98f-2494-40a4-85ef-78b923b82f7e-attachment.png' type='image/png' size='80718'/>
+            </attachments>
+            <failure>
+                <message>expected 'A user with this phone number/email a…' to equal 'Staff added'      
+                      actual expected
+                      
+                      'AStaff user with this phone number/email already existsadded'
+                      </message>
+                <stack-trace>AssertionError: expected 'A user with this phone number/email a…' to equal 'Staff added'
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Staffverification/Verifystaffprofiledataiscorrect.js:52:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

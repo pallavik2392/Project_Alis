@@ -10,12 +10,12 @@
     "Staffverification": "node_modules/.bin/wdio ./wdio.conf.js --suite Staffverification",
     "CourseVerification": "node_modules/.bin/wdio ./wdio.conf.js --suite CourseVerification",
     "Regular": "node_modules/.bin/wdio ./wdio.conf.js --suite Regular",
-    "SignIn":"node_modules/.bin/wdio ./wdio.conf.js --suite SignIn",
-    "ExecutiveRole":"node_modules/.bin/wdio ./wdio.conf.js --suite ExecutiveRole",
-    "JuniorRole":"node_modules/.bin/wdio ./wdio.conf.js --suite JuniorRole",
-    "Admissions":"node_modules/.bin/wdio ./wdio.conf.js --suite Admissions",
-    "Students":"node_modules/.bin/wdio ./wdio.conf.js --suite Students",
-    "Supportcases":"node_modules/.bin/wdio ./wdio.conf.js --suite Supportcases"
+    "SignIn": "node_modules/.bin/wdio ./wdio.conf.js --suite SignIn",
+    "ExecutiveRole": "node_modules/.bin/wdio ./wdio.conf.js --suite ExecutiveRole",
+    "JuniorRole": "node_modules/.bin/wdio ./wdio.conf.js --suite JuniorRole",
+    "Admissions": "node_modules/.bin/wdio ./wdio.conf.js --suite Admissions",
+    "Students": "node_modules/.bin/wdio ./wdio.conf.js --suite Students",
+    "Supportcases": "node_modules/.bin/wdio ./wdio.conf.js --suite Supportcases"
   },
   "author": "pallavi",
   "license": "MIT",
@@ -39,6 +39,7 @@
     "convert-excel-to-json": "^1.7.0",
     "expect-webdriverio": "^3.4.0",
     "fs-extra": "^10.1.0",
-    "logger": "^0.0.1"
+    "logger": "^0.0.1",
+    "mysql": "^2.18.1"
   }
 }

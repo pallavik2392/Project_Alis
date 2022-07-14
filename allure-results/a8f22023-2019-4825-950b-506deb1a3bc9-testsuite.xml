@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657782344696' stop='1657782509411'>
+    <name>Verify staff profile details cortect</name>
+    <title>Verify staff profile details cortect</title>
+    <test-cases>
+        <test-case start='1657782344696' status='broken' stop='1657782509410'>
+            <name>"after all" hook for Verify staff profile details cortect</name>
+            <title>"after all" hook for Verify staff profile details cortect</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=101.0.4951.54)</message>
+                <stack-trace>chrome not reachable: chrome not reachable
+                  (Session info: chrome=101.0.4951.54)
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Staffverification/Verifystaffprofiledataiscorrect.js:98:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

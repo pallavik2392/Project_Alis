@@ -38,24 +38,24 @@ exports.config = {
             './test/JuniorRole/VerifyNewticketbuttonnotexistforjuniorrole.js'
         ]
     },*/
-    suites:{
+ /*   suites:{
         Admissions:[
-            './test/Admissions/Verifyapprovebuttonofidentityenabledafterclickingall3verifybuttons.js'
+            './test/Admissions/Verifyafterclickingonviewbuttonofidentitynewwindowopens.js'
+        ]
+    },*/
+    suites:{
+        Students:[
+            './test/Students/Verifyscholarshipcreditissuedfieldofcanceladmissionformaxvalidation.js'
         ]
     },
- /*   suites:{
-        Students:[
-            './test/Students/Verifysupportcanbecreatedfromstudentsmenu.js'
-        ]
-    },*/
-  /* suites:{
+ /*  suites:{
         Regular:[
-            './test/Regular/Verifyuserabletogetticket.js'
+            './test/Regular/Verifynumberofataffavailable.js'
         ]
     },*/
-  /*  suites:{
+ /*   suites:{
         Supportcases:[
-            './test/Supportcases/verifyhistorytabcontainsallpastdatetickets.js'
+            './test/Supportcases/Verifyfollowupcreateddataproper.js'
         ]
     },*/
    /* suites:{
@@ -66,10 +66,10 @@ exports.config = {
 */
  /*  suites:{
     Staffverification:[
-        './test/Staffverification/Verifynewstaffbuttonclickabl.js'
+        './test/Staffverification/Verifystaffprofiledataiscorrect.js'
     ]
-   },
- */
+   },*/
+ 
  /*   suites:{
         CreationUpdation:[
             './test/CreationUpdation/*.js'

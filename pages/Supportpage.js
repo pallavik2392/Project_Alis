@@ -34,6 +34,7 @@ class Supportpage extends Page{
     get tagsfilter(){return $("//button[normalize-space()='Tag: All']")}
     get priorityfilter(){return $("//button[normalize-space()='Priority: All']")}
     get todaysattendedcard(){return $("//h5[normalize-space()='Attended']")}
+    get todaysscheduletab(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/child::h5")}
 
 
 
@@ -227,6 +228,9 @@ class Supportpage extends Page{
     
     async clickOntodaysattendedcard(){
         this.todaysattendedcard.click();
+    }
+    async clickOnTodaysschecduletab(){
+        this.todaysscheduletab.click();
     }
 
 

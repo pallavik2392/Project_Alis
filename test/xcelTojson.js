@@ -467,6 +467,7 @@ console.log('Coursenametobepassedinpriorityfilter',result.Admissions[15].G)
 console.log('datetocompareforNexttb',result.Admissions[17].A)
 console.log('datetocompareforTodaytab',result.Admissions[17].B)
 console.log('datetocompareforhistorytab',result.Admissions[17].C)
+console.log('invalidamountdataforwalletcreditissuedfield',result.Admissions[7].E)
 
 
 
@@ -906,6 +907,7 @@ var dataRequired = function(){
         datetocompareforNexttb:result.Admissions[17].A,
         datetocompareforTodaytab:result.Admissions[17].B,
         datetocompareforhistorytab:result.Admissions[17].C,
+        invalidamountdataforwalletcreditissuedfield:result.Admissions[7].E,
 
 
     };

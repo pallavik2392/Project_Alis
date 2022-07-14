@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657785983267' stop='1657786041057'>
+    <name>Verify staff profile details cortect</name>
+    <title>Verify staff profile details cortect</title>
+    <test-cases>
+        <test-case start='1657785983268' status='failed' stop='1657786041056'>
+            <name>staff</name>
+            <title>staff</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='63826727-d05c-48f6-8c96-af5103a89bb0-attachment.png' type='image/png' size='77077'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[2]/child::p`) to have text containing
+                
+                Expected: "lohny"
+                Received: "Akshay"</message>
+                <stack-trace>Error: Expect $(`//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[2]/child::p`) to have text containing
+                
+                Expected: "lohny"
+                Received: "Akshay"
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Staffverification/Verifystaffprofiledataiscorrect.js:57:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

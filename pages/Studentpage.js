@@ -63,6 +63,7 @@ class Studentpage extends Page{
     get supportpriority(){return $("//input[@id='priority']")}
     get supportchangenote(){return $("//textarea[@id='note']")}
     get supportsave(){return $("//button[@type='submit']")}
+    get scholarshipcreditreturn(){return $("//input[@id='scholarship']")}
 
 
 
@@ -310,6 +311,12 @@ class Studentpage extends Page{
     }
     async clickOnsavetofollowup(){
         this.supportsave.click();
+    }
+    async clickOncanceladmissionofcoursestab(){
+        this.canceladmission.click();
+    }
+    async enteramountinscholarshipcreditreturn(text){
+        this.scholarshipcreditreturn.setValue(text);
     }
 
 

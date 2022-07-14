@@ -434,5 +434,6 @@ Coursenametobepassedintagfilter : xcelTojson.testConfig.Coursenametobepassedinta
 Coursenametobepassedinpriorityfilter : xcelTojson.testConfig.Coursenametobepassedinpriorityfilter,
 datetocompareforNexttb : xcelTojson.testConfig.datetocompareforNexttb,
 datetocompareforTodaytab : xcelTojson.testConfig.datetocompareforTodaytab,
+invalidamountdataforwalletcreditissuedfield : xcelTojson.testConfig.invalidamountdataforwalletcreditissuedfield,
 
 }

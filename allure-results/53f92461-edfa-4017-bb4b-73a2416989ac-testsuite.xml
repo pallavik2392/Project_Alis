@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657776875272' stop='1657776953531'>
+    <name>Verify followup data</name>
+    <title>Verify followup data</title>
+    <test-cases>
+        <test-case start='1657776875272' status='broken' stop='1657776953531'>
+            <name>followup is corret</name>
+            <title>followup is corret</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='21c80e9d-48ec-49b8-bcaa-fbafdeb6720e-attachment.png' type='image/png' size='57120'/>
+            </attachments>
+            <failure>
+                <message>$ is not a function</message>
+                <stack-trace>TypeError: $ is not a function
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifyfollowupcreateddataproper.js:58:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

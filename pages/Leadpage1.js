@@ -74,10 +74,10 @@ class LeadPage1 extends  Page{
     get identityverify3rdbutton(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[8]/button[2]")}
     get educationapprovebutton(){return $("//button[normalize-space()='Approve']")}
     get educationrejectbutton(){return $("//button[normalize-space()='Reject']")}
-    get educationtab(){return $("//h4[@class='MuiTypography-root MuiTypography-h4 jss34 css-nqxb97']")}
+    get educationtab(){return $("//span[@id='1']/child::*")}
     get healthhistoryapprovebutton(){return $("//button[normalize-space()='Approve']")}
     get healthhistoryrejectbutton(){return $("//button[normalize-space()='Reject']")}
-    get healthhistorytab(){return $("//h4[@class='MuiTypography-root MuiTypography-h4 jss34 css-nqxb97']")}
+    get healthhistorytab(){return $("//span[@id='2']/child::a")}
 
 
 
@@ -560,6 +560,9 @@ class LeadPage1 extends  Page{
     }
     async clickOnhealthhisorytab(){
         this.healthhistorytab.click();
+    }
+    async clickOn1stdocumentviewbutton(){
+        this.identiryviewbutton.click();
     }
 
     

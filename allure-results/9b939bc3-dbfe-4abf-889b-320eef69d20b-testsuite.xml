@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1657786662440' stop='1657786728954'>
+    <name>Verify staff profile details cortect</name>
+    <title>Verify staff profile details cortect</title>
+    <test-cases>
+        <test-case start='1657786662440' status='passed' stop='1657786728953'>
+            <name>staff</name>
+            <title>staff</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4472b2e8-4a77-475b-a3bb-9bf475ea9d52-attachment.png' type='image/png' size='70665'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

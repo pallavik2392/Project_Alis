@@ -1,0 +1,86 @@
+{
+  "uid" : "1db7f1d36f46ffb8",
+  "name" : "nexttab with future tickets",
+  "fullName" : "Verify todays tab contains all todaya's date tickets.nexttab with future tickets",
+  "historyId" : "d73bfc044bcb54f2f7ef228322f2340e",
+  "time" : {
+    "start" : 1658211241277,
+    "stop" : 1658211368988,
+    "duration" : 127711
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[2]/child::p\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[2]/child::p\" because element wasn't found",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call getText on element with selector \"//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[2]/child::p\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \"//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[2]/child::p\" because element wasn't found",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "950d0694ff9670e8",
+      "name" : "Screenshot",
+      "source" : "950d0694ff9670e8.png",
+      "type" : "image/png",
+      "size" : 64984
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-17"
+  }, {
+    "name" : "suite",
+    "value" : "Verify todays tab contains all todaya's date tickets"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify todays tab contains all todaya's date tickets"
+  }, {
+    "name" : "testMethod",
+    "value" : "nexttab with future tickets"
+  }, {
+    "name" : "package",
+    "value" : "Verify todays tab contains all todaya's date tickets"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1db7f1d36f46ffb8.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

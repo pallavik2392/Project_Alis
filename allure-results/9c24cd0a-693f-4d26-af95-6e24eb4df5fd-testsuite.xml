@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658211161059' stop='1658211188438'>
+    <name>Verify next tab contains all future tickets</name>
+    <title>Verify next tab contains all future tickets</title>
+    <test-cases>
+        <test-case start='1658211161060' status='passed' stop='1658211188437'>
+            <name>nexttab with future tickets</name>
+            <title>nexttab with future tickets</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-10'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bf2dc7bf-9d16-45f9-a7de-59c60393c2a9-attachment.png' type='image/png' size='120031'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

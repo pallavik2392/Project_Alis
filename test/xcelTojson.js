@@ -460,7 +460,7 @@ console.log('Statusofcoursetobesearched',result.Admissions[13].D)
 console.log('Coursenametobepassedincoursefilter',result.Admissions[15].A)
 console.log('Coursenametobepassedinlocationfilter',result.Admissions[15].B)
 console.log('Coursenametobepassedindepartmentfilter',result.Admissions[15].C)
-console.log('Coursenametobepassedincategoryfilter',result.Admissions[15].D)
+console.log('dataforcategoryfilter',result.Admissions[15].D)
 console.log('Coursenametobepassedinsubcategoryfilter',result.Admissions[15].E)
 console.log('Coursenametobepassedintagfilter',result.Admissions[15].F)
 console.log('Coursenametobepassedinpriorityfilter',result.Admissions[15].G)
@@ -468,6 +468,8 @@ console.log('datetocompareforNexttb',result.Admissions[17].A)
 console.log('datetocompareforTodaytab',result.Admissions[17].B)
 console.log('datetocompareforhistorytab',result.Admissions[17].C)
 console.log('invalidamountdataforwalletcreditissuedfield',result.Admissions[7].E)
+console.log('Courseforattendancematching',result.Admissions[19].A)
+console.log('Batchforattendancematching',result.Admissions[19].B)
 
 
 
@@ -900,7 +902,7 @@ var dataRequired = function(){
         Coursenametobepassedincoursefilter:result.Admissions[15].A,
         Coursenametobepassedinlocationfilter:result.Admissions[15].B,
         Coursenametobepassedindepartmentfilter:result.Admissions[15].C,
-        Coursenametobepassedincategoryfilter:result.Admissions[15].D,
+        dataforcategoryfilter:result.Admissions[15].D,
         Coursenametobepassedinsubcategoryfilter:result.Admissions[15].E,
         Coursenametobepassedintagfilter:result.Admissions[15].F,
         Coursenametobepassedinpriorityfilter:result.Admissions[15].G,
@@ -908,6 +910,8 @@ var dataRequired = function(){
         datetocompareforTodaytab:result.Admissions[17].B,
         datetocompareforhistorytab:result.Admissions[17].C,
         invalidamountdataforwalletcreditissuedfield:result.Admissions[7].E,
+        Courseforattendancematching:result.Admissions[19].A,
+        Batchforattendancematching:result.Admissions[19].B,
 
 
     };

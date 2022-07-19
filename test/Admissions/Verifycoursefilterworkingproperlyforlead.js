@@ -17,12 +17,12 @@ describe("verify course filter  working fine ",function(){
         await signinpage.clickOnSubmit();
         await browser.pause(5000);
 
-        await Leadpage1.Coursefilterworking(signinData.searchdataforcoursefilter);
+        await Leadpage1.Coursefilterworking(signinData.courseforattendance);
         await browser.pause(6000);
 
         
         const message=await $("//tbody/tr[1]/td[3]");
-        await expect(message).toHaveTextContaining(signinData.searchdataforcoursefilter);
+        await expect(message).toHaveTextContaining(signinData.courseforattendance);
     })
     // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
    

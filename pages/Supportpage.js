@@ -187,7 +187,8 @@ class Supportpage extends Page{
         this.categoryfilter.click();
         const search=await $("//body/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]");
         await search.setValue(text);
-        const category=await $("//body/div[2]/div[1]/div[2]/div[1]/child::label/child::span/child::*");
+        await browser.pause(3000);
+        const category=await $("//span[contains(text(),'Course Activity')]/parent::label/child::span");
         await category.click();
         const apply=await $("//button[normalize-space()='Apply']");
         await apply.click();

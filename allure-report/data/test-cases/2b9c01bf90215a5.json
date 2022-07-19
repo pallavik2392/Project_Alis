@@ -1,0 +1,78 @@
+{
+  "uid" : "2b9c01bf90215a5",
+  "name" : "nexttab with future tickets",
+  "fullName" : "Verify next tab contains all future tickets.nexttab with future tickets",
+  "historyId" : "3e29edb655b017b5a387ab01e273d786",
+  "time" : {
+    "start" : 1658211161060,
+    "stop" : 1658211188437,
+    "duration" : 27377
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f849bf75f6aff9a2",
+      "name" : "Screenshot",
+      "source" : "f849bf75f6aff9a2.png",
+      "type" : "image/png",
+      "size" : 120031
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "Verify next tab contains all future tickets"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify next tab contains all future tickets"
+  }, {
+    "name" : "testMethod",
+    "value" : "nexttab with future tickets"
+  }, {
+    "name" : "package",
+    "value" : "Verify next tab contains all future tickets"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b9c01bf90215a5.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -17,12 +17,12 @@ describe("verify search functionality working fine by passing mobile number",fun
         await signinpage.clickOnSubmit();
         await browser.pause(5000);
 
-        await Leadpage1.searchFunctionality(signinData.Searchfunctiondata);
+        await Leadpage1.searchFunctionality(signinData.Searchfunctiondataoflead);
         await browser.pause(5000);
 
         
         const message=await $("//tbody/tr[1]/td[5]");
-        await expect(message).toHaveTextContaining(signinData.Searchfunctiondata);
+        await expect(message).toHaveTextContaining(signinData.Searchfunctiondataoflead);
     })
     // screenshot issue resolved by using link ==>> https://youtu.be/ouyvnPo9IjQ
    

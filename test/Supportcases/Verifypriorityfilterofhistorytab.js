@@ -3,7 +3,7 @@ const signinpage = require("../../pages/signinpage");
 const Supportpage = require("../../pages/Supportpage");
 
 describe("Verify priority filter for history tab of support",function(){
-    this.retries(3)
+    //this.retries(3)
 
     it("priority filter of history tab",async ()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
@@ -24,8 +24,8 @@ describe("Verify priority filter for history tab of support",function(){
         await browser.pause(3000);
         await Supportpage.Verifypriorityfilter(signinData.Coursenametobepassedinpriorityfilter);
         await browser.pause(5000);
-        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]");
-        await ticket.click();
+       // const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]");
+        //await ticket.click();
         await browser.pause(3000);
 
         const message=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[2]/child::p");

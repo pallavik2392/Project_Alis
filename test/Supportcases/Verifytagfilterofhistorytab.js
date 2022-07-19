@@ -24,7 +24,7 @@ describe("Verify tag filter for history tab of support",function(){
         await browser.pause(3000);
         await Supportpage.Verifytagsfilter(signinData.Coursenametobepassedintagfilter);
         await browser.pause(5000);
-        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]");
+        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/child::h3");
         await ticket.click();
         await browser.pause(3000);
 

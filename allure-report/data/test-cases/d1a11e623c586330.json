@@ -1,0 +1,78 @@
+{
+  "uid" : "d1a11e623c586330",
+  "name" : "locations filter of history tab",
+  "fullName" : "Verify locations filter for history tab of support.locations filter of history tab",
+  "historyId" : "607a18d9c5024d057abc7b3a35ac429d",
+  "time" : {
+    "start" : 1658211121416,
+    "stop" : 1658211162330,
+    "duration" : 40914
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d32cc77b22663cd",
+      "name" : "Screenshot",
+      "source" : "9d32cc77b22663cd.png",
+      "type" : "image/png",
+      "size" : 120698
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "Verify locations filter for history tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify locations filter for history tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "locations filter of history tab"
+  }, {
+    "name" : "package",
+    "value" : "Verify locations filter for history tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1a11e623c586330.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

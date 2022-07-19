@@ -1,0 +1,404 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Verify category filter for history tab of support",
+    "children" : [ {
+      "name" : "category filter of history tab",
+      "uid" : "5da9fc3c961cf48d",
+      "parentUid" : "779d5f42d853a30d43d4e809e5a47ffc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211039563,
+        "stop" : 1658211084131,
+        "duration" : 44568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "779d5f42d853a30d43d4e809e5a47ffc"
+  }, {
+    "name" : "Verify courses filter for next tab of support",
+    "children" : [ {
+      "name" : "Get ticket",
+      "uid" : "e429b2626e3a6de6",
+      "parentUid" : "123f00e06f315d604b5bb0efa6d0201d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658211039912,
+        "stop" : 1658211192339,
+        "duration" : 152427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "123f00e06f315d604b5bb0efa6d0201d"
+  }, {
+    "name" : "Verify category filter for next tab of support",
+    "children" : [ {
+      "name" : "category filter of next tab",
+      "uid" : "a3f6e5eb9b4be1df",
+      "parentUid" : "56ef697579568d3c3587ee63e3e597e5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658211040080,
+        "stop" : 1658211203601,
+        "duration" : 163521
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "56ef697579568d3c3587ee63e3e597e5"
+  }, {
+    "name" : "Verify department filter for history tab of support",
+    "children" : [ {
+      "name" : "department filter of history tab",
+      "uid" : "faf15c9653e2ba29",
+      "parentUid" : "ac51bb7b0702bfbdb28edbf97bbee121",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211040131,
+        "stop" : 1658211082684,
+        "duration" : 42553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "ac51bb7b0702bfbdb28edbf97bbee121"
+  }, {
+    "name" : "Verify courses filter for history tab of support",
+    "children" : [ {
+      "name" : "courses filter of history tab",
+      "uid" : "832d8624313ab8e9",
+      "parentUid" : "058f0e75333b69c6a31bc96510d7f9da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211040259,
+        "stop" : 1658211082957,
+        "duration" : 42698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "058f0e75333b69c6a31bc96510d7f9da"
+  }, {
+    "name" : "Verify department filter for next tab of support",
+    "children" : [ {
+      "name" : "department filter of next tab",
+      "uid" : "c23bba5bd45c2d4e",
+      "parentUid" : "40c74fc74ab6ec0216f3e2872f6476ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211085982,
+        "stop" : 1658211119266,
+        "duration" : 33284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "40c74fc74ab6ec0216f3e2872f6476ff"
+  }, {
+    "name" : "Verify followup data",
+    "children" : [ {
+      "name" : "followup is corret",
+      "uid" : "b3305d2dbec046ce",
+      "parentUid" : "e76bdfb7f0ace3a9a4d9ef80ba3a2391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211086749,
+        "stop" : 1658211204133,
+        "duration" : 117384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "e76bdfb7f0ace3a9a4d9ef80ba3a2391"
+  }, {
+    "name" : "Verify history tab contains all past date tickets",
+    "children" : [ {
+      "name" : "history tab with past tickets",
+      "uid" : "7b28609d565ad361",
+      "parentUid" : "a6b8066f5bdda08a5e009bb9b9c857cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211091118,
+        "stop" : 1658211121460,
+        "duration" : 30342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a6b8066f5bdda08a5e009bb9b9c857cd"
+  }, {
+    "name" : "Verify locations filter for history tab of support",
+    "children" : [ {
+      "name" : "locations filter of history tab",
+      "uid" : "d1a11e623c586330",
+      "parentUid" : "f93038009dfa68bd0ccbbc9b5ee0361e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211121416,
+        "stop" : 1658211162330,
+        "duration" : 40914
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "f93038009dfa68bd0ccbbc9b5ee0361e"
+  }, {
+    "name" : "Verify locations filter for next tab of support",
+    "children" : [ {
+      "name" : "locations filter of next tab",
+      "uid" : "a8834c92416e5417",
+      "parentUid" : "e6ac16b966ae5eee520534efff6d3962",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211123944,
+        "stop" : 1658211158445,
+        "duration" : 34501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "e6ac16b966ae5eee520534efff6d3962"
+  }, {
+    "name" : "Verify next tab contains all future tickets",
+    "children" : [ {
+      "name" : "nexttab with future tickets",
+      "uid" : "2b9c01bf90215a5",
+      "parentUid" : "82d42c7d0aeac67e571d6ffa6db2f403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211161060,
+        "stop" : 1658211188437,
+        "duration" : 27377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "82d42c7d0aeac67e571d6ffa6db2f403"
+  }, {
+    "name" : "Verify priority filter for history tab of support",
+    "children" : [ {
+      "name" : "priority filter of history tab",
+      "uid" : "3fc87b1df124ab5d",
+      "parentUid" : "1179c4473561dee34a2ec5786b7e3fd7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658211165062,
+        "stop" : 1658211402257,
+        "duration" : 237195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "1179c4473561dee34a2ec5786b7e3fd7"
+  }, {
+    "name" : "Verify priority filter for next tab of support",
+    "children" : [ {
+      "name" : "Priority filter of next tab",
+      "uid" : "5aaa639f0d07668",
+      "parentUid" : "e7c36def477ec5776cbe7cec96880ddd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1658211190678,
+        "stop" : 1658211229568,
+        "duration" : 38890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "e7c36def477ec5776cbe7cec96880ddd"
+  }, {
+    "name" : "Verify sub-category filter for history tab of support",
+    "children" : [ {
+      "name" : "sub-category filter of history tab",
+      "uid" : "1e4901264968d335",
+      "parentUid" : "30ece08f5b2ef1bc46837b29c61a3958",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211194631,
+        "stop" : 1658211226543,
+        "duration" : 31912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "30ece08f5b2ef1bc46837b29c61a3958"
+  }, {
+    "name" : "Verify subcategory filter for next tab of support",
+    "children" : [ {
+      "name" : "subcategory filter of next tab",
+      "uid" : "f8d844a78d8fdeb2",
+      "parentUid" : "0cb22086f510fb1482ddb22637668dca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658211207885,
+        "stop" : 1658211245097,
+        "duration" : 37212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "0cb22086f510fb1482ddb22637668dca"
+  }, {
+    "name" : "Verify tag filter for history tab of support",
+    "children" : [ {
+      "name" : "tag filter of history tab",
+      "uid" : "5b06d83183a65f8a",
+      "parentUid" : "ba31ca4b52984df83f61c2c387200589",
+      "status" : "broken",
+      "time" : {
+        "start" : 1658211208486,
+        "stop" : 1658211362623,
+        "duration" : 154137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "ba31ca4b52984df83f61c2c387200589"
+  }, {
+    "name" : "Verify tag filter for next tab of support",
+    "children" : [ {
+      "name" : "tag filter of next tab",
+      "uid" : "f2bdca8eaa7c6a5",
+      "parentUid" : "974e145d3ecb5a3654ea6fdc0ae77029",
+      "status" : "broken",
+      "time" : {
+        "start" : 1658211239147,
+        "stop" : 1658211347606,
+        "duration" : 108459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "974e145d3ecb5a3654ea6fdc0ae77029"
+  }, {
+    "name" : "Verify todays tab contains all todaya's date tickets",
+    "children" : [ {
+      "name" : "nexttab with future tickets",
+      "uid" : "1db7f1d36f46ffb8",
+      "parentUid" : "d55bec1470744db5d9721c7e3cbb9cda",
+      "status" : "broken",
+      "time" : {
+        "start" : 1658211241277,
+        "stop" : 1658211368988,
+        "duration" : 127711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "d55bec1470744db5d9721c7e3cbb9cda"
+  }, {
+    "name" : "Verify user able to get ticket",
+    "children" : [ {
+      "name" : "Get ticket",
+      "uid" : "8669c9bf156b8769",
+      "parentUid" : "7330ea80d7345ef0a38c91ea80e3e600",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658211248189,
+        "stop" : 1658211377570,
+        "duration" : 129381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "7330ea80d7345ef0a38c91ea80e3e600"
+  } ]
+}

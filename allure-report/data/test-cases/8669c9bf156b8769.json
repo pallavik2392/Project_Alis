@@ -1,0 +1,86 @@
+{
+  "uid" : "8669c9bf156b8769",
+  "name" : "Get ticket",
+  "fullName" : "Verify user able to get ticket.Get ticket",
+  "historyId" : "707614765a6e4ec19cc62b5fca71721b",
+  "time" : {
+    "start" : 1658211248189,
+    "stop" : 1658211377570,
+    "duration" : 129381
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/child::p`) to have text containing\n                \n                Expected: \"Created\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/child::p`) to have text containing\n                \n                Expected: \"Created\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifyuserabletogetticket.js:27:31)\n                    at runMicrotasks (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/child::p`) to have text containing\n                \n                Expected: \"Created\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/child::p`) to have text containing\n                \n                Expected: \"Created\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifyuserabletogetticket.js:27:31)\n                    at runMicrotasks (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "886ab0cf5bf4b41d",
+      "name" : "Screenshot",
+      "source" : "886ab0cf5bf4b41d.png",
+      "type" : "image/png",
+      "size" : 52297
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-18"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user able to get ticket"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user able to get ticket"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get ticket"
+  }, {
+    "name" : "package",
+    "value" : "Verify user able to get ticket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8669c9bf156b8769.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -24,11 +24,11 @@ describe("Verify department filter for history tab of support",function(){
         await browser.pause(3000);
         await Supportpage.Verifydepartmentfilter(signinData.Coursenametobepassedindepartmentfilter);
         await browser.pause(5000);
-        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]");
-        await ticket.click();
+       // const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]");
+       // await ticket.click();
         await browser.pause(3000);
 
-        const message=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[2]/child::p");
+        const message=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/child::p");
         await expect(message).toHaveTextContaining(signinData.Coursenametobepassedindepartmentfilter);
 
         

@@ -1,0 +1,78 @@
+{
+  "uid" : "a8834c92416e5417",
+  "name" : "locations filter of next tab",
+  "fullName" : "Verify locations filter for next tab of support.locations filter of next tab",
+  "historyId" : "c3cf0384d0f85c04b4f811c580159f7b",
+  "time" : {
+    "start" : 1658211123944,
+    "stop" : 1658211158445,
+    "duration" : 34501
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0acb87e9742a925",
+      "name" : "Screenshot",
+      "source" : "e0acb87e9742a925.png",
+      "type" : "image/png",
+      "size" : 120005
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-9"
+  }, {
+    "name" : "suite",
+    "value" : "Verify locations filter for next tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify locations filter for next tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "locations filter of next tab"
+  }, {
+    "name" : "package",
+    "value" : "Verify locations filter for next tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8834c92416e5417.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

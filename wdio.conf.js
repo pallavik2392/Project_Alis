@@ -28,7 +28,7 @@ exports.config = {
             './test/SignIn/*.js'
         ]
     },*/
-   /* suites:{
+    /*suites:{
         ExecutiveRole:[
             './test/ExecutiveRole/Verifynewticketbuttonnotexistforexecutiverole.js'
         ]
@@ -40,22 +40,22 @@ exports.config = {
     },*/
  /*   suites:{
         Admissions:[
-            './test/Admissions/Verifyafterclickingonviewbuttonofidentitynewwindowopens.js'
+            './test/Admissions/Verifysearchfunctionalityoflead.js'
         ]
     },*/
-    suites:{
+  /*  suites:{
         Students:[
-            './test/Students/Verifyscholarshipcreditissuedfieldofcanceladmissionformaxvalidation.js'
+            './test/Students/*.js'
+        ]
+    },*/
+   suites:{
+        Regular:[
+            './test/Regular/count studenton page.js'
         ]
     },
- /*  suites:{
-        Regular:[
-            './test/Regular/Verifynumberofataffavailable.js'
-        ]
-    },*/
- /*   suites:{
+  /*  suites:{
         Supportcases:[
-            './test/Supportcases/Verifyfollowupcreateddataproper.js'
+            './test/Supportcases/*.js'
         ]
     },*/
    /* suites:{

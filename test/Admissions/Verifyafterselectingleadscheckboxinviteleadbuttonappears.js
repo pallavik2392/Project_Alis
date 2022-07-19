@@ -3,7 +3,7 @@ const Leadpage1 = require("../../pages/Leadpage1");
 const signinpage = require("../../pages/signinpage");
 
 describe("verify invitelead button appears after selecting checkbox ",function(){
-    this.retries(2)
+    this.retries(3)
 
     it("invite button appears or not",async()=> {
         await browser.url("https://dev-alis.viasimplex.in/");

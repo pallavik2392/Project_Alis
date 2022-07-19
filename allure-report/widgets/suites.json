@@ -1,0 +1,114 @@
+{
+  "total" : 19,
+  "items" : [ {
+    "uid" : "123f00e06f315d604b5bb0efa6d0201d",
+    "name" : "Verify courses filter for next tab of support",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "56ef697579568d3c3587ee63e3e597e5",
+    "name" : "Verify category filter for next tab of support",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1179c4473561dee34a2ec5786b7e3fd7",
+    "name" : "Verify priority filter for history tab of support",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "7330ea80d7345ef0a38c91ea80e3e600",
+    "name" : "Verify user able to get ticket",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e7c36def477ec5776cbe7cec96880ddd",
+    "name" : "Verify priority filter for next tab of support",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ba31ca4b52984df83f61c2c387200589",
+    "name" : "Verify tag filter for history tab of support",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "974e145d3ecb5a3654ea6fdc0ae77029",
+    "name" : "Verify tag filter for next tab of support",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d55bec1470744db5d9721c7e3cbb9cda",
+    "name" : "Verify todays tab contains all todaya's date tickets",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "779d5f42d853a30d43d4e809e5a47ffc",
+    "name" : "Verify category filter for history tab of support",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ac51bb7b0702bfbdb28edbf97bbee121",
+    "name" : "Verify department filter for history tab of support",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

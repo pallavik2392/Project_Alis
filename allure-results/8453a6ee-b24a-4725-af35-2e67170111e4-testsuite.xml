@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658211091117' stop='1658211121461'>
+    <name>Verify history tab contains all past date tickets</name>
+    <title>Verify history tab contains all past date tickets</title>
+    <test-cases>
+        <test-case start='1658211091118' status='passed' stop='1658211121460'>
+            <name>history tab with past tickets</name>
+            <title>history tab with past tickets</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d81bf2c1-521e-4b6a-b3fc-235d74157d8b-attachment.png' type='image/png' size='120731'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

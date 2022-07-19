@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658227829060' stop='1658227939616'>
+    <name>verify search functionality working fine by passing mobile number</name>
+    <title>verify search functionality working fine by passing mobile number</title>
+    <test-cases>
+        <test-case start='1658227829061' status='failed' stop='1658227939615'>
+            <name>Search field of lead</name>
+            <title>Search field of lead</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6ed3b8a0-2670-46e9-a439-ff935530911e-attachment.png' type='image/png' size='108020'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//tbody/tr[1]/td[5]`) to have text containing
+                
+                Expected: 9675845342
+                Received: "7689876766"</message>
+                <stack-trace>Error: Expect $(`//tbody/tr[1]/td[5]`) to have text containing
+                
+                Expected: 9675845342
+                Received: "7689876766"
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifysearchfunctionalityoflead.js:25:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

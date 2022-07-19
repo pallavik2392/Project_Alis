@@ -1,0 +1,86 @@
+{
+  "uid" : "f2bdca8eaa7c6a5",
+  "name" : "tag filter of next tab",
+  "fullName" : "Verify tag filter for next tab of support.tag filter of next tab",
+  "historyId" : "bbd56143d74a95f642c3322ae08fe4d7",
+  "time" : {
+    "start" : 1658211239147,
+    "stop" : 1658211347606,
+    "duration" : 108459
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "$ is not a function",
+  "statusTrace" : "TypeError: $ is not a function\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifytagfilterofnexttab.js:28:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "$ is not a function",
+    "statusTrace" : "TypeError: $ is not a function\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifytagfilterofnexttab.js:28:28)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60bebb9314734824",
+      "name" : "Screenshot",
+      "source" : "60bebb9314734824.png",
+      "type" : "image/png",
+      "size" : 55089
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-16"
+  }, {
+    "name" : "suite",
+    "value" : "Verify tag filter for next tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify tag filter for next tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "tag filter of next tab"
+  }, {
+    "name" : "package",
+    "value" : "Verify tag filter for next tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f2bdca8eaa7c6a5.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

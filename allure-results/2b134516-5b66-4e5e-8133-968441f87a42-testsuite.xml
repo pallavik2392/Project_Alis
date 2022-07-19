@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658211040258' stop='1658211082957'>
+    <name>Verify courses filter for history tab of support</name>
+    <title>Verify courses filter for history tab of support</title>
+    <test-cases>
+        <test-case start='1658211040259' status='passed' stop='1658211082957'>
+            <name>courses filter of history tab</name>
+            <title>courses filter of history tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5a77baf2-37b7-4517-b6d2-ddcf55cbde6e-attachment.png' type='image/png' size='142123'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

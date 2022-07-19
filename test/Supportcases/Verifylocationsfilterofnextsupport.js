@@ -24,7 +24,7 @@ describe("Verify locations filter for next tab of support",function(){
         await browser.pause(3000);
         await Supportpage.Verifylocationsfilter(signinData.Coursenametobepassedinlocationfilter);
         await browser.pause(3000);
-        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]");
+        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/child::h3");
         await ticket.click();
 
 

@@ -1,0 +1,191 @@
+[ {
+  "uid" : "8669c9bf156b8769",
+  "name" : "Get ticket",
+  "time" : {
+    "start" : 1658211248189,
+    "stop" : 1658211377570,
+    "duration" : 129381
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c23bba5bd45c2d4e",
+  "name" : "department filter of next tab",
+  "time" : {
+    "start" : 1658211085982,
+    "stop" : 1658211119266,
+    "duration" : 33284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3f6e5eb9b4be1df",
+  "name" : "category filter of next tab",
+  "time" : {
+    "start" : 1658211040080,
+    "stop" : 1658211203601,
+    "duration" : 163521
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fc87b1df124ab5d",
+  "name" : "priority filter of history tab",
+  "time" : {
+    "start" : 1658211165062,
+    "stop" : 1658211402257,
+    "duration" : 237195
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1a11e623c586330",
+  "name" : "locations filter of history tab",
+  "time" : {
+    "start" : 1658211121416,
+    "stop" : 1658211162330,
+    "duration" : 40914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b06d83183a65f8a",
+  "name" : "tag filter of history tab",
+  "time" : {
+    "start" : 1658211208486,
+    "stop" : 1658211362623,
+    "duration" : 154137
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1e4901264968d335",
+  "name" : "sub-category filter of history tab",
+  "time" : {
+    "start" : 1658211194631,
+    "stop" : 1658211226543,
+    "duration" : 31912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8d844a78d8fdeb2",
+  "name" : "subcategory filter of next tab",
+  "time" : {
+    "start" : 1658211207885,
+    "stop" : 1658211245097,
+    "duration" : 37212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aaa639f0d07668",
+  "name" : "Priority filter of next tab",
+  "time" : {
+    "start" : 1658211190678,
+    "stop" : 1658211229568,
+    "duration" : 38890
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b3305d2dbec046ce",
+  "name" : "followup is corret",
+  "time" : {
+    "start" : 1658211086749,
+    "stop" : 1658211204133,
+    "duration" : 117384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e429b2626e3a6de6",
+  "name" : "Get ticket",
+  "time" : {
+    "start" : 1658211039912,
+    "stop" : 1658211192339,
+    "duration" : 152427
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b28609d565ad361",
+  "name" : "history tab with past tickets",
+  "time" : {
+    "start" : 1658211091118,
+    "stop" : 1658211121460,
+    "duration" : 30342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faf15c9653e2ba29",
+  "name" : "department filter of history tab",
+  "time" : {
+    "start" : 1658211040131,
+    "stop" : 1658211082684,
+    "duration" : 42553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2bdca8eaa7c6a5",
+  "name" : "tag filter of next tab",
+  "time" : {
+    "start" : 1658211239147,
+    "stop" : 1658211347606,
+    "duration" : 108459
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5da9fc3c961cf48d",
+  "name" : "category filter of history tab",
+  "time" : {
+    "start" : 1658211039563,
+    "stop" : 1658211084131,
+    "duration" : 44568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b9c01bf90215a5",
+  "name" : "nexttab with future tickets",
+  "time" : {
+    "start" : 1658211161060,
+    "stop" : 1658211188437,
+    "duration" : 27377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8834c92416e5417",
+  "name" : "locations filter of next tab",
+  "time" : {
+    "start" : 1658211123944,
+    "stop" : 1658211158445,
+    "duration" : 34501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1db7f1d36f46ffb8",
+  "name" : "nexttab with future tickets",
+  "time" : {
+    "start" : 1658211241277,
+    "stop" : 1658211368988,
+    "duration" : 127711
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "832d8624313ab8e9",
+  "name" : "courses filter of history tab",
+  "time" : {
+    "start" : 1658211040259,
+    "stop" : 1658211082957,
+    "duration" : 42698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

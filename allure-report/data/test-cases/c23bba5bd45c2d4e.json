@@ -1,0 +1,78 @@
+{
+  "uid" : "c23bba5bd45c2d4e",
+  "name" : "department filter of next tab",
+  "fullName" : "Verify department filter for next tab of support.department filter of next tab",
+  "historyId" : "267cd841b50a5d263cc4127411882023",
+  "time" : {
+    "start" : 1658211085982,
+    "stop" : 1658211119266,
+    "duration" : 33284
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b67deab6a265cec3",
+      "name" : "Screenshot",
+      "source" : "b67deab6a265cec3.png",
+      "type" : "image/png",
+      "size" : 65433
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Verify department filter for next tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify department filter for next tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "department filter of next tab"
+  }, {
+    "name" : "package",
+    "value" : "Verify department filter for next tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c23bba5bd45c2d4e.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658211239140' stop='1658211347610'>
+    <name>Verify tag filter for next tab of support</name>
+    <title>Verify tag filter for next tab of support</title>
+    <test-cases>
+        <test-case start='1658211239147' status='broken' stop='1658211347606'>
+            <name>tag filter of next tab</name>
+            <title>tag filter of next tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-16'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-16'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-16'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-16'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-16'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0026a703-704c-4ce0-acf0-cb1841af3dcc-attachment.png' type='image/png' size='55089'/>
+            </attachments>
+            <failure>
+                <message>$ is not a function</message>
+                <stack-trace>TypeError: $ is not a function
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifytagfilterofnexttab.js:28:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

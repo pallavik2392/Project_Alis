@@ -1,0 +1,86 @@
+{
+  "uid" : "e429b2626e3a6de6",
+  "name" : "Get ticket",
+  "fullName" : "Verify courses filter for next tab of support.Get ticket",
+  "historyId" : "d2893615bc9119e5630d99a1cf6586e5",
+  "time" : {
+    "start" : 1658211039912,
+    "stop" : 1658211192339,
+    "duration" : 152427
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/child::p`) to have text containing\n                \n                Expected: \"Vue JS\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/child::p`) to have text containing\n                \n                Expected: \"Vue JS\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifycoursesfilterofnextsupport.js:29:31)\n                    at runMicrotasks (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/child::p`) to have text containing\n                \n                Expected: \"Vue JS\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/child::p`) to have text containing\n                \n                Expected: \"Vue JS\"\n                Received: undefined\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifycoursesfilterofnextsupport.js:29:31)\n                    at runMicrotasks (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c760fe4f2bb6bd6b",
+      "name" : "Screenshot",
+      "source" : "c760fe4f2bb6bd6b.png",
+      "type" : "image/png",
+      "size" : 42780
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Verify courses filter for next tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify courses filter for next tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get ticket"
+  }, {
+    "name" : "package",
+    "value" : "Verify courses filter for next tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e429b2626e3a6de6.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

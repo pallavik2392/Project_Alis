@@ -20,7 +20,7 @@ describe("Verify todays tab contains all todaya's date tickets",function(){
         await Supportpage.clickOnsupport();
         await browser.pause(3000);
         
-        await Supportpage.clickOnyodaysattendedcard();
+        await Supportpage.clickOntodaysattendedcard();
         await browser.pause(3000);
         const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]");
         await ticket.click();

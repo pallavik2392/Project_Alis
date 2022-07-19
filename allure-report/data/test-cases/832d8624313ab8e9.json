@@ -1,0 +1,78 @@
+{
+  "uid" : "832d8624313ab8e9",
+  "name" : "courses filter of history tab",
+  "fullName" : "Verify courses filter for history tab of support.courses filter of history tab",
+  "historyId" : "87561454d082e537d95fafed1505f8af",
+  "time" : {
+    "start" : 1658211040259,
+    "stop" : 1658211082957,
+    "duration" : 42698
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3a0511e78ace317f",
+      "name" : "Screenshot",
+      "source" : "3a0511e78ace317f.png",
+      "type" : "image/png",
+      "size" : 142123
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Verify courses filter for history tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify courses filter for history tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "courses filter of history tab"
+  }, {
+    "name" : "package",
+    "value" : "Verify courses filter for history tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "832d8624313ab8e9.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658211248188' stop='1658211377571'>
+    <name>Verify user able to get ticket</name>
+    <title>Verify user able to get ticket</title>
+    <test-cases>
+        <test-case start='1658211248189' status='failed' stop='1658211377570'>
+            <name>Get ticket</name>
+            <title>Get ticket</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-18'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-18'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-18'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-18'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-18'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4deb5f37-63c1-4cf1-ad3e-286a86189ef0-attachment.png' type='image/png' size='52297'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/child::p`) to have text containing
+                
+                Expected: "Created"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/child::p`) to have text containing
+                
+                Expected: "Created"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifyuserabletogetticket.js:27:31)
+                    at runMicrotasks (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

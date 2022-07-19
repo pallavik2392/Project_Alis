@@ -159,6 +159,7 @@ class Coursespage extends Page{
     get disablescholarship(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]/div[2]/span[1]/input[1]")}
     get particularcourse(){return $("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]")} 
     get statusfilter(){return $("//button[normalize-space()='Status: All']")}
+    get studentassociation(){return $("//i[@class='flaticon-add-group']")}
 
 
 
@@ -882,6 +883,9 @@ class Coursespage extends Page{
         const apply=await $("//button[normalize-space()='Apply']");
         await apply.click();
 
+    }
+    async clickOnStudentassociation(){
+        this.studentassociation.click();
     }
 
 

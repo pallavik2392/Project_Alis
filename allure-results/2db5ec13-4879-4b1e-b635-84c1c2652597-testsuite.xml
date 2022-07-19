@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658211190677' stop='1658211229569'>
+    <name>Verify priority filter for next tab of support</name>
+    <title>Verify priority filter for next tab of support</title>
+    <test-cases>
+        <test-case start='1658211190678' status='broken' stop='1658211229568'>
+            <name>Priority filter of next tab</name>
+            <title>Priority filter of next tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-12'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-12'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='50341fbf-f479-4ee1-aaff-7fe879c2532f-attachment.png' type='image/png' size='42872'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

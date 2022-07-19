@@ -1,0 +1,78 @@
+{
+  "uid" : "faf15c9653e2ba29",
+  "name" : "department filter of history tab",
+  "fullName" : "Verify department filter for history tab of support.department filter of history tab",
+  "historyId" : "c8ebe497bbdd99ff2caead39c8cb356d",
+  "time" : {
+    "start" : 1658211040131,
+    "stop" : 1658211082684,
+    "duration" : 42553
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6335e9f4acede936",
+      "name" : "Screenshot",
+      "source" : "6335e9f4acede936.png",
+      "type" : "image/png",
+      "size" : 140761
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Verify department filter for history tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify department filter for history tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "department filter of history tab"
+  }, {
+    "name" : "package",
+    "value" : "Verify department filter for history tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "faf15c9653e2ba29.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

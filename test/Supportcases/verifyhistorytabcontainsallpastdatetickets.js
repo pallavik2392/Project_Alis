@@ -3,7 +3,7 @@ const signinpage = require("../../pages/signinpage");
 const Supportpage = require("../../pages/Supportpage");
 
 describe("Verify history tab contains all past date tickets",function(){
-    this.retries(3)
+    //this.retries(3)
 
     it("history tab with past tickets",async ()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
@@ -22,13 +22,13 @@ describe("Verify history tab contains all past date tickets",function(){
         
         await Supportpage.clickOnhistorytab();
         await browser.pause(3000);
-        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]");
+        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]");
         await ticket.click();
         await browser.pause(3000);
         
         const date=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[2]/child::p").getText();
         console.log("date is : ",date);
-        if(date < datetocompareforhistorytab){
+        if(date < signinData.datetocompareforhistorytab){
             console.log("test case passed");
         }else{
             const result="contains past date only";

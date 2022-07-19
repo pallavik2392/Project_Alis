@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658211086748' stop='1658211204134'>
+    <name>Verify followup data</name>
+    <title>Verify followup data</title>
+    <test-cases>
+        <test-case start='1658211086749' status='passed' stop='1658211204133'>
+            <name>followup is corret</name>
+            <title>followup is corret</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='297ca9ec-2ed4-4b31-91d8-78adb1020887-attachment.png' type='image/png' size='125097'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

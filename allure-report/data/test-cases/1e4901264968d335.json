@@ -1,0 +1,78 @@
+{
+  "uid" : "1e4901264968d335",
+  "name" : "sub-category filter of history tab",
+  "fullName" : "Verify sub-category filter for history tab of support.sub-category filter of history tab",
+  "historyId" : "5c97da552ff64021a64d06ebd54bba19",
+  "time" : {
+    "start" : 1658211194631,
+    "stop" : 1658211226543,
+    "duration" : 31912
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f050f8b5409630a",
+      "name" : "Screenshot",
+      "source" : "f050f8b5409630a.png",
+      "type" : "image/png",
+      "size" : 141767
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-13"
+  }, {
+    "name" : "suite",
+    "value" : "Verify sub-category filter for history tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify sub-category filter for history tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "sub-category filter of history tab"
+  }, {
+    "name" : "package",
+    "value" : "Verify sub-category filter for history tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e4901264968d335.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

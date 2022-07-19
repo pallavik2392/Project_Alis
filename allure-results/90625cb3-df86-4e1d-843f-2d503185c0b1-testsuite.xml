@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658211039910' stop='1658211192339'>
+    <name>Verify courses filter for next tab of support</name>
+    <title>Verify courses filter for next tab of support</title>
+    <test-cases>
+        <test-case start='1658211039912' status='failed' stop='1658211192339'>
+            <name>Get ticket</name>
+            <title>Get ticket</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='babc6a3f-55f5-4cef-a792-9803edcf879e-attachment.png' type='image/png' size='42780'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/child::p`) to have text containing
+                
+                Expected: "Vue JS"
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/child::p`) to have text containing
+                
+                Expected: "Vue JS"
+                Received: undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifycoursesfilterofnextsupport.js:29:31)
+                    at runMicrotasks (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

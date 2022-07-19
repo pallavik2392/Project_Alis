@@ -1,0 +1,86 @@
+{
+  "uid" : "a3f6e5eb9b4be1df",
+  "name" : "category filter of next tab",
+  "fullName" : "Verify category filter for next tab of support.category filter of next tab",
+  "historyId" : "ca7be3ae121ee15baedb983a80ab8854",
+  "time" : {
+    "start" : 1658211040080,
+    "stop" : 1658211203601,
+    "duration" : 163521
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/child::*`) to have text containing\n                \n                Expected: undefined\n                Received: \"Category\"",
+  "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/child::*`) to have text containing\n                \n                Expected: undefined\n                Received: \"Category\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifycategoryfilterofnexttab.js:29:31)\n                    at runMicrotasks (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/child::*`) to have text containing\n                \n                Expected: undefined\n                Received: \"Category\"",
+    "statusTrace" : "Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/child::*`) to have text containing\n                \n                Expected: undefined\n                Received: \"Category\"\n                    at Context.<anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Supportcases/Verifycategoryfilterofnexttab.js:29:31)\n                    at runMicrotasks (<anonymous>)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7b9dfa0afdcce9b",
+      "name" : "Screenshot",
+      "source" : "c7b9dfa0afdcce9b.png",
+      "type" : "image/png",
+      "size" : 65663
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Verify category filter for next tab of support"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify category filter for next tab of support"
+  }, {
+    "name" : "testMethod",
+    "value" : "category filter of next tab"
+  }, {
+    "name" : "package",
+    "value" : "Verify category filter for next tab of support"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a3f6e5eb9b4be1df.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

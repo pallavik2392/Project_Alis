@@ -3,7 +3,7 @@ const signinpage = require("../../pages/signinpage");
 const Supportpage = require("../../pages/Supportpage");
 
 describe("Verify next tab contains all future tickets",function(){
-   // this.retries(3)
+    this.retries(3)
 
     it("nexttab with future tickets",async ()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
@@ -22,7 +22,7 @@ describe("Verify next tab contains all future tickets",function(){
         
         await Supportpage.clickOnnexttab();
         await browser.pause(3000);
-        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]");
+        const ticket=await $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/child::h3");
         await ticket.click();
         await browser.pause(3000);
         

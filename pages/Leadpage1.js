@@ -78,6 +78,11 @@ class LeadPage1 extends  Page{
     get healthhistoryapprovebutton(){return $("//button[normalize-space()='Approve']")}
     get healthhistoryrejectbutton(){return $("//button[normalize-space()='Reject']")}
     get healthhistorytab(){return $("//span[@id='2']/child::a")}
+    get paymentstartedstatusviewbutton(){return $("//span[contains(text(),'Payment Started')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
+    get Rejectedstatusviewbutton(){return $("//span[contains(text(),'Rejected')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
+    get ApplicationStartedstatusviewbutton(){return $("//span[contains(text(),'Application Started')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
+    get Paymentcancelledstatusviewbutton(){return $("//span[contains(text(),'Payment Cancelled')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
+    get Cutoffpaymentcompletedviewbutton(){return $("//span[contains(text(),'Cutoff Payment Completed')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
 
 
 
@@ -563,6 +568,21 @@ class LeadPage1 extends  Page{
     }
     async clickOn1stdocumentviewbutton(){
         this.identiryviewbutton.click();
+    }
+    async clickOnviewbuttonofPaymentstartedstatus(){
+        this.paymentstartedstatusviewbutton.click();
+    }
+    async clickOnviewbuttonofRejectedstatus(){
+        this.Rejectedstatusviewbutton.click();
+    }
+    async clickOnviewbuttonofApplicationstartedstatus(){
+        this.ApplicationStartedstatusviewbutton.click();
+    }
+    async clickOnviewbuttonofPaymentcancelledstatus(){
+        this.Paymentcancelledstatusviewbutton.click();
+    }
+    async clickOnviewbuttonofCutoffpaymentstatus(){
+        this.Cutoffpaymentcompletedviewbutton.click();
     }
 
     

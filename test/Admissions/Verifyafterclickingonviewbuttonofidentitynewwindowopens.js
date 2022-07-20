@@ -3,6 +3,8 @@ const signinData = require("../../Data/signindata");
 const Leadpage1 = require("../../pages/Leadpage1");
 const signinpage = require("../../pages/signinpage");
 var assert = require('chai').assert;
+var expect = require('chai').expect
+
 
 
 describe("verify new window opens after clicking on view button of  ",function(){
@@ -34,6 +36,41 @@ describe("verify new window opens after clicking on view button of  ",function()
 
         var allwindow=browser.getWindowHandles();
         await browser.pause(6000);
+        var p=[];
+       p= Promise.resolve(allwindow).then((values) => {
+         var p=values;
+         console.log("P is here", p);
+        // await  expect(window1).not.to.equal(window2);
+
+         /*if(window1===window2){
+             console.log("tet case fail");
+           
+ 
+        }else{
+            console.log("Test case pass ");
+        }*/
+
+        
+
+          });
+          await browser.pause(6000);
+
+
+          console.log("p out of bracket:",p);
+          
+         //console.log("window 2 is:",this.window2);
+
+        //  expect(this.window1).not.to.equal(this.window2);
+
+         // expect(values[0]).not.to.equal(values[1]);
+
+        /*  if(window1===window2){
+            var a=10;
+         a.should.be.an('object');
+ 
+        }else{
+            console.log("Test case pass ");
+        }*/
        /* const p = Promise.resolve([allwindow]);
 p.then((v) => {
   console.log(v[0]); // 1
@@ -46,15 +83,7 @@ p.then((v) => {
        
 
         
-        var newwindow;
-        for(var i=0; i<2;i++){
-            /*if(allwindow[i]!= parentwindow){
-       console.log("inside if loop")
-                newwindow=allwindow[i];
-            }*/
-            console.log(allwindow[i]);
-        }
-       // console.log("new window is:",newwindow);
+      
 
         
     })

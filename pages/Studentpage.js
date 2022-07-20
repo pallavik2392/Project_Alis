@@ -47,6 +47,7 @@ class Studentpage extends Page{
     get productaddanother(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[3]/button[1]/i[1]")}
     get productdelete(){return $("//body/div[@id='root']/div[1]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[3]/button[2]/i[1]")}
     get scholarshipcreditreturn(){return $("//input[@id='scholarship']")}
+    get canceladmissionbutton(){return $("//button[normalize-space()='Cancel Admission']")}
     get cancellationreason(){return $("//textarea[@id='reason']")}
     get canceladmissionsave(){return $("//button[@type='submit']")}
     get addticket(){return $("//i[@class='flaticon-add']")}
@@ -317,6 +318,19 @@ class Studentpage extends Page{
     }
     async enteramountinscholarshipcreditreturn(text){
         this.scholarshipcreditreturn.setValue(text);
+    }
+    async clickOncanceladmission(){
+        this.canceladmissionbutton.click();
+    }
+    async selectparticularcoursefromstudentspaymenttab(text){
+        const course=await $("//h4[contains(text(),'"+text+"')]/parent::div/parent::div/parent::div/preceding-sibling::div/parent::div/following-sibling::div/child::div/child::button/following-sibling::button/following-sibling::button/following-sibling::button/following-sibling::button")
+        await course.click();
+    }
+    async canceladmissionshouldnotexist(text){
+        const course=await $("//h4[contains(text(),'"+text+"')]/parent::div/parent::div/parent::div/preceding-sibling::div/parent::div/following-sibling::div/child::div/child::button/following-sibling::button/following-sibling::button/following-sibling::button/following-sibling::button")
+        await expect(course).not.toBeExisting();
+
+
     }
 
 

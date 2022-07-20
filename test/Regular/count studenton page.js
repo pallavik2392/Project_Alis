@@ -26,24 +26,44 @@ describe("Student page elements", function(){
         await Studentpage.clickOnstudentMenu();
         await browser.pause(3000);
 
-        var studentlist =[];
+        //var studentlist =[];
         studentlist = CountDemo.getlistofstudents();
-        await browser.pause(3000);
-        const p = Promise.resolve(studentlist);
+        await browser.pause(8000);
+         console.log("line number 30",studentlist);
+
+        console.log("first element",studentlist[0]);
+        /*console.log("first element",studentlist[1]);
+        console.log("first element",studentlist[2]);
+        console.log("first element",studentlist[3]);
+        console.log("first element",studentlist[4]);
+        console.log("first element",studentlist[5]);*/
+
+       // console.log("line number 30",studentlist);
+
+        //const p = Promise.resolve(studentlist);
 // immediately logging the value of p
-console.log("FIRSTLOGGGGG",p);
-/*
+/*console.log("FIRSTLOGGGGG",p);*/
+
         Promise.resolve(studentlist).then((values) => {
             //str =values[1].slice();
-                      console.log("Result is:",values[1]);
+            id1=values[0];
+                      console.log(id1);
+                      console.log("Result 2 is:",values[1]);
+                      console.log("Result 3 is:",values[2]);
+                      console.log("Result 4 is:",values[3]);
+                      console.log("Result 5 is:",values[4]);
+                      console.log("Result 6 is:",values[5]);
+                      
+
                     
           });
-*/
+          console.log("Result:",studentlist.values);
 
-          Promise.resolve(studentlist).
+
+    /*      Promise.resolve(studentlist).
   then((results) => results.forEach((result) => console.log("result is:",result) ));
 
-  //console.log("Result is:",result)
+  //console.log("Result is:",result)*/
   
 
 

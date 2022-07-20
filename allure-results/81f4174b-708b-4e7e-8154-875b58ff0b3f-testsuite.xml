@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658301633355' stop='1658301668926'>
+    <name>Verify user able to  cancel admission only once </name>
+    <title>Verify user able to  cancel admission only once </title>
+    <test-cases>
+        <test-case start='1658301633355' status='failed' stop='1658301668926'>
+            <name>cancel admission  can be performed only once</name>
+            <title>cancel admission  can be performed only once</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e2a6b837-d881-4beb-b26d-55e16ffb0d39-attachment.png' type='image/png' size='77690'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//h4[contains(text(),'Javascript')]/parent::div/parent::div/parent::div/preceding-sibling::div/parent::div/following-sibling::div/child::div/child::button/following-sibling::button/following-sibling::button/following-sibling::button/following-sibling::button`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect $(`//h4[contains(text(),'Javascript')]/parent::div/parent::div/parent::div/preceding-sibling::div/parent::div/following-sibling::div/child::div/child::button/following-sibling::button/following-sibling::button/following-sibling::button/following-sibling::button`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Studentpage.canceladmissionshouldnotexist (/home/vaibhav/Desktop/demoproject/Alis/pages/Studentpage.js:331:30)
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/Verifyuserabletocanceladmissiononlyonce.js:53:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

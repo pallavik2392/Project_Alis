@@ -470,6 +470,9 @@ console.log('datetocompareforhistorytab',result.Admissions[17].C)
 console.log('invalidamountdataforwalletcreditissuedfield',result.Admissions[7].E)
 console.log('Courseforattendancematching',result.Admissions[19].A)
 console.log('Batchforattendancematching',result.Admissions[19].B)
+console.log('Reasonforadmissioncancel',result.Admissions[21].A)
+console.log('mobilenumberofstudenttocanceladmission',result.Admissions[21].B)
+console.log('coursenametobecancelled',result.Admissions[21].C)
 
 
 
@@ -912,7 +915,9 @@ var dataRequired = function(){
         invalidamountdataforwalletcreditissuedfield:result.Admissions[7].E,
         Courseforattendancematching:result.Admissions[19].A,
         Batchforattendancematching:result.Admissions[19].B,
-
+        Reasonforadmissioncancel:result.Admissions[21].A,
+        mobilenumberofstudenttocanceladmission:result.Admissions[21].B,
+        coursenametobecancelled:result.Admissions[21].C,
 
     };
 }

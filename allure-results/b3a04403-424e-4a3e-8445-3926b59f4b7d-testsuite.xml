@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658299346713' stop='1658299431482'>
+    <name>Verify user able to  cancel admission only once </name>
+    <title>Verify user able to  cancel admission only once </title>
+    <test-cases>
+        <test-case start='1658299346714' status='broken' stop='1658299431481'>
+            <name>cancel admission  can be performed only once</name>
+            <title>cancel admission  can be performed only once</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6c635024-6b6f-4986-b78f-e8edd4c84875-attachment.png' type='image/png' size='77690'/>
+            </attachments>
+            <failure>
+                <message>coursenametobecancelled is not defined</message>
+                <stack-trace>ReferenceError: coursenametobecancelled is not defined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/Verifyuserabletocanceladmissiononlyonce.js:51:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

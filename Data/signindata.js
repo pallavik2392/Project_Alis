@@ -438,6 +438,8 @@ datetocompareforhistorytab : xcelTojson.testConfig.datetocompareforhistorytab,
 invalidamountdataforwalletcreditissuedfield : xcelTojson.testConfig.invalidamountdataforwalletcreditissuedfield,
 Courseforattendancematching : xcelTojson.testConfig.Courseforattendancematching,
 Batchforattendancematching : xcelTojson.testConfig.Batchforattendancematching,
-
+Reasonforadmissioncancel : xcelTojson.testConfig.Reasonforadmissioncancel,
+mobilenumberofstudenttocanceladmission : xcelTojson.testConfig.mobilenumberofstudenttocanceladmission,
+coursenametobecancelled : xcelTojson.testConfig.coursenametobecancelled,
 
 }

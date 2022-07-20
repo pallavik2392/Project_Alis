@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658304181511' stop='1658304221711'>
+    <name>verify new window opens after clicking on view button of  </name>
+    <title>verify new window opens after clicking on view button of  </title>
+    <test-cases>
+        <test-case start='1658304181512' status='failed' stop='1658304221711'>
+            <name>Verify new window opens or not</name>
+            <title>Verify new window opens or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9f5d0515-8e36-4a7d-96aa-2a16cceb97a3-attachment.png' type='image/png' size='80872'/>
+            </attachments>
+            <failure>
+                <message>expected undefined to not equal undefined</message>
+                <stack-trace>AssertionError: expected undefined to not equal undefined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyafterclickingonviewbuttonofidentitynewwindowopens.js:51:39)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

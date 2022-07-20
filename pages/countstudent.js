@@ -17,10 +17,11 @@ class CountDemo{
         });
     }
 
-    async getlistofstudents(){
+     getlistofstudents(){
         const studentlist = [];
-        this.parent.map((element) =>
-        studentlist.push(element.getText()));
+        return this.parent.map((element) =>
+        element.getText());
+        console.log("line 23 of pages",studentlist)
         return studentlist;
 
     };

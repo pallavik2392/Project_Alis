@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658300494975' stop='1658300520980'>
+    <name>Verify user able to  cancel admission only once </name>
+    <title>Verify user able to  cancel admission only once </title>
+    <test-cases>
+        <test-case start='1658300494976' status='passed' stop='1658300520980'>
+            <name>cancel admission  can be performed only once</name>
+            <title>cancel admission  can be performed only once</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='858875f7-266c-4db1-8b6b-f575f430f0f6-attachment.png' type='image/png' size='77690'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

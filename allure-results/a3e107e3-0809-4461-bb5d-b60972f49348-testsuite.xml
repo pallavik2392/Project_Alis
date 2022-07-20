@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658299912246' stop='1658299943875'>
+    <name>Verify user able to  cancel admission only once </name>
+    <title>Verify user able to  cancel admission only once </title>
+    <test-cases>
+        <test-case start='1658299912246' status='broken' stop='1658299943874'>
+            <name>cancel admission  can be performed only once</name>
+            <title>cancel admission  can be performed only once</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3ef66270-8da9-42a5-a6d5-29663714a8e0-attachment.png' type='image/png' size='77690'/>
+            </attachments>
+            <failure>
+                <message>Invalid Chai property: Exist. Did you mean "exist"?</message>
+                <stack-trace>Error: Invalid Chai property: Exist. Did you mean "exist"?
+                    at Object.proxyGetter [as get] (/home/vaibhav/Desktop/demoproject/Alis/node_modules/chai/lib/chai/utils/proxify.js:75:17)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/Verifyuserabletocanceladmissiononlyonce.js:51:58)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658312825413' stop='1658312851794'>
+    <name>verify  Rejected status is correct </name>
+    <title>verify  Rejected status is correct </title>
+    <test-cases>
+        <test-case start='1658312825413' status='passed' stop='1658312851793'>
+            <name> Rejected status is correct</name>
+            <title> Rejected status is correct</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3a98e62f-312e-4892-aaa8-8a093af0ac9f-attachment.png' type='image/png' size='79264'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

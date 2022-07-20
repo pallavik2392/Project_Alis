@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658302685969' stop='1658302723727'>
+    <name>verify new window opens after clicking on view button of  </name>
+    <title>verify new window opens after clicking on view button of  </title>
+    <test-cases>
+        <test-case start='1658302685969' status='broken' stop='1658302723727'>
+            <name>Verify new window opens or not</name>
+            <title>Verify new window opens or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dca8b9e4-ec25-45c5-a470-00aadd1425e6-attachment.png' type='image/png' size='80872'/>
+            </attachments>
+            <failure>
+                <message>window1 is not defined</message>
+                <stack-trace>ReferenceError: window1 is not defined
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyafterclickingonviewbuttonofidentitynewwindowopens.js:45:11)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658312732492' stop='1658312768611'>
+    <name>verify  Rejected status is correct </name>
+    <title>verify  Rejected status is correct </title>
+    <test-cases>
+        <test-case start='1658312732492' status='broken' stop='1658312768610'>
+            <name> Rejected status is correct</name>
+            <title> Rejected status is correct</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1917d92e-a541-4534-a45d-100acc6d0174-attachment.png' type='image/png' size='106507'/>
+            </attachments>
+            <failure>
+                <message>this.applicationtab.click is not a function</message>
+                <stack-trace>TypeError: this.applicationtab.click is not a function
+                    at LeadPage1.clickOnApplicationtab (/home/vaibhav/Desktop/demoproject/Alis/pages/Leadpage1.js:442:29)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyrejectedstatusiscorrect.js:19:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

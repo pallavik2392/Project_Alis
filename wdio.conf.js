@@ -38,21 +38,21 @@ exports.config = {
             './test/JuniorRole/VerifyNewticketbuttonnotexistforjuniorrole.js'
         ]
     },*/
- /*   suites:{
+    suites:{
         Admissions:[
-            './test/Admissions/Verifysearchfunctionalityoflead.js'
+            './test/Admissions/Verifyafterclickingonviewbuttonofidentitynewwindowopens.js'
         ]
-    },*/
-  /*  suites:{
+    },
+   /* suites:{
         Students:[
-            './test/Students/*.js'
+            './test/Students/Verifyuserabletocanceladmissiononlyonce.js'
         ]
     },*/
-   suites:{
+  /* suites:{
         Regular:[
             './test/Regular/count studenton page.js'
         ]
-    },
+    },*/
   /*  suites:{
         Supportcases:[
             './test/Supportcases/*.js'

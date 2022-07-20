@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658300907360' stop='1658300942995'>
+    <name>Verify user able to  cancel admission only once </name>
+    <title>Verify user able to  cancel admission only once </title>
+    <test-cases>
+        <test-case start='1658300907361' status='broken' stop='1658300942995'>
+            <name>cancel admission  can be performed only once</name>
+            <title>cancel admission  can be performed only once</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fe4380a2-bc06-4c01-8c2f-27cd22b7e6c7-attachment.png' type='image/png' size='77690'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//h4[contains(text(),'Javascript')]/parent::div/parent::div/parent::div/preceding-sibling::div/parent::div/following-sibling::div/child::div/child::button/following-sibling::button/following-sibling::button/following-sibling::button/following-sibling::button" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//h4[contains(text(),'Javascript')]/parent::div/parent::div/parent::div/preceding-sibling::div/parent::div/following-sibling::div/child::div/child::button/following-sibling::button/following-sibling::button/following-sibling::button/following-sibling::button" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

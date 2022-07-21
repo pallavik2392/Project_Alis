@@ -332,6 +332,9 @@ class Studentpage extends Page{
 
 
     }
+    async clickOnUpdatemode(){
+        this.updatemode.click();
+    }
 
 
 

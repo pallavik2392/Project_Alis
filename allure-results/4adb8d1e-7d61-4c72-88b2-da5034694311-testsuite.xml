@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658381252043' stop='1658381265748'>
+    <name>Upload file</name>
+    <title>Upload file</title>
+    <test-cases>
+        <test-case start='1658381252044' status='broken' stop='1658381265746'>
+            <name>Be able to upload file</name>
+            <title>Be able to upload file</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call setValue on element with selector "//input[@type='file']" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "//input[@type='file']" because element wasn't found
+                    at processTimers (internal/timers.js:489:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

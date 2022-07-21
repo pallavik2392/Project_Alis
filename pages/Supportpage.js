@@ -129,12 +129,20 @@ class Supportpage extends Page{
         const ticket=await $("")
     }
     async uploadfile(){
-        const uploadfile=await $("//p[contains(text(),'Drag and drop files here, or click to select files')]");
-        //await uploadfile.click();
-       // const filepath = path.join(__dirname,'../Alis/ScreenshotsforAlis/wdio.png');
-        const filepath='/path/desktop/demoproject/Alis/ScreenshotsforAlis/wdio.png';
-       const remoteFilePath = browser.uploadFile(filepath);
-       await uploadfile.addValue(remoteFilePath);
+        const inputdiv=await $("input[type='file']");
+        const input =await $("(//input[@type='file'])[1]");
+        const filePath = path.join(__dirname,'../test/invitecodefails.png');
+        const remoteFilePath = await browser.uploadFile(filePath);
+        browser.pause(9000);
+
+        browser.execute(function(){
+            document.querySelector("input[type='file']").style.display = 'block'
+
+        })
+        inputdiv.waitForDisplayed();
+        browser.pause(5000);
+
+        await input.setValue(remoteFilePath);
        
     }
     async VerifyNewticketbuttonforRolewiseaccessNotexist(){

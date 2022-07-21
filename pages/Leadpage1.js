@@ -83,7 +83,7 @@ class LeadPage1 extends  Page{
     get ApplicationStartedstatusviewbutton(){return $("//span[contains(text(),'Application Started')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
     get Paymentcancelledstatusviewbutton(){return $("//span[contains(text(),'Payment Cancelled')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
     get Cutoffpaymentcompletedviewbutton(){return $("//span[contains(text(),'Cutoff Payment Completed')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
-
+    get uploadfilebutton(){return $("//button[normalize-space()='Upload']")}
 
 
     async  enterFirstname(text){
@@ -583,6 +583,9 @@ class LeadPage1 extends  Page{
     }
     async clickOnviewbuttonofCutoffpaymentstatus(){
         this.Cutoffpaymentcompletedviewbutton.click();
+    }
+    async clickOnuploadbulkfile(){
+        this.uploadfilebutton.click();
     }
 
     

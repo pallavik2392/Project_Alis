@@ -38,19 +38,19 @@ exports.config = {
             './test/JuniorRole/VerifyNewticketbuttonnotexistforjuniorrole.js'
         ]
     },*/
-    suites:{
+   /* suites:{
         Admissions:[
             './test/Admissions/Verifyafterclickingonviewbuttonofidentitynewwindowopens.js'
         ]
-    },
-   /* suites:{
+    },*/
+  /*  suites:{
         Students:[
-            './test/Students/Verifyuserabletocanceladmissiononlyonce.js'
+            './test/Students/Verifyuserabletoupdatemode.js'
         ]
     },*/
-  /* suites:{
+  /*suites:{
         Regular:[
-            './test/Regular/count studenton page.js'
+            './test/Regular/Uploadpath.js'
         ]
     },*/
   /*  suites:{
@@ -70,12 +70,12 @@ exports.config = {
     ]
    },*/
  
- /*   suites:{
+    suites:{
         CreationUpdation:[
-            './test/CreationUpdation/*.js'
+            './test/CreationUpdation/Addticket.js'
         ]
        },
-   */
+   
   /*   suites:{
         CourseVerification:[
             './test/CourseVerification/Verifycourseversionchangesifanyupdatemadeincourse.js'

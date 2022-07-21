@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658389204416' stop='1658389250785'>
+    <name>Upload file</name>
+    <title>Upload file</title>
+    <test-cases>
+        <test-case start='1658389204417' status='broken' stop='1658389250782'>
+            <name>Be able to upload file</name>
+            <title>Be able to upload file</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ENOENT: no such file or directory, open '/home/vaibhav/Desktop/demoproject/Alis/test/Regular/home/vaibhav/Desktop/demoproject/Alis/Data/sampleCsv (25).csv'</message>
+                <stack-trace>Error: ENOENT: no such file or directory, open '/home/vaibhav/Desktop/demoproject/Alis/test/Regular/home/vaibhav/Desktop/demoproject/Alis/Data/sampleCsv (25).csv'</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

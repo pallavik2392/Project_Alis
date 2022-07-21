@@ -3,7 +3,7 @@ const signinpage = require("../../pages/signinpage");
 const Supportpage = require("../../pages/Supportpage");
 
 describe("Addticket",function(){
-    this.retries(3)
+    //this.retries(3)
 
     it("ticket",async ()=> {
         await browser.url("https://dev-alis.viasimplex.in/");
@@ -47,8 +47,8 @@ describe("Addticket",function(){
         await browser.pause(3000);
         await Supportpage.enterChangenote(signinData.Changenote);
         await browser.pause(3000);
-       // await Supportpage.uploadfile();
-        //await browser.pause(3000);
+        await Supportpage.uploadfile();
+        await browser.pause(3000);
         await Supportpage.clickpOnsaveticket();
         await browser.pause(6000);
 

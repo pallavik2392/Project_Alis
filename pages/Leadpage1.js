@@ -84,6 +84,20 @@ class LeadPage1 extends  Page{
     get Paymentcancelledstatusviewbutton(){return $("//span[contains(text(),'Payment Cancelled')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
     get Cutoffpaymentcompletedviewbutton(){return $("//span[contains(text(),'Cutoff Payment Completed')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td")}
     get uploadfilebutton(){return $("//button[normalize-space()='Upload']")}
+    get Reviewpendingstatusviewbutton(){return $("//span[contains(text(),'Review Pending')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td/child::span")}
+    get Approvedstatusviewbutton(){return $("//span[contains(text(),'Approved')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td/child::span")}
+    get Batchlocationfieldofreview(){return $("//p[contains(text(),'What is the location?')]")}
+    get Batchlocatiotextfield(){return $("//input[@id='location']")}
+    get Batchmodefields(){return $("//p[contains(text(),'What is the learning mode?')]")}
+    get batchlearningmode(){return $("//input[@id='mode']")}
+    get batchcourselangaugefield(){return $("//p[contains(text(),'What is the course language?')]")}
+    get batchcourselangauge(){return $("//input[@id='language']")}
+    get batchfield(){return $("//p[contains(text(),'Batch')]")}
+    get batchtoreview(){return $("//input[@id='batch']")}
+    get batchtab(){return $("//a[normalize-space()='BATCH']")}
+    get paymenttabofreview(){return $("//a[normalize-space()='PAYMENT']")}
+
+
 
 
     async  enterFirstname(text){
@@ -587,6 +601,56 @@ class LeadPage1 extends  Page{
     async clickOnuploadbulkfile(){
         this.uploadfilebutton.click();
     }
+    async clickOnviewbuttonofReviewpendingstatus(){
+        this.Reviewpendingstatusviewbutton.click();
+    }
+    async clickOnviewbuttonofApprovedstatus(){
+        this.Approvedstatusviewbutton.click();
+    }
+    async Doubleclickonbatchlocationfield(){
+        this.Batchlocationfieldofreview.click();
+    }
+    async Doubleclickonbatchmodefield(){
+        this. Batchmodefields.click();
+    }
+    async Doubleclickonbatchlangaugefield(){
+        this.batchcourselangaugefield.click();
+    }
+    async Doubleclickonbatchfield(){
+        this.batchfield.click();
+    }
+    
+    async Enterbatchlocation(text){
+        this.Batchlocatiotextfield.setValue(text);
+        const location=await $("//div[@id='location-option-0']");
+        await  location.click();
+    }
+    async Enterbatchlearningmode(text){
+        this.batchlearningmode.setValue(text);
+        const mode=await $("//li[@id='mode-option-0']");
+        await  mode.click();
+    }
+    async Enterbatchcourselangauge(text){
+        this.batchcourselangauge.setValue(text);
+        const langauge=await $("//div[@id='language-option-0']");
+        await  langauge.click();
+    }
+    async Enterbatchforreview(text){
+        this.batchtoreview.setValue(text);
+        await browser.pause(3000);
+        const batch=await $("//div[@id='batch-option-0']");
+        await  batch.click();
+    }
+    async clickOnbatchtabofreview(){
+        this.batchtab.click();
+    }
+    async clickOnpaymenttabofreview(){
+        this.paymenttabofreview.click();
+    }
+    async clickOnviewofstudentwhosepaymentneedtoapprovewhilereviewing(text){
+        const viewbuttonofstudentname=await $("//p[contains(text(),'"+text+"')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td/following-sibling::td/following-sibling::td/child::span");
+        await viewbuttonofstudentname.click();
+    } 
 
     
 }

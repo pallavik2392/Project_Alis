@@ -473,8 +473,23 @@ console.log('Batchforattendancematching',result.Admissions[19].B)
 console.log('Reasonforadmissioncancel',result.Admissions[21].A)
 console.log('mobilenumberofstudenttocanceladmission',result.Admissions[21].B)
 console.log('coursenametobecancelled',result.Admissions[21].C)
-
-
+console.log('Batchlocationforreview',result.Batchdetails[0].A)
+console.log('learningmodeforreview',result.Batchdetails[0].B)
+console.log('courselangaugeforreview',result.Batchdetails[0].C)
+console.log('Batchforreview',result.Batchdetails[0].D)
+console.log('startdate',result.Batchdetails[0].E)
+console.log('enddate',result.Batchdetails[0].F)
+console.log('Frequency',result.Batchdetails[0].G)
+console.log('repeats',result.Batchdetails[0].H)
+console.log('Monday',result.Batchdetails[0].I)
+console.log('Tuesday',result.Batchdetails[0].J)
+console.log('Wednsday',result.Batchdetails[0].K)
+console.log('Thursday',result.Batchdetails[0].L)
+console.log('starttime',result.Batchdetails[0].M)
+console.log('endtime',result.Batchdetails[0].N)
+console.log('Nameofstudenttoapplyforpaymentmode',result.Batchdetails[2].A)
+console.log('paymentapplyforstudent',result.Batchdetails[2].B)
+console.log('paymentduedate',result.Batchdetails[2].C)
 
 
 var dataRequired = function(){
@@ -918,6 +933,24 @@ var dataRequired = function(){
         Reasonforadmissioncancel:result.Admissions[21].A,
         mobilenumberofstudenttocanceladmission:result.Admissions[21].B,
         coursenametobecancelled:result.Admissions[21].C,
+        Batchlocationforreview:result.Batchdetails[0].A,
+        learningmodeforreview:result.Batchdetails[0].B,
+        courselangaugeforreview:result.Batchdetails[0].C,
+        Batchforreview:result.Batchdetails[0].D,
+        startdate:result.Batchdetails[0].E,
+        enddate:result.Batchdetails[0].F,
+        Frequency:result.Batchdetails[0].G,
+        repeats:result.Batchdetails[0].H,
+        Monday:result.Batchdetails[0].I,
+        Tuesday:result.Batchdetails[0].J,
+        Wednsday:result.Batchdetails[0].K,
+        Thursday:result.Batchdetails[0].L,
+        starttime:result.Batchdetails[0].M,
+        endtime : result.Batchdetails[0].N,
+        Nameofstudenttoapplyforpaymentmode : result.Batchdetails[2].A,
+        paymentapplyforstudent:result.Batchdetails[2].B,
+        paymentduedate:result.Batchdetails[2].C,
+
 
     };
 }

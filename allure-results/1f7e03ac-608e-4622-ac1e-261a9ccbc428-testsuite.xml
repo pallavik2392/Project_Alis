@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658496252705' stop='1658496301986'>
+    <name>save button should appears only after adding due date </name>
+    <title>save button should appears only after adding due date </title>
+    <test-cases>
+        <test-case start='1658496252705' status='passed' stop='1658496301985'>
+            <name> save button should appears only after adding due date</name>
+            <title> save button should appears only after adding due date</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fe7fa05c-30f4-40cc-ab97-166cde2f6c82-attachment.png' type='image/png' size='95254'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658471592441' stop='1658471620202'>
+    <name>Reivew application  </name>
+    <title>Reivew application  </title>
+    <test-cases>
+        <test-case start='1658471592442' status='broken' stop='1658471620202'>
+            <name> Review application</name>
+            <title> Review application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ceb693ce-36a2-442a-8403-f9c7a32cf6ea-attachment.png' type='image/png' size='62078'/>
+            </attachments>
+            <failure>
+                <message>this.Doubleclickonbatchlocationfield.click is not a function</message>
+                <stack-trace>TypeError: this.Doubleclickonbatchlocationfield.click is not a function
+                    at LeadPage1.Doubleclickonbatchlocationfield (/home/vaibhav/Desktop/demoproject/Alis/pages/Leadpage1.js:607:46)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Reviewapplication.js:25:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

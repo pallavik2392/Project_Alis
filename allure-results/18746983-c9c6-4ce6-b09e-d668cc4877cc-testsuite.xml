@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658469931407' stop='1658469974454'>
+    <name>Reivew application  </name>
+    <title>Reivew application  </title>
+    <test-cases>
+        <test-case start='1658469931407' status='broken' stop='1658469974453'>
+            <name> Review application</name>
+            <title> Review application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9616b49c-8faf-4dbc-918d-f699cc784ad9-attachment.png' type='image/png' size='62078'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//div[@id='location-option-0']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//div[@id='location-option-0']" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

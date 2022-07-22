@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658497894349' stop='1658497941647'>
+    <name>save button should appears only after adding due date </name>
+    <title>save button should appears only after adding due date </title>
+    <test-cases>
+        <test-case start='1658497894350' status='failed' stop='1658497941646'>
+            <name> save button should appears only after adding due date</name>
+            <title> save button should appears only after adding due date</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f89d29b9-5332-43ab-aabd-19b708a28831-attachment.png' type='image/png' size='108024'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[8]/button[1]`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[8]/button[1]`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at PaymentPage.savebuttonofbillingsummaryshouldExist (/home/vaibhav/Desktop/demoproject/Alis/pages/PaymentPage.js:51:54)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyavebuttonappearsonbillingsummaryafteraddingduedate.js:33:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

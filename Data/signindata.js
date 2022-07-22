@@ -441,5 +441,25 @@ Batchforattendancematching : xcelTojson.testConfig.Batchforattendancematching,
 Reasonforadmissioncancel : xcelTojson.testConfig.Reasonforadmissioncancel,
 mobilenumberofstudenttocanceladmission : xcelTojson.testConfig.mobilenumberofstudenttocanceladmission,
 coursenametobecancelled : xcelTojson.testConfig.coursenametobecancelled,
+Batchlocationforreview : xcelTojson.testConfig.Batchlocationforreview,
+learningmodeforreview : xcelTojson.testConfig.learningmodeforreview,
+courselangaugeforreview : xcelTojson.testConfig.courselangaugeforreview,
+Batchforreview : xcelTojson.testConfig.Batchforreview,
+startdate :  xcelTojson.testConfig.startdate,
+enddate : xcelTojson.testConfig.enddate,
+repeats : xcelTojson.testConfig.repeats,
+Frequency : xcelTojson.testConfig.Frequency,
+Monday : xcelTojson.testConfig.Monday,
+Tuesday : xcelTojson.testConfig.Tuesday,
+Wednsday : xcelTojson.testConfig.Wednsday,
+Thursday : xcelTojson.testConfig.Thursday,
+starttime : xcelTojson.testConfig.starttime,
+endtime : xcelTojson.testConfig.endtime,
+Nameofstudenttoapplyforpaymentmode : xcelTojson.testConfig.Nameofstudenttoapplyforpaymentmode,
+paymentapplyforstudent : xcelTojson.testConfig.paymentapplyforstudent,
+paymentduedate : xcelTojson.testConfig.paymentduedate,
+
+
+
 
 }

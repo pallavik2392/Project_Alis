@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658472231477' stop='1658472246647'>
+    <name>Reivew application  </name>
+    <title>Reivew application  </title>
+    <test-cases>
+        <test-case start='1658472231477' status='broken' stop='1658472246646'>
+            <name> Review application</name>
+            <title> Review application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='07213a1d-1d68-4c55-beb9-c34941a65af3-attachment.png' type='image/png' size='141595'/>
+            </attachments>
+            <failure>
+                <message>this.applicationtab.click is not a function</message>
+                <stack-trace>TypeError: this.applicationtab.click is not a function
+                    at LeadPage1.clickOnApplicationtab (/home/vaibhav/Desktop/demoproject/Alis/pages/Leadpage1.js:459:29)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Reviewapplication.js:19:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

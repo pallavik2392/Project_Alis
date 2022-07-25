@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658733693673' stop='1658733716656'>
+    <name>Verify discount and scholarship on billing summary tally properly fo Bajaj Finance </name>
+    <title>Verify discount and scholarship on billing summary tally properly fo Bajaj Finance </title>
+    <test-cases>
+        <test-case start='1658733693674' status='broken' stop='1658733716655'>
+            <name>"after all" hook for Verify discount and scholarship on billing summary tally properly fo Bajaj Finance </name>
+            <title>"after all" hook for Verify discount and scholarship on billing summary tally properly fo Bajaj Finance </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=101.0.4951.54)</message>
+                <stack-trace>chrome not reachable: chrome not reachable
+                  (Session info: chrome=101.0.4951.54)
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/VerifydiscountandscholarshiptallyproperlyforBajajFinance.js:56:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -647,8 +647,8 @@ class LeadPage1 extends  Page{
     async clickOnpaymenttabofreview(){
         this.paymenttabofreview.click();
     }
-    async clickOnviewofstudentwhosepaymentneedtoapprovewhilereviewing(text){
-        const viewbuttonofstudentname=await $("//p[contains(text(),'"+text+"')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td/following-sibling::td/following-sibling::td/child::span");
+    async clickOnviewofstudentwhosepaymentneedtoapprovewhilereviewing(text1,text2){
+        const viewbuttonofstudentname=await $("//p[contains(text(),'"+text1+"')]/parent::div/parent::span/parent::td/following-sibling::td/child::span//p[contains(text(),'"+text2+"')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td/following-sibling::td/child::span");
         await viewbuttonofstudentname.click();
     } 
 

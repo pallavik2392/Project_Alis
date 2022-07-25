@@ -458,8 +458,19 @@ endtime : xcelTojson.testConfig.endtime,
 Nameofstudenttoapplyforpaymentmode : xcelTojson.testConfig.Nameofstudenttoapplyforpaymentmode,
 paymentapplyforstudent : xcelTojson.testConfig.paymentapplyforstudent,
 paymentduedate : xcelTojson.testConfig.paymentduedate,
-
-
+Courseofstudenttoapplyforpaymentmode : xcelTojson.testConfig.Courseofstudenttoapplyforpaymentmode,
+Coursenametotallydiscountandscholarhip : xcelTojson.testConfig.Coursenametotallydiscountandscholarhip,
+Mode1 : xcelTojson.testConfig.Mode1,
+Mode2 : xcelTojson.testConfig.Mode2,
+Mode3 : xcelTojson.testConfig.Mode3,
+Mode4 : xcelTojson.testConfig.Mode4,
+Mode5 : xcelTojson.testConfig.Mode5,
+StudentmobilenumbertoUpdatemode : xcelTojson.testConfig.StudentmobilenumbertoUpdatemode,
+Duedatetoupdatemode : xcelTojson.testConfig.Duedatetoupdatemode,
+Paymentmethod : xcelTojson.testConfig.Paymentmethod,
+Paymentamount : xcelTojson.testConfig.Paymentamount,
+Paymentdate : xcelTojson.testConfig.Paymentdate,
+paymentStatus : xcelTojson.testConfig.paymentStatus,
 
 
 }

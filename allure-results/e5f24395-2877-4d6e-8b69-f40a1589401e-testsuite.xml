@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658746539931' stop='1658746582068'>
+    <name>Update mode </name>
+    <title>Update mode </title>
+    <test-cases>
+        <test-case start='1658746539932' status='passed' stop='1658746582067'>
+            <name> Update mode</name>
+            <title> Update mode</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='03fb989d-8d05-44ae-9fef-4a45aac1317a-attachment.png' type='image/png' size='143623'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

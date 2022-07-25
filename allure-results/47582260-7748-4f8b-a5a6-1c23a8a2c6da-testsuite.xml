@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658758904688' stop='1658758954119'>
+    <name>Verify add transaction on application </name>
+    <title>Verify add transaction on application </title>
+    <test-cases>
+        <test-case start='1658758904689' status='passed' stop='1658758954117'>
+            <name> Verify add transaction</name>
+            <title> Verify add transaction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0e4d6076-4932-4ee9-83a7-2ca9b032ca9b-attachment.png' type='image/png' size='89461'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

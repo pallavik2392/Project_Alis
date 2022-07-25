@@ -490,6 +490,19 @@ console.log('endtime',result.Batchdetails[0].N)
 console.log('Nameofstudenttoapplyforpaymentmode',result.Batchdetails[2].A)
 console.log('paymentapplyforstudent',result.Batchdetails[2].B)
 console.log('paymentduedate',result.Batchdetails[2].C)
+console.log('Courseofstudenttoapplyforpaymentmode',result.Batchdetails[2].D)
+console.log('Coursenametotallydiscountandscholarhip',result.Batchdetails[2].E)
+console.log('Mode1',result.Batchdetails[4].A)
+console.log('Mode2',result.Batchdetails[4].B)
+console.log('Mode3',result.Batchdetails[4].C)
+console.log('Mode4',result.Batchdetails[4].D)
+console.log('Mode5',result.Batchdetails[4].E)
+console.log('StudentmobilenumbertoUpdatemode',result.Batchdetails[2].F)
+console.log('Duedatetoupdatemode',result.Batchdetails[2].G)
+console.log('Paymentmethod',result.Batchdetails[2].H)
+console.log('Paymentamount',result.Batchdetails[2].I)
+console.log('Paymentdate',result.Batchdetails[2].J)
+console.log('paymentStatus',result.Batchdetails[2].K)
 
 
 var dataRequired = function(){
@@ -950,6 +963,19 @@ var dataRequired = function(){
         Nameofstudenttoapplyforpaymentmode : result.Batchdetails[2].A,
         paymentapplyforstudent:result.Batchdetails[2].B,
         paymentduedate:result.Batchdetails[2].C,
+        Courseofstudenttoapplyforpaymentmode:result.Batchdetails[2].D,
+        Coursenametotallydiscountandscholarhip:result.Batchdetails[2].E,
+        Mode1:result.Batchdetails[4].A,
+        Mode2:result.Batchdetails[4].B,
+        Mode3:result.Batchdetails[4].C,
+        Mode4:result.Batchdetails[4].D,
+        Mode5:result.Batchdetails[4].E,
+        StudentmobilenumbertoUpdatemode:result.Batchdetails[2].F,
+        Duedatetoupdatemode:result.Batchdetails[2].G,
+        Paymentmethod:result.Batchdetails[2].H,
+        Paymentamount:result.Batchdetails[2].I,
+        Paymentdate:result.Batchdetails[2].J,
+        paymentStatus:result.Batchdetails[2].K,
 
 
     };

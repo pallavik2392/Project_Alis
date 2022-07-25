@@ -40,12 +40,12 @@ exports.config = {
     },*/
     suites:{
         Admissions:[
-            './test/Admissions/Verifyavebuttonappearsonbillingsummaryafteraddingduedate.js'
+            './test/Admissions/Addtransactiontoapplication.js'
         ]
     },
-  /*  suites:{
+   /* suites:{
         Students:[
-            './test/Students/Verifyuserabletoupdatemode.js'
+            './test/Students/Updatemodeofanyapplication.js'
         ]
     },*/
   /*suites:{

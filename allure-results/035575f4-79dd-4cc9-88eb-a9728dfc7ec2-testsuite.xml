@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658735135622' stop='1658735167344'>
+    <name>Verify discount and scholarship on billing summary tally properly fo Bajaj Finance </name>
+    <title>Verify discount and scholarship on billing summary tally properly fo Bajaj Finance </title>
+    <test-cases>
+        <test-case start='1658735135623' status='passed' stop='1658735167344'>
+            <name> Tally discount and scholarhip for Bajaj Finance</name>
+            <title> Tally discount and scholarhip for Bajaj Finance</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d64e42a4-ddd7-4a64-82a2-3b9cdd275e91-attachment.png' type='image/png' size='136016'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

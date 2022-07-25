@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658728164254' stop='1658728196790'>
+    <name>Verify discount and scholarship on billing summary tally properly </name>
+    <title>Verify discount and scholarship on billing summary tally properly </title>
+    <test-cases>
+        <test-case start='1658728164255' status='passed' stop='1658728196789'>
+            <name> Tally discount and scholarhip</name>
+            <title> Tally discount and scholarhip</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2b31d909-14dc-48ec-8d00-40471957b197-attachment.png' type='image/png' size='129330'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

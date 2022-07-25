@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658754196626' stop='1658754236735'>
+    <name>Verify discount combination is proper </name>
+    <title>Verify discount combination is proper </title>
+    <test-cases>
+        <test-case start='1658754196626' status='passed' stop='1658754236734'>
+            <name> Test for proper combination</name>
+            <title> Test for proper combination</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='483937f1-c583-40f9-9746-0bcabf6d7f56-attachment.png' type='image/png' size='103178'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

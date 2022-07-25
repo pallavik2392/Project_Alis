@@ -1,7 +1,7 @@
 const signinData = require("../../Data/signindata");
 const Leadpage1 = require("../../pages/Leadpage1");
 const signinpage = require("../../pages/signinpage");
-const PaymentPage = require("../../pages/PaymentPage");
+const Paymentreviewpage = require("../../pages/Paymentreviewpage");
 
 
 describe("save button should appears only after adding due date ",function(){
@@ -20,17 +20,17 @@ describe("save button should appears only after adding due date ",function(){
         await browser.pause(5000);
         await Leadpage1.clickOnApplicationtab();
         await browser.pause(8000);
-        await Leadpage1.clickOnviewofstudentwhosepaymentneedtoapprovewhilereviewing(signinData.Nameofstudenttoapplyforpaymentmode);
+        await Leadpage1.clickOnviewofstudentwhosepaymentneedtoapprovewhilereviewing(signinData.Nameofstudenttoapplyforpaymentmode,signinData.Courseofstudenttoapplyforpaymentmode);
         await browser.pause(3000);
         await Leadpage1.clickOnpaymenttabofreview();
         await browser.pause(3000);
-        await PaymentPage.Selectpaymentmodetoreviewapplication(signinData.paymentapplyforstudent)
+        await Paymentreviewpage.Selectmodes(signinData.paymentapplyforstudent);
         await browser.pause(3000);
-        await PaymentPage.savebuttonofbillingsummaryNotexist();
+        await Paymentreviewpage.savebuttonofbillingsummaryNotexist();
         await browser.pause(3000);
-        //await PaymentPage.Enterduedate(signinData.paymentduedate);
+        await Paymentreviewpage.Enterduedate(signinData.paymentduedate);
         await browser.pause(3000);
-       // await PaymentPage.savebuttonofbillingsummaryshouldExist();
+        //await PaymentPage.savebuttonofbillingsummaryshouldExist();
         await browser.pause(3000);
 
 

@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658723211029' stop='1658723251823'>
+    <name>save button should appears only after adding due date </name>
+    <title>save button should appears only after adding due date </title>
+    <test-cases>
+        <test-case start='1658723211029' status='broken' stop='1658723251822'>
+            <name> save button should appears only after adding due date</name>
+            <title> save button should appears only after adding due date</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='42647d9b-7892-412f-900a-b00ea642999c-attachment.png' type='image/png' size='108024'/>
+            </attachments>
+            <failure>
+                <message>this.upfrontradiobutton.click is not a function</message>
+                <stack-trace>TypeError: this.upfrontradiobutton.click is not a function
+                    at Paymentreviewpage.Selectmodes (/home/vaibhav/Desktop/demoproject/Alis/pages/Paymentreviewpage.js:23:37)
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyavebuttonappearsonbillingsummaryafteraddingduedate.js:27:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

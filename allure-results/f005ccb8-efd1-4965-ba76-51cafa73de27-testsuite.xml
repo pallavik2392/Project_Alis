@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658723386040' stop='1658723501229'>
+    <name>save button should appears only after adding due date </name>
+    <title>save button should appears only after adding due date </title>
+    <test-cases>
+        <test-case start='1658723386040' status='broken' stop='1658723501229'>
+            <name> save button should appears only after adding due date</name>
+            <title> save button should appears only after adding due date</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='273d9a3b-ad0f-4e24-85e6-06900191d7eb-attachment.png' type='image/png' size='141518'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "//p[contains(text(),'Virendra')]/parent::div/parent::span/parent::td/following-sibling::td/child::span//p[contains(text(),'Science')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td/following-sibling::td/child::span" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//p[contains(text(),'Virendra')]/parent::div/parent::span/parent::td/following-sibling::td/child::span//p[contains(text(),'Science')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td/following-sibling::td/child::span" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

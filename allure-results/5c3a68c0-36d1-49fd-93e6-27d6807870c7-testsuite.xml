@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658733766978' stop='1658733798857'>
+    <name>Verify discount and scholarship on billing summary tally properly fo Bajaj Finance </name>
+    <title>Verify discount and scholarship on billing summary tally properly fo Bajaj Finance </title>
+    <test-cases>
+        <test-case start='1658733766978' status='broken' stop='1658733798856'>
+            <name> Tally discount and scholarhip for Bajaj Finance</name>
+            <title> Tally discount and scholarhip for Bajaj Finance</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='61046bf5-8a9b-42cc-8a6b-880508ae4789-attachment.png' type='image/png' size='136016'/>
+            </attachments>
+            <failure>
+                <message>courefee.subString is not a function</message>
+                <stack-trace>TypeError: courefee.subString is not a function
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/VerifydiscountandscholarshiptallyproperlyforBajajFinance.js:43:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

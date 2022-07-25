@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658753652211' stop='1658753687385'>
+    <name>Verify discount combination </name>
+    <title>Verify discount combination </title>
+    <test-cases>
+        <test-case start='1658753652211' status='passed' stop='1658753687384'>
+            <name> Discount which not allowed with another discount</name>
+            <title> Discount which not allowed with another discount</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b4070501-1873-47f8-b939-a9fd1248a30e-attachment.png' type='image/png' size='154406'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

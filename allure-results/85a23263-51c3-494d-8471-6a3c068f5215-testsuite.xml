@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658817350473' stop='1658817381844'>
+    <name>Verify complete application </name>
+    <title>Verify complete application </title>
+    <test-cases>
+        <test-case start='1658817350473' status='passed' stop='1658817381843'>
+            <name> complete application Review</name>
+            <title> complete application Review</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2f324ffa-e015-486d-89b6-69f3611581bd-attachment.png' type='image/png' size='82681'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

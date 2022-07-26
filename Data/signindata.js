@@ -471,6 +471,11 @@ Paymentmethod : xcelTojson.testConfig.Paymentmethod,
 Paymentamount : xcelTojson.testConfig.Paymentamount,
 Paymentdate : xcelTojson.testConfig.Paymentdate,
 paymentStatus : xcelTojson.testConfig.paymentStatus,
+PaymentMethod1 : xcelTojson.testConfig.PaymentMethod1,
+Chequenumber : xcelTojson.testConfig.Chequenumber,
+Chequedate : xcelTojson.testConfig.Chequedate,
+nameofStudenttoreviewapplication : xcelTojson.testConfig.nameofStudenttoreviewapplication,
+nameofCoursetoreviewapplication : xcelTojson.testConfig.nameofCoursetoreviewapplication,
 
 
 }

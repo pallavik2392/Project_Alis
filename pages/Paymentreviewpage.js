@@ -19,7 +19,8 @@ class Paymentreviewpage extends Page{
     get Paymentdate(){return $("//input[@placeholder='When was this payment received?']")}
     get paymentstatus(){return $("//input[@id='status']")}
     get addtransactionsavebutton(){return $("//button[normalize-space()='Save']")}
-
+    get chequenumber(){return $("//input[@id='number']")}
+    get chequedate(){return $("//input[@placeholder='Enter cheque date']")}
 
 
 
@@ -92,6 +93,14 @@ class Paymentreviewpage extends Page{
     }
     async clickonsaveoftransaction(){
         this.addtransactionsavebutton.click();
+    }
+    async upfrontradiobuttonisselected(){
+        const button=await this.upfrontradiobutton.isSelected();
+        expect(button).to.equal(true); // Chai assertion
+
+    }
+    async upfrontradiobuttonisNotselected(){
+        expect(this.upfrontradiobutton).toBeSelected();
     }
 }
 module.exports = new Paymentreviewpage();

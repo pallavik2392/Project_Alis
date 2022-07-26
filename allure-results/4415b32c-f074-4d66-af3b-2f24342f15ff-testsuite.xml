@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658840217000' stop='1658840242603'>
+    <name>Verify billed,paid,balance amount with course amounts for multiple course</name>
+    <title>Verify billed,paid,balance amount with course amounts for multiple course</title>
+    <test-cases>
+        <test-case start='1658840217001' status='passed' stop='1658840242603'>
+            <name>Verify billed,paid,balance amount for multiple course</name>
+            <title>Verify billed,paid,balance amount for multiple course</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8bb4b2a0-f698-46d3-a974-7dfc53dc0a68-attachment.png' type='image/png' size='102683'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658838260852' stop='1658838300819'>
+    <name>verify new window opens after clicking on view button of  </name>
+    <title>verify new window opens after clicking on view button of  </title>
+    <test-cases>
+        <test-case start='1658838260854' status='failed' stop='1658838300818'>
+            <name>Verify new window opens or not</name>
+            <title>Verify new window opens or not</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6677f42f-1136-43ba-83b1-127fb55c973c-attachment.png' type='image/png' size='82747'/>
+            </attachments>
+            <failure>
+                <message>expected 'CDwindow-32189259BD3086DF80BA8CD30C61…' to equal 'CDwindow-42E50E3E275ED5DD6A92BCEC9D49…'      
+                      actual expected
+                      
+                      'CDwindow-32189259BD3086DF80BA8CD30C61D51B42E50E3E275ED5DD6A92BCEC9D495644'
+                      </message>
+                <stack-trace>AssertionError: expected 'CDwindow-32189259BD3086DF80BA8CD30C61…' to equal 'CDwindow-42E50E3E275ED5DD6A92BCEC9D49…'
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyafterclickingonviewbuttonofidentitynewwindowopens.js:43:36)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -20,7 +20,7 @@ describe("Verify add transaction on application ",function(){
         await browser.pause(5000);
         await Leadpage1.clickOnApplicationtab();
         await browser.pause(8000);
-        await Leadpage1.clickOnviewbuttonofPaymentstartedstatus();
+        await Leadpage1.clickOnviewbuttonofCutoffpaymentstatus();
         await browser.pause(3000);
         await Leadpage1.clickOnpaymenttabofreview();
         await browser.pause(3000);

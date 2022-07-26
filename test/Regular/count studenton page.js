@@ -27,9 +27,9 @@ describe("Student page elements", function(){
         await browser.pause(3000);
 
         //var studentlist =[];
-        studentlist = CountDemo.getlistofstudents();
+        studentlist =await  CountDemo.getstudents();
         await browser.pause(8000);
-         console.log("line number 30",studentlist);
+         //console.log("line number 30",studentlist);
 
         console.log("first element",studentlist[0]);
         /*console.log("first element",studentlist[1]);
@@ -44,20 +44,9 @@ describe("Student page elements", function(){
 // immediately logging the value of p
 /*console.log("FIRSTLOGGGGG",p);*/
 
-        Promise.resolve(studentlist).then((values) => {
-            //str =values[1].slice();
-            id1=values[0];
-                      console.log(id1);
-                      console.log("Result 2 is:",values[1]);
-                      console.log("Result 3 is:",values[2]);
-                      console.log("Result 4 is:",values[3]);
-                      console.log("Result 5 is:",values[4]);
-                      console.log("Result 6 is:",values[5]);
-                      
-
-                    
-          });
-          console.log("Result:",studentlist.values);
+       
+          
+    console.log("Result is here",studentlist);
 
 
     /*      Promise.resolve(studentlist).

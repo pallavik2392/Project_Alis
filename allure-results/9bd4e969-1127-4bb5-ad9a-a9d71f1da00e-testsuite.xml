@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658811757598' stop='1658811798576'>
+    <name>Verify only one radiobutton selectable at a time </name>
+    <title>Verify only one radiobutton selectable at a time </title>
+    <test-cases>
+        <test-case start='1658811757599' status='passed' stop='1658811798575'>
+            <name> only one radiobutton selectable at a time</name>
+            <title> only one radiobutton selectable at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='63b8bc84-ad17-422b-aa76-e649ca587b6b-attachment.png' type='image/png' size='136032'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

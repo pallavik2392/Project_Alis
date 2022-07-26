@@ -96,7 +96,7 @@ class LeadPage1 extends  Page{
     get batchtoreview(){return $("//input[@id='batch']")}
     get batchtab(){return $("//a[normalize-space()='BATCH']")}
     get paymenttabofreview(){return $("//a[normalize-space()='PAYMENT']")}
-
+    get Skipbatch(){return $("//button[normalize-space()='Skip']")}
 
 
 
@@ -651,6 +651,18 @@ class LeadPage1 extends  Page{
         const viewbuttonofstudentname=await $("//p[contains(text(),'"+text1+"')]/parent::div/parent::span/parent::td/following-sibling::td/child::span//p[contains(text(),'"+text2+"')]/parent::div/parent::span/parent::td/following-sibling::td/following-sibling::td/following-sibling::td/following-sibling::td/child::span");
         await viewbuttonofstudentname.click();
     } 
+    async clickOnidentityapprovebutton(){
+        this.identityapprove.click();
+    }
+    async clickonEducationapprovebutton(){
+        this.educationapprovebutton.click();
+    }
+    async clickOnapproveofhistorytab(){
+        this.healthhistoryapprovebutton.click();
+    }
+    async clickOnskipofbatchtab(){
+        this.Skipbatch.click();
+    }
 
     
 }

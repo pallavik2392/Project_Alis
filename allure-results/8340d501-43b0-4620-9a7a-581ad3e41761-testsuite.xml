@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658826701030' stop='1658826747741'>
+    <name>Verify only one radiobutton selectable at a time </name>
+    <title>Verify only one radiobutton selectable at a time </title>
+    <test-cases>
+        <test-case start='1658826701032' status='failed' stop='1658826747740'>
+            <name> only one radiobutton selectable at a time</name>
+            <title> only one radiobutton selectable at a time</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='38760b2f-79f6-477a-bae4-05fb4c0a7abf-attachment.png' type='image/png' size='136032'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/form[1]/div[1]/div[4]/div[1]/div[4]/span[1]/span[1]/input[1]`) to be selected
+                
+                Expected: "selected"
+                Received: "not selected"</message>
+                <stack-trace>Error: Expect $(`//body/div[@id='root']/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/form[1]/div[1]/div[4]/div[1]/div[4]/span[1]/span[1]/input[1]`) to be selected
+                
+                Expected: "selected"
+                Received: "not selected"
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Verifyonlyoneradiobuttonselectedatatime.js:36:42)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

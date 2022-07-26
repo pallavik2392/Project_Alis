@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658842260308' stop='1658842331488'>
+    <name>Verify billed,paid,balance amount with course amounts for multiple course</name>
+    <title>Verify billed,paid,balance amount with course amounts for multiple course</title>
+    <test-cases>
+        <test-case start='1658842260311' status='broken' stop='1658842331488'>
+            <name>Verify billed,paid,balance amount for multiple course</name>
+            <title>Verify billed,paid,balance amount for multiple course</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b58cbf08-1b85-477f-9c9f-159533bc2cda-attachment.png' type='image/png' size='72425'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'beforeCommand' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'beforeCommand' of undefined
+                    at async Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Students/Verifybilledamountformultiplecoures.js:35:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

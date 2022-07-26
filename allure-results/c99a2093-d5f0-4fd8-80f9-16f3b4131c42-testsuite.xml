@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658820633539' stop='1658820666874'>
+    <name>Verify complete application </name>
+    <title>Verify complete application </title>
+    <test-cases>
+        <test-case start='1658820633541' status='broken' stop='1658820666874'>
+            <name> complete application Review</name>
+            <title> complete application Review</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ede3576b-79f6-472d-ada8-ee800b45d6cd-attachment.png' type='image/png' size='113377'/>
+            </attachments>
+            <failure>
+                <message>Leadpage1.Enterpaymentdate is not a function</message>
+                <stack-trace>TypeError: Leadpage1.Enterpaymentdate is not a function
+                    at Context.&lt;anonymous> (/home/vaibhav/Desktop/demoproject/Alis/test/Admissions/Reviewcompleteapllication.js:43:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

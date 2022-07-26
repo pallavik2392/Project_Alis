@@ -503,6 +503,11 @@ console.log('Paymentmethod',result.Batchdetails[2].H)
 console.log('Paymentamount',result.Batchdetails[2].I)
 console.log('Paymentdate',result.Batchdetails[2].J)
 console.log('paymentStatus',result.Batchdetails[2].K)
+console.log('PaymentMethod1',result.Batchdetails[2].L)
+console.log('Chequenumber',result.Batchdetails[2].M)
+console.log('Chequedate',result.Batchdetails[2].N)
+console.log('nameofStudenttoreviewapplication',result.Batchdetails[7].A)
+console.log('nameofCoursetoreviewapplication',result.Batchdetails[7].B)
 
 
 var dataRequired = function(){
@@ -976,6 +981,11 @@ var dataRequired = function(){
         Paymentamount:result.Batchdetails[2].I,
         Paymentdate:result.Batchdetails[2].J,
         paymentStatus:result.Batchdetails[2].K,
+        PaymentMethod1:result.Batchdetails[2].L,
+        Chequenumber:result.Batchdetails[2].M,
+        Chequedate:result.Batchdetails[2].N,
+        nameofStudenttoreviewapplication:result.Batchdetails[7].A,
+        nameofCoursetoreviewapplication:result.Batchdetails[7].B,
 
 
     };
